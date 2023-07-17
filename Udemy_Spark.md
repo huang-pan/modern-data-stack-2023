@@ -1,0 +1,243 @@
+# Udemy Spark
+
+[https://www.udemy.com/course/taming\-big\-data\-with\-apache\-spark\-hands\-on/](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
+
+- Course completion certificate: [https://www.udemy.com/certificate/UC\-c069b4b8\-3a68\-46e9\-a591\-f8c1c5a72b50/](https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/) 
+- Summary:
+    - This is a refresher course on Spark for me and added to my existing knowledge of Spark. 
+    - This course is a super basic introduction to Spark. 
+        - It starts with the use of RDDs and then expands to using dataframes and SQL. 
+        - You can implement algorithms in pyspark using RDDs, map, reduce, filter, etc. 
+        - The course did some examples using both local Spark and Spark on AWS EMR. 
+        - It touched on Machine Learning in Spark, and Spark Structured Streaming, GraphX, what's new in Spark 3.0.
+    - Data engineering work using Spark is usually limited to data loading, cleaning, and transforms using pyspark dataframes or Spark SQL. RDDs usually too low level.
+        - This course is better for data engineers \(Delta Lake, Unity Catalog\): [https://www.udemy.com/course/azure\-databricks\-spark\-core\-for\-data\-engineers/](https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/) 
+        - Spark is becoming an older technology nowadays. If you're limited to purely data engineering work and batch processing, it's much faster to develop on Snowflake using SQL or python in Snowpark. You can extend existing data science / machine learning work with Dask clusters instead of using the more complex Spark. Spark has a higher learning curve and the applications are Spark are harder to tune / optimize and maintain.
+    - I already did work on Spark 2\+ \- see: [https://github.com/huang\-pan/shift](https://github.com/huang-pan/shift) 
+    - Exploratory Data Analysis nowadays can be sped up using ChatGPT, etc. \- see: [https://www.youtube.com/watch?v=C75TROiiEa0](https://www.youtube.com/watch?v=C75TROiiEa0) 
+    - After this course, to dig into pyspark more: [https://github.com/cartershanklin/pyspark\-cheatsheet](https://github.com/cartershanklin/pyspark-cheatsheet) 
+        - Supplementary video, great overview of Spark: [https://www.youtube.com/watch?v=S2MUhGA3lEw](https://www.youtube.com/watch?v=S2MUhGA3lEw) 
+- Github repos for course:
+    - PySpark cheat sheet: 
+        - [https://www.globalsqa.com/pyspark\-cheat\-sheet/](https://www.globalsqa.com/pyspark-cheat-sheet/)
+        - [https://sparkbyexamples.com/pyspark\-tutorial/](https://sparkbyexamples.com/pyspark-tutorial/) 
+        - [https://intellipaat.com/blog/tutorial/spark\-tutorial/spark\-and\-rdd\-cheat\-sheet/?US](https://intellipaat.com/blog/tutorial/spark-tutorial/spark-and-rdd-cheat-sheet/?US) 
+- Set up Spark from the JDK: in reality, I would use a managed service like Spark on EMR or GCP DataProc
+    - course starts with installing and running Spark locally
+        - spark\-submit pyspark\_script.py
+    - Please see related coursework I completed on GCP:
+        - [https://www.cloudskillsboost.google/journeys/16](https://www.cloudskillsboost.google/journeys/16)
+        - [https://www.cloudskillsboost.google/journeys/17](https://www.cloudskillsboost.google/journeys/17) 
+- The course starts by using RDDs; most of the work in Spark nowadays is done using Spark dataframes
+- **Spark 3.\+**
+    - python 3
+    - new dataframe based ML library, spark graph library, Delta Lake
+    - better performance
+    - integration with deep learning libraries like Tensorflow, GPU support
+    - Kubernetes integration
+- Architecture of Spark
+    - driver program: spark context
+    - cluster manager: Spark, YARN
+    - Executors: cache, tasks
+    - python is translated to Scala which runs on the JVM
+- spark initialization
+    - conf = SparkConf\(\).setMaster\("local"\).setAppName\("MinTemperatures"\)
+    - sc = SparkContext\(conf = conf\)
+- spark sessions
+    - spark = SparkSession.builder.appName\("MinTemperatures"\).getOrCreate\(\)
+    - lines = spark.sparkContext.textFile\("fakefriends.csv"\)
+    - ...
+    - spark.stop\(\)
+- Resilient Distributed Dataset
+    - RDD **transforms**: map, flatmap, filter, distinct, sample, union, intersection, subtract, cartesian
+        - transform takes RDD as an input, outputs another RDD
+        - map: one to one transform
+        - flatmap: one to many transform, e.g. split sentence into individual words
+    - many RDD methods accept a function as a parameter
+    - RDD **actions**: collect, count, countByValue, take, top, reduce
+        - action take RDD as an input, outputs a value
+        - lazy execution, e.g. collect forces Spark to do all the preceding transforms
+    - filtering RDDs: filter
+- key value manipulations: reduceByKey, groupByKey, sortByKey
+- pyspark dataframes
+    - I'm paying more attention to the dataframe solutions than the RDD solutions
+    - dataframe manipulations \(select, group by, etc.\) can also be done in \(Spark\) SQL
+    - don't worry about Spark DataSets, they are only used in Scala
+    - data manipulations for course taught using RDDs, but there is also corresponding code that does the same manipulations using dataframes
+    - dataframe schema
+        - schema = **StructType**\(\[ \\
+        -                StructField\("stationID", StringType\(\), True\), \\
+        -                      StructField\("date", IntegerType\(\), True\), \\
+        -                      StructField\("measure\_type", StringType\(\), True\), \\
+        -                      StructField\("temperature", FloatType\(\), True\)\]\)
+        - schema can also be inferred after reading in csv / parquet, etc. file
+            - people = spark.read.option\("header", "true"\).option\("inferSchema", "true"\).csv\("file:///SparkCourse/fakefriends\-header.csv"\)
+- **broadcast variable**
+    - small variable \(e.g. dictionary\) broadcast to each executor
+    - def loadMovieNames\(\):
+    - spark = SparkSession.builder.appName\("PopularMovies"\).getOrCreate\(\)
+    - nameDict = spark.sparkContext.broadcast\(loadMovieNames\(\)\)
+    - \# Create a user\-defined function to look up movie names from our broadcasted dictionary
+    - def lookupName\(movieID\):
+        - return nameDict.value\[movieID\]
+    - lookupNameUDF = func.udf\(lookupName\)
+    - \# Add a movieTitle column using our new udf
+    - moviesWithNames = movieCounts.withColumn\("movieTitle", lookupNameUDF\(func.col\("movieID"\)\)\)
+- Spark SQL
+    - Spark SQL performs better than Hive on Hadoop
+    - works with structured and semistructured data
+    - can use User Defined Functions UDFs
+    - dataframe API
+    - spark **dataframes are RDDs with schemas schemaRDD**
+        - to be more specific, a dataframe is a Domain Specific Language \(DSL\) e.g. SQL / python, that uses datasets with schemas
+            - a dataset is a distributed collection of data
+        - dataframe is like a table in a relational database
+- Breadth First Search
+    - can implement more complicated algorithms in pyspark, but this is an RDD implementation
+        - not super useful for data engineering which uses pyspark dataframes or spark SQL
+    - preprocess graph
+    - map function
+        - create new nodes for each connection of gray nodes, with a distance incremented by one, color gray, and no connections
+        - colors the gray node we just processed black
+        - copies the node itself into the results
+    - reduce function
+        - combines together all nodes for the same hero ID
+        - preserves the shortest distance, and the darkest color found
+        - preserves the list of connections from the original node
+    - **accumulator**: allows many executors to increment a **shared variable**
+- item based collaborative filtering: movie recommendations
+    - out of the purvue of data engineering, more data science oriented
+        - uses dataframes
+        - first version runs on local Spark, single machine
+    - compute cosine similarity function
+    - Pyspark **cache**\(\) method is used to cache the intermediate results of the transformation so that other transformation runs on top of cached will perform faster. Caching the result of the transformation is one of the optimization tricks to improve the performance of the long\-running PySpark applications/jobs.
+    - **persist**\(\) optionally lets you cache dataframe to disk instead of just memory in case a node fails
+- Spark local \-\-\> cluster \(uses AWS EMR\)
+    - example of setting up Spark cluster on EMR
+    - version of movie recommendations that works on a Spark cluster
+- **Spark history server: Spark UI**
+    - has list of spark jobs that has been run, can click on each job and see how stages / tasks have been broken down
+        - has list of executors, etc.
+- cluster performance optimization
+    - partitioning: use .partitionBy\(\) on an RDD before running a large operation that benefits from partitioning
+        - operations that benefit from partitioning: join\(\), cogroup\(\), groupwith\(\), join\(\), leftouterjoin\(\), rightouterjoin\(\), groupbykey\(\), reducebykey\(\), combinebykey\(\), lookup\(\)
+    - now we start getting into Spark cluster configuration
+        - default executor memory budget: 1 GB
+        - upload pyspark\_[script.py](http://script.py) to AWS S3 bucket
+        - SSH into Spark cluster master node and 
+            - spark\-submit \-\-executor\-memory 1g pyspark\_[script.py](http://script.py)
+            - look at log output to see if there are any errors, e.g. executor out of memory error
+            - also can debug from Spark UI \(hard to connect from outside AWS EMR, so course showed Spark UI on local machine\)
+            - Spark local mode: logs in web UI
+            - Spark YARN cluster: logs distributed, can be found in each executor
+                - compile logs using: yarn logs \-\-applicationID \<app ID\>
+- Spark Machine Learning ML
+    - standard suite of ML algos
+    - example using prebuilt Spark ML Alternating Least Squares algorithm for movie recommendations
+    - example of linear regression in Spark
+    - example of decision tree regression in Spark
+    - train model and then use for prediction
+- Spark Streaming
+    - **dstream** Discretized Stream object: breaks stream into distinct RDDs
+        - divided data stream into batches of input data as RDDs
+        - RDD @ time 1, time 2, etc.: apply regular Spark transforms
+        - streams have checkpoints
+    - has window operations, pretty standard among all streaming technologies \(sliding, hop, session\)
+    - word count example
+    - can use in **conjunction with Spark ML**
+        - train models with live data
+    - can use **in conjunction with Spark SQL** / Dataframes
+        - interactively query live streams with SQL
+- Structured Streaming
+    - ever expanding dataframes \(unbounded input table\)
+    - streaming code looks like batch code, can use Spark ML on structured streaming
+    - useful for real time data engineering
+    - example of streaming log file count application that uses dataframe
+- Spark GraphX
+- After this course, to dig into pyspark more: [https://github.com/cartershanklin/pyspark\-cheatsheet](https://github.com/cartershanklin/pyspark-cheatsheet) 
+
+[https://www.udemy.com/course/apache\-spark\-3\-beyond\-basics/](https://www.udemy.com/course/apache-spark-3-beyond-basics/)
+
+- Course completion certificate: [https://www.udemy.com/certificate/UC\-230f3948\-d2f2\-405a\-9f55\-3c0f151db965/](https://www.udemy.com/certificate/UC-230f3948-d2f2-405a-9f55-3c0f151db965/) 
+- Summary:
+    - I felt the Spark introductory course was a bit lacking, so I also enrolled in this course.
+    - The spark architecture part of this course was useful. The Performance and Applied Understanding section was a little too detailed \- only useful if you really want to tune your app or the cluster. More modern data technologies like Snowflake abstract away all the tuning \- it's much faster to develop on Snowflake.
+    - Other useful Spark courses:
+        - [https://www.udemy.com/course/azure\-databricks\-spark\-core\-for\-data\-engineers/](https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/) 
+        - [https://www.udemy.com/course/apache\-spark\-programming\-in\-python\-for\-beginners/](https://www.udemy.com/course/apache-spark-programming-in-python-for-beginners/) 
+- Spark Architecture
+    - master node has Spark driver which contains the SparkContext
+        - spark applications run as independent sets of processes on a cluster
+        - driver program and spark context takes care of the job execution within the cluster
+    - cluster managers: Hadoop YARN, Kubernetes, Apache Mesos, Spark Standalone \(local mode\)
+        - cluster has cluster manager
+        - worker node has node manager
+            - within a worker, the executor take care of running a task and returns the results back to the Spark context
+    - cluster capacity: sum of all worker nodes
+        - worker node: 16 CPU cores, 64 GB ram
+- **spark\-submit**
+    - submit spark application / script \(.py or .jar file\) to master node \(YARN Resource Manager\) of cluster
+    - \-\-driver\-cores, driver\-memory, num\-executors, executor\-cores, executor\-memory
+    - client mode: spark driver on client, almost never use in production
+    - cluster mode: spark driver on cluster \(YARN RM\)
+- spark interactive mode
+    - run spark through CLI
+        - spark\-shell \(scala\)
+        - sparkR
+        - **pyspark**
+        - **spark\-sql**
+    - run spark through a notebook
+- Spark Data Frame API \(runs on Dataset API \- Scala only\)
+    - transformations
+        - **narrow** dependency
+            - performed in **parallel** on data partitions
+            - select, filter, withcolumn, drop
+        - **wide** dependency
+            - performed **after grouping** data from multiple partitions
+            - groupby, join, cube, rollup, agg
+    - actions
+        - used to trigger Job, lazy execution
+        - read, write, collect, take, count
+    - **logical plan**: step by step break down of pyspark statement
+        - one spark **application** \-\-\> multiple spark jobs
+        - one spark **job**: friendsByAge.groupBy\("age"\).agg\(func.round\(func.avg\("friends"\), 2\)\).sort\("age"\).show\(\)
+            - RDD split into partitions \(default 2\): each partition executed on different node / executor
+                - RDD split across various nodes
+        - broken down into **stages**
+            - stages separated by **wide** dependencies
+            - narrow dependencies done in each stage
+                - each group of narrow dependencies that can be run in **parallel** a stage is called a **task**
+            - each stage outputs an exchange buffer which is then **shuffled** / sorted \(repartitioned\) before being read by next stage
+        - job \-\-\> broken down into stages \-\> shuffle / sort \-\-\> task \(smallest unit of work in spark job\)
+        - each executor / worker node has X number of **slots**
+            - **tasks** run in each slot in **parallel** across all executors
+            - driver has to balance task execution across all executor slots
+            - data is split into **partitions of varying size** that is accessed by tasks in executor slots
+        - **job / stages / tasks can be seen in Spark UI**
+- Spark SQL
+    - one SQL expression = one Spark **job**
+    - SQL expression or pyspark line \-\-\> unresolved logical plan \-\-\> Spark SQL engine
+    - Spark execution plan [https://sparkbyexamples.com/spark/spark\-execution\-plan/?expand\_article=1](https://sparkbyexamples.com/spark/spark-execution-plan/?expand_article=1) 
+        - unresolved logical plan \-\-\> logical plan \-\-\> optimized logical plan \-\-\> physical plans \-\-\> cost model \-\-\> selected physical plan \-\-\> RDDs
+- Memory Allocation / Management
+    - driver, executor memory
+    - overhead, heap, off heap, pyspark
+- Adaptive Query Execution
+    - dynamically coalescing shuffle partitions, switching join strategies, optimizing skew joins
+- Data Skew
+- Dynamic Partition Pruning
+- Data Caching: cache, persist
+- Repartition, Coalesce
+    - repartition by hash, range of values
+    - coalesce consolidates data across partitions and reduces the number of partitions
+- Broadcast Variables
+    - broadcast join
+- Accumulators
+- Speculative Execution
+- Dynamic Resource Allocation
+    - scheduling across applications
+        - static vs dynamic allocation
+            - two spark jobs submitted at the same time to cluster, YARN must allocate resources to each job
+    - scheduling within an application
+        - can trigger 2 spark jobs within an application to run in parallel
+- Unit Testing

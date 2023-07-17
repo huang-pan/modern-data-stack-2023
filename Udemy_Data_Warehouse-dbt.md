@@ -1,0 +1,337 @@
+# Udemy Data Warehouse / dbt
+
+[https://www.udemy.com/course/data\-warehouse\-fundamentals\-for\-beginners/](https://www.udemy.com/course/data-warehouse-fundamentals-for-beginners/)
+
+- Course completion certificate: [https://www.udemy.com/certificate/UC\-9875515d\-9606\-4bfc\-8ddc\-e408d9d65aae/](https://www.udemy.com/certificate/UC-9875515d-9606-4bfc-8ddc-e408d9d65aae/) 
+- Summary:
+    - This is a basic refresher course on data warehouses for me.
+- warehouse / data lake
+    - **Possible ways to structure a data warehouse like Snowflake**
+        - Ultimately depends on company / project / use case
+            - separate DBs for source, consumption, dev work?
+            - think about boundaries, RBAC
+        - Example:
+            - one database per source, e.g. ATTOM\_DB, ZILLOW\_DB
+                - RAW schema: data from source, aka dbt **src**
+                    - can save historical data in dated tables
+                        - time travel capabilities limited to finite time in Snowflake
+                - BASE / STAGE schema: cleaned RAW data, aka dbt **stg**
+                    - use views based off of RAW tables
+            - ANALYST\_DEV\_DB, ANALYST\_PROD\_DB \(also TEST\_DB? only PROD\_DB gets exposed to BI tools used by end users.  can also name DB by analyst project\)
+                - Dimensional Modeling
+                    - INT schema: aka dbt **int**
+                    - CORE schema:
+                        - for dbt **fct**, **dim**
+                            - by default, dbt seems to use dimensional modeling with fact / dimension tables, star and snowflake schemas
+                        - for dbt **mart** 
+                            - can also name schema by specific MART, e.g. marketing, biz dev, etc.
+                            - can be wide tables for OBT architecture
+                - One Big Table
+                    - INT schema
+                - Data Vault 2.0 \(Don't start with this on a greenfield project \- too much upfront complexity, only for enterprise data warehouses with 100s of sources of data \- data swamp\)
+                    - RAW\_VAULT schema
+                    - BUSINESS\_VAULT schema: \(optional\)
+                - WRK schema: for dev work
+            - DATASCIENCE\_DEV\_DB, DATASCIENCE\_PROD\_DB \(can also name them by Data Science or Machine Learning project\)
+            - ADHOC\_DB: for one off work
+        - [https://airbyte.com/blog/snowflake\-data\-warehouse\-architecture](https://airbyte.com/blog/snowflake-data-warehouse-architecture)
+        - [https://www.analytics.today/blog/snowflake\-accounts\-best\-practice](https://www.analytics.today/blog/snowflake-accounts-best-practice)
+        - [https://www.reddit.com/r/snowflake/comments/umvn1f/how\_to\_design\_snowflake\_databases\_and\_schemas/](https://www.reddit.com/r/snowflake/comments/umvn1f/how_to_design_snowflake_databases_and_schemas/)
+    - Data Warehouse data modeling
+        - 3NF Third Normal Form vs Dimensional Modeling vs Data Vault
+            - [https://youtu.be/l5UcUEt1IzM](https://youtu.be/l5UcUEt1IzM)
+            - **3NF Third Normal Form: OLTP, optimized for fast writes**
+            - Dim modeling: Kimball, fact, dim, mart, **optimized for fast reads**
+            - Data Vault 2.0: hub, link, satellite, optimized for fast reads and constant addition of new data sources
+                - combination of 3NF \+ DIM modeling
+                - good for organizing data when you have a lot \(100s\) of different sources: Enterprise Data Warehouse only
+        - **Data Modeling in the Modern Data Stack**
+            - **[https://youtu.be/IdCmMkQLvGA](https://youtu.be/IdCmMkQLvGA)**
+                - conceptional \(biz needs\) \-\-\> logical \(detailed biz solution\) \-\-\> physical layers \(detailed tech solution\)
+            - Normalized modeling: Inmon copies directly from databases to data warehouse, also has data marts
+            - Denormalized modeling: Kimball, dimensional modeling \(fact, dim, mart\), star, snowflake schemas, SCD
+                - single source of truth for data source that maintains consistency, conformity, and understandability
+                - dbt naturally supports dim modeling
+                - good balance between normalized modeling and data vault 2.0
+            - Data Vault 2.0: Linstedt, hub, link, satellite, optimized for fast reads and constant addition of new data sources
+                - mainly for Enterprise Data Warehouses with a lot of different data sources, optimized for data ingestion, not reporting
+                    - data supply driven
+                        - complex to set up; time to get BI results slow in beginning
+                        - BUT: single source of truth for data source that maintains consistency, conformity, and understandability
+                - [https://www.phdata.io/blog/building\-modern\-data\-platform\-with\-data\-vault/](https://www.phdata.io/blog/building-modern-data-platform-with-data-vault/)
+                    - raw vault: hub, link, satellite
+                    - business vault: Business Vault is an optional tier in the Data Vault where the business can define common business entities, calculations, and logic.
+                    - marts
+                - dbtvault: Data Vault 2.0 using dbt \+ Snowflake 
+                    - [https://youtu.be/bi3x9f5lxp0](https://youtu.be/bi3x9f5lxp0)
+                    - [https://youtu.be/FrdEROEUvVI](https://youtu.be/FrdEROEUvVI)
+            - One Big Table: for modern column store data warehouses
+                - reporting driven
+                    - data optimized for modern column store data warehouse \(storage cheap\)
+                        - joins \(compute\) from star / snowflake schemas expensive for modern data warehouses
+                            - queries from OBT faster in column store data warehouses
+                        - creating star / snowflake schema add another layer of complexity to manage; have to make sure the complexity is justified \-\> implement dim modeling when data gets bigger
+                    - fast BI results, data may get complex to manage later
+                - INT schema
+                - wide MART schema
+                - [https://youtu.be/3OcS2TMXELU](https://youtu.be/3OcS2TMXELU)
+                    - OBT approach ok for modern data warehouses
+                - [https://www.youtube.com/watch?v=\-yQa\_DxEqaQ](https://www.youtube.com/watch?v=-yQa_DxEqaQ)
+                    - adds to discussion above, dimensional modeling ok before OBT: hybrid approach
+                    - data warehouse normalized \(Data Vault 2.0, dim modeling\) \-\> denormalized \(OBT\)
+            - Hybrid Approach
+                - Star schema \+ wide Marts
+                - INT schema
+                    - start with dimensional model
+                    - consistency, conformity, and understandability point of dim model
+                        - SCD type 2, data lineage
+                - wide MART schema
+                    - create wide fact \+ dim tables
+    - Data Lakehouse **Medallion** architecture:
+        - [https://www.databricks.com/glossary/medallion\-architecture](https://www.databricks.com/glossary/medallion-architecture) 
+        - bronze \-\> silver \-\> gold
+            - structure good for data scientists
+            - can possible have bronze = raw, silver = cleaned, gold = core \(fact / dimension / mart\)
+                - [https://youtu.be/aA5upa1iqJ0](https://youtu.be/aA5upa1iqJ0)
+            - can also have DEV schema, just as a dev playground for data engineers / scientists
+                - can create more schemas as needed
+        - medillion architecture generated with chatgpt
+            - [https://betterprogramming.pub/i\-asked\-chatgpt\-to\-build\-a\-data\-pipeline\-and\-then\-i\-ran\-it\-4537670a60ca](https://betterprogramming.pub/i-asked-chatgpt-to-build-a-data-pipeline-and-then-i-ran-it-4537670a60ca) 
+        - [https://piethein.medium.com/using\-dbt\-for\-building\-a\-medallion\-lakehouse\-architecture\-azure\-databricks\-delta\-dbt\-31a31fc9bd0](https://piethein.medium.com/using-dbt-for-building-a-medallion-lakehouse-architecture-azure-databricks-delta-dbt-31a31fc9bd0)
+            - Data Lakehouse Medallion architecture \+ dbt
+    - **Core** architecture
+        - [https://airbyte.com/blog/data\-modeling\-unsung\-hero\-data\-engineering\-architecture\-pattern\-tools](https://airbyte.com/blog/data-modeling-unsung-hero-data-engineering-architecture-pattern-tools)
+            - **raw \-\> staging \-\> cleansing \-\> core \-\> marts**
+            - Popular data modeling tools include [Sqldbm](https://sqldbm.com/?_gl=1*1oc44lc*_ga*MTUzNzQ2NzYxNi4xNjg2NDMwODU5*_ga_HDBMVFQGBH*MTY4Nzc1MDQyNC4yLjAuMTY4Nzc1MDQyNC4wLjAuMA..), [DBDiagrams](https://dbdiagram.io/), [Enterprise Architect](https://sparxsystems.com/), and [SAP PowerDesigner](https://www.sap.com/products/technology-platform/powerdesigner-data-modeling-tools.html). These tools are widely used in the industry and offer powerful features such as data modeling, profiling, and visualization.
+            - Open\-source data modeling tools such as [MySQL Workbench](https://www.mysql.com/products/workbench/?_gl=1*hdnksn*_ga*MTUzNzQ2NzYxNi4xNjg2NDMwODU5*_ga_HDBMVFQGBH*MTY4Nzc1MDQyNC4yLjAuMTY4Nzc1MDQyNC4wLjAuMA..) and [OpenModelSphere](http://www.modelsphere.com/) are free and offer essential features for creating data models. They are helpful for small projects and provide an opportunity for data engineers to learn data modeling skills.
+            - Other tools are [Ellie.ai](https://www.ellie.ai/), whose key features are Data Product Design, Data Modeling, Business Glossary, Collaboration, Reusability, and Open API.
+            - dbt can be seen as a transformation modeling tool. [Dagster](https://glossary.airbyte.com/term/dagster/) can be used as a [DAG](https://glossary.airbyte.com/term/dag-directed-acyclic-graph/) modeling tool. And so forth. But you can also use [ExaliDraw](https://excalidraw.com/?_gl=1*1vut0at*_ga*MTUzNzQ2NzYxNi4xNjg2NDMwODU5*_ga_HDBMVFQGBH*MTY4Nzc1MDQyNC4yLjAuMTY4Nzc1MDQyNC4wLjAuMA..) for Markdown\-based drawing or [draw.io](https://draw.io/?_gl=1*1vut0at*_ga*MTUzNzQ2NzYxNi4xNjg2NDMwODU5*_ga_HDBMVFQGBH*MTY4Nzc1MDQyNC4yLjAuMTY4Nzc1MDQyNC4wLjAuMA..) \(lots of [templates](https://www.drawio.com/example-diagrams) for AWS, Azure, etc.\) to draw architectures.
+            - [https://airbyte.com/blog/data\-modeling\-unsung\-hero\-data\-engineering\-introduction](https://airbyte.com/blog/data-modeling-unsung-hero-data-engineering-introduction)
+                - normalized vs unormalized
+                - Slowly Changing Dimensions
+            - [https://airbyte.com/blog/data\-modeling\-unsung\-hero\-data\-engineering\-approaches\-and\-techniques](https://airbyte.com/blog/data-modeling-unsung-hero-data-engineering-approaches-and-techniques)
+                - conceptual \-\> logical \-\> physical 
+        - **Entity Relationship Modeling \(ERM\): OLTP**
+        - **Dimensional Modeling: OLAP**
+            - star vs snowflake schemas
+                - snowflake: more normalization of dimension tables
+                - [https://www.guru99.com/star\-snowflake\-data\-warehousing.html](https://www.guru99.com/star-snowflake-data-warehousing.html) 
+    - dbt: Naming Conventions
+        - **[https://docs.getdbt.com/blog/stakeholder\-friendly\-model\-names](https://docs.getdbt.com/blog/stakeholder-friendly-model-names)** 
+        - [https://towardsdatascience.com/the\-most\-efficient\-way\-to\-organize\-dbt\-models\-244e23c17072](https://towardsdatascience.com/the-most-efficient-way-to-organize-dbt-models-244e23c17072) 
+        - In working on this project, we established some conventions for naming our models.
+        - **Sources** \(`src`\) refer to the raw table data that have been built in the warehouse through a loading process. \(We will cover configuring Sources in the Sources module\)
+        - **Staging** \(`stg`\) refers to models that are built directly on top of sources. These have a one\-to\-one relationship with sources tables. These are used for very light transformations that shape the data into what you want it to be. These models are used to clean and standardize the data before transforming data downstream. Note: These are typically materialized as views.
+            - can have persistent or non persistent data
+        - **Intermediate** \(`int`\) refers to any models that exist between final fact and dimension tables. These should be built on staging models rather than directly on sources to leverage the data cleaning that was done in staging.
+        - **Fact** \(`fct`\) refers to any data that represents something that occurred or is occurring. Examples include sessions, transactions, orders, stories, votes. These are typically skinny, long tables.
+        - **Dimension** \(`dim`\) refers to data that represents a person, place or thing. Examples include customers, products, candidates, buildings, employees.
+- 4 ETL patterns
+    - append
+    - in\-place update
+    - complete replacement \(obsolete\)
+    - rolling append \(delete older data\) \(obsolete\)
+- stg clean data
+    - raw \-\> stg; bronze \-\> silver; src \-\> stg
+    - data value unification
+    - data type unification
+    - deduplication
+    - drop columns
+    - value based row filtering
+    - error correction
+- fact
+    - additive fact \(e.g. salary\): store in fact table
+    - non\-additive fact \(e.g. GPA\): store underlying components in fact tables
+    - semi\-additive fact: used in periodic snapshot fact table
+- star \(denormalized dimension tables\) vs snowflake \(normalized dimension tables\) schema
+    - **only store lowest level PF\-FK relationship in fact table in snowflake schema**
+    - ETL simpler for star schema
+- keys
+    - natural key: might be cryptic or understandable, travels from source systems with the rest of the data
+        - keep natural keys in dimension tables in data warehouse, discard them in fact tables
+    - surrogate key: no business meaning, generated by database
+        - **use surrogate keys in data warehouse**
+- dimensional tables
+    - dimension = dimensional table
+    - hierarchical \(college \-\> department \-\> faculty\) vs flat \(students\)
+    - snowflake schema Primary Key \- Foreign Key rules
+        - 1 table for each level of hierarchy
+        - every non\-terminal dimension has: primary / surrogate key, the next\-highest level's PK/SK as a Foreign Key, can have multiple FKs
+        - every terminal dimension has PK/SK, no FK
+- fact tables
+    - fact \!= fact table
+    - **Primary Key of fact table is a combination of Foreign Keys to all dimensional tables**
+    - **transaction: most common type of fact table**
+        - store measurements from OLTP databases
+        - add Surrogate Keys to Dimension Tables
+        - can store facts that are available at same grain in same fact table, but facts have to occur simultaneously
+        - PK of fact table: combination of all FKs of dimension tables
+            - can store natural key in fact table
+    - periodic snapshot
+        - aggregated result of regular transactions
+        - levels that are not related to regular transactions
+    - accumulating snapshot
+        - tracks elapsed time spent in each phase
+            - can also track other related measures
+        - **multiple relationships from fact table back to single dimension table**: e.g. date\_phase1\_key / date\_phase2\_key \-\> data\_dim
+    - factless
+        - record an event without a measurement
+        - record existence of event / relationship or not
+- slowly changing dimension \(obsolete with history tables?\)
+    - techniques to manage history in data warehouse
+    - type 1: no history retention
+    - type 2: maintain unlimited history
+        - create new dimension table row for each new version of history
+            - create new Surrogate Key / Primary Key for new row in dim table
+            - can create current\_flag column and / or effective\_date / expiration\_date columns to determine current \(not history\) row
+        - most complex arch
+    - type 3: maintain limited history
+        - small number of dimension table columns for multiple versions of history
+        - add new column rather than new row to reflect changes: old value vs new value column
+        - best used for a dimension being reorganized, limited number of column categories \(\<= 4, \> 4 use type 2\)
+    - less common:
+        - type 0: always retain original value in the data warehouse
+        - type 4: min\-dimension
+        - type 5, 6, 7: hybrid
+- ETL
+    - use CDC to limit data ingest to warehouse
+    - process dim tables before fact tables: create new dim table Surrogate Keys \-\> update fact table FKs
+    - look for opportunities for parallel processing
+
+[https://www.udemy.com/course/complete\-dbt\-data\-build\-tool\-bootcamp\-zero\-to\-hero\-learn\-dbt/](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/)
+
+- Course completion certificate: [https://www.udemy.com/certificate/UC\-de00a2d0\-a8a1\-4319\-8101\-bbea3cb3cc5b/](https://www.udemy.com/certificate/UC-de00a2d0-a8a1-4319-8101-bbea3cb3cc5b/) 
+- Summary:
+    - This is a refresher course on dbt for me. It covers all the basics with simple example, it's more like a tutorial introduction to dbt. While basic, I found this course to be a comprehensive introduction to dbt. The best way for the knowledge to sink in is to continually use dbt on a project or job.
+- Github repos for course:
+    - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero)
+    - [https://github.com/huang\-pan/complete\-dbt\-bootcamp\-zero\-to\-hero](https://github.com/huang-pan/complete-dbt-bootcamp-zero-to-hero) 
+- **preset**: managed superset tool
+- dbt Cloud vs Vscode
+    - **dbt Cloud nice, but you can do everything in VScode & CLI**
+- create snowflake trial account
+    - Airbnb database:
+        - RAW schema
+        - DEV schema: build dbt objects into
+        - RAW \-\-\> DEV / SRC\_ tables \-\-\> DEV / FCT\_ / DIM\_ tables \-\-\> MART\_ tables
+            - also dbt tests
+- set up dbt
+    - can also set everything up in **dbt cloud** \(but not covered in course\)
+    - dbt init: set up initial connection to Snowflake
+        - ~/.dbt/profiles.yml
+        - /Users/huangpan/Documents/udemy/dbt/dbtlearn/dbt\_project.yml
+    - dbt debug: test connection working
+- models
+    - SQL definitions that are materialized as tables, views, etc.
+        - they live in SQL files in the models folder
+            - by default, views are created
+        - models can reference each other and use templates and macros
+    - RAW schema: RAW layer
+        - raw\_listings, raw\_hosts, raw\_reviews tables
+    - DEV schema: STAGING layer \(basic checks\)
+        - src\_listings, src\_hosts, src\_reviews views
+    - DEV schema: CORE layer
+        - dim\_listings\_cleansed \+ dim\_hosts\_cleansed \-\> dim\_listings\_with\_hosts \(final dimension table\)
+        - fct\_reviews \(incremental table\)
+        - **mart\_**fullmoon\_reviews: table used by BI tools
+    - DEV schema:
+        - seeds \(csv files\) uploaded here
+        - snapshot tables created here
+- materializations \(of models\)
+    - dim / fct / mart / src
+    - view
+        - lightweight representation
+        - don't reuse data too often, single use
+    - table
+        - read from model repeatedly
+    - incremental \(table appends\)
+        - use for fact tables, event data
+    - ephemeral \(CTEs\)
+        - only used as intermediate step between models
+    - **dbt\_project.yml**
+        - project defaults
+    - **dbt run \-\-full\-refresh** command
+        - rebuild all tables / views from scratch, for schema changes, etc.
+    - **target folder**: actual SQL that is run by dbt, useful for debug
+- seeds
+    - local files that you upload to the data warehouse from dbt
+    - **dbt seed** command
+        - automatically load all csv files in seed folder \(specified in dbt\_project.yml\) to data warehouse
+        - loads to DEV schema table
+        - dbt automatically creates column types of table in data warehouse
+- sources
+    - **models/sources.yml** file
+        - an abstraction layer on top of your input tables
+        - one place to specify / hardcode all the source tables referred to in model files
+    - **dbt source freshness** command
+        - source freshness can be checked automatically
+    - **dbt compile** command
+        - check to see if all dbt files compile correctly without running them
+- snapshots
+    - how dbt handles **type\-2** slowly changing dimensions
+        - **snapshots** folder
+    - how dbt monitors changes
+        - 1. timestamp strategy: unique key and updated\_at timestamp column
+        - 2. any change in a set of columns \(or all columns\)
+    - **dbt adds columns to snapshot table**
+        - dbt\_updated\_at, dbt\_valid\_from, dbt\_valid\_to
+        - snapshot table in DEV schema
+    - **dbt snapshot** command to update snapshot table
+- tests
+    - singular
+        - SQL queries stored in tests which are expected to return an empty result set
+    - generic
+        - unique
+        - not\_null
+        - accepted\_values
+        - relationships
+    - **models/schemas.yml** file
+        - apply generic test to cleansed tables
+    - **tests/\*.sql** files
+        - singular tests, SQL query expected to return empty result set
+    - **dbt test \-\-select dim\_listings\_w\_hosts**
+        - run tests on specific model
+- macros
+    - dbt has many built in macros
+    - **macros/\*.sql** files
+        - jinja templates that can be referenced by models, tests, etc.
+        - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/tests/no\_nulls\_in\_dim\_listings.sql](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/tests/no_nulls_in_dim_listings.sql) uses macro
+- [hub.getdbt.com](http://hub.getdbt.com)
+    - dbt third party packages, specify them here:
+        - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/packages.yml](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/packages.yml) 
+    - **dbt deps** installs packages
+        - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/fct/fct\_reviews.sql](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/fct/fct_reviews.sql) uses [https://github.com/dbt\-labs/dbt\-utils/tree/1.1.1/\#generate\_surrogate\_key\-source](https://github.com/dbt-labs/dbt-utils/tree/1.1.1/#generate_surrogate_key-source) 
+- documentation
+    - 2 ways to define documentation:
+        - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/schema.yml](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/schema.yml) description: fields
+        - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/overview.md](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/overview.md) markdown files, this is the documentation landing page
+            - references this image: [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/assets/input\_schema.png](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/assets/input_schema.png) 
+        - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/schema.yml\#L32](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/schema.yml#L32) references [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/docs.md](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/docs.md) 
+    - **dbt docs generates** generates documentation into target/ folder
+        - **dbt docs serve** creates lightweight localhost dbt documentation server
+            - project details, model details, test details
+            - dbt **data lineage** dependency graph automatically created
+        - copy target/ files into web server for more permanent serving, or use dbt cloud
+- analyses
+    - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/analyses/full\_moon\_no\_sleep.sql](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/analyses/full_moon_no_sleep.sql) example of ad hoc queries
+- hooks
+    - SQL executed at predefined times, can be configured in:
+        - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/dbt\_project.yml\#L38](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/dbt_project.yml#L38) project
+        - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/tree/main/hooks](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/tree/main/hooks) subfolder, has many hook examples, e.g. [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/hooks/commit\-msg.sample](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/hooks/commit-msg.sample) 
+        - model
+    - hook types
+        - on\_run\_start: executed at the start of dbt \(run / seed / snapshot\)
+        - on\_run\_end: executed at the end of dbt \(run / seed / snapshot\)
+        - pre\-hook: executed before a model / seed / snapshot is built
+        - post\-hook:  executed after a model / seed / snapshot is built
+- exposures
+    - [preset.io](http://preset.io) \(managed superset\)
+        - create BI dashboard connected to data in Snowflake
+    - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/dashboards.yml](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/dashboards.yml) example exposure, information is integrated into dbt documentation server
+- dbt\-expectations
+    - [https://github.com/calogica/dbt\-expectations](https://github.com/calogica/dbt-expectations) 
+    - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/schema.yml\#L58](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/schema.yml#L58) 
+        - uses [https://github.com/calogica/dbt\-expectations\#expect\_table\_row\_count\_to\_equal\_other\_table](https://github.com/calogica/dbt-expectations#expect_table_row_count_to_equal_other_table) 
+        - many other tests
+    - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/sources.yml\#L12](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/sources.yml#L12) more dbt\-expectations tests
+    - **dbt test** run tests

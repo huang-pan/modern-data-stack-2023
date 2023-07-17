@@ -1,0 +1,1 @@
+MyAPI: Template read for product with id 3

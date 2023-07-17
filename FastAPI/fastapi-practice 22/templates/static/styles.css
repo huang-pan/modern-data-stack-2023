@@ -1,0 +1,19 @@
+.tpl_product {
+  border: 1px solid black;
+  margin: 5px;
+  width: 200px;
+}
+
+.tpl_title {
+  border-bottom: 1px dotted blue;
+  padding: 5px;
+  text-align: center;
+  font-size: large;
+}
+
+.tpl_price {
+  text-align: right;
+  font-size: small;
+  border-top: 1px double red;
+  padding: 5px;
+}

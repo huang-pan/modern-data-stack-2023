@@ -1,0 +1,599 @@
+# GCP Data Engineer
+
+Google Developers Profile: [https://developers.google.com/profile/u/huangpan](https://developers.google.com/profile/u/huangpan)
+
+GCP Data Engineer Learning Path
+
+- [https://www.cloudskillsboost.google/paths/16](https://www.cloudskillsboost.google/paths/16)
+    - [https://www.coursera.org/professional\-certificates/gcp\-data\-engineering?action=enroll&aid=true](https://www.coursera.org/professional-certificates/gcp-data-engineering?action=enroll&aid=true)
+    - Completed entire learning path, each course a combination of lectures, quizzes, and labs
+    - Labs are the most important part \- gives practical hands on experience with GCP's services
+- Learning path completion badges:
+    - Preparing for the Google Cloud Professional Data Engineer Exam
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4161331](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4161331) 
+    - Google Cloud Big Data and Machine Learning Fundamentals
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4171969](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4171969) 
+    - Modernizing Data Lakes and Data Warehouses with Google Cloud
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4172371](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4172371) 
+    - Building Batch Data Pipelines on Google Cloud
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4182084](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4182084) 
+    - Building Resilient Streaming Analytics Systems on Google Cloud
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4187773](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4187773) 
+    - Smart Analytics, Machine Learning, and AI on Google Cloud
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4191832](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4191832) 
+    - Serverless Data Processing with Dataflow: Foundations
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4191948](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4191948) 
+    - Serverless Data Processing with Dataflow: Develop Pipelines
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4193692](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4193692) 
+    - Serverless Data Processing with Dataflow: Operations
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4204812](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4204812) 
+    - Perform Foundational Data, ML, and AI Tasks in Google Cloud
+        - all labs: SKIPPED, redundant, effort not worth the knowledge / experienced gained \(for now\)
+    - Build and Optimize Data Warehouses with BigQuery
+        - all labs: SKIPPED, redundant, effort not worth the knowledge / experienced gained \(for now\)
+    - Engineer Data in Google Cloud
+        - all labs: SKIPPED, redundant, effort not worth the knowledge / experienced gained \(for now\)
+- Summary
+    - Great review course on data engineering, introduces GCP services for data engineering. I've used both AWS and Azure services in production before, so I chose to complete this course in order to get to know GCP.
+- A Tour of Google Cloud Hands\-on Labs
+    - Intro to Google Cloud console
+- Preparing for the Google Cloud Professional Data Engineer Exam
+    - Exam is a top down approach where you have to fill in the gaps of your knowledge
+    - Focus is on practicality, how to architect and implement data processing systems for companies using GCP
+    - Gives an intro to GCP services for data and machine learning
+    - Labs
+        - Intro to BigQuery
+            - pretty basic
+        - Intro to Cloud Dataproc \(cluster that supports Spark, etc.\)
+            - had trouble creating the Spark cluster in us\-east\-zone, needed to run gcloud command to see error: lack of available resources / compute nodes; it worked with us\-east1\-d \(has machines\) not us\-east1\-b \(no machines\)
+            - can submit 'pyspark python file' job from the Google Cloud console / UI
+                - outputs job log to console
+                - can clone jobs \- nice
+                - can get equivalent gcloud CLI command \- nice
+            - no need to shut down Spark cluster before modifying nodes in cluster
+- Google Cloud Big Data and Machine Learning Fundamentals
+    - Gives an intro to GCP services for data and machine learning
+    - **Dataflow** is based on Apache Beam, and unifies stream and batch processing on GCP
+    - ML on GCP
+        - prebuilt APIs
+        - AutoML
+        - custom training
+        - Vertex AI
+    - Labs
+        - BigQuery data analysis
+            - hard to structure datasets in BiqQuery
+                - BigQuery is based off of datasets
+                - How to create databases / schema structures in Bigquery?
+                    - Snowflake the easiest to use: supports databases / schemas, best UI
+                    - Redshift supports databases / schemas, clunkier UI
+                    - Azure Synapse Analytics supports databases / schemas, like SQL Server
+                    - BigQuery: databases are called datasets, no explicit schemas, have to put schema in table name:
+                        - database.schema.table
+                        - [https://docs.getdbt.com/quickstarts/bigquery?step=3](https://docs.getdbt.com/quickstarts/bigquery?step=3) 
+        - Streaming Data Pipeline for Real Time dashboard with Dataflow
+            - Nice intro lab, connect to an already running pub/sub topic, create a dataflow pipeline and stream it into Bigquery
+            - **Analyze the bigquery dataset, can push to looker, google sheets, and collab**
+        - Create a classification model using SQL in BigQueryML
+            - biqquery has a nice execution graph
+            - explore public dataset
+            - create logistic regression model using BigQueryML SQL
+                - nice execution graph, steps: preprocess \-\> train \-\> evaluate
+                - dataset now has model
+                    - model details: L1, L2 regularization, etc.
+                    - model training: loss, learn rate, etc.
+                    - evaluation: precision, recall, accuracy, F1, ROC AUC, ROC curve, confusion matrix
+                    - schema: labels, features
+            - evaluate model with SQL ML.EVALUATE command
+            - **using SQL to create and evaluate ML models is sort of ugly \(SQL code hard to debug\), prefer to stick to python**
+        - Vertex AI: predicting loan risk with AutoML
+            - similar to what Juvo did
+            - **Vertex AI: nice data science development environment, I like it better than AWS Sagemaker \(it's more sophisticated\)**
+                - Model Garden, similar to Hugging Face
+                - Workbench: notebook collaboration
+                - Pipelines
+                - Generative AI studio
+                    - played around with Gen AI studio since Gen AI studio Lab doesn't have it anymore, similar to chatgpt, but not as good
+                - Feature Store
+                - Datasets
+                - Labeling tasks
+                - Model Training
+                - Model Experiments
+                - Model Metadata
+                - Model Registry \(Deployment\)
+                - Online prediction \(Deployment\)
+                - Batch predictions \(Deployment\)
+                - Matching Engine
+            - Upload a dataset.
+            - Train a model with AutoML.
+            - Evaluate the model performance.
+            - Deploy the trained AutoML model to an endpoint.
+            - Get predictions.
+- Modernizing Data Lakes and Data Warehouses with Google Cloud
+    - Cloud Storage: GCP's version of the data lake
+    - Cloud SQL: query data on Cloud Storage
+    - Labs
+        - BigQuery data analysis
+            - **BigQuery: no separate compute size options like Snowflake\!**
+            - basic
+            - bigquery table optimizations
+                - **partitioning**: by ingestion timestamp, etc.
+                - **clustering** order: physical clustering? by city, etc.
+        - load data into Google Cloud SQL
+            - create and query mysql instance, basic
+            - need to connect to DB through separate db tool or CLI
+        - load data into BigQuery
+            - basic
+        - semistructured data in BigQuery: JSON, array data
+            - **array types help with denormalization \(big tables\)**
+                - [https://www.cloudskillsboost.google/course\_sessions/3083644/labs/382283](https://www.cloudskillsboost.google/course_sessions/3083644/labs/382283) 
+                - arrays also in JSON format
+                - ARRAY values give you the flexibility to _go deep_ into the granularity of your fields
+                    - deep granularity
+            - **create arrays from existing fully denormalized tables**
+            - **special array functions example**
+                - SELECT
+                -   fullVisitorId,
+                -   date,
+                -   ARRAY\_AGG\(DISTINCT v2ProductName\) AS products\_viewed,
+                -   ARRAY\_LENGTH\(ARRAY\_AGG\(DISTINCT v2ProductName\)\) AS distinct\_products\_viewed,
+                -   ARRAY\_AGG\(DISTINCT pageTitle\) AS pages\_viewed,
+                -   ARRAY\_LENGTH\(ARRAY\_AGG\(DISTINCT pageTitle\)\) AS distinct\_pages\_viewed
+                -   FROM \`data\-to\-insights.ecommerce.all\_sessions\`
+                - WHERE visitId = 1501570398
+                - **GROUP BY** fullVisitorId, date
+                - ORDER BY date
+            - special array functions
+                - Finding the number of elements with **ARRAY\_LENGTH**\(\<array\>\)
+                - Deduplicating elements with **ARRAY\_AGG**\(**DISTINCT** \<field\>\)
+                - Ordering elements with **ARRAY\_AGG**\(\<field\> ORDER BY \<field\>\)
+                - Limiting **ARRAY\_AGG**\(\<field\> **LIMIT** 5\)
+                - **UNNEST**\(\) arrays to bring the array elements back into rows
+                    - SELECT DISTINCT
+                    -   visitId,
+                    -   h.page.pageTitle
+                    - FROM \`bigquery\-public\-data.google\_analytics\_sample.ga\_sessions\_20170801\`,
+                    - UNNEST\(hits\) AS h
+                    - WHERE visitId = 1501570398
+                    - LIMIT 10
+            - **STRUCTS** allows you to _go wide_ in your schema by grouping related fields together
+                - STRUCT is to consider it conceptually like a separate table that is already pre\-joined into your main table.
+                    - pre\-joined "tables"
+                - The main advantage of having 32 STRUCTs in a single table is it allows you to run queries like this one **without having to do any JOINs**
+                    - SELECT
+                    -   visitId,
+                    -   totals.\*,
+                    -   device.\*
+                    - FROM \`bigquery\-public\-data.google\_analytics\_sample.ga\_sessions\_20170801\`
+                    - WHERE visitId = 1501570398
+                    - LIMIT 10
+                - [https://www.sqlshack.com/sql\-cross\-join\-with\-examples/](https://www.sqlshack.com/sql-cross-join-with-examples/) 
+                    - The CROSS JOIN is used to generate a paired combination of each row of the first table with each row of the second table. This join type is also known as cartesian join.
+- Building Batch Data Pipelines on Google Cloud
+    - DataProc: Hadoop ecosystem
+        - use Cloud Storage instead of HDFS
+    - Dataflow pipelines
+    - Cloud Data Fusion
+        - GCP native workflow orchestration tool, UI
+    - Cloud Composer
+        - managed Airflow
+    - Labs
+        - Spark on DataProc
+            - git \-C ~ clone [https://github.com/GoogleCloudPlatform/training\-data\-analyst](https://github.com/GoogleCloudPlatform/training-data-analyst) 
+                - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/sparktobq/01\_spark.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/sparktobq/01_spark.ipynb)
+                    - can read from both HDFS and Google Cloud Storage bucket
+                    - convert Jupyter notebook to standalone python file
+                        - %%writefile \-a spark\_[analysis.py](http://analysis.py) at the top of each cell
+                    - submit standalone pyspark script to Spark cluster from CLI
+                        - \#\!/bin/bash
+                        - gcloud dataproc jobs submit pyspark \\
+                        -        \-\-cluster sparktodp \\
+                        -        \-\-region us\-central1 \\
+                        -        spark\_analysis.py \\
+                        -        \-\- \-\-bucket=$1
+            - DataProc
+                - **Spark 3.3** cluster
+                    - latest version of Spark is 3.4.1
+                    - **Web Interfaces**: can SSH into YARN, Spark History Server UI, etc.
+                        - [https://cloud.google.com/dataproc/docs/concepts/accessing/cluster\-web\-interfaces](https://cloud.google.com/dataproc/docs/concepts/accessing/cluster-web-interfaces) 
+                - Jobs
+                    - Spark Jobs submitted from CLI, job history
+                    - **has output log of pyspark file that was run**
+                - Workflows: DAG pipelines
+                - Serverless Batches
+                - Workbench: Spark JupyterLab on cluster
+        - simple Dataflow pipeline
+            - Compute Engine
+                - VM instances
+                    - can SSH into VM from GCP console
+                - TPUs
+                - Storage: Disks, Images, etc.
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/data\_analysis/lab2/python/grep.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/data_analysis/lab2/python/grep.py)
+                - the above is a simple batch transform pipeline in Apache Beam
+                - you can run the above file in either the training VM by sshing into it or by going to the gcloud CLI and submitting the job to Dataflow
+                - **GCP Dataflow running an Apache Beam file**
+                    - Jobs
+                        - Batch or streaming jobs
+                        - Job graph: each step in pipeline of apache beam file
+                    - Pipelines
+                    - Workbench
+                        - notebooks
+                    - Snapshots
+                        - saves state of streaming pipeline
+                    - SQL Workspace
+        - MapReduce in Beam
+            - **Don't like Beam / Dataflow that much**
+                - **map reduce too low level**
+                - **still uses legacy Java programming: prefer SQL like in Microsoft Fabric Real Time Analysis**
+                    - [https://learn.microsoft.com/en\-us/fabric/real\-time\-analytics/overview](https://learn.microsoft.com/en-us/fabric/real-time-analytics/overview) 
+            - [https://beam.apache.org/documentation/programming\-guide/](https://beam.apache.org/documentation/programming-guide/)
+                - **PCollection**: A PCollection represents a distributed data set that your Beam pipeline operates on. The data set can be bounded, meaning it comes from a fixed source like a file, or unbounded, meaning it comes from a continuously updating source via a subscription or other mechanism. Your pipeline typically creates an initial PCollection by reading data from an external data source, but you can also create a PCollection from in\-memory data within your driver program. From there, PCollections are the inputs and outputs for each step in your pipeline.
+                    - **schemas** [https://beam.apache.org/documentation/programming\-guide/\#what\-is\-a\-schema](https://beam.apache.org/documentation/programming-guide/#what-is-a-schema) 
+                        - JSON, Avro, Protocol Buffer, or database row objects
+                - **Core Beam Transforms** [https://beam.apache.org/documentation/programming\-guide/\#pardo](https://beam.apache.org/documentation/programming-guide/#pardo) 
+                    - `ParDo`is useful for a variety of common data processing operations, including:
+                        - **Filtering** a data set. You can use `ParDo` to consider each element in a `PCollection` and either output that element to a new collection, or discard it.
+                        - **Formatting** or type\-converting each element in a data set. If your input `PCollection` contains elements that are of a different type or format than you want, you can use `ParDo` to perform a conversion on each element and output the result to a new `PCollection`.
+                        - **Extracting** parts of each element in a data set. If you have a `PCollection` of records with multiple fields, for example, you can use a `ParDo` to parse out just the fields you want to consider into a new `PCollection`.
+                        - Performing **computations** on each element in a data set. You can use `ParDo` to perform simple or complex computations on every element, or certain elements, of a `PCollection` and output the results as a new `PCollection`.
+                    - `GroupByKey`
+                    - `CoGroupByKey`
+                    - `Combine`
+                    - `Flatten`
+                    - `Partition`
+                - windowing functions [https://beam.apache.org/documentation/programming\-guide/\#windowing](https://beam.apache.org/documentation/programming-guide/#windowing) 
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/data\_analysis/lab2/python/is\_popular.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/data_analysis/lab2/python/is_popular.py)
+                - batch pipeline using apache beam
+                - uses map reduce to count the most popular Java packages imported
+                    - **map reduce jobs good for aggregation functions across large parallelizable datasets**
+                - map: count in parallel
+                - reduce: aggregate sum
+        - Serverless Data Analysis with Dataflow
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/data\_analysis/lab2/python/JavaProjectsThatNeedHelp.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/data_analysis/lab2/python/JavaProjectsThatNeedHelp.py)
+                - demonstrates a parallel batch pipeline in Beam
+                - **not sure I'll ever have to write a map reduce pipeline on the job \- too low level**
+                    - I'd rather use KSQL with Kafka or SQL with Kinesis Data Analytics [https://docs.aws.amazon.com/kinesisanalytics/latest/dev/streaming\-sql\-concepts.html](https://docs.aws.amazon.com/kinesisanalytics/latest/dev/streaming-sql-concepts.html) 
+                    - looks like **GCP Dataflow / Beam supports SQL**
+                        - [https://cloud.google.com/dataflow/docs/guides/sql/dataflow\-sql\-intro](https://cloud.google.com/dataflow/docs/guides/sql/dataflow-sql-intro) 
+                            - [https://cloud.google.com/dataflow/docs/tutorials/join\-streaming\-data\-with\-sql](https://cloud.google.com/dataflow/docs/tutorials/join-streaming-data-with-sql) 
+                        - [https://beam.apache.org/documentation/dsls/sql/overview/](https://beam.apache.org/documentation/dsls/sql/overview/)
+        - Data pipeline with Cloud Data Fusion
+            - Cloud Data Fusion: GCP version of Airflow native to GCP services
+                - **all cloud providers have something like this \- I don't like these types of UI drag and drop data pipelines, I much prefer Dagster: software based, version control, CI / CD**
+            - Cloud Data Fusion has a separate UI for each instance spun up
+                - Pipelines
+                    - can do both real time and batch pipelines
+                - Wrangler
+                    - **Wrangler** is an interactive, visual tool that lets you see the effects of transformations on a small subset of your data before dispatching large, parallel\-processing jobs on the entire dataset.
+                    - reminds me of Sigma Computing, but more for data cleaning, not analysis
+                - Cloud Data Fusion translates your visually built pipeline into an Apache Spark or MapReduce program that executes transformations on an ephemeral Cloud Dataproc cluster in parallel.
+            - spinning up Data Fusion instances and provisioning data pipelines is _slow_
+        - Data pipeline with Cloud Composer
+            - Composer 2: Airflow 2, autoscaling \(probably Airflow on k8s\)
+                - **GCP still a couple over versions behind latest Airflow release**
+            - Cloud Composer
+                - take a while to create a new environment
+                - monitoring
+                    - scheduler heartbeat, web server health, database health, can have multiple schedulers
+                    - successful / failed DAG runs
+                    - active tasks, workers
+                - logs
+                    - nice, can see ALL logs: scheduler, workers, web server
+                    - uses redis as message queue between workers, scheduler
+                - DAGs
+                    - Airflow DAG, airflow.cfg, etc. is stored in Google Cloud Storage
+                - Environment Configuration
+                    - Airflow web UI URL, GKE cluster, and a link to the DAGs folder, which is stored in your bucket.
+                - Airflow config overrides
+                - Env variables
+                - pypi packages
+            - All these labs are very basic, just a tutorial / surface level introduction
+- Building Resilient Streaming Analytics Systems on Google Cloud
+    - Pub/Sub
+        - GCP's version of Kafka
+    - Dataflow windowing
+    - Bigtable
+        - like AWS DynamoDB: low latency, big data database for OLTP
+        - based off of HBase
+    - Labs
+        - push streaming data into PubSub
+            - **like AWS kinesis, Kafka labs \- watched those labs, now have hands on experience with GCP PubSub**
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/streaming/publish/send\_sensor\_data.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/streaming/publish/send_sensor_data.py)
+                - simulate sending sensor data to a pubsub topic
+                - verify data by pulling from topic using a subscription
+        - streaming data processing with Dataflow
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/streaming/process/sandiego/run\_oncloud.sh](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/streaming/process/sandiego/run_oncloud.sh)
+                - create and run a dataflow pipeline
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/streaming/process/sandiego/src/main/java/com/google/cloud/training/dataanalyst/sandiego/AverageSpeeds.java](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/streaming/process/sandiego/src/main/java/com/google/cloud/training/dataanalyst/sandiego/AverageSpeeds.java)
+                - This Dataflow pipeline reads messages from a Pub/Sub topic, parses the JSON of the input message, produces one main output and writes to BigQuery.
+            - Dataflow
+                - Jobs
+                    - look at running job
+                        - job graph
+                        - job metrics
+                            - **autoscaling supported**
+                        - job cost
+                        - autoscaling
+                - Pipelines
+                    - dataflow pipelines
+                - Workbench
+                    - Dataflow notebooks
+                - Snapshots
+                - SQL workspace
+            - PubSub
+                - Topics
+                - Subscriptions
+                    - pull, push, write to bigquery
+                    - exactly once delivery, message ordering, retry policy
+                - Snapshots
+                - Schemas
+            - Bigquery
+                - has time travel feature using SYSTEM\_TIME in SQL
+                - has personal / project history of queries
+            - Cloud Monitoring
+                - **GCP version of DataDog**
+                - Metrics Explorer: visualize metrics in graphs
+                - Alerts
+                - Dashboards
+        - streaming analytics and dashboards with Dataflow
+            - Looker Studio [datastudio.google.com](http://datastudio.google.com) 
+                - familiar google sheets, docs, etc. interface
+                - dashboard queries from BigQuery
+            - [https://support.google.com/looker\-studio/answer/7020039?hl=en\#zippy=%2Cin\-this\-article](https://support.google.com/looker-studio/answer/7020039?hl=en#zippy=%2Cin-this-article) 
+                - set data freshness in Looker Studio
+        - streaming data processing with Bigtable
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/streaming/process/sandiego/run\_oncloud.sh](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/streaming/process/sandiego/run_oncloud.sh)
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/streaming/process/sandiego/src/main/java/com/google/cloud/training/dataanalyst/sandiego/CurrentConditions.java](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/streaming/process/sandiego/src/main/java/com/google/cloud/training/dataanalyst/sandiego/CurrentConditions.java) 
+                - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/streaming/process/sandiego/src/main/java/com/google/cloud/training/dataanalyst/sandiego/BigtableHelper.java](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/streaming/process/sandiego/src/main/java/com/google/cloud/training/dataanalyst/sandiego/BigtableHelper.java) 
+                - write to bigtable from pub sub this time \(instead of bigquery\)
+            - BigTable
+                - GCP's version of DynamoDB, feels pretty similar to DDB
+                - each bigtable instance has a grouping of tables
+                - **access Bigtable through Hbase CLI prompt**
+                    - I'm sure there's a pgadmin like tool out there for Hbase
+                    - **Bigtable doesn't seem to use standard SQL**
+                        - scan 'current\_conditions', {'LIMIT' =\> 10, STARTROW =\> '15\#S\#1', ENDROW =\> '15\#S\#999', COLUMN =\> 'lane:speed'}
+                        - **You have to use a language like python to query Bigtable** [https://cloud.google.com/bigtable/docs/reading\-data\#python](https://cloud.google.com/bigtable/docs/reading-data#python) 
+        - BigQuery SQL optimization
+            - **don't like this: don't have to worry about this in Snowflake**
+            - Minimizing I/O
+                - only select the columns you're going to use in the query
+            - Caching results of previous queries
+                - snowflake does
+                - in bigquery create intermediate tables or materialized views
+                    - can also store in memory with GCP BI Engine
+            - Performing efficient joins
+                - If it is possible to avoid a join, or reduce the amount of data being joined, do so.
+                - **create denormalized tables**
+                - Avoid self\-joins of large tables
+                    - Use a window function instead of a self\-join
+                    - Sometimes, it can be helpful to precompute functions on smaller tables, and then join with the precomputed values rather than repeat an expensive calculation each time.
+            - Avoid overwhelming single workers
+                - The same problem of overwhelming a worker \(in this case, overwhelm the memory of the worker\) can happen during an ARRAY\_AGG with GROUP BY if one of the keys is much more common than the others.
+            - Using approximate aggregation functions
+                - APPROX\_COUNT\_DISTINCT 2x faster
+                - APPROX\_QUANTILES to compute percentiles, APPROX\_TOP\_COUNT to find the top elements and APPROX\_TOP\_SUM to compute top elements based on the sum of an element.
+        - BigQuery table partitioning
+            - Instead of scanning the entire dataset and filtering on a date field like we did in the earlier queries, we will now set up a **date\-partitioned table**. This will allow us to completely ignore scanning records in certain partitions if they are irrelevant to our query.
+- Smart Analytics, Machine Learning, and AI on Google Cloud
+    - prebuilt APIs: NLP API
+    - Vertex AI notebooks
+    - Vertex AI pipelines
+    - BigQueryML
+    - AutoML
+    - Labs
+        - NLP API
+            - text classification
+                - curl "https://language.googleapis.com/v1/documents:classifyText?key=${API\_KEY}" \\
+                -   \-s \-X POST \-H "Content\-Type: application/json" \-\-data\-binary @request.json
+        - Vertex AI Jupyterlab notebook accessing BigQuery
+            - Vertex AI \(GCP Sagemaker\)
+                - Dashboard
+                - Model Garden: like Hugging Face
+                - Workbench
+                    - Notebooks
+                        - SQL in cell \-\-\> query to pandas df in notebook
+                        - **Jupyter Notebooks have Git integration**
+                - Pipelines
+                - Gen AI Studio
+                - Feature Store
+                - Datasets
+                - Labeling Tasks
+                - Training
+                - Experiments
+                - Metadata
+                - Model Registry
+                - Online prediction
+                - Batch prediction
+                - Matching Engine
+        - Vertex AI pipelines
+            - Vertex AI
+                - **Pipelines**
+                    - **ML pipelines using Kubeflow, different from Dataflow pipelines \(data engineering\)**
+                    - runs a couple of jobs under Vertex AI Training section
+        - Regression model in BigQueryML
+            - EDA, feature engineering, simple linear regression model, evaluate model, make predictions
+                - examine model weights
+                    - SELECT \* FROM ML.WEIGHTS\(MODEL bike\_model.model\_bucketized\)
+                - Our best model contains several data transformations. Wouldn’t it be nice if BigQuery could remember the sets of transformations we did at the time of training and automatically apply them at the time of prediction? It can, using the TRANSFORM clause\!
+            - online prediction
+                - SELECT
+                -   \*
+                - FROM
+                -   ML.PREDICT\(MODEL bike\_model.model\_bucketized,
+                -     \(
+                -     SELECT
+                -       'Park Lane , Hyde Park' AS start\_station\_name,
+                -       CURRENT\_TIMESTAMP\(\) AS start\_date\) \)
+            - batch prediction
+                - SELECT
+                -   \*
+                - FROM
+                -   ML.PREDICT\(MODEL bike\_model.model\_bucketized,
+                -     \(
+                -     SELECT
+                -       start\_station\_name,
+                -       start\_date
+                -     FROM
+                -       \`bigquery\-public\-data\`.london\_bicycles.cycle\_hire
+                -     LIMIT
+                -       100\) \)
+        - Movie recommendations in BigQueryML
+            - collaborative filtering
+            - batch prediction
+                - SELECT
+                -     \*
+                -   FROM
+                -     **ML.RECOMMEND**\(MODEL \`cloud\-training\-prod\-bucket.movies.movie\_recommender\`\)
+                -   LIMIT 
+                -     100000
+- Serverless Data Processing with Dataflow: Foundations
+    - Intro to Dataflow
+    - Labs
+        - IAM / networking with Dataflow
+- Serverless Data Processing with Dataflow: Develop Pipelines
+    - Intro to Apache Beam
+        - **Beam Python / Java / Go runs on Flink, Dataflow, Spark**
+        - Cloud Dataflow is a fully\-managed Google Cloud Platform service for running batch and streaming Apache Beam data processing pipelines.
+        - Apache Beam is an open source, advanced, unified and portable data processing programming model that allows end users to define both batch and streaming data\-parallel processing pipelines using Java, Python, or Go. Apache Beam pipelines can be executed on your local development machine on small datasets, and at scale on Cloud Dataflow. However, because Apache Beam is open source, other runners exist — you can run Beam pipelines on Apache Flink and Apache Spark, among others.
+    - Dataflow sources / sinks
+        - text, file, bigquery, pubsub, kafka, bigtable, avro
+    - Beam schemas, dataframes
+    - state, timers, windowing
+    - Labs
+        - Serverless data processing with Dataflow: ETL pipeline using Beam and Cloud Dataflow
+            - Dev \(local\) and Prod \(Dataflow\) pipeline
+            - **Dataflow template to parameterize between dev / prod**
+                - [https://github.com/GoogleCloudPlatform/DataflowTemplates/blob/main/v1/src/main/java/com/google/cloud/teleport/templates/TextIOToBigQuery.java](https://github.com/GoogleCloudPlatform/DataflowTemplates/blob/main/v1/src/main/java/com/google/cloud/teleport/templates/TextIOToBigQuery.java)
+                    - Java doesn't have a native IDE like Jupyterlab
+                - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/1\_Basic\_ETL/solution/my\_pipeline.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/1_Basic_ETL/solution/my_pipeline.py) 
+            - Dataflow Workbench: JupyterLab
+            - Dataplex
+                - Data Exploration Workbench provides a unified view to explore data stored in GCS buckets and BigQuery tables, under management in Dataplex, using SparkSQL scripts and Notebooks.
+        - Serverless data processing with Dataflow: batch analytics pipeline using Beam and Cloud Dataflow
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/tree/master/quests/dataflow\_python/3\_Batch\_Analytics/solution](https://github.com/GoogleCloudPlatform/training-data-analyst/tree/master/quests/dataflow_python/3_Batch_Analytics/solution) 
+        - Serverless data processing with Dataflow: streaming analytics pipeline using Beam and Cloud Dataflow
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/5\_Streaming\_Analytics/solution/streaming\_minute\_traffic\_pipeline.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/5_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py) 
+            - difference between batch and streaming version:
+                - **streaming version reads from PubSub**
+                - **streaming version has endless run, append to bigquery table**
+                    - bash generate\_streaming\_events.sh
+        - Serverless data processing with Dataflow: branching pipelines
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/2\_Branching\_Pipelines/solution/my\_pipeline.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/2_Branching_Pipelines/solution/my_pipeline.py) 
+        - Serverless data processing with Dataflow: advanced streaming analytics pipeline with Cloud Dataflow
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/7\_Advanced\_Streaming\_Analytics/solution/streaming\_minute\_traffic\_pipeline.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/7_Advanced_Streaming_Analytics/solution/streaming_minute_traffic_pipeline.py) 
+                - filter out error messages in pipeline branch, write to error bucket in cloud storage
+            - PubSub
+                - my\_topic: manually publish erroneous message
+        - Serverless data processing with Dataflow: using Dataflow SQL for batch analytics
+            - **SQL a small part of it \- only for aggregation / windowing functions \- still have to use Beam pipelines**
+                - [https://cloud.google.com/dataflow/docs/guides/sql/dataflow\-sql\-intro](https://cloud.google.com/dataflow/docs/guides/sql/dataflow-sql-intro)
+                - **Beam also supports pandas dataframes:**
+                    - [https://beam.apache.org/documentation/dsls/dataframes/overview/](https://beam.apache.org/documentation/dsls/dataframes/overview/) 
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/4\_SQL\_Batch\_Analytics/solution/batch\_user\_traffic\_SQL\_pipeline.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/4_SQL_Batch_Analytics/solution/batch_user_traffic_SQL_pipeline.py)
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/4\_SQL\_Batch\_Analytics/solution/batch\_minute\_traffic\_SQL\_pipeline.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/4_SQL_Batch_Analytics/solution/batch_minute_traffic_SQL_pipeline.py)
+        - Serverless data processing with Dataflow: using Dataflow SQL for streaming analytics
+            - **You can create a \(streaming\) dataflow pipeline from just a SQL query:** [https://cloud.google.com/dataflow/docs/tutorials/join\-streaming\-data\-with\-sql](https://cloud.google.com/dataflow/docs/tutorials/join-streaming-data-with-sql) 
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/6\_SQL\_Streaming\_Analytics/solution/streaming\_minute\_traffic\_SQL\_pipeline.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/6_SQL_Streaming_Analytics/solution/streaming_minute_traffic_SQL_pipeline.py) 
+            - difference between batch and streaming version same as above:
+                - **streaming version reads from PubSub**
+                - **streaming version has endless run, append to bigquery table**
+- Serverless Data Processing with Dataflow: Operations
+    - Dataflow job list / info / graph / metrics / logging / error reporting
+    - Performance: pipeline design, data shape, sources / sinks, shuffle, streaming engine
+    - testing, CI / CD
+        - unit, integration testing
+        - artifact building, deployment
+    - reliability, monitoring, geolocation
+    - dataflow templates: premade dataflow pipelines
+    - Labs
+        - Serverless data processing with Dataflow: Monitoring, Logging and Error Reporting for Dataflow Jobs
+            - Monitoring
+                - Dashboards
+                - Integrations
+                - Services
+                - Metrics Explorer
+                - Metrics diagnostics
+                - Alerting
+                    - create Dataflow Job failed alert
+                - Uptime Checks
+            - Dataflow Jobs
+                - Job logs, worker logs, diagnostics, bigquery jobs
+        - Serverless Data Processing with Dataflow \- **Testing** with Apache Beam
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/8a\_Batch\_Testing\_Pipeline/solution/weather\_statistics\_pipeline\_test.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/8a_Batch_Testing_Pipeline/solution/weather_statistics_pipeline_test.py) 
+                - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/8a\_Batch\_Testing\_Pipeline/solution/weather\_statistics\_pipeline.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/8a_Batch_Testing_Pipeline/solution/weather_statistics_pipeline.py) 
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/8b\_Stream\_Testing\_Pipeline/solution/taxi\_streaming\_pipeline\_test.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/8b_Stream_Testing_Pipeline/solution/taxi_streaming_pipeline_test.py)
+                - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/8b\_Stream\_Testing\_Pipeline/solution/taxi\_streaming\_pipeline.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/8b_Stream_Testing_Pipeline/solution/taxi_streaming_pipeline.py) 
+        - Serverless Data Processing with Dataflow \- CI/CD with Dataflow
+            - [https://github.com/GoogleCloudPlatform/ci\-cd\-for\-data\-processing\-workflow](https://github.com/GoogleCloudPlatform/ci-cd-for-data-processing-workflow)
+                - [https://cloud.google.com/architecture/cicd\-pipeline\-for\-data\-processing](https://cloud.google.com/architecture/cicd-pipeline-for-data-processing) 
+                    - **Lab uses GCP managed Airflow instead of Cloud Data Fusion for CI / CD**
+                    - **The setup for this is too complex to manage when starting a new data engineering project\! Use a managed service like Dagster Cloud or Astronomer\!\!**
+                - [https://github.com/GoogleCloudPlatform/ci\-cd\-for\-data\-processing\-workflow/tree/master/example/1.terraform\-automation](https://github.com/GoogleCloudPlatform/ci-cd-for-data-processing-workflow/tree/master/example/1.terraform-automation) 
+                    - also terraform files, use in conjunction with env\-setup folder
+                    - terraform init \-\> plan \-\> apply
+                - The `env-setup` folder contains shell scripts for the initial setup of the Google Cloud environment.
+                    - Airflow variables for test / prod
+                - The `source-code` folder contains code that is developed over time, needs to be source controlled, and triggers automatic build and test processes. This folder contains the following subfolders:
+                    - The `data-processing-code` folder contains the Apache Beam process source code.
+                    - The `workflow-dag` folder contains the composer DAG definitions for the data\-processing workflows with the steps to design, implement, and test the Cloud Dataflow process.
+                    - The `build-pipeline` folder contains two Cloud Build configurations — one for the test pipeline and the other for the production pipeline. This folder also contains a support script for the pipelines.
+            - For the purpose of this lab, the source code files for data processing and for DAG workflow are in different folders in the same source code repository. In a production environment, the source code files are usually in their own source code repositories and are managed by different teams.
+            - At a high level, the CI/CD pipeline consists of the following steps:
+                - Cloud Build packages the WordCount sample into a self\-running Java Archive \(JAR\) file using the Maven builder. The Maven builder is a container with Maven installed in it. When a build step is configured to use the Maven builder, Maven runs the tasks.
+                    - Cloud Build: 'GCP Jenkins'
+                        - History
+                            - **build summary from yaml files**
+                        - Repositories
+                        - Trigger
+                            - **trigger Build Airflow Test DAG when there is a change to the git repo with source code**
+                                - **like Jenkins**
+                - Cloud Build uploads the JAR file to Cloud Storage.
+                - Cloud Build runs unit tests on the data\-processing workflow code and deploys the workflow code to Cloud Composer.
+                - Cloud Composer picks up the JAR file and runs the data\-processing job on Cloud Dataflow.
+            - In this lab, the deployments to the test and production environments are separated into two different Cloud Build pipelines: a test pipeline and a production pipeline. In the preceding diagram, the test pipeline consists of the following steps:
+                - A developer commits code changes to the Cloud Source Repositories.
+                - Code changes trigger a test build in Cloud Build.
+                - Cloud Build builds the self\-executing JAR file and deploys it to the test JAR bucket on Cloud Storage.
+                - Cloud Build deploys the test files to the test\-file buckets on Cloud Storage.
+                - Cloud Build sets the variable in Cloud Composer to reference the newly deployed JAR file.
+                - Cloud Build tests the data\-processing workflow Directed acyclic graph \(DAG\) and deploys it to the Cloud Composer bucket on Cloud Storage.
+                - The workflow DAG file is deployed to Cloud Composer.
+                - Cloud Build triggers the newly deployed data\-processing workflow to run.
+                - Airflow DAG runs Dataflow Job: word count
+            - To completely separate the environments, you need multiple Cloud Composer environments created in different projects, which are by default separated from each other. This separation helps to secure your production environment.
+        - Serverless Data Processing with Dataflow \- Custom Dataflow Flex Templates
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/2\_Branching\_Pipelines/solution/my\_pipeline.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/2_Branching_Pipelines/solution/my_pipeline.py)
+            - Create customer Docker image from parameterized Dataflow Flex Template
+                - **Google Container Registry** has docker image
+            - **VM instance runs docker image when Dataflow Job is run**
+- NOTE: skip all the Quests, they are mostly redundant and ingrains / tests your knowledge from the courses above. I'd rather be spending the time working on actual projects.
+    - I don't like Dataflow all that much. Snowflake is a superior warehouse to BigQuery. Dagster is a superior orchestration tool to Airflow. For streaming data, I'd stick with a SQL based solution like AWS Kinesis Data Analytics, KSQL on Kafka, etc.
+- Perform Foundational Data, ML, and AI Tasks in Google Cloud
+    - Quest: all labs course
+    - Labs
+        - Vertex AI: Qwik Start
+        - Dataprep: Qwik Start
+        - Dataflow: Qwik Start \- Templates
+        - Dataflow: Qwik Start \- Python
+        - Dataproc: Qwik Start \- Console
+        - Dataproc: Qwik Start \- Command Line
+        - Cloud Natural Language API: Qwik Start
+        - Google Cloud Speech API: Qwik Start
+        - Video Intelligence: Qwik Start
+        - Perform Foundational Data, ML, and AI Tasks in Google Cloud: Challenge Lab
+- Build and Optimize Data Warehouses with BigQuery
+    - Quest: all labs course
+    - Labs
+        - Creating a Data Warehouse Through Joins and Unions
+        - Creating Date\-Partitioned Tables in BigQuery
+        - Troubleshooting and Solving Data Join Pitfalls
+        - Working with JSON, Arrays, and Structs in BigQuery
+        - Build and Optimize Data Warehouses with BigQuery: Challenge Lab
+- Engineer Data in Google Cloud
+    - Quest: all labs course
+    - Labs
+        - Creating a Data Transformation Pipeline with Cloud Dataprep
+        - ETL Processing on Google Cloud Using Dataflow and BigQuery
+        - Predict Visitor Purchases with a Classification Model in BigQuery ML
+        - Cloud Composer: Copying BigQuery Tables Across Different Locations
+        - Engineer Data in Google Cloud: Challenge Lab

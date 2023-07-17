@@ -1,0 +1,192 @@
+# Udemy AWS ML Engineer
+
+[https://www.udemy.com/course/aws\-machine\-learning](https://www.udemy.com/course/aws-machine-learning)
+
+- Course completion certificate: [https://www.udemy.com/certificate/UC\-9115613e\-cdc4\-4ef8\-836b\-3198f5765b5f/](https://www.udemy.com/certificate/UC-9115613e-cdc4-4ef8-836b-3198f5765b5f/) 
+- Summary:
+    - Much of the ML course is nice to know. I'm focused on data engineering work and need to know how to support the data scientists through MLOps. The most important part of the course for me was AWS Sagemaker. I didn't focus too much on the details of each data science / ML algorithm \- just enough to know the basics.
+        - I did do some data science in the past using Spark 2\+: [https://github.com/huang\-pan/shift](https://github.com/huang-pan/shift) 
+    - There is a data engineering section that is redundant with the AWS Data Engineer course: [https://www.udemy.com/course/aws\-data\-analytics](https://www.udemy.com/course/aws-data-analytics)
+- Github repos for course:
+    - [https://huggingface.co/](https://huggingface.co/) 
+- Data Engineering
+    - There is a data engineering section that is redundant with the AWS Data Engineer course: [https://www.udemy.com/course/aws\-data\-analytics](https://www.udemy.com/course/aws-data-analytics)
+    - course shows examples of real time, video, batch, analytics data engineering pipelines using AWS services
+- Exploratory Data Analysis
+    - Review for me, pretty standard stuff: data types, statistics, time series
+    - I did do some data science in the past using Spark 2\+: [https://github.com/huang\-pan/shift](https://github.com/huang-pan/shift) 
+- Feature Engineering
+    - pretty standard stuff, I'll cover it in the GCP ML course: [https://www.cloudskillsboost.google/paths/17](https://www.cloudskillsboost.google/paths/17)
+- Deep Learning
+    - pretty standard stuff, I'll cover it in the GCP ML course: [https://www.cloudskillsboost.google/paths/17](https://www.cloudskillsboost.google/paths/17)
+    - AWS supports Apached MXNet, GPUs
+    - CNN, RNN, NLP \(BERT, GPT\), transfer learning
+    - Learning rate hyperparameter:
+        - weights to minimize cost function: how far the change in the weights are is the learning rate
+            - change in weights: stochastic gradient descent SCD
+            - gradient: d\(loss\)/d\(w1\), d\(loss\)/d\(w2\), etc.
+            - learning rate: d\(loss\)/d\(w1\)\*.001; .001 is learning rate
+            - [https://youtu.be/jWT\-AX9677k](https://youtu.be/jWT-AX9677k) 
+        - learning rate too high: large steps, might overshoot optimal solution
+        - learning rate too small: small steps, takes too long to find an optimal solution
+    - batch size
+        - how many training samples are used within each batch of each epoch
+        - small batch sizes tend to not get stuck in local minima
+        - large batch sizes can converge on the wrong solution at random
+            - train model faster, but cluster may not have enough resources
+        - [https://youtu.be/U4WB9p6ODjM](https://youtu.be/U4WB9p6ODjM) 
+    - regularization: dropout, early stoppage, L1, L2
+    - vanishing / exploding gradients: LSTM, ReLU activation function
+- Metrics
+    - standard stuff: confusion matrix, precision, recall, AUC, F1 score, ROC curve
+- Ensemble Learning
+    - bagging: random sampling with replacement
+    - boosting: weighted observations, sequential training using more successful samples
+- Sagemaker Ground Truth
+    - humans to labeling, mechanical turk
+    - creates own model as images are labeled by people
+        - unsure images sent to humans
+    - Augmented AI: human review of ML predictions
+- AWS Sagemaker
+    - Sagemaker Model dashboard
+        - Display all SageMaker models, endpoints, and monitor alerts.
+    - Sagemaker Notebooks
+        - can spin up training instances, access S3
+    - vanilla Sagemaker not impressive, too basic \-\-\> use Sagemaker Studio instead
+    - **Sagemaker console \(Vanilla OLD Sagemaker\)**
+        - Ground Truth
+        - Notebook
+        - Processing
+        - Training
+            - algos: many built in algos, standard stuff
+                - linear learner, xgboost, seq2seq, deepAR \(time series, auto regression, uses RNNs\)
+                - blazingtext, object2vec, object detection, image classification
+                - semantic segmentation \(pixel level object classification\), random cut forest
+                - neural topic model, Latent Dirichlet Allocation
+                - KNN, K\-means, PCA, Factorization Machines \(dealing with sparse data\)
+                - IP insights
+                - Sagemaker RL: reinforcement learning
+                    - Q learning: specific implementation of RL: environment states s, possible actions a, value fo each state/action Q
+                    - Markov Decision Process mathematical name for RL Q learning
+                        - MDP is a discrete time stochastic control process
+                    - Dynamic programming also a name for this
+            - list of training jobs
+            - hyperparameter tuning jobs
+                - **automated hyperparameter tuning**
+                    - learns as it goes, so you don't have to try every possible combination
+        - inference
+            - compilation jobs
+            - model packages
+            - models
+            - Enpoints
+            - Batch transform jobs
+            - Inference recommender
+    - Deployment
+        - persistent endpoint for online predictions
+            - auto scaling
+            - shadow testing: evaluate new models against currently deployed models
+        - Sagemaker Batch Transform: batch inference
+        - inference pipelines: more complex processing
+        - SageMaker Neo: deploy to edge devices
+        - Elastic Inference: accelerating deep learning models
+- Sagemaker and Spark
+    - sagemaker\-spark library
+    - connect Sagemaker notebook to spark EMR cluster
+- **Sagemaker Studio**: modern sagemaker in the era of the MDS
+    - much nicer visual IDE than vanilla Sagemaker, it's not bad\! [https://youtu.be/YcJAc\-x8XLQ](https://youtu.be/YcJAc-x8XLQ) 
+    - Data Wrangler
+    - clusters: create / delete EMR clusters
+    - notebooks
+        - enhance collaboration among data scientists
+        - create and share jupyter notebooks
+        - switch between HW configs
+            - choose CPU / GPU \(deep learning training only\) / EMR clusters
+            - managed spot training: use spot instances, cheaper, but can take longer to train if spot instances go away
+    - Notebook Jobs
+    - **experiments**
+        - organize, capture, compare, and search your ML jobs
+    - Pipelines
+    - debugger
+        - dashboards, watch models as they are trained and checkpointed
+        - hardware profiler
+    - **autopilot AutoML**
+        - automates: algo selection, data preprocessing, model tuning, all infra
+        - model leaderboard: ranked list of recommended models
+        - integrated with clarify
+    - clarify
+        - explain model features, e.g. shap values
+        - bias metrics: class imbalance, KL divergence, KS, etc.
+    - **Models**
+    - model registry
+    - model monitor
+        - visualize data drift, detect anomalies, outliers
+        - integrated with clarify
+    - **automatic model tuning**
+        - learns as it goes, so you don't have to try every possible combination
+    - jumpstart
+        - one click models from model zoos
+    - data wrangler
+        - data cleaning, EDA in sagemaker studio
+    - **feature store**
+        - online or office \(batch inference\) modes
+    - edge manager
+        - model optimized for sagemaker neo
+    - **Deployments**
+    - **Projects**
+    - asynch inference endpoints
+        - elastic inference: accelerates deep learning inference, auto scaling
+    - **serverless inference**
+    - **sagemaker inference recommender**
+        - recommends inference endpoint type
+    - canvas
+        - no\-code ML for business analysts
+        - share models and datasets with sagemaker studio
+- MLOps
+    - AWS MLOps videos
+        - [https://www.youtube.com/watch?v=mRNcVKJ6UNo](https://www.youtube.com/watch?v=mRNcVKJ6UNo)
+        - [https://www.youtube.com/watch?v=UnAN35gu3Rw](https://www.youtube.com/watch?v=UnAN35gu3Rw)
+            - AWS way too complex, too many fragmented services
+        - [https://youtu.be/Le\-A72NjaWs](https://youtu.be/Le-A72NjaWs)
+            - ML project using sagemaker
+    - all models in sagemaker hosted in docker containers
+        - saved to AWS Elastic Container Registry
+        - model artifacts stored on S3
+    - Sagemaker integrated with K8s, EKS
+        - sagemaker operators on K8s
+        - **kubeflow** ML pipelines \(open source\)
+            - AWS ML pipeline: use **sagemaker pipelines** not AWS step functions
+    - **Sagemaker Projects**
+        - Sagemaker Studio's native MLOps solution with CI/CD/CT
+            - build images \-\> feature eng \-\> train \-\> evaluate \-\> deploy model \-\> monitor and update models
+        - has **sagemaker model registry**
+    - inference pipelines
+        - linear sequence of 2\-15 containers
+        - online and batch inference
+    - edge
+        - Sagemaker Neo: optimizes code for specific devices
+        - IoT Greengrass
+- Labs
+    - TF\-IDF: find out most important terms in a document
+    - CNN
+    - **MLOps lab**: tuning, deploying, and predicting with tensorflow on sagemaker
+        - MNIST notebook
+            - train with GPU
+            - deploy to EC2 instance \(use elastic inference accelerator\)
+            - make predictions with deployed model
+            - use Automatic Model Tuning to find best hyperparameters
+- AWS AI services
+    - Rekognition
+        - computer vision: AWS image classification service
+    - Comprehend
+        - NLP: AWS text topics, sentiment service
+    - translate
+    - transcribe: speech to text
+    - polly: text to speech
+    - forecast: time series
+    - lex: NLP chatbot
+    - personalize: recommendations
+    - textract: OCR
+    - fraud detector
+    - kendra: search with natural language
+    - **codeguru**
+        - automate code reviews, supports python

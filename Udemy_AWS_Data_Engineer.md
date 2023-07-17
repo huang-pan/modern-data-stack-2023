@@ -1,0 +1,297 @@
+# Udemy AWS Data Engineer
+
+[https://www.udemy.com/course/aws\-data\-analytics](https://www.udemy.com/course/aws-data-analytics)
+
+- Course completion certificate: [https://www.udemy.com/certificate/UC\-634381db\-3681\-4d2e\-8525\-98205f7ac624/](https://www.udemy.com/certificate/UC-634381db-3681-4d2e-8525-98205f7ac624/) 
+- Summary:
+    - I have used many AWS services before, so this course was a refresher course. This course was more about what AWS services are available for data engineering and which ones to use, rather than how to use each individual service. It did go through some labs on how to use some services though.
+    - This course prepares you for the AWS Data Analytics Certification Exam. It's more about what data engineering services are available on AWS, and there are a lot. AWS has too many fragmented services, many with overlapping functionality. Since there are so many AWS services, the course touched on each service only at the top level, but some in a lot of technical detail. It only goes into detail on how to use some of the services through labs. You really have to use each service in a project or on the job in order to really see how everything works.
+    - There are some labs in this course that builds out a sample big data application on AWS \- you can either follow along in the lecture or create an AWS account and try things out for yourself. I chose to only follow along with the lectures since I've already used AWS in production before. I'm also doing all the labs in the GCP data engineering course \- since all the data engineering services should be similar on AWS, Azure, and GCP \- I'll get my tool practice in on GCP \(the only cloud provider I haven't used in production before\).
+    - Overall, the GCP data engineering course [https://www.cloudskillsboost.google/paths/16](https://www.cloudskillsboost.google/paths/16) is a lot more comprehensive because there is a lot more lab work. Unfortunately AWS and Azure doesn't seem to have a similar official course offering.
+    - There are also quizzes interspersed throughout the course and a sample practice exam at the end. They test your knowledge. I completed all of these.
+- Github repos for course:
+    - [https://docs.aws.amazon.com/whitepapers/latest/big\-data\-analytics\-options/welcome.html](https://docs.aws.amazon.com/whitepapers/latest/big-data-analytics-options/welcome.html) 
+- Case study \-\-\> labs
+    - shows how to provision services and connect them with simple code
+    - example order history app that uses many AWS services for big data
+        - kinesis data streams \-\> lambda \-\> dynamodb
+        - lambda can be used to run lightweight ETL
+    - product recommendations
+        - kinesis data firehose \-\> S3 \-\> EMR
+    - transaction rate alarm
+        - kinesis data streams \-\-\> kinesis data analytics \-\> kinesis data streams \-\> lambda \-\> SMS
+    - near real time log analysis
+        - kinesis data firehose \-\> opensearch service \(formerly elasticsearch service\)
+    - data warehousing and visualization
+        - kinesis data firehose \-\> s3 \-\> glue \-\> athena \(serverless\)
+            - s3 \-\> redshift \(managed\) \-\> quicksight
+- Collection
+    - real time \- immediate actions
+        - kinesis data streams
+            - streaming technologies pretty similar
+                - please see Udemy Kafka course which I also took: [https://www.udemy.com/course/apache\-kafka/](https://www.udemy.com/course/apache-kafka/)
+                - For actual lab work completed, please see DataFlow section of GCP Data Engineer course: [https://www.cloudskillsboost.google/paths/16](https://www.cloudskillsboost.google/paths/16)
+            - partition key, 1MB/sec or 1000 msg/sec per shard
+            - retention 1 day to 365 days
+            - provisioned vs on\-demand mode
+            - producers, consumers 200ms latency
+            - consumer **enhanced fan out**, instead of consumer pull, EFO pushes data to consumers, has lower latency 70ms
+            - no native autoscaling, can implement with AWS lambda
+                - connect lambda to do simple ETL
+            - can do RT ML
+            - **AWS Kinesis Studio Notebook**
+        - simple queue service SQS
+            - producers \-\-\> SQS queue \-\-\> consumers
+                - consumers poll SQS for messages
+            - low latency 10 ms, data retention 1 min to 14 days but records deleted after consumption
+            - can have duplicate or out of order messages
+            - used for decoupling applications, buffer writes to a database
+            - new FIFO queue
+                - messages processed in order, sent exactly once
+        - Managed Streaming for Apache Kafka
+            - please see Udemy Kafka course which I also took: [https://www.udemy.com/course/apache\-kafka/](https://www.udemy.com/course/apache-kafka/)
+            - autoscaling of workers possible
+            - monitoring: cloudwatch metrics \(bsic\), prometheus \(open source\)
+            - supports MSK Connect
+            - also has **MSK Serverless**
+        - kinesis video streams
+        - internet of things IoT
+            - MQTT: standard messaging protocol for IoT
+    - near real time \- reactive actions
+        - kinesis data firehose KDF
+            - read in streaming data, outputs batch writes
+            - near real time min 60s latency
+            - auto scaling
+            - Kinesis vs SQS
+        - database migration service DMS
+            - continuous data replication using CDC
+            - different dbs source sink possible: oracle to postgres, etc.
+    - batch \- historical analysis
+        - snow family
+            - portable offline devices to collect and process data at the edge, and migrate data into and out of AWS
+            - snowcone \(small\), snowball edge \(medium\), snowmobile \(large\)
+        - data pipeline
+            - copy data from one AWS service to another
+- Direct Connect \(DX\)
+    - dedicated private connection from a remote network to your VPC
+    - uses DataSync agent
+- S3
+    - buckets
+    - objects \(files\) have key = full path
+        - object encryption: server side \(SSE Key Management Service KMS, client side, encryption in transit \(SSL/TLS\)
+    - versioning, replication, cross region access, security / access / access points \(VPC endpoint\)
+    - storage classes: standard, infrequent access, glacier
+        - s3 select, glacier select: server side filtering of files, can retrieve files faster
+        - intelligent \(auto\) tiering of storage classes, lifecycle policies
+    - S3 has **event notifications**: generate event when S3 file has changed, use in conjunction with eventbridge
+    - S3 object lambda
+        - use lambda to change the object before it's received by the caller application
+- NoSQL databases
+    - DynamoDB
+        - scalable nosql DB, autoscaling, RCU / WCU / throttling
+            - query using PartiQL \(similar to SQL\)
+        - had dynamoDB streams: CDC output from DDB, enables event driven programming
+        - primary key: partition key, partition key \+ sort key
+            - Local Secondary Index \(LSI, alternative sort key\)
+            - Global Secondary Index \(GSI\)
+        - data types
+            - scalar: string, number, binary, boolean, null
+            - document: list, map
+            - set: string set, number set, binary set
+        - provisioned mode or on demand mode
+            - Time To Live \(TTL\) policy
+        - **DynamoDB Accelerator \(DAX\)**
+            - in memory cache for DDB, solved hot key problem: too many reads
+            - microsecond latency for cached reads and queries
+    - elasticache \- managed redis \(in memory key value store\)
+        - sub\-ms latency
+        - write scaling: sharding
+        - read scaling: read replicas
+- Lambda
+    - used for: real time file processing \(low latency load to Redshift\), RT stream processing, ETL, process AWS events
+    - lots of I/O, not for long running applications
+    - new functions callable in seconds
+    - events processed in milliseconds
+    - **lambda code can be versioned in terraform Git repo or its own separate repo**
+- Glue
+    - Data Catalog: catalog all your data in AWS
+        - auto schema inference, schemas are versioned
+        - used by Athena and Redshift Spectrum
+    - create custom ETL jobs, Glue scheduler to schedule them, glue triggers to trigger ETL jobs
+        - glue ETL is based on Spark
+            - supports serverless streaming ETL \(consumes from Kinesis / Kafka, spark structured streaming\)
+            - supports ML transforms, e.g. find duplicate data
+        - Data Pipeline EMR: hive, pig ETL
+    - Glue Development Endpoint
+        - develop ETL scripts using a notebook, VPC controlled via security groups
+    - **Glue Studio**
+        - VIsual interface for ETL workflows, see DAGs
+        - overview, status, job run times
+    - **Data Quality**
+        - evaluate data quality step in DAG
+    - Data Brew
+        - visual data prep tool, UI for pre\-processing large data sets
+    - Elastic Views
+        - builds materialized views from Aurora, RDS, DDB, serverless
+- Lake Formation
+    - set up a secure data lake
+    - built on top of Glue, can do everything that Glue does
+- AWS Security Lake
+    - centralized & normalizes security data
+- **Batch**
+    - run batch jobs as Docker images
+    - non\-ETL work
+- **step functions**
+    - design workflows, e.g. manage a batch job, a pipeline to train a ML model, has visualizations of DAG
+- EMR
+    - AWS EMR [https://youtu.be/v9nk6mVxJDU](https://youtu.be/v9nk6mVxJDU) 
+        - can get to Spark history server from AWS console
+        - master node, core node \(task \+ HDFS\), task node \(no HDFS\)
+    - AWS EMR Studio [https://youtu.be/rZ3zeJ6WKPY](https://youtu.be/rZ3zeJ6WKPY) 
+        - Provision EMR cluster from JupyerLab
+        - Connect to git repo from JupyterLab
+    - cluster of EC2 instances, transient or long running clusters, supports HDFS / S3
+        - auto scaling \(older\)
+        - managed scaling \(newer\)
+            - scales spot, on\-demand, permanent instances
+            - transient vs long\-running clusters
+        - **EMR Serverless** now available
+        - EMR on AWS EKS: submit Spark job on EKS without provisioning clusters
+    - **EMR Notebook**
+        - provision clusters from the notebook
+        - notebooks backed up to S3
+        - hosted inside VPC
+        - accessible only via AWS console
+        - like zeppelin, but more AWS integration
+    - EMR apps
+        - Hadoop
+        - Spark
+            - spark\-redshift package allows for datasets from Redshift
+            - **Athena for Spark**
+                - run Jupyter notebooks with Spark within Athena console
+                - serverless
+        - HBase \(GCP Bigtable\)
+            - similar to DDB, AWS native use DDB
+        - Presto \(AWS Athena\)
+            - petabyte scale queries
+        - Flink
+        - Hive: write SQL on top of Hadoop, uses Hive Metastore \(MySQL\)
+        - Pig: pig latin scripting language to define map reduce steps \(SQL like language\)
+        - Hue: Hadoop User Experience
+            - UI for apps on your EMR cluster
+        - Ganglia: monitor EMR cluster
+        - Splunk
+            - analyze machine data like EMR data
+        - Flume
+            - stream log data into Hadoop / EMR cluster
+        - EMR supports tensorflow / keras, MXNet, GPU for deep learning
+- Data Pipeline
+    - move data between AWS services like S3, EMR, RDS, DDB
+- kinesis data analytics
+    - **Real Time Analytics on AWS**
+        - **Kinesis Data Analytics \(using SQL [https://docs.aws.amazon.com/kinesisanalytics/latest/dev/what\-is.html](https://docs.aws.amazon.com/kinesisanalytics/latest/dev/what-is.html) \) \-\-\> kinesis data stream \-\-\> redis \-\-\> AWS quicksight dashboard, etc.**
+    - **Kinesis Data Analytics is managed Apache Flink** [https://youtu.be/xu3A\_7DcRgQ](https://youtu.be/xu3A_7DcRgQ)
+        - **still uses low level map reduce on streams like Apache Beam**
+        - has autoscaling
+    - **Kinesis Data Analytics Studio** [https://youtu.be/m6HGLzL\-NGc](https://youtu.be/m6HGLzL-NGc)
+        - use python, SQL, scala; zeppelin notebooks
+        - streaming data that must usually be processed sequentially and incrementally on a record\-by\-record basis or over **sliding time windows**, and can be used for a variety of analytics including **correlations, aggregations, filtering, and sampling.**
+        - [https://aws.amazon.com/blogs/aws/introducing\-amazon\-kinesis\-data\-analytics\-studio\-quickly\-interact\-with\-streaming\-data\-using\-sql\-python\-or\-scala/](https://aws.amazon.com/blogs/aws/introducing-amazon-kinesis-data-analytics-studio-quickly-interact-with-streaming-data-using-sql-python-or-scala/)
+            - [https://youtu.be/tDO1QDSpC28](https://youtu.be/tDO1QDSpC28) 
+            - Create Kinesis Data Stream: input\_stream
+                - create python file to randomly generate data to the input\_stream, uses boto3
+                - run python file: python3 my\_input\_[stream.py](http://stream.py)
+            - can refer to stream generation and stream analytics python files while setting up kinesis data analytics
+            - in KDA Studio, create Zeppelin notebook
+                - %flink.ssql cell: create AWS Glue table that accumulates data from kinesis data stream input\_stream
+                    - can query this table in zeppelin notebook using SQL: window queries, aggregates, etc.
+                - %flink.ssql cell: create AWS Glue table that appends windowed / aggregates from above SQL query
+                    - this aggregate\_state table can be connected to an output\_stream kinesis data stream \(for dumpage into redis \-\> BI dashboard\)
+                    - need separate INSERT INTO aggregate\_state table SQL statement in another notebook cell
+                - **You can deploy this notebook as a Kinesis Analytics application**
+                    - can see the application from the Kinesis Data Analytics applications console: 
+    - AWS Managed Kafka with KDA [https://youtu.be/hxUDyVnJzfA](https://youtu.be/hxUDyVnJzfA)
+    - use cases
+        - streaming ETL: select columns, make simple transformations on streaming data
+        - continuous metric generation: e.g. live leaderboard for a game
+        - real time alerts
+    - DA fed by kinesis data streams / data firehose
+    - different from ETL using serverless Glue ETL streams
+        - KDA is serverless as well
+    - ML on streaming data
+        - RANDOM\_CUT\_FOREST: anomaly detection in a stream
+- opensearch service \(formerly elasticsearch\)
+    - petabyte scale log analysis DB
+        - text search engine
+        - analysis tool: log analytics
+        - kibana dashboard
+    - opensearch: fork of elasticsearch and kibana
+        - managed service, serverless service available
+- Athena
+    - serverless SQL queries of petabytes S3, presto underneath
+    - structured, semi\-structured, unstructured
+    - notebook, quicksight integration
+    - use parquet, ORC columnar file formats
+        - note Microsoft Fabric does this by default
+    - Athena ACID transactions, time travel: powered by Apache Iceberg
+        - Note Delta lake supports ACID transaction by default
+- Redshift
+    - MPP based off of postgres
+        - elastic resize, classic resize
+        - GIS support
+        - AQUA: advanced query accelerator, speeds up queries
+    - table distribution
+        - AUTO, EVEN, KEY, ALL
+        - sort key based on column
+            - single, compound, interleaved
+        - vacuum: clean up space
+    - data ingest
+        - batch copy
+        - Aurora auto replication to Redshift
+        - kinesis data streams, MSK streaming ingest
+        - dblink sync data with postgres
+    - Redshift Spectrum
+        - query exabytes S3 inside of Redshift, don't use Athena
+    - Redshift Work Load Management
+        - prioritize short, fast queries vs long, slow queries
+        - also has Short Query Acceleration \(SQA\)
+    - **Redshift ML**
+        - like Bigquery ML: do ML models in redshift using SQL
+    - **Redshift Serverless**
+        - to compete with Snowflake, etc.
+- RDS: OLTP databases
+    - Aurora: 64 TB max
+    - mysql
+    - postgresql
+    - mariadb
+    - oracle
+    - SQL server
+- Quicksight
+    - native integration with AWS data: redshift, aurora, athena, etc.
+        - data sets imported into SPICE \(Super\-fast Parallel In\-memory Calculation Engine\): queries on large dataset fast
+    - has ML algos
+    - Quicksight Q: NLP prompts for quicksight
+    - Paginated Reports: reports to be printed
+- Security
+    - encryption in flight \(TLS / SSL\)
+    - server side encryption at rest
+        - SSE\-S3: encryption managed by AWS
+        - SSE\-KMS: Key Management Service, customer access keys provided by AWS
+        - SS3\-C: customer owns keys
+    - client side encryption
+- AppSync
+    - creates GraphQL API on top of DDB / Aurora, etc.
+- AWS Data exchange
+    - third party data exchange
+- AWS clean rooms
+    - share data with third parties
+- **Appflow**
+    - AWS version of Fivetran
+- Machine Learning / Sagemaker / Deep Learning
+    - see [https://www.udemy.com/course/aws\-machine\-learning/](https://www.udemy.com/course/aws-machine-learning/)  for updated information
+- Not covered in this course
+    - MWAA \- managed Airflow
+        - [https://youtu.be/ZET50M20hkU](https://youtu.be/ZET50M20hkU)
+        - GCP Cloud Composer Managed Airflow has nicer interface
+    - AWS EKS
+        - [https://youtu.be/aZd0UolVwD4](https://youtu.be/aZd0UolVwD4) 

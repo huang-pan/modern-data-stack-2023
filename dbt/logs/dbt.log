@@ -1,0 +1,27 @@
+
+
+============================== 2023-03-09 23:56:13.735176 | 85e89c33-53e7-44be-953c-9593a64ae625 ==============================
+[0m23:56:13.735176 [info ] [MainThread]: Running with dbt=1.4.4
+[0m23:56:13.736797 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/huangpan/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m23:56:13.737150 [debug] [MainThread]: Tracking: tracking
+[0m23:56:13.754570 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cd4b7f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cd1f880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cd54ac0>]}
+[0m23:56:35.908634 [debug] [MainThread]: Starter project path: /Users/huangpan/Documents/udemy/dbt/venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m23:59:04.805910 [info ] [MainThread]: Profile dbtlearn written to /Users/huangpan/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:59:04.806757 [info ] [MainThread]: 
+Your new dbt project "dbtlearn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:59:04.807333 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cd4b7f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cd54ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cd446a0>]}
+[0m23:59:04.807905 [debug] [MainThread]: Flushing usage events

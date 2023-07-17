@@ -1,0 +1,729 @@
+# GCP Machine Learning Engineer
+
+Google Developers Profile: [https://developers.google.com/profile/u/huangpan](https://developers.google.com/profile/u/huangpan)
+
+GCP Machine Learning Engineer Learning Path
+
+- [https://www.cloudskillsboost.google/paths/17](https://www.cloudskillsboost.google/paths/17)
+    - [https://www.coursera.org/professional\-certificates/preparing\-for\-google\-cloud\-machine\-learning\-engineer\-professional\-certificate](https://www.coursera.org/professional-certificates/preparing-for-google-cloud-machine-learning-engineer-professional-certificate)?=
+    - Completed parts of learning path that are relevant to MLOps, each course a combination of lectures, quizzes, and labs
+    - Labs are the most important part \- gives practical hands on experience with GCP's services. 
+    - I went through all videos and quizzes in the courses. I skipped the data science labs in the interest of time, and focused on the MLOps related labs.
+    - Keras Core [https://www.linkedin.com/posts/imohitmayank\_deeplearning\-tensorflow\-pytorch\-activity\-7084582463204638720\-NfHr/](https://www.linkedin.com/posts/imohitmayank_deeplearning-tensorflow-pytorch-activity-7084582463204638720-NfHr/)
+        - With "Keras Core", you write DL code once and make it work for TensorFlow, PyTorch, and JAX\!
+        - Automatically selects the best backend based on model and GPU \-\- While JAX typically delivers the best training and inference performance on GPU, TPU, and CPU — but non\-XLA TensorFlow is occasionally faster on GPU.
+- Learning path completion badges:
+    - How Google Does Machine Learning
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4222516](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4222516) 
+    - Launching into Machine Learning
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4223005](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4223005) 
+    - TensorFlow on Google Cloud
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4232587](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4232587) 
+    - Feature Engineering
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4233166](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4233166) 
+    - Machine Learning in the Enterprise
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4259057](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4259057) 
+    - Production Machine Learning Systems
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4233637](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4233637) 
+    - Machine Learning Operations \(MLOps\): Getting Started
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4243516](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4243516) 
+    - ML Pipelines on Google Cloud
+        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/4271248](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4271248) 
+    - Natural Language Processing on Google Cloud
+        - Completed all videos & quizzes for this course as it is related to Google's Generative AI learning path: [https://www.cloudskillsboost.google/journeys/118](https://www.cloudskillsboost.google/journeys/118) 
+            - skipped the labs, will revisit if I need to do a NLP project
+    - Computer Vision Fundamentals with Google Cloud
+        - Mainly skipped this course, will revisit if it I work on a computer vision project
+    - Recommendation Systems on Google Cloud
+        - Mainly skipped this course, will revisit if it I work on a recommendation project
+    - Build and Deploy Machine Learning Solutions on Vertex AI
+        - all labs: SKIPPED, redundant, effort not worth the knowledge / experienced gained \(for now\)
+- Summary
+    - Great intro course on machine learning using GCP services. There is a huge focus on Deep Learning with GCP that is not available on AWS and Azure. GCP has specialized ASICs: Tensor Processing Units TPUs.
+    - Completed parts of learning path that are relevant to MLOps, everything else is background knowledge. I went through all videos and quizzes in the courses. I skipped the data science labs in the interest of time, and focused on the MLOps related labs.
+- How Google Does Machine Learning
+    - Intro to ML, very basic
+    - Intro to Vertex AI
+        - AutoML, Notebooks, best practices
+    - **Vertex AI: nice data science development environment, I like it better than AWS Sagemaker \(it's more sophisticated\)**
+        - Model Garden, similar to Hugging Face
+        - Workbench: notebook collaboration
+        - Pipelines
+        - Generative AI studio
+            - played around with Gen AI studio since Gen AI studio Lab doesn't have it anymore, similar to chatgpt, but not as good
+        - Feature Store
+        - Datasets
+        - Labeling tasks
+        - Model Training
+        - Model Experiments
+            - **Vertex AI Experiments is for Tensorflow ONLY\!\!\! NOT GENERAL PURPOSE\!\!\!**
+        - Model Metadata
+        - Model Registry \(Deployment\)
+        - Online prediction \(Deployment\)
+        - Batch predictions \(Deployment\)
+        - Matching Engine
+    - Labs
+        - Not getting much value from labs
+        - Using an Image Dataset to Train an AutoML Model
+            - Vertex AI
+                - Dataset import from Cloud Storage
+                - Model Registry \-\-\> Model Training
+                    - train model
+                - deploy to endpoint: online predictions
+                    - test model after deployment
+            - Lab takes a long time to import data, train the model, and deploy to endpoint
+        - Training an AutoML Video Classification Model
+            - Vertex AI
+                - model registry
+                    - model version
+                        - evaluation
+                            - PR curve, F1 score, confusion matrix
+                - deploy to endpoint: batch predictions
+                    - view results: test model after deployment
+        - Vertex AI Model Builder SDK: Training and Making Predictions on an AutoML Model
+            - Vertex AI
+                - Workbench: python 3, tensorflow, pytorch
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/how\_google\_does\_ml/solutions/automl\-tabular\-classification.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/how_google_does_ml/solutions/automl-tabular-classification.ipynb) 
+                - Create a Vertex AI model training job.
+                - Train an AutoML tabular model.
+                - Deploy the `model` resource to a serving `endpoint` resource.
+                - Make a prediction by sending data.
+                - Undeploy the `model` resource.
+- Launching into Machine Learning
+    - data cleaning, EDA, building models, model metrics
+    - Labs
+        - Not getting much value from labs: did stuff like this before for Shift, T2AM \- it's just review; current focus in data engineering, not data science
+            - basic EDA can now be done by ChatGPT code interpreter, etc.
+            - **the important thing is to figure out how everything can be broken down into a pipeline and orchestrated by Dagster, etc.**
+        - Improving Data Quality
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/launching\_into\_ml/solutions/improve\_data\_quality.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/launching_into_ml/solutions/improve_data_quality.ipynb)
+                - Resolve missing values
+                - Convert the Date feature column to a datetime format
+                - Rename a feature column, remove a value from a feature column
+                - Create one\-hot encoding features
+                - Understand temporal feature conversions
+        - Exploratory Data Analysis Using Python and BigQuery
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/launching\_into\_ml/solutions/python.BQ\_explore\_data.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/launching_into_ml/solutions/python.BQ_explore_data.ipynb) 
+                - Analyze a Pandas Dataframe
+                - Create Seaborn plots for Exploratory Data Analysis in Python
+                - Write a SQL query to pick up specific fields from a BigQuery dataset
+                - Exploratory Analysis in BigQuery
+        - Introduction to Linear Regression
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/launching\_into\_ml/solutions/intro\_linear\_regression.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/launching_into_ml/solutions/intro_linear_regression.ipynb) 
+                - Analyze a Pandas Dataframe.
+                - Create Seaborn plots for Exploratory Data Analysis.
+                - Train a Linear Regression Model using Scikit\-Learn.
+        - Training an AutoML Classification Model \- Structured Data
+            - **nice introduction to GCP AutoML**
+            - Create a dataset and train an AutoML classification model.
+            - Deploy a model and request a prediction.
+                - model explainability
+        - Using BigQuery ML to Predict Penguin Weight
+            - Don't like using SQL for model prediction / training: prefer python
+            - Create a linear regression model using the `CREATE MODEL` statement with BigQuery ML.
+            - Evaluate the ML model with the `ML.EVALUATE` function.
+            - Make predictions using the ML model with the `ML.PREDICT` function.
+        - Using the BigQuery ML **Hyperparameter Tuning** to Improve Model Performance
+            - Create a linear regression model using the `CREATE MODEL` statement with the `num_trials` set to 20.
+            - Check the overview of all 20 trials using the `ML.TRIAL_INFO` function.
+            - Evaluate the ML model using the `ML.EVALUATE` function.
+            - Make predictions using the ML model and `ML.PREDICT` function.
+- TensorFlow on Google Cloud
+    - Intro to TensorFlow / Keras. There is a huge focus on Deep Learning with GCP that is not available on AWS and Azure. GCP has specialized ASICs: Tensor Processing Units TPUs.
+    - Vertex AI has a training service that allows you to train at scale
+    - **the important thing is to figure out how everything can be broken down into a pipeline and orchestrated by Dagster, etc.**
+    - Labs
+        - Training Neural Networks is new to me, but just good background info to have; my main function is data engineering \- have to focus on the MLOps portion of ML
+        - TensorFlow Dataset API
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/introduction\_to\_tensorflow/solutions/2\_dataset\_api.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/introduction_to_tensorflow/solutions/2_dataset_api.ipynb) 
+                - Learn how to use [tf.data](http://tf.data) to read data from memory
+                - Learn how to use [tf.data](http://tf.data) in a training loop
+                - Learn how to use [tf.data](http://tf.data) to read data from disk
+                - Learn how to write production input pipelines with feature engineering \(batching, shuffling, etc.\)
+                    - preprocessing: transform training dataset
+                    - batch size: split training data into batches
+                    - shuffle: shuffle training data inside the batches
+            - [https://stackoverflow.com/questions/41175401/what\-is\-a\-batch\-in\-tensorflow](https://stackoverflow.com/questions/41175401/what-is-a-batch-in-tensorflow)
+                - **batch**, aka mini\-batch: number of sets of training data you feed NN at a time; train in parallel on GPUs
+                - But try not to use large batch sizes since it will overfit the data. People commonly use mini\-batch sizes of `32, 64, 128, 256, 512, 1024, 2048`
+            - [https://stackoverflow.com/questions/40069524/what\-is\-an\-epoch\-in\-tensorflow](https://stackoverflow.com/questions/40069524/what-is-an-epoch-in-tensorflow)
+                - An **epoch**, in Machine Learning, is the entire processing by the learning algorithm of the entire train\-set.
+                - The MNIST train set is composed by 55000 samples. Once the algorithm processed all those 55000 samples an epoch is passed.
+                - The number of epochs is how many times the algorithm is going to run.
+            - [https://machinelearningmastery.com/understand\-the\-dynamics\-of\-learning\-rate\-on\-deep\-learning\-neural\-networks/](https://machinelearningmastery.com/understand-the-dynamics-of-learning-rate-on-deep-learning-neural-networks/)
+                - Deep learning neural networks are trained using the stochastic gradient descent optimization algorithm.
+                - The **learning rate** is a hyperparameter that controls how much to change the model in response to the estimated error each time the model weights are updated. 
+                    - Choosing the learning rate is challenging as a value **too small** may result in a long training process that could get stuck, 
+                    - whereas a value **too large** may result in learning a sub\-optimal set of weights too fast or an unstable training process.
+        - Classifying Structured Data using Keras Preprocessing Layers
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/introduction\_to\_tensorflow/solutions/preprocessing\_layers.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/introduction_to_tensorflow/solutions/preprocessing_layers.ipynb)
+                - Load a CSV file using [Pandas](https://pandas.pydata.org/).
+                - Build an input pipeline to batch and shuffle the rows using [tf.data](https://www.tensorflow.org/guide/datasets).
+                - Map from columns in the CSV to features used to train the model using Keras Preprocessing layers.
+                    - `Normalization` \- Feature\-wise normalization of the data.
+                    - `CategoryEncoding` \- Category encoding layer.
+                    - `StringLookup` \- Maps strings from a vocabulary to integer indices.
+                    - `IntegerLookup` \- Maps integers from a vocabulary to integer indices.
+                    - [https://www.tensorflow.org/api\_docs/python/tf/keras/layers/experimental/preprocessing](https://www.tensorflow.org/api_docs/python/tf/keras/layers/experimental/preprocessing) 
+                - Build, train, and evaluate a model using Keras.
+                    - **still no automated feature selection for model: but there are automated feature selection libraries out there:**
+                        - [https://datascience.stackexchange.com/questions/108370/automated\-feature\-selection\-packages\-python](https://datascience.stackexchange.com/questions/108370/automated-feature-selection-packages-python)
+                        - [https://danilzherebtsov.medium.com/automatic\-feature\-selection\-in\-python\-f72ec69215fe](https://danilzherebtsov.medium.com/automatic-feature-selection-in-python-f72ec69215fe)
+                        - [https://towardsdatascience.com/automatic\-feature\-selection\-and\-creating\-highly\-interpretable\-models\-with\-auto\-viml\-70356937d74b](https://towardsdatascience.com/automatic-feature-selection-and-creating-highly-interpretable-models-with-auto-viml-70356937d74b)
+                        - mimics what DataRobot does at the sub\-model level
+            - Tensorflow vs Keras
+                - Keras functions as a wrapper to TensorFlow’s framework. Thus, you can define a model with Keras’ interface, which is easier to use, then drop down into TensorFlow when you need to use a feature that Keras doesn’t have, or you’re looking for specific TensorFlow functionality. Thus, you can place your TensorFlow code directly into the Keras training pipeline or model.
+                - The [Keras sequential API](https://keras.io/models/sequential/) allows you to create Tensorflow models layer\-by\-layer. This is useful for building most kinds of machine learning models but it does not allow you to create models that share layers, re\-use layers or have multiple inputs or outputs.
+                - [https://www.guru99.com/tensorflow\-vs\-keras.html](https://www.guru99.com/tensorflow-vs-keras.html) 
+                - [https://stackoverflow.com/questions/57273888/keras\-vs\-tensorflow\-code\-comparison\-sources](https://stackoverflow.com/questions/57273888/keras-vs-tensorflow-code-comparison-sources) 
+                    - **code example TF vs Keras**
+        - Introducing the Keras Sequential API on Vertex AI Platform
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/introduction\_to\_tensorflow/solutions/3\_keras\_sequential\_api.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/introduction_to_tensorflow/solutions/3_keras_sequential_api.ipynb) 
+                - Build a DNN model using the Keras Sequential API
+                - Learn how to use feature columns in a Keras model
+                - Learn how to train a model with Keras
+                - Learn how to save/load, and deploy a Keras model **on GCP**
+                - Learn how to deploy and make predictions with the Keras model
+                    - Vertex AI Model Registry
+                    - Vertex AI Endpoint
+                        - takes a while to deploy
+        - Build a DNN using the Keras Functional API
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/art\_and\_science\_of\_ml/solutions/neural\_network.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/art_and_science_of_ml/solutions/neural_network.ipynb)
+                - Review how to read in CSV file data using [tf.data](http://tf.data).
+                - Specify input, hidden, and output layers in the DNN architecture.
+                - Review and visualize the final DNN shape.
+                - Train the model locally and visualize the loss curves.
+                - Deploy and predict with the model using Cloud AI Platform.
+        - Making New Layers and Models via Subclassing
+            - This lab is a little too detailed for me at the moment as I'm focusing on data engineering.
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/introduction\_to\_tensorflow/solutions/custom\_layers\_and\_models.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/introduction_to_tensorflow/solutions/custom_layers_and_models.ipynb) 
+                - Use Layer class as the combination of state \(weights\) and computation.
+                - Defer weight creation until the shape of the inputs is known.
+                - Build recursively composable layers.
+                - Compute loss using add\_loss\(\) method.
+                - Compute average using add\_metric\(\) method.
+                - Enable serialization on layers.
+        - Training at Scale with Vertex AI Training Service
+            - This lab is a little too detailed for me at the moment; will revisit if I actually need to do it
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/introduction\_to\_tensorflow/solutions/1\_training\_at\_scale\_vertex.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/introduction_to_tensorflow/solutions/1_training_at_scale_vertex.ipynb)
+                - Learn how to organize your training code into a Python package.
+                - Train your model using cloud infrastructure via Google Cloud Training Service.
+                - \(optional\) Learn how to run your training package using Docker containers and push training Docker images on a Docker registry.
+- Feature Engineering
+    - Intro to Vertex AI Feature Store
+        - serving features: batch and online
+    - Intro to feature engineering
+        - feature crosses
+    - Intro to TensorFlow Transform
+    - **Tensorflow Playground**
+    - Labs
+        - Using Feature Store
+            - **Featurestore Data model**
+                - Feature Store organizes data with the following 3 important hierarchical concepts:
+                    - Featurestore \-\> EntityType \-\> Feature
+                    - can query for Feature in FeatureStore
+                    - Ingestion Jobs: from BigQuery / Cloud Storage
+                    - Can serve up features
+                        - **online serving**
+                        - **Batch Serving Jobs**
+                - **Featurestore**: the place to store your features
+                - **EntityType**: under a Featurestore, an _EntityType_ describes an object to be modeled, real one or virtual one.
+                - **Feature**: under an EntityType, a _feature_ describes an attribute of the EntityType
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/feature\_engineering/solutions/6\_gapic\_feature\_store.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/feature_engineering/solutions/6_gapic_feature_store.ipynb)
+                - Import your features into Feature Store.
+                - Serve online prediction requests using the imported features.
+                    - The [Online Serving APIs](https://cloud.google.com/vertex-ai/docs/featurestore/serving-online) lets you serve feature values for small batches of entities. It's designed for latency\-sensitive service, such as online model prediction. For example, for a movie service, you might want to quickly shows movies that the current user would most likely watch by using online predictions.
+                    - The ReadFeatureValues API is used to read feature values of one entity; hence its custom HTTP verb is `readFeatureValues`. By default, the API will return the latest value of each feature, meaning the feature values with the most recent timestamp.
+                    - To read feature values, specify the entity ID and features to read. The response contains a `header` and an `entity_view`. Each row of data in the `entity_view` contains one feature value, in the same order of features as listed in the response header.
+                    - To read feature values from multiple entities, use the StreamingReadFeatureValues API, which is almost identical to the previous ReadFeatureValues API. Note that fetching only a small number of entities is recommended when using this API due to its latency\-sensitive nature.
+                - Access imported features in offline jobs, such as training jobs.
+                    - Batch Serving is used to fetch a large batch of feature values for high\-throughput, typically for training a model or batch prediction. In this section, you will learn how to prepare for training examples by calling the BatchReadFeatureValues API.
+                    - **The task** is to prepare a training dataset to train a model, which predicts if a given user will watch a given movie. To achieve this, you need 2 sets of input:
+                    - Features: you already imported into the featurestore.
+                    - Labels: the groud\-truth data recorded that user X has watched movie Y.
+                    - To be more specific, the ground\-truth observation is described in Table 1 and the desired training dataset is described in Table 2. Each row in Table 2 is a result of joining the imported feature values from Feature Store according to the entity IDs and timestamps in Table 1. In this example, the `age`, `gender` and `liked_genres` features from `users` and the `genres` and `average_rating` features from `movies` are chosen to train the model. Note that only positive examples are shown in these 2 tables, i.e., you can imagine there is a label column whose values are all `True`.
+                    - BatchReadFeatureValues API takes Table 1 as input, joins all required feature values from the featurestore, and returns Table 2 for training. The output is stored in a BigQuery table.
+        - **the important thing is to figure out how everything can be broken down into a pipeline and orchestrated by Dagster, etc.**
+        - Performing Basic Feature Engineering in BQML
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/feature\_engineering/solutions/1\_bqml\_basic\_feat\_eng.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/feature_engineering/solutions/1_bqml_basic_feat_eng.ipynb)
+                - Create SQL statements to evaluate the model
+                - Extract temporal features
+                - Perform a feature cross on temporal features using CONCAT
+        - Performing Advanced Feature Engineering in BQML
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/feature\_engineering/solutions/2\_bqml\_adv\_feat\_eng.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/feature_engineering/solutions/2_bqml_adv_feat_eng.ipynb)
+                - Evaluate the model
+                - Extract temporal features, feature cross temporal features
+                - Apply ML.FEATURE\_CROSS to categorical features
+                - Create a Euclidian feature column, feature cross coordinate features
+                - Apply the BUCKETIZE function, TRANSFORM clause, L2 Regularization
+        - Performing Basic Feature Engineering in Keras
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/feature\_engineering/solutions/3\_keras\_basic\_feat\_eng.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/feature_engineering/solutions/3_keras_basic_feat_eng.ipynb)
+                - Create an input pipeline using [tf.data](http://tf.data).
+                - Engineer features to create categorical, crossed, and numerical feature columns.
+        - Performing Advanced Feature Engineering in Keras
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/feature\_engineering/solutions/4\_keras\_adv\_feat\_eng.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/feature_engineering/solutions/4_keras_adv_feat_eng.ipynb)
+                - Process temporal feature columns in Keras.
+                - Use Lambda layers to perform feature engineering on geolocation features.
+                - Create bucketized and crossed feature columns.
+        - Exploring tf.transform
+            - While Pandas is fine for experimenting, for operationalization of your workflow it is better to do preprocessing in Apache Beam. This will also help if you need to preprocess data in flight, since Apache Beam allows for streaming. In this lab we will pull data from BigQuery then use Apache Beam TfTransform to process the data.
+            - **tf.transform** allows users to define preprocessing pipelines and run these using large scale data processing frameworks, while also exporting the pipeline in a way that can be run as part of a TensorFlow graph.
+                - **you can have an Apache Beam pipeline inside a tf transform\!**
+                    - **pipelines can write to / read from feature store**
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/feature\_engineering/solutions/5\_tftransform\_taxifare.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/feature_engineering/solutions/5_tftransform_taxifare.ipynb)
+                - Preprocess data and engineer new features using TfTransform.
+
+```
+def create_query(phase, EVERY_N):
+    base_query = """
+    WITH daynames AS ...
+    FROM
+    `nyc-tlc.yellow.trips`, daynames
+    WHERE
+    trip_distance > 0 AND fare_amount > 0
+    """
+    if EVERY_N is None:
+        if phase < 2:
+            # training
+            query = """{0} AND ABS(MOD(FARM_FINGERPRINT(CAST
+            (pickup_datetime AS STRING), 4)) < 2""".format(base_query)
+        else:
+            query = """{0} AND ABS(MOD(FARM_FINGERPRINT(CAST(
+            pickup_datetime AS STRING), 4)) = {1}""".format(base_query, phase)
+    else:
+        query = """{0} AND ABS(MOD(FARM_FINGERPRINT(CAST(
+        pickup_datetime AS STRING)), {1})) = {2}""".format(
+            base_query, EVERY_N, phase)
+    return query
+```
+
+                - Create and deploy Apache Beam pipeline to **Dataflow Job**
+                - Use processed data to train taxifare model locally then serve a prediction.
+- Machine Learning in the Enterprise
+    - Enterprise ML tools
+        - Feature Store
+        - Data Catalog
+        - Intro to Vertex AI custom model training
+        - Vertex AI Vizier hyperparameter tuning
+        - Vertex AI model management, predictions, model monitoring
+        - Vertex AI pipelines
+    - **Dataplex**
+        - GCP's integrated analytics hub, like Microsoft Fabric, but not as comprehensive
+    - **Analytics Hub**
+        - exchange data, models with third parties
+        - like AWS data exchange service
+    - Labs
+        - Exploring and Creating an Ecommerce Analytics Pipeline with Trifacta Cloud Dataprep v1.5
+            - Visually do what data engineers would naturally do in SQL / python: more for analysts
+            - Connect BigQuery datasets to Cloud Dataprep
+            - Explore dataset quality with Cloud Dataprep
+                - **Sort of like Sigma Computing**
+            - Create a data transformation pipeline with Cloud Dataprep
+            - Schedule transformation jobs outputs to BigQuery
+        - Vertex AI: Custom Training Job and Prediction Using Managed Datasets
+            - Vertex AI Datasets: Create a dataset for tabular data.
+            - Vertex AI Training: Create a training package with custom code using Notebooks.
+                - **custom training .py file**: loads data from bigquery, cleans / preps data, feature engineering, trains a linear SVM classifier
+            - Vertex AI Model Registry \-\> Online Predictions Deployment: Deploy the trained model and get online predictions.
+                - **An endpoint can have multiple models and you can decide how to split the traffic among them.** In this case you are deploying a single model so the traffic has to be `100` percent.
+        - **Vertex Vizier: Hyperparameter Tuning**
+            - Modify training application code for hyperparameter tuning.
+            - Launch a hyperparameter tuning job from the Vertex AI UI.
+        - Using Vertex Vizier to Optimize Multiple Objectives
+            - Multi\-objective optimization is concerned with mathematical optimization problems involving more than one objective function to be optimized simultaneously.
+            - **Vertex AI Vizier is a black\-box optimization service that helps tune hyperparameters** in complex machine learning \(ML\) models. When ML models have many different hyperparameters, it can be difficult and time consuming to tune them manually. Vertex AI Vizier optimizes your model's output by tuning the hyperparameters for you. 
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/machine\_learning\_in\_the\_enterprise/solutions/gapic\-vizier\-multi\-objective\-optimization.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/machine_learning_in_the_enterprise/solutions/gapic-vizier-multi-objective-optimization.ipynb) 
+                - The goal is to **minimize** the objective metric:
+                    - y1 = r\*sin\(theta\)
+                - and simultaneously **maximize** the objective metric:
+                    - y2 = r\*cos\(theta\)
+                - that you will evaluate over the parameter space:
+                    - r in \[0,1\],
+                    - theta in \[0, pi/2\]
+        - Vertex SDK: Custom Training Tabular Regression Models for Online Prediction and Explainability
+            - In this lab, you learn how to create a custom model from a Python script in a Google prebuilt Docker container using the Vertex SDK, and then do a prediction with explanations on the deployed model by sending data. You can alternatively use the Google Cloud CLI or the Google Cloud Console to create custom models
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/machine\_learning\_in\_the\_enterprise/solutions/sdk\_custom\_tabular\_regression\_online\_explain.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/machine_learning_in_the_enterprise/solutions/sdk_custom_tabular_regression_online_explain.ipynb) 
+                - Create a Vertex custom job for training a model.
+                - Train a TensorFlow model: **VertexAI Training pipeline**
+                - Retrieve and load the model artifacts.
+                - View the model evaluation.
+                - Set explanation parameters.
+                    - **Shapley**
+                        - Assigns credit for the outcome to each feature, and considers different permutations of the features. This method provides a sampling approximation of exact Shapley values.
+                        - Use Cases:
+                            - Classification and regression on tabular data.
+                    - **Integrated Gradients**
+                        - A gradients\-based method to efficiently compute feature attributions with the same axiomatic properties as the Shapley value.
+                        - Use Cases:
+                            - Classification and regression on tabular data.
+                            - Classification on image data.
+                    - **XRAI**
+                        - Based on the integrated gradients method, XRAI assesses overlapping regions of the image to create a saliency map, which highlights relevant regions of the image rather than pixels.
+                        - Use Cases:
+                            - Classification on image data.
+                - Upload the model as a Vertex `Model` resource: **Vertex AI Model Registry**
+                - Deploy the `Model` resource to a serving `Endpoint` resource. **Vertex AI Online Prediction**
+                - Make a prediction with explanation.
+                - Undeploy the `Model` resource.
+        - Monitoring Vertex AI Model
+            - Modern applications rely on a well established set of capabilities to monitor the health of their services. Examples include:
+                - software **versioning**
+                - rigorous **deployment** processes
+                - event **logging**
+                - **alerting**/notification of situations requiring intervention
+                - on\-demand and automated diagnostic **tracing**
+                - automated performance and functional **testing**
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/machine\_learning\_in\_the\_enterprise/solutions/model\_monitoring.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/machine_learning_in_the_enterprise/solutions/model_monitoring.ipynb)
+                - Deploy a pre\-trained model.
+                - Configure model monitoring.
+                    - Now that you've created an endpoint to serve prediction requests on your model, you're ready to start a monitoring job to keep an eye on model quality and to alert you if and when input begins to deviate in way that may impact your model's prediction quality.
+                    - Configure the following fields:
+                        - Log sample rate \- Your prediction requests and responses are logged to BigQuery tables, which are automatically created when you create a monitoring job. This parameter specifies the desired logging frequency for those tables.
+                        - Monitor interval \- the time window over which to analyze your data and report anomalies. The minimum window is one hour \(3600 seconds\).
+                        - Target field \- the prediction target column name in training dataset.
+                        - **Skew detection threshold** \- the skew threshold for each feature you want to monitor.
+                        - **Prediction drift threshold** \- the drift threshold for each feature you want to monitor.
+                    - In the previous cells, you created a monitoring job using the Python client library. You can also use the _gcloud_ command line tool to create a model monitoring job and, **in the near future, you will be able to use the Cloud Console**, as well for this function.
+                - Generate some artificial traffic.
+                - Interpret the data reported by the model monitoring feature.
+                    - **model monitoring will send email / slack alerts**
+        - Introduction to Vertex Pipelines
+            - **Vertex AI Pipelines**: Use the **Kubeflow** Pipelines SDK to build scalable ML pipelines.
+                - Kubeflow pipeline is **configured** via a **JSON** file: kicks off **Vertex AI Training Jobs**
+                    - **if Kubeflow can do it, so can Dagster:** [https://dagster.io/blog/evolution\-iq\-case\-study](https://dagster.io/blog/evolution-iq-case-study) 
+            - Create and run a 3\-step intro pipeline that takes text input.
+                - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/machine\_learning\_in\_the\_enterprise/solutions/intro\_to\_vertex\_pipelines.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/machine_learning_in_the_enterprise/solutions/intro_to_vertex_pipelines.ipynb) 
+        - Running Pipelines on Vertex AI 2.5
+            - In this lab, you learn how to utilize Vertex AI Pipelines to execute a simple Kubeflow Pipeline SDK derived ML Pipeline.
+            - Set up the Project Environment
+            - Inspect and Configure Pipeline Code
+            - Execute the AI Pipeline
+- Production Machine Learning Systems
+    - Concerns of ML systems in production
+    - **Architecting ML Systems using Vertex AI**
+        - **the important thing is to figure out how everything can be broken down into a pipeline and orchestrated by Dagster, etc.**
+        - data extraction, analysis, preparation
+        - model training, evaluation, validation
+        - prediction service, performance monitoring
+    - adaptable ML systems
+        - drift, training\-serving skew
+    - high performance ML systems
+        - distributed training
+    - hybrid GCP / open source ML systems
+        - kubeflow
+    - Labs
+        - Structured data prediction using Vertex AI Platform
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/production\_ml/babyweight/train\_deploy.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/production_ml/babyweight/train_deploy.ipynb)
+                - Launch Vertex AI notebook instance
+                - Create a BigQuery Dataset and GCS Bucket
+                - Export from BigQuery to CSVs in GCS
+                - Training on Cloud AI Platform
+                    - **Vertex AI training: CPUs, GPUS, TPUS, etc. \(simple as changing one line of code to determine training type\)**
+                        - **DataProc: Spark**
+                - Deploy trained model
+        - Introduction to TensorFlow Data Validation
+            - TFDV can be used for generating schemas and statistics about the distribution of every feature in the dataset. Such information is useful for comparing multiple datasets \(e.g., training vs inference datasets\) and reporting.
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/production\_ml/solutions/tfdv\_basic\_spending.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/production_ml/solutions/tfdv_basic_spending.ipynb)
+                - Review TFDV methods.
+                - Generate statistics.
+                - Visualize statistics.
+                - **Infer a schema.**
+                - Update a schema.
+        - Advanced Visualizations with TensorFlow Data Validation
+            - looking at descriptive statistics, inferring a schema, checking for and fixing anomalies, and checking for drift and skew in our dataset.
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/production\_ml/solutions/tfdv\_advanced\_taxi.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/production_ml/solutions/tfdv_advanced_taxi.ipynb)
+                - Install TFDV
+                - Compute and visualize statistics
+                - Infer a schema
+                    - schema environments
+                - Check evaluation data for errors
+                - Check for evaluation anomalies and fix it
+                - Check for drift and skew
+                    - Drift
+                        - Drift detection is supported for categorical features and between consecutive spans of data \(i.e., between span N and span N\+1\), such as between different days of training data. We express drift in terms of L\-infinity distance, and you can set the threshold distance so that you receive warnings when the drift is higher than is acceptable. Setting the correct distance is typically an iterative process requiring domain knowledge and experimentation.
+                        - **data drift**: shift in model's input data distribution
+                        - **concept drift**: a shift in the relationship between model inputs and output
+                        - **prediction drift**: a shift in the model's predictions
+                        - **label drift**: a shift in the model's label distribution
+                    - Skew
+                        - TFDV can detect three different kinds of skew in your data \- schema skew, feature skew, and distribution skew.
+                        - **Schema Skew**
+                            - Schema skew occurs when the training and serving data do not conform to the same schema. Both training and serving data are expected to adhere to the same schema. Any expected deviations between the two \(such as the label feature being only present in the training data but not in serving\) should be specified through environments field in the schema.
+                        - **Feature Skew**
+                            - Feature skew occurs when the feature values that a model trains on are different from the feature values that it sees at serving time. For example, this can happen when:
+                            - A data source that provides some feature values is modified between training and serving time
+                            - There is different logic for generating features between training and serving. For example, if you apply some transformation only in one of the two code paths.
+                        - **Distribution Skew**
+                            - Distribution skew occurs when the distribution of the training dataset is significantly different from the distribution of the serving dataset. One of the key causes for distribution skew is using different code or different data sources to generate the training dataset. Another reason is a faulty sampling mechanism that chooses a non\-representative subsample of the serving data to train on.
+                - Freeze the schema
+        - Serving ML Predictions in Batch and Real Time
+            - Create a prediction service that calls your trained model deployed in Cloud to serve predictions.
+            - Run a Dataflow job to have the prediction service **read in batches from a CSV file and serve predictions**.
+                - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive/06\_structured/labs/serving/pipeline/src/main/java/com/google/cloud/training/mlongcp/BabyweightMLService.java](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive/06_structured/labs/serving/pipeline/src/main/java/com/google/cloud/training/mlongcp/BabyweightMLService.java)
+                - **have to manually kick off batch job on DataFlow**
+            - Run a streaming Dataflow pipeline to **read requests in real time from Pub/Sub and write predictions into a BigQuery table**.
+                - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive/06\_structured/labs/serving/pipeline/src/main/java/com/google/cloud/training/mlongcp/AddPrediction.java](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive/06_structured/labs/serving/pipeline/src/main/java/com/google/cloud/training/mlongcp/AddPrediction.java)
+                - **streaming job always running on Dataflow**
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/production\_ml/solutions/serving\_ml\_prediction.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/production_ml/solutions/serving_ml_prediction.ipynb)
+                - Copy trained model into your bucket
+                - Deploy AI Platform trained model
+            - Lab doesn't work; mvn not installed on JupyterLab
+        - Distributed Training with Keras
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/production\_ml/solutions/keras.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/production_ml/solutions/keras.ipynb)
+                - Define a distribution strategy and set an input pipeline.
+                    - The `tf.distribute.Strategy` API provides an abstraction for distributing your training across multiple processing units. The goal is to allow users to enable distributed training using existing models and training code, with minimal changes.
+                    - This notebook uses the `tf.distribute.MirroredStrategy`, which does **in\-graph replication with synchronous training on many GPUs on one machine**. Essentially, it copies all of the model's variables to each processor. Then, it uses [all\-reduce](http://mpitutorial.com/tutorials/mpi-reduce-and-allreduce/) to combine the gradients from all processors and applies the combined value to all copies of the model.
+                    - `MirroredStrategy` is one of several distribution strategy available in TensorFlow core. You can read about more strategies at [distribution strategy guide](https://raw.githubusercontent.com/tensorflow/docs/master/site/en/guide/distributed_training.ipynb).
+                - Create the Keras model.
+                - Define the callbacks.
+                    - _TensorBoard_: This callback writes a log for TensorBoard which allows you to visualize the graphs.
+                    - _Model Checkpoint_: This callback saves the model after every epoch.
+                    - _Learning Rate Scheduler_: Using this callback, you can schedule the learning rate to change after every epoch/batch.
+                - Train and evaluate the model.
+        - Distributed Training using GPUs on Cloud AI Platform
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/production\_ml/solutions/distributed\_training.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/production_ml/solutions/distributed_training.ipynb)
+                - Setting up the environment
+                - Create a model to train locally
+                - Train on **multiple GPUs/CPUs with MultiWorkerMirrored** Strategy
+        - TPU Speed Data Pipelines
+            - TPUs are very fast. The stream of training data must keep up with their training speed. In this lab, you will learn how to load data from GCS with the [tf.data.Dataset](http://tf.data.Dataset) API to feed your TPU.
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/courses/machine\_learning/deepdive2/production\_ml/solutions/tpu\_speed\_data\_pipelines.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive2/production_ml/solutions/tpu_speed_data_pipelines.ipynb)
+                - To use the [tf.data.Dataset](http://tf.data.Dataset) API to load training data.
+                - train model on TPU
+                - To use TFRecord format to load training data efficiently from Cloud Storage.
+        - Running Pipelines on Vertex AI 2.5
+            - In this lab, you learn how to utilize Vertex AI Pipelines to execute a simple Kubeflow Pipeline SDK derived ML Pipeline. 
+                - **Vertex AI Pipelines \(Kubeflow pipeline that runs ML steps\)** run in a serverless framework whereby pre\-compiled pipelines are deployed on\-demand or on a schedule.
+            - Set up the Project Environment
+            - Inspect and Configure Pipeline Code: example **Kubeflow pipeline**
+                - **can implement same pipeline in Dagster**
+            - Execute the AI Pipeline
+                - concat: **runs Vertex AI Training Job**
+                - reverse: **runs another Vertex AI Training Job**
+- Machine Learning Operations \(MLOps\): Getting Started
+    - **MlOps** on GCP Vertex AI [https://youtu.be/6gdrwFMaEZ0](https://youtu.be/6gdrwFMaEZ0)
+    - Labs
+        - Training and Deploying a TensorFlow Model in Vertex AI
+            - Lab goes through an entire ML pipeline
+            - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/self\-paced\-labs/vertex\-ai/vertex\-ai\-qwikstart/lab\_exercise\_long.ipynb](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/self-paced-labs/vertex-ai/vertex-ai-qwikstart/lab_exercise_long.ipynb)
+                - Train a TensorFlow model locally in a hosted [Vertex AI Workbench](https://cloud.google.com/vertex-ai/docs/general/notebooks?hl=sv).
+                - **Vertex AI Dataset and Vertex AI Metadata**
+                    - Create a [managed Tabular dataset](https://cloud.google.com/vertex-ai/docs/training/using-managed-datasets?hl=sv) artifact for experiment tracking.
+                    - **[Vertex AI managed datasets](https://cloud.google.com/vertex-ai/docs/datasets/prepare-tabular)** can be used to train AutoML models or custom\-trained models.
+                    - You create a **[Tabular regression dataset](https://cloud.google.com/vertex-ai/docs/datasets/bp-tabular)** for managing the sharing and **metadata** for this lab's dataset **stored in BigQuery**. Managed datasets enable you to create a clear link between your data and custom\-trained models, and provide descriptive statistics and automatic or manual splitting into train, test, and validation sets.
+                - Containerize your training code with **[Cloud Build](https://cloud.google.com/build)** and push it to **[Google Cloud Artifact Registry](https://cloud.google.com/artifact-registry)**.
+                - **Vertex AI Training**
+                    - Run a [Vertex AI custom training job](https://cloud.google.com/vertex-ai/docs/training/custom-training) with your custom model container.
+                - **Vertex AI Experiments**
+                    - **_Vertex AI Experiments is for Tensorflow ONLY\!\!\! NOT GENERAL PURPOSE\!\!\!_**
+                    - Vertex AI Experiments lets you track and compare machine learning experiments, which you can share with others.
+                        - To get started, create a Vertex AI TensorBoard instance to store and track your experiments. TensorBoard instances belong to a region and any experiments they store will belong to the same one
+                    - **[Vertex TensorBoard](https://cloud.google.com/vertex-ai/docs/experiments/tensorboard-overview)** is Google Cloud's managed version of open\-source **[TensorBoard](https://www.tensorflow.org/tensorboard)** for ML experimental visualization. With Vertex TensorBoard you can track, visualize, and compare ML experiments and share them with your team. In addition to the powerful visualizations from open source TensorBoard, Vertex TensorBoard provides:
+                    - A persistent, shareable link to your experiment's dashboard.
+                    - A searchable list of all experiments in a project.
+                    - Integrations with Vertex AI services for model training evaluation.
+                - Deploy your trained model to a **[Vertex Online Prediction Endpoint](https://cloud.google.com/vertex-ai/docs/predictions/getting-predictions)** for serving predictions.
+                - **[Vertex Explainable AI](https://cloud.google.com/vertex-ai/docs/explainable-ai)** integrates feature attributions into Vertex AI. 
+                    - Vertex Explainable AI helps you understand your model's outputs for classification and regression tasks. Vertex AI tells you how much each feature in the data contributed to the predicted result. You can then use this information to verify that the model is behaving as expected, identify and mitigate biases in your models, and get ideas for ways to improve your model and your training data.
+                    - Request an online prediction and explanation and see the response.
+- ML Pipelines on Google Cloud
+    - Tensorflow Extended **TFX: Google's Production ML Platform**
+        - integrated with Beam, Airflow, Kubeflow
+        - TFX Pipeline
+            - series of TFX \(data / model\) Components connected in a DAG
+        - TFX Orchestrators
+        - CI/CD for TFX pipeline workflows
+            - CT Continous Training
+    - containerizing pytorch, scikit, xgboost
+    - Kubeflow
+    - Cloud Composer: managed Airflow
+        - **CT using Airflow**
+    - Mlflow
+        - open source
+        - MLflow experiment tracking, projects, models, model registry
+    - Labs
+        - TFX Standard Components Walkthrough
+            - In this lab, you will work with the Covertype Data Set and use TFX to analyze, understand, and pre\-process the dataset and train, analyze, validate, and deploy a multi\-class classification model to predict the type of forest cover from cartographic features.
+                - AI Platform Pipeline \(Kubeflow\) \-\-\> Vertex AI Pipelines: Develop a high level understanding of TFX pipeline components.
+                    - **GCP Kubernetes Engine \(like a K8s UI\)**
+                        - Clusters
+                            - Deploy Kubeflow pipelines cluster to a K8s cluster
+                        - Workloads
+                            - Workloads are deployable units of computing that can be created and managed in a cluster.
+                        - Service & Ingress
+                            - Services are sets of Pods with a network endpoint that can be used for discovery and load balancing. 
+                            - Ingresses are collections of rules for routing external HTTP\(S\) traffic to Services.
+                        - Applications
+                            - Kubernetes Applications collect containers, services and configuration that are managed together
+                            - Deploy Kubeflow pipelines cluster to Kubernetes Engine Applications: kubeflow\-pipelines\-1
+                                - **AI Platform Pipeline \(old\) is deployed as a Kubeflow Pipeline on GCP Kubernetes Engine \(has own separate Kubeflow Pipelines dashboard\) vs. Vertex AI Pipeline \(new\) which is GCP native Kubeflow Pipeline**
+                                - **has an Kubeflow Pipelines dashboard**
+                                    - pipelines
+                                    - experiments
+                                    - runs / recurring runs
+                                    - artifacts
+                                    - executions
+                        - Secrets & ConfigMaps
+                            - Secrets are sensitive pieces of information, such as passwords, keys, and tokens. 
+                            - ConfigMaps are designed to store information that is not sensitive, such as environment variables, command\-line arguments, and configuration files.
+                        - Storage
+                            - Persistent volume claims are requests for storage of specific size and access mode.
+                - Learn how to use a TFX Interactive Context for prototype development of TFX pipelines.
+                - Work with the Tensorflow Data Validation \(TFDV\) library to check and analyze input data.
+                - Utilize the Tensorflow Transform \(TFT\) library for scalable data preprocessing and feature transformations.
+                - Employ the Tensorflow Model Analysis \(TFMA\) library for model evaluation.
+                    - Lab doesn't work and needs to be updated: python version mismatch
+            - [https://github.com/GoogleCloudPlatform/mlops\-on\-gcp/blob/master/workshops/tfx\-caip\-tf23/install.sh](https://github.com/GoogleCloudPlatform/mlops-on-gcp/blob/master/workshops/tfx-caip-tf23/install.sh)
+            - [https://github.com/GoogleCloudPlatform/mlops\-on\-gcp/blob/master/workshops/tfx\-caip\-tf23/lab\-01\-tfx\-walkthrough/solutions/lab\-01.ipynb](https://github.com/GoogleCloudPlatform/mlops-on-gcp/blob/master/workshops/tfx-caip-tf23/lab-01-tfx-walkthrough/solutions/lab-01.ipynb) 
+                - **Neural Network Architecture can get pretty complex**
+                - Ingesting data using ExampleGen
+                - Generating statistics on data using StatisticsGen
+                - Inferring data schema using SchemaGen
+                - Importing the updated schema using ImporterNode
+                - Validating data with ExampleValidator
+                - Preprocessing data with Transform
+                - Train your TensorFlow model with the Trainer component
+                - Analyzing training runs with TensorBoard
+                - Tune your model's hyperparameters with the Tuner component
+                - Evaluating trained models with Evaluator
+                - The InfraValidator component acts as an additional early warning layer by validating a candidate model in a sandbox version of its serving infrastructure to prevent an unservable model from being pushed to production.
+                - Deploying models with Pusher
+        - TFX on Cloud AI Platform Pipelines
+            - In this lab, you use utilize the following tools and services to deploy and run a TFX pipeline on Google Cloud that automates the development and deployment of a TensorFlow 2.3 WideDeep Classifier to predict forest cover from cartographic data
+                - The TFX CLI utility to build and deploy a TFX pipeline.
+                - A hosted **AI Platform Pipeline** instance \(Kubeflow Pipelines\) for TFX pipeline orchestration.
+                    - **has an Kubeflow Pipelines dashboard**
+                        - pipelines
+                        - experiments
+                        - runs / recurring runs
+                        - artifacts
+                        - executions
+                - A AI Platform Training job for model training and flock management for parallel tuning trials.
+                - AI Platform Prediction as a model server destination for blessed pipeline model versions.
+                - CloudTuner and AI Platform Vizier for advanced model hyperparameter tuning using the Vizier algorithm.
+                - You will then create and monitor pipeline runs using the TFX CLI as well as the KFP UI.
+            - [https://github.com/GoogleCloudPlatform/mlops\-on\-gcp/blob/master/workshops/tfx\-caip\-tf23/lab\-02\-tfx\-pipeline/solutions/lab\-02.ipynb](https://github.com/GoogleCloudPlatform/mlops-on-gcp/blob/master/workshops/tfx-caip-tf23/lab-02-tfx-pipeline/solutions/lab-02.ipynb)
+                - Use the TFX CLI to build a TFX pipeline.
+                - Deploy a TFX pipeline version without tuning to a hosted AI Platform Pipelines instance.
+                - Create and monitor a TFX pipeline run using the TFX CLI.
+                - Deploy a new TFX pipeline version with tuning enabled to a hosted AI Platform Pipelines instance.
+                - Create and monitor another TFX pipeline run directly in the Kubeflow Pipeline KFP UI.
+        - CI/CD for a TFX pipeline
+            - In this lab, you will walk through authoring a Cloud Build CI/CD workflow that automatically builds and deploys the same TFX pipeline from lab\-02.ipynb. You will also integrate your workflow with GitHub by setting up a trigger that starts the workflow when a new tag is applied to the GitHub repo hosting the pipeline's code.
+            - [https://github.com/GoogleCloudPlatform/mlops\-on\-gcp/blob/master/workshops/tfx\-caip\-tf23/lab\-03\-tfx\-cicd/solutions/lab\-03.ipynb](https://github.com/GoogleCloudPlatform/mlops-on-gcp/blob/master/workshops/tfx-caip-tf23/lab-03-tfx-cicd/solutions/lab-03.ipynb)
+                - Develop a CI/CD workflow with Cloud Build to build and deploy a machine learning pipeline.
+                    - [https://github.com/GoogleCloudPlatform/mlops\-on\-gcp/blob/master/workshops/tfx\-caip\-tf23/lab\-03\-tfx\-cicd/solutions/cloudbuild.yaml](https://github.com/GoogleCloudPlatform/mlops-on-gcp/blob/master/workshops/tfx-caip-tf23/lab-03-tfx-cicd/solutions/cloudbuild.yaml) 
+                        - **Cloud build yaml file**
+                        - build docker image that encapsulates pipeline
+                        - pipeline command
+                        - push image to GCP container image registry
+                - Integrate with Github to **trigger** workflows with pipeline source repository changes.
+                    - **Cloud Build Github app**: [https://github.com/marketplace/google\-cloud\-build](https://github.com/marketplace/google-cloud-build) 
+                    - GCP Cloud Build
+                        - Repositories: link to Git repo
+                        - Triggers: make trigger
+        - TFX Metadata
+            - In this lab, you will explore TFX pipeline metadata including pipeline and run artifacts. An AI Platform Pipelines instance includes the ML Metadata service. In AI Platform Pipelines, ML Metadata uses MySQL as a database backend and can be accessed using a GRPC server.
+            - [https://github.com/GoogleCloudPlatform/mlops\-on\-gcp/blob/master/workshops/tfx\-caip\-tf23/lab\-04\-tfx\-metadata/solutions/lab\-04.ipynb](https://github.com/GoogleCloudPlatform/mlops-on-gcp/blob/master/workshops/tfx-caip-tf23/lab-04-tfx-metadata/solutions/lab-04.ipynb)
+                - Use a GRPC server to access and analyze pipeline artifacts stored in the ML Metadata service of your AI Platform Pipelines instance.
+            - **Kubeflow Dashboards Artifacts**: The Metadata Store uses the following data model:
+                - `ArtifactType` describes an artifact's type and its properties that are stored in the Metadata Store. These types can be registered on\-the\-fly with the Metadata Store in code, or they can be loaded in the store from a serialized format. Once a type is registered, its definition is available throughout the lifetime of the store.
+                - `Artifact` describes a specific instances of an ArtifactType, and its properties that are written to the Metadata Store.
+                - `ExecutionType` describes a type of component or step in a workflow, and its runtime parameters.
+                - `Execution` is a record of a component run or a step in an ML workflow and the runtime parameters. An Execution can be thought of as an instance of an ExecutionType. Every time a developer runs an ML pipeline or step, executions are recorded for each step.
+                - `Event` is a record of the relationship between an Artifact and Executions. When an Execution happens, Events record every Artifact that was used by the Execution, and every Artifact that was produced. These records allow for provenance tracking throughout a workflow. By looking at all Events MLMD knows what Executions happened, what Artifacts were created as a result, and can recurse back from any Artifact to all of its upstream inputs.
+                - `ContextType` describes a type of conceptual group of Artifacts and Executions in a workflow, and its structural properties. For example: projects, pipeline runs, experiments, owners.
+                - `Context` is an instances of a ContextType. It captures the shared information within the group. For example: project name, changelist commit id, experiment annotations. It has a user\-defined unique name within its ContextType.
+                - `Attribution` is a record of the relationship between Artifacts and Contexts.
+                - `Association` is a record of the relationship between Executions and Contexts.
+            - Visualizing TFX artifacts
+                - Visualize schema
+                    - Schema
+                    - Examples
+                    - ExampleStatistics
+                - Visualize statistics
+                - Visualize anomalies
+                - Retrieve model artifacts
+                - Return best hyperparameters
+                - Visualize model evaluations
+        - Continuous Training with TensorFlow, PyTorch, XGBoost, and Scikit Learn Models with Kubeflow and AI Platform Pipelines
+            - In this lab, we will create containerized training applications for ML models in TensorFlow, PyTorch, XGBoost, and Scikit\-learn. Will will then use these images as ops in a KubeFlow pipeline and **train multiple models in parallel**. We will then set up recurring runs of our KubeFlow pipeline in the UI.
+            - [https://github.com/GoogleCloudPlatform/mlops\-on\-gcp/blob/master/continuous\_training/kubeflow/solutions/multiple\_frameworks\_kubeflow.ipynb](https://github.com/GoogleCloudPlatform/mlops-on-gcp/blob/master/continuous_training/kubeflow/solutions/multiple_frameworks_kubeflow.ipynb) 
+                - Create the training script
+                - Package training script into a Docker Image
+                - **Google Cloud Build** and push training image to **Google Cloud Container Registry**
+                - Build a **Kubeflow pipeline** that queries BigQuery to create training/validation splits and export results as sharded CSV files in GCS
+                - Launch AI Platform training jobs with the four containerized training applications, using the exported CSV data as input
+                    - **Kubeflow Dashboard Pipelines \-\> Runs**
+        - Continuous Training Pipelines with Cloud Composer
+            - In this lab you will learn how to write an Airflow DAG for continuous training and deploy the DAG within a Cloud Composer environment. You will also learn how to explore and monitor your DAG runs using the Apache Airflow webserver.
+            - [https://github.com/GoogleCloudPlatform/mlops\-on\-gcp/blob/master/continuous\_training/composer/solutions/chicago\_taxi\_dag.py](https://github.com/GoogleCloudPlatform/mlops-on-gcp/blob/master/continuous_training/composer/solutions/chicago_taxi_dag.py) 
+                - Provision a Cloud Composer environment.
+                - Deploy an Apache Airflow Dialog.
+                - Monitor a continuous training pipeline in the Airflow webserver.
+                - Explore Airflow logs using Cloud Operations.
+- Natural Language Processing on Google Cloud
+    - Completed all videos & quizzes for this course as it is related to Google's Generative AI learning path: [https://www.cloudskillsboost.google/journeys/118](https://www.cloudskillsboost.google/journeys/118) 
+        - skipped the labs, will revisit if I need to do a NLP project
+    - Intro to NLP
+    - Dialogflow API
+    - NLP with Vertex AI
+    - Text representation
+        - tokenization, one hot encoding, bag of words, word embeddings, word2vec
+    - NLP models
+        - ANN, DNN, RNn, LSTM, GRU
+        - encoder\-decoder, attention mechanism, transformer, VERT, LLM
+    - Labs
+        - Exploring the Dialogflow API
+        - Text Classification using AutoML
+        - Text classification using reusable embeddings
+        - Keras for Text Classification using Vertex AI
+        - Encoder decoder
+- Computer Vision Fundamentals with Google Cloud
+    - Mainly skipped this course, will revisit if it I work on a computer vision project
+    - Vision API
+        - detecting faces, extract text from images
+    - Vertex AI AutoML
+    - Linear models for image classification
+    - NN / DNN for image classification
+    - CNN
+    - classifying images using data augmentation
+    - Labs
+        - Detecting Labels, Faces, and Landmarks in Images with the Cloud Vision API
+        - Extracting Text from the Images using the Google Cloud Vision API
+        - Identifying Damaged Car Parts with Vertex AI for AutoML Vision Users
+        - Classifying Images with a Linear Model
+        - Classifying Images with a NN and DNN Model
+        - Classifying Images using Dropout and Batchnorm Layer
+        - Classifying Images with pre\-built TF Container on Vertex AI
+        - Classifying Images using Data Augmentation
+        - Classifying Images with Transfer Learning
+- Recommendation Systems on Google Cloud
+    - Mainly skipped this course, will revisit if it I work on a recommdation project
+    - Intro to recommendation systems
+        - content based using NN
+        - collaborative filtering: ALS algo
+        - hybrid
+        - context aware algos
+    - youtube recommendation system case study
+    - Intro to reinforcement learning
+        - model based
+        - model free
+        - value based
+        - policy based
+        - contextual bandits
+    - Labs
+        - Implementing a Content\-Based Filtering using Low Level TensorFlow Operations
+        - Using Neural Networks for Content\-Based Filtering
+        - Collaborative Filtering on Google Analytics data
+        - ML on GCP: Hybrid Recommendations with the MovieLens Dataset
+        - Applying Contextual Bandits for Recommendations with Tensorflow and TF\-Agents
+- NOTE: skip all the Quests, they are mostly redundant and ingrains / tests your knowledge from the courses above. I'd rather be spending the time working on actual projects.
+- Build and Deploy Machine Learning Solutions on Vertex AI
+    - Quest: all labs course
+    - Labs
+        - Vertex AI: Qwik Start
+        - Identify Damaged Car Parts with Vertex AutoML Vision
+        - Deploy a BigQuery ML Customer Churn Classifier to Vertex AI for Online Predictions
+        - Vertex Pipelines: Qwik Start
+        - Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab

@@ -1,0 +1,183 @@
+# Dagster, Airflow 2+, Prefect
+
+Dagster
+
+- **TLDR: If I were to start a new data engineering project from scratch, I'd consider using Dagster**
+    - also great for ML pipelines
+- Dagster
+    - Type\-checked, **composable** pipeline definitions
+        - declarative \(Airflow imperative\)
+            - a lot less duplicate code than Airflow
+    - Automatic tracking of dependencies between tasks
+    - Built\-in data validation and error handling
+    - Integration with ML frameworks like TensorFlow and PyTorch
+    - Strong emphasis on testing and reproducibility
+        - great for CI / CD, local dev / test
+- tutorials
+    - [https://dagster.io/blog/dagster\-crash\-course\-oct\-2022](https://dagster.io/blog/dagster-crash-course-oct-2022) 
+    - [https://www.youtube.com/watch?v=L5kTxCM\-tOk](https://www.youtube.com/watch?v=L5kTxCM-tOk)
+        - The problem Dagster solves. Dagster's pros over Airflow
+    - [https://www.youtube.com/watch?v=t8QADtYdWEI](https://www.youtube.com/watch?v=t8QADtYdWEI)
+        - sample data pipeline with dagster
+        - ops \(tasks\), graphs \(DAG of ops or software defined assets\), jobs \(parameterized graphs\), repository \(collection of jobs\), workspace \(collection of repos\), scheduling, testing. sensor
+    - [https://www.youtube.com/watch?v=UrjHVJ2GZN0](https://www.youtube.com/watch?v=UrjHVJ2GZN0)
+        - easy local development / test environment with Dagster \(and Prefect\)
+        - dagster architecture
+            - launcher: k8s, ECS, docker, celeryK8s
+            - executor\(s\)
+        - dagster.yaml
+            - defines dagster deployment
+        - workspace.yaml
+            - maintain workspaces
+        - resource
+            - external dependencies \(e.g. database connection, API, etc.\)
+            - hides keys, passwords, etc.
+            - dev, prod
+                - etl\_local: mock database, etc.
+                - etl\_docker: real database, etc.
+        - asset
+            - an entity that is created or mutated by an op, e.g. database table, ML model, AWS resource, etc.
+            - Dagster UI has **asset catalog**
+        - **tests can be done at the op or graph level**
+        - backfills
+            - **backfills fully supported in Dagster UI**
+            - [https://dagster.io/blog/backfills\-in\-ml](https://dagster.io/blog/backfills-in-ml) 
+        - partitioned data pipelines
+            - [https://youtu.be/LFOikWqCOAM](https://youtu.be/LFOikWqCOAM)
+        - IO management
+        - graphQL layer
+            - data pipeline / lineage search feature
+            - [https://youtu.be/MPouVV40wBs](https://youtu.be/MPouVV40wBs)
+    - [https://www.youtube.com/watch?v=pRGNxIz6GzU](https://www.youtube.com/watch?v=pRGNxIz6GzU)
+        - Dagster is run off of **software defined assets**
+            - a declarative, pure Python function that computes the value of an asset and has associated metadata.
+            - **easier to compose graphs of software defined assets**
+        - asset materialization
+            - job run log, metadata
+            - asset created or modified
+            - [https://dagster.io/blog/dagster\-script\-to\-assets](https://dagster.io/blog/dagster-script-to-assets) 
+        - 2 types of orchestration
+            - DAGs of assets on a schedule
+            - **declarative approach: reconciliation, no more low level imperative work**
+                - fix any discrepancies with software defined assets
+                    - e.g. upstream materialization changed, automatically change downstream materialization
+                - [https://dagster.io/blog/declarative\-scheduling](https://dagster.io/blog/declarative-scheduling) 
+                - [https://dagster.io/blog/declarative\-scheduling\-for\-dbt](https://dagster.io/blog/declarative-scheduling-for-dbt) 
+        - [https://motherduck.com/](https://motherduck.com/) duckdb, poor man's data lake
+        - [https://continual.ai/](https://continual.ai/) continual model improvement using Generative AI
+            - no more low level work
+- **Played around with Dagster Cloud**
+    - [https://github.com/huang\-pan/dagster\_starter](https://github.com/huang-pan/dagster_starter) 
+        - uses pytest
+
+Airflow vs. Dagster vs. Prefect
+
+- [https://www.restack.io/docs/airflow\-vs\-dagster](https://www.restack.io/docs/airflow-vs-dagster)
+    - The TaskFlow API: One of the most important additions of the 2.0 release was the introduction of the TaskFlow API. Namely, it offers the ability to use decorators to declare DAGs \( @dag\) and tasks \( @task\), making it much easier to work with tasks as typical Python functions \(instead of the counter\-intuitive PythonOperator\) while also abstracting the complexities of XCOM to move small bits of data between tasks.
+    - TaskGroups: As a data engineer working with Airflow, you’ve probably experienced the eternal struggle of navigating a more\-than\-100\-tasks DAG. With earlier versions of Airflow, the only possible option to improve this experience was the use of SubDAGs \(via the SubDagOperator\) which added unnecessary complexity because a SubDAG is technically yet one more DAG to manage. On the other hand, the TaskGroup concept introduced with Airflow 2.0 allows you to group a set of tasks without defining them as a separate DAG, making it much more convenient to use.
+    - But on the darker side of things, **Airflow is still a system that’s difficult to test and maintain: defining and running unit tests for your tasks is still limited, while integration tests require a lot of moving pieces, and integrating it within a CI/CD pipeline necessitates a lot of complexity and friction.**
+    - Dagster is rigid and opinionated, while Airflow is flexible and accommodating. 
+        - Dagster is built for the modern data stack with its dbt models and Airbyte connectors in mind, 
+        - while Airflow is built to orchestrate tasks within every stack that ever was and that ever will.
+    - If you’re **building a new data platform today, Dagster** benefits from being the orchestrator that’s designed specifically for you. It loves interacting with the tools of the modern data stack and would allow you to get up and running in no time while also **streamlining your pipelines with its declarative approach**.
+    - On the other hand, Airflow still boasts a bigger community. It’s the battle\-tested orchestrator that managed to withstand the test of time, and even though its armor might be scratched it’s still a trustworthy lieutenant. Sure, it’s too old to know that you’re running dbt models, but it’s also wise enough to manage any type of workflow you want to throw at it.
+- [https://towardsdatascience.com/airflow\-prefect\-and\-dagster\-an\-inside\-look\-6074781c9b77](https://towardsdatascience.com/airflow-prefect-and-dagster-an-inside-look-6074781c9b77) 
+    - The main issues we’ve seen with Airflow deployments fall into one of several categories:
+        - local development, testing, and storage abstractions
+            - problem with cloud provider managed airflow: lack of local testing
+                - Astronomer solves?
+                - **easy local dev / test environment with Dagster and Prefect**
+            - CI / CD processes possible with managed Airflow
+        - one\-off and irregularly scheduled tasks
+            - this is a problem
+            - Airflow 2.4 has data driven scheduling: DAG run on Dataset completion
+        - the movement of data between tasks
+            - use Xcoms for small data, databases / data stores for large data
+        - dynamic and parameterized workflows
+            - Airflow 2.3 has dynamic task mapping / generation
+- [https://medium.com/codex/dagster\-vs\-apache\-airflow\-side\-by\-side\-comparison\-965149997cee\#:~:text=Apache%20Airflow%20is%20best%20for,frameworks%20like%20TensorFlow%20or%20PyTorch](https://medium.com/codex/dagster-vs-apache-airflow-side-by-side-comparison-965149997cee#:~:text=Apache%20Airflow%20is%20best%20for,frameworks%20like%20TensorFlow%20or%20PyTorch).
+    - Choose Apache Airflow if you need to generate tasks dynamically or if you need to integrate with tools like Spark or Hadoop.
+    - Choose Dagster if you need strong data validation and error handling, or if you need integration with ML frameworks like TensorFlow or PyTorch.
+    - **Dynamic task generation:** Apache Airflow allows you to generate tasks dynamically based on data or other factors. Dagster does not have this feature, which can be a limitation in some use cases.
+- [https://dagster.io/blog/dagster\-airflow](https://dagster.io/blog/dagster-airflow) 
+- Dagster vs Prefect [https://www.restack.io/docs/dagster\-vs\-prefect](https://www.restack.io/docs/dagster-vs-prefect)
+    - Different orchestration philosophies: 
+        - Dagster is a **data\-driven** development lifecycle orchestration tool that includes pipeline development, deployment, observability, and monitoring solutions. 
+        - Prefect, on the other hand, is a **task\-driven** workflow orchestration tool that offers a scheduling engine that inputs code to build distributed pipelines and orchestrates them.
+    - Dagster Better At
+        - Asset management: Dagster is a complete asset management solution that ingests all your data assets into a single surface and provides a base layer of **lineage, observability, and data quality monitoring** for your entire platform.
+        - Better UI for debugging: Dagster provides a **better interface for locally debugging problems in large and complex data pipelines**,
+        - Dagster **declarative**, data driven pipelines \(Airflow, prefect imperative, task driven pipelines\)
+    - Prefect better at
+        - easier to get up and running with Prefect
+            - Dagster has a reputation for being extremely powerful. However, the learning curve is still too steep.
+            - One reason for this is that Dagster is actually three things rolled into one: it’s a scheduler, an operational asset catalog, and a data transformation tool. 
+        - Prefect cloud native
+        - can have dynamic pipelines \(Dagster can't\)
+    - Suitable Use Case: 
+        - Dagster’s orchestration solutions make it ideal for holistically solving **complex data engineering problems**. 
+        - Whereas, Prefect is more suited to projects requiring **faster, dynamic orchestration**.
+- Prefect
+    - Prefect ML pipeline
+        - [https://medium.com/@haythemtellili/ml\-workflow\-orchestration\-ddc8165c26c0](https://medium.com/@haythemtellili/ml-workflow-orchestration-ddc8165c26c0) 
+
+Airflow 2\+:
+
+- Airflow
+    - Task\-based workflow definition
+    - Dynamic task generation
+    - Built\-in operators for common tasks \(e.g., PythonOperator, BashOperator, etc.\)
+    - Web\-based user interface for monitoring and managing workflows
+    - Large community and ecosystem of plugins and integrations
+    - most data engineering teams built their **custom operators which turned into unnecessary liabilities and technical debt.**
+- What's new in Airflow 2.0 [https://medium.com/hashmapinc/whats\-new\-with\-airflow\-2\-0\-27ae5fc9068a](https://medium.com/hashmapinc/whats-new-with-airflow-2-0-27ae5fc9068a)
+    - multi schedulers for multi webservers
+        - scheduler much more efficient than before
+    - DAG serialization only needs to be present on scheduler
+    - @task, @dag like prefect
+    - smart sensors
+- what's new in Airflow 2.3 [https://airflowsummit.org/slides/2022/l5\-Airflow2\_3\-Kaxil.pdf](https://airflowsummit.org/slides/2022/l5-Airflow2_3-Kaxil.pdf)
+    - dynamic task mapping
+    - grid view
+    - events timetable: run DAGs at arbitrary dates
+- what's new in Airflow 2.4 [https://www.astronomer.io/blog/apache\-airflow\-2\-4\-everything\-you\-need\-to\-know/](https://www.astronomer.io/blog/apache-airflow-2-4-everything-you-need-to-know/)
+    - data driven scheduling: DAG run on Dataset completion
+- ways to install Airflow 
+    - forgot details of Airflow scheduler using **celery message queue using rabbitMQ message bus** \(can also use **redis** like at Juvo\) to send data to workers
+    - [https://airflow.apache.org/docs/apache\-airflow/stable/installation/index.html](https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html)
+        - pip, docker, helm, managed services
+        - production deployment: [https://airflow.apache.org/docs/apache\-airflow/stable/administration\-and\-deployment/production\-deployment.html](https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/production-deployment.html)
+    - How to set up multi\-node Airflow cluster using RabbitMQ [https://www.accionlabs.com/how\-to\-setup\-airflow\-multinode\-cluster\-with\-celery\-rabbitmq](https://www.accionlabs.com/how-to-setup-airflow-multinode-cluster-with-celery-rabbitmq)
+    - [https://airflow.apache.org/ecosystem/](https://airflow.apache.org/ecosystem/)
+        - [Self\-Managed Airflow via CNDI](https://github.com/polyseam/cndi) \- Toolkit for deploying Airflow Kubernetes clusters, with support for AWS, GCP, Azure, VMWare, Bare\-Metal, and even multi/hybrid cloud support. See [docs](https://docs.cndi.run) for more details.
+        - [Self\-managed Airflow on Amazon EKS](https://github.com/awslabs/data-on-eks/tree/main/schedulers/terraform/managed-airflow-mwaa) \- Self\-managed Apache Airflow deployment on Aamzon EKS using [Terraform](https://www.terraform.io/).
+        - [Amazon provider package health dashboard](https://aws-mwaa.github.io/open-source/system-tests/dashboard.html) \- Dashboard listing all system tests within the Amazon provider package and their current health status: last execution status \(succeeded/failed, average duration, …\).
+- Airflow executors [https://airflow.apache.org/docs/apache\-airflow/stable/core\-concepts/executor/index.html](https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/executor/index.html)
+    - sequentialexecutor \(default, one task at a time\), localexecutor \(has parallel local processes\)
+    - **celeryexecutor**: celery backend \(rabbitMQ, redis\): Juvo's redis backend kept on getting clogged with unrun tasks, so I had to clear it manually
+        - celery flower: web UI to monitor workers
+    - dask executor
+    - kubernetesexecutor: we were going to upgrade Juvo from the celeryexecutor to k8sexecutor
+        - also has k8spodoperator
+    - celeryk8s, localk8s
+- Airflow logging [https://airflow.apache.org/docs/apache\-airflow/stable/administration\-and\-deployment/logging\-monitoring/logging\-architecture.html](https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/logging-monitoring/logging-architecture.html)
+- monitoring
+    - Check Airflow health status using HTTP calls to webserver, scheduler: [https://airflow.apache.org/docs/apache\-airflow/stable/administration\-and\-deployment/logging\-monitoring/check\-health.html](https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/logging-monitoring/check-health.html)
+    - MWAA: use AWS cloudwatch
+    - prometheus / grafana
+    - Datadog
+- Airflow clusters
+    - local / dev / prod clusters: Greenstand set up
+    - dev / QA / prod cluster
+        - separated by IAM role? different types of encryption
+    - multiple schedulers
+        - explained Juvo celery executor: used redis instead of RabbitMQ
+    - packaging different versions
+        - python pip requirements \-\-\> Dockerfile \-\> image
+    - sensitive information: how to encrypt? Encrypt in transit, streaming, ftp, some type of SSL encryption
+        - Juvo S3 bucket with tight security measures / IAM role
+    - Juvo custom operators / hooks / sensors
+    - explained usage of Spark \(dataframe transformation, write back to S3 / redshift\)
+    - debug spark: first go into Spark job history UI, look at logical plan
+        - spark submit shell \(wrapper\): custom Spark jobs at run time
+- Jenkins: get up and running on localhost:9090
