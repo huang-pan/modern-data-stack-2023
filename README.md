@@ -1,60 +1,67 @@
-# modern-data-stack-2023
+# Modern Data Stack 2023
 
-Self study on the MDS 2023
+Huang Pan's data architecture and engineering learning path for 2023.
 
-https://medium.com/@huangpan/modern-data-stack-2023-ab3364b9281d
+As I have been away from the tech industry for a few years, I needed to update / refresh my data engineering skill set. This consisted of two parts:
 
-- dbt
-- Spark
-- Kafka
-- FastAPI
-- AWS Data Engineer
-- AWS ML Engineer
-- GCP Data Engineer
-- GCP ML Engineer
-- Generative AI
-- Misc: Azure, MlOps, Terraform, Kubernetes, etc.
+1. Research all the up to date tools in the [Modern Data Stack in 2023](https://medium.com/@huangpan/modern-data-stack-2023-ab3364b9281d)
 
-Course + link
-Summary
-Certificates of Completion (+ dates)
-Course notes
+2. Take courses to refresh / update my data engineering skills:
+	- [DBT / Data Warehousing](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md)
+	- [Spark](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md)
+	- [Kafka / SQL](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md)
+	- [FastAPI](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_FastAPI.md)
+	- [AWS Data Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_Data_Engineer.md)
+	- [AWS Machine Learning Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_ML_Engineer.md)
+	- [GCP Data Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Data_Engineer.md)
+	- [GCP Machine Learning Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Machine_Learning_Engineer.md)
+	- [Generative AI](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Generative_AI.md)
+	- [Misc: Azure Data / ML Engineer, MlOps, Terraform, Kubernetes, etc.](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
 
-# DBT / Data Warehousing
-https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/
-- Course completion certificate: https://www.udemy.com/certificate/UC-de00a2d0-a8a1-4319-8101-bbea3cb3cc5b/ 
-https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md
+I took the courses above just to fill in any gaps in my background knowledge. I would say that generally, the courses are like tutorial / introductory courses. They have given me enough background knowledge on where to start on my projects. I will go into more depth and really understand the technologies when I work on actual projects.
 
-# Spark
+Course taken, summaries, certificates of completion, and notes below:
+
+## DBT / Data Warehousing
+### Courses taken
+- [Udemy Data Build Tool](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/)
+### Summary
+- This is a refresher course on dbt for me. It covers all the basics with simple example, it's more like a tutorial introduction to dbt. While basic, I found this course to be a comprehensive introduction to dbt. The best way for the knowledge to sink in is to continually use dbt on a project or job.
+### Certificates of Completion
+- Completed [May 20, 2023](https://www.udemy.com/certificate/UC-de00a2d0-a8a1-4319-8101-bbea3cb3cc5b/)
+### Course notes
+- https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md
+
+## Spark
 https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/
 - Course completion certificate: https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/ 
 https://www.udemy.com/course/apache-spark-3-beyond-basics/
 - Course completion certificate: https://www.udemy.com/certificate/UC-230f3948-d2f2-405a-9f55-3c0f151db965/ 
 https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md
 
-# Kafka
+## Kafka / KSQL
 https://www.udemy.com/course/apache-kafka/
 - Course completion certificate: https://www.udemy.com/certificate/UC-82d2aa28-046b-4b71-afe2-8f6e593d490a/ 
 https://www.udemy.com/course/kafka-ksql/
 - Course completion certificate: https://www.udemy.com/certificate/UC-510b1e24-cc7f-40a8-bb30-a96b6acf8d31/ 
 https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md
 
-# FastAPI
+## FastAPI
 https://www.udemy.com/course/completefastapi/
 - Course completion certificate: https://www.udemy.com/certificate/UC-f91bde24-2803-4e24-beba-7e2f3963c9d6/ 
 https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_FastAPI.md
 
-# AWS Data Engineer
+## AWS Data Engineer
 https://www.udemy.com/course/aws-data-analytics
 - Course completion certificate: https://www.udemy.com/certificate/UC-634381db-3681-4d2e-8525-98205f7ac624/ 
 https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_Data_Engineer.md
 
-# AWS ML Engineer
+## AWS Machine Learning Engineer
 https://www.udemy.com/course/aws-machine-learning
 - Course completion certificate: https://www.udemy.com/certificate/UC-9115613e-cdc4-4ef8-836b-3198f5765b5f/ 
 https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_ML_Engineer.md
 
-# GCP Data Engineer
+## GCP Data Engineer
 GCP Data Engineer Learning Path
 - https://www.cloudskillsboost.google/paths/16
 - Preparing for the Google Cloud Professional Data Engineer Exam
@@ -77,7 +84,7 @@ GCP Data Engineer Learning Path
 	- https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4204812 
 https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Data_Engineer.md
 
-# GCP ML Engineer
+## GCP Machine Learning Engineer
 GCP Machine Learning Engineer Learning Path
 - https://www.cloudskillsboost.google/paths/17
 - How Google Does Machine Learning
@@ -98,7 +105,7 @@ GCP Machine Learning Engineer Learning Path
 	- https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4271248 
 https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Machine_Learning_Engineer.md
 
-# Generative AI
+## Generative AI
 Google Generative AI learning path https://www.cloudskillsboost.google/journeys/118 
 - Introduction to Generative AI 
 	- https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3861709 
@@ -124,6 +131,6 @@ Generative AI Short Courses
 - https://www.deeplearning.ai/short-courses/
 https://github.com/huang-pan/modern-data-stack-2023/blob/main/Generative_AI.md
 
-# Misc: Azure, MlOps, Terraform, Kubernetes, etc.
+## Misc: Azure Data / ML Engineer, MlOps, Terraform, Kubernetes, etc.
 https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md
 https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md
