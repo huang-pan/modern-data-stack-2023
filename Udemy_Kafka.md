@@ -240,8 +240,7 @@
     - Similar to Kinesis Data Analytics, GCP Dataflow courses.
     - KSQL just like querying SQL table in a database or data warehouse, pretty straightforward.
 - Github repos for course:
-- Lecture notes:
-- [README.pdf](./file/README.pdf)
+- Lecture notes: [README.pdf](./Kafka/file/README.pdf)
 - KSQL
     - labs
         - linux prompt
@@ -260,7 +259,7 @@
         - **Microsoft Fabric \(most modern tech\): eventstream \-\> KQL real time database \-\-\> KQL queryset \-\-\> Power BI dashboard**
             - [https://learn.microsoft.com/en\-us/fabric/real\-time\-analytics/overview](https://learn.microsoft.com/en-us/fabric/real-time-analytics/overview) 
     - architecture of a taxi booking system
-        - ![Screenshot_20230619-203022_Udemy.jpg](image/Screenshot_20230619-203022_Udemy.jpg)
+        - ![Screenshot_20230619-203022_Udemy.jpg](Kafka/image/Screenshot_20230619-203022_Udemy.jpg)
     - streams, tables, joins
         - you can join tables and streams together to create a new stream
         - join stream \+ stream = stream

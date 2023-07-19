@@ -2,7 +2,7 @@
 
 Huang Pan's data architecture and engineering learning path for 2023.
 
-As I have been away from the tech industry for a few years, I needed to update / refresh my data engineering skill set. This consisted of two parts:
+I updated / refreshed my data engineering skill set in 2023. This consisted of two parts:
 
 1. Research all the up to date tools in the [Modern Data Stack in 2023](https://medium.com/@huangpan/modern-data-stack-2023-ab3364b9281d)
 
@@ -24,7 +24,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Courses taken
 - [Udemy Data Build Tool](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/)
 #### Summary
-- This is a refresher course on dbt for me. It covers all the basics with simple example, it's more like a tutorial introduction to dbt. While basic, I found this course to be a comprehensive introduction to dbt. The best way for the knowledge to sink in is to continually use dbt on a project or job.
+- This is a refresher course on data modeling with the DBT framework.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md)
 #### Certificates of Completion
 - Udemy DBT completed [May 20, 2023](https://www.udemy.com/certificate/UC-de00a2d0-a8a1-4319-8101-bbea3cb3cc5b/)
@@ -34,7 +34,8 @@ The courses above are all up to date for 2023. I took the courses above just to 
 - [Udemy PySpark](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
 - [Udemy Advanced Spark 3+](https://www.udemy.com/course/apache-spark-3-beyond-basics/)
 #### Summary
-- 
+- The Udemy PySpark course is a refresher course on PySpark.
+- I learned how Spark operates under the hood and how to optimize Spark jobs with the Advanced Spark 3+ course.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md)
 #### Certificates of Completion
 - Udemy PySpark completed [May 20, 2023](https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/)
@@ -45,7 +46,8 @@ The courses above are all up to date for 2023. I took the courses above just to 
 - [Udemy Kafka](https://www.udemy.com/course/apache-kafka/)
 - [Udemy KSQL](https://www.udemy.com/course/kafka-ksql/)
 #### Summary
-- 
+- I learned how Kafka works and how to build streaming analytics solutions with Kafka and KSQL.
+- After you learn Kafka, all the streaming analytics technologies on AWS, Azure, and GCP are similar: Kinesis, Event Hubs, Pub/Sub, etc.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md)
 #### Certificates of Completion
 - Udemy Kafka completed [May 26, 2023](https://www.udemy.com/certificate/UC-82d2aa28-046b-4b71-afe2-8f6e593d490a/)
