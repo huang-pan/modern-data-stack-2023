@@ -18,132 +18,122 @@ As I have been away from the tech industry for a few years, I needed to update /
 	- [Generative AI](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Generative_AI.md)
 	- [Misc: Azure Data / ML Engineer, MlOps, Terraform, Kubernetes, etc.](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
 
-I took the courses above just to fill in any gaps in my background knowledge. I would say that generally, the courses are like tutorial / introductory courses. They have given me enough background knowledge on where to start on my projects. I will go into more depth and really understand the technologies when I work on actual projects. This is not a problem for me as I'm an experienced data engineer. I've already worked with many tools of the Modern Data Stack already and have learned how to use many technologies on the job in the past.
+The courses above are all up to date for 2023. I took the courses above just to fill in any gaps in my background knowledge and refresh my skill set. I would say that generally, the courses are like tutorial / introductory courses. They have given me enough background knowledge on where to start on my future projects. I will go into more depth and really understand the technologies when I work on the actual projects. This is not a problem for me as I'm an experienced data engineer. I've already worked with many tools of the Modern Data Stack already and have learned how to use many technologies on the job in the past. Picking up and applying new technologies is one of my main strengths.
 
 ## DBT / Data Warehousing
 #### Courses taken
 - [Udemy Data Build Tool](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md)
 #### Summary
 - This is a refresher course on dbt for me. It covers all the basics with simple example, it's more like a tutorial introduction to dbt. While basic, I found this course to be a comprehensive introduction to dbt. The best way for the knowledge to sink in is to continually use dbt on a project or job.
 #### Certificates of Completion
 - Udemy DBT completed [May 20, 2023](https://www.udemy.com/certificate/UC-de00a2d0-a8a1-4319-8101-bbea3cb3cc5b/)
-#### Course notes
-- https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md
 
 ## Spark
 #### Courses taken
 - [Udemy Spark](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
 - [Udemy Advanced Spark 3.0](https://www.udemy.com/course/apache-spark-3-beyond-basics/)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md)
 #### Summary
 - 
 #### Certificates of Completion
-- Udemy Spark completed [](https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/)
+- Udemy Spark completed [, 2023](https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/)
 - Udemy Advanced Spark 3.0 completed [](https://www.udemy.com/certificate/UC-230f3948-d2f2-405a-9f55-3c0f151db965/)
-#### Course notes
-- https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md
 
 ## Kafka / KSQL
 #### Courses taken
 - [Udemy Kafka](https://www.udemy.com/course/apache-kafka/)
 - [Udemy KSQL](https://www.udemy.com/course/kafka-ksql/)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md)
 #### Summary
 - 
 #### Certificates of Completion
-- Udemy Kafka completed [](https://www.udemy.com/certificate/UC-82d2aa28-046b-4b71-afe2-8f6e593d490a/)
-- Udemy KSQL completed [](https://www.udemy.com/certificate/UC-510b1e24-cc7f-40a8-bb30-a96b6acf8d31/)
-#### Course notes
-- https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md
+- Udemy Kafka completed [, 2023](https://www.udemy.com/certificate/UC-82d2aa28-046b-4b71-afe2-8f6e593d490a/)
+- Udemy KSQL completed [, 2023](https://www.udemy.com/certificate/UC-510b1e24-cc7f-40a8-bb30-a96b6acf8d31/)
 
 ## FastAPI
 #### Courses taken
 - [Udemy FastAPI](https://www.udemy.com/course/completefastapi/)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_FastAPI.md)
 #### Summary
 - 
 #### Certificates of Completion
-- Udemy FastAPI completed [](https://www.udemy.com/certificate/UC-f91bde24-2803-4e24-beba-7e2f3963c9d6/)
-#### Course notes
-- https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_FastAPI.md
+- Udemy FastAPI completed [, 2023](https://www.udemy.com/certificate/UC-f91bde24-2803-4e24-beba-7e2f3963c9d6/)
 
 ## AWS Data Engineer
 #### Courses taken
 - [Udemy AWS Data Engineer](https://www.udemy.com/course/aws-data-analytics)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_Data_Engineer.md)
 #### Summary
 - 
 #### Certificates of Completion
-- Udemy AWS Data Engineer completed [](https://www.udemy.com/certificate/UC-634381db-3681-4d2e-8525-98205f7ac624/)
-#### Course notes
-- https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_Data_Engineer.md
+- Udemy AWS Data Engineer completed [, 2023](https://www.udemy.com/certificate/UC-634381db-3681-4d2e-8525-98205f7ac624/)
 
 ## AWS Machine Learning Engineer
 #### Courses taken
 - [Udemy AWS ML Engineer](https://www.udemy.com/course/aws-machine-learning)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_ML_Engineer.md)
 #### Summary
 - 
 #### Certificates of Completion
-- Udemy AWS ML Engineer completed [](https://www.udemy.com/certificate/UC-9115613e-cdc4-4ef8-836b-3198f5765b5f/)
-#### Course notes
-- https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_ML_Engineer.md
+- Udemy AWS ML Engineer completed [, 2023](https://www.udemy.com/certificate/UC-9115613e-cdc4-4ef8-836b-3198f5765b5f/)
 
 ## GCP Data Engineer
 #### Courses taken
 - [GCP Data Engineer Learning Path](https://www.cloudskillsboost.google/paths/16)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Data_Engineer.md)
 #### Summary
 - 
 #### Certificates of Completion
-- Preparing for the Google Cloud Professional Data Engineer Exam completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4161331)
-- Google Cloud Big Data and Machine Learning Fundamentals completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4171969)
-- Modernizing Data Lakes and Data Warehouses with Google Cloud completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4172371)
-- Building Batch Data Pipelines on Google Cloud completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4182084)
-- Building Resilient Streaming Analytics Systems on Google Cloud completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4187773)
-- Smart Analytics, Machine Learning, and AI on Google Cloud completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4191832)
-- Serverless Data Processing with Dataflow: Foundations completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4191948)
-- Serverless Data Processing with Dataflow: Develop Pipelines completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4193692)
-- Serverless Data Processing with Dataflow: Operations completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4204812)
-#### Course notes
-- https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Data_Engineer.md
+- Preparing for the Google Cloud Professional Data Engineer Exam completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4161331)
+- Google Cloud Big Data and Machine Learning Fundamentals completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4171969)
+- Modernizing Data Lakes and Data Warehouses with Google Cloud completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4172371)
+- Building Batch Data Pipelines on Google Cloud completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4182084)
+- Building Resilient Streaming Analytics Systems on Google Cloud completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4187773)
+- Smart Analytics, Machine Learning, and AI on Google Cloud completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4191832)
+- Serverless Data Processing with Dataflow: Foundations completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4191948)
+- Serverless Data Processing with Dataflow: Develop Pipelines completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4193692)
+- Serverless Data Processing with Dataflow: Operations completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4204812)
 
 ## GCP Machine Learning Engineer
 #### Courses taken
 - [GCP Machine Learning Engineer Learning Path](https://www.cloudskillsboost.google/paths/17)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Machine_Learning_Engineer.md)
 #### Summary
 - 
 #### Certificates of Completion
-- How Google Does Machine Learning completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4222516)
-- Launching into Machine Learning completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4223005)
-- TensorFlow on Google Cloud completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4232587)
-- Feature Engineering completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4233166)
-- Machine Learning in the Enterprise completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4259057)
-- Production Machine Learning Systems completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4233637)
-- Machine Learning Operations (MLOps): Getting Started completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4243516)
-- ML Pipelines on Google Cloud completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4271248)
-#### Course notes
-- https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Machine_Learning_Engineer.md
+- How Google Does Machine Learning completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4222516)
+- Launching into Machine Learning completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4223005)
+- TensorFlow on Google Cloud completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4232587)
+- Feature Engineering completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4233166)
+- Machine Learning in the Enterprise completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4259057)
+- Production Machine Learning Systems completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4233637)
+- Machine Learning Operations (MLOps): Getting Started completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4243516)
+- ML Pipelines on Google Cloud completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4271248)
 
 ## Generative AI
 #### Courses taken
 - [Google Generative AI learning path](https://www.cloudskillsboost.google/journeys/118)
 - [Generative AI Short Courses](https://www.deeplearning.ai/short-courses/)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Generative_AI.md)
 #### Summary
 - 
 #### Certificates of Completion
-- Introduction to Generative AI completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3861709)
-- Introduction to Large Language Models completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3738003)
-- Introduction to Responsible AI completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3815915)
-- Generative AI Fundamentals completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3861709 )
-- Introduction to Image Generation: diffusion models completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3787142)
-- Encoder-Decoder Architecture: translation, text summarization, Q&A completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3787392)
-- Attention Mechanism completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3766502 )
-- Transformer Models and BERT Model completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3787108)
-- Create Image Captioning Models completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3787318)
-- Introduction to Generative AI Studio completed [](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4150368)
-#### Course notes
-- https://github.com/huang-pan/modern-data-stack-2023/blob/main/Generative_AI.md
+- Introduction to Generative AI completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3861709)
+- Introduction to Large Language Models completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3738003)
+- Introduction to Responsible AI completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3815915)
+- Generative AI Fundamentals completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3861709 )
+- Introduction to Image Generation: diffusion models completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3787142)
+- Encoder-Decoder Architecture: translation, text summarization, Q&A completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3787392)
+- Attention Mechanism completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3766502 )
+- Transformer Models and BERT Model completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3787108)
+- Create Image Captioning Models completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3787318)
+- Introduction to Generative AI Studio completed [, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4150368)
 
 ## Misc: Azure Data / ML Engineer, MlOps, Terraform, Kubernetes, etc.
 #### Courses taken
 - []()
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md)
 #### Summary
 - 
-#### Course notes
-- https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md
-- https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md
