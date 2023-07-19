@@ -132,7 +132,11 @@ The courses above are all up to date for 2023. I took the courses above just to 
 
 ## Misc: Azure Data / ML Engineer, MlOps, Terraform, Kubernetes, etc.
 #### Courses taken
-- Watched various lectures on 
+Watched various lectures on:
+- Azure Data / ML Engineer
+- MlOps
+- Terraform
+- Kubernetes
 #### Summary
 - 
 - [Course Notes Part 1](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
