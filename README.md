@@ -9,7 +9,7 @@ As I have been away from the tech industry for a few years, I needed to update /
 2. Take courses to refresh / update my data engineering skills:
 	- [DBT / Data Warehousing](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md)
 	- [Spark](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md)
-	- [Kafka / SQL](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md)
+	- [Kafka / KSQL](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md)
 	- [FastAPI](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_FastAPI.md)
 	- [AWS Data Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_Data_Engineer.md)
 	- [AWS Machine Learning Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_ML_Engineer.md)
@@ -32,13 +32,13 @@ The courses above are all up to date for 2023. I took the courses above just to 
 ## Spark
 #### Courses taken
 - [Udemy Spark](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
-- [Udemy Advanced Spark 3.0](https://www.udemy.com/course/apache-spark-3-beyond-basics/)
+- [Udemy Advanced Spark 3+](https://www.udemy.com/course/apache-spark-3-beyond-basics/)
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md)
 #### Summary
 - 
 #### Certificates of Completion
-- Udemy Spark completed [, 2023](https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/)
-- Udemy Advanced Spark 3.0 completed [](https://www.udemy.com/certificate/UC-230f3948-d2f2-405a-9f55-3c0f151db965/)
+- Udemy Spark completed [May 20, 2023](https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/)
+- Udemy Advanced Spark 3+ completed [, 2023](https://www.udemy.com/certificate/UC-230f3948-d2f2-405a-9f55-3c0f151db965/)
 
 ## Kafka / KSQL
 #### Courses taken
@@ -62,7 +62,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 
 ## AWS Data Engineer
 #### Courses taken
-- [Udemy AWS Data Engineer](https://www.udemy.com/course/aws-data-analytics)
+- [Udemy Amazon Web Services Data Engineer](https://www.udemy.com/course/aws-data-analytics)
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_Data_Engineer.md)
 #### Summary
 - 
@@ -71,7 +71,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 
 ## AWS Machine Learning Engineer
 #### Courses taken
-- [Udemy AWS ML Engineer](https://www.udemy.com/course/aws-machine-learning)
+- [Udemy Amazon Web Services ML Engineer](https://www.udemy.com/course/aws-machine-learning)
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_ML_Engineer.md)
 #### Summary
 - 
@@ -80,7 +80,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 
 ## GCP Data Engineer
 #### Courses taken
-- [GCP Data Engineer Learning Path](https://www.cloudskillsboost.google/paths/16)
+- [Google Cloud Data Engineer Learning Path](https://www.cloudskillsboost.google/paths/16)
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Data_Engineer.md)
 #### Summary
 - 
@@ -97,7 +97,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 
 ## GCP Machine Learning Engineer
 #### Courses taken
-- [GCP Machine Learning Engineer Learning Path](https://www.cloudskillsboost.google/paths/17)
+- [Google Cloud Machine Learning Engineer Learning Path](https://www.cloudskillsboost.google/paths/17)
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Machine_Learning_Engineer.md)
 #### Summary
 - 
@@ -113,8 +113,8 @@ The courses above are all up to date for 2023. I took the courses above just to 
 
 ## Generative AI
 #### Courses taken
-- [Google Generative AI learning path](https://www.cloudskillsboost.google/journeys/118)
-- [Generative AI Short Courses](https://www.deeplearning.ai/short-courses/)
+- [Google Cloud Generative AI learning path](https://www.cloudskillsboost.google/journeys/118)
+- [Andrew Ng Generative AI Short Courses](https://www.deeplearning.ai/short-courses/)
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Generative_AI.md)
 #### Summary
 - 
@@ -132,8 +132,8 @@ The courses above are all up to date for 2023. I took the courses above just to 
 
 ## Misc: Azure Data / ML Engineer, MlOps, Terraform, Kubernetes, etc.
 #### Courses taken
-- []()
-- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
-- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md)
+- Watched various lectures on 
+- [Course Notes Part 1](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
+- [Course Notes Part 2](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md)
 #### Summary
 - 
