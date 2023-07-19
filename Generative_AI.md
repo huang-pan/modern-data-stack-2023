@@ -6,7 +6,7 @@ Generative AI Learning Path
     - Completed entire learning path, just a background knowledge type of thing \- they got rid of the Gen AI lab =\(
 - Learning path completion badges:
     - Introduction to Generative AI 
-        - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/3861709](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3861709) 
+        - [https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3737950](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3737950) 
     - Introduction to Large Language Models
         - [https://www.cloudskillsboost.google/public\_profiles/28006b56\-95bc\-45dc\-ad6c\-348b907d9afe/badges/3738003](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3738003) 
     - Introduction to Responsible AI

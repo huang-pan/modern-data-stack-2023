@@ -119,7 +119,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 - 
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Generative_AI.md)
 #### Certificates of Completion
-- Introduction to Generative AI completed [June 6, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3861709)
+- Introduction to Generative AI completed [May 23, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3737950)
 - Introduction to Large Language Models completed [May 23, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3738003)
 - Introduction to Responsible AI completed [June 4, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3815915)
 - Generative AI Fundamentals completed [June 6, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3861709 )
