@@ -47,7 +47,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 - [Udemy KSQL](https://www.udemy.com/course/kafka-ksql/)
 #### Summary
 - I learned how Kafka works and how to build streaming analytics solutions with Kafka and KSQL.
-- After you learn Kafka, all the streaming analytics technologies on AWS, Azure, and GCP are similar: Kinesis, Event Hubs / Stream Analytics, Pub/Sub / Dataflow, etc.
+- After you learn Kafka, all the streaming analytics technologies on AWS (Kinesis), Azure (Event Hubs / Stream Analytics), and GCP (Pub/Sub / Dataflow) are similar.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md)
 #### Certificates of Completion
 - Udemy Kafka completed [May 26, 2023](https://www.udemy.com/certificate/UC-82d2aa28-046b-4b71-afe2-8f6e593d490a/)
@@ -165,6 +165,6 @@ Just basic tutorial / background knowledge on the below topics:
 - Airflow vs. Dagster vs. Prefect
 
 #### Summary
-- Azure data engineering / ML related services are similar to AWS and GCP services. I also updated my knowledge on Airflow 2+.
+- Azure data engineering / ML related services are similar to AWS and GCP services. I've used some Azure services in production before. I also updated my knowledge on Airflow 2+.
 - [Course Notes Part 1](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
 - [Course Notes Part 2](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md)
