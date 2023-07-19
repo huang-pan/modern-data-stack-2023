@@ -31,13 +31,13 @@ The courses above are all up to date for 2023. I took the courses above just to 
 
 ## Spark
 #### Courses taken
-- [Udemy Spark](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
+- [Udemy PySpark](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
 - [Udemy Advanced Spark 3+](https://www.udemy.com/course/apache-spark-3-beyond-basics/)
 #### Summary
 - 
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md)
 #### Certificates of Completion
-- Udemy Spark completed [May 20, 2023](https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/)
+- Udemy PySpark completed [May 20, 2023](https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/)
 - Udemy Advanced Spark 3+ completed [May 25, 2023](https://www.udemy.com/certificate/UC-230f3948-d2f2-405a-9f55-3c0f151db965/)
 
 ## Kafka / KSQL
