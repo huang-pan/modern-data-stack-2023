@@ -35,7 +35,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 - [Udemy Advanced Spark 3+](https://www.udemy.com/course/apache-spark-3-beyond-basics/)
 #### Summary
 - The Udemy PySpark course is a refresher course on PySpark.
-- I learned how Spark operates under the hood and how to optimize Spark jobs with the Advanced Spark 3+ course.
+- I learned how Spark works under the hood and how to optimize Spark jobs with the Advanced Spark 3+ course.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md)
 #### Certificates of Completion
 - Udemy PySpark completed [May 20, 2023](https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/)
@@ -103,7 +103,7 @@ The GCP Data Engineer learning path consists of lectures, quizzes, and labs work
 - Cloud Dataproc (Managed Spark, etc.)
 - Bigtable
 - Cloud Composer (Managed Airflow)
-- Cloud Build ('CI/CD' for data pipelines)
+- Cloud Build (CI/CD for data pipelines)
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Data_Engineer.md)
 #### Certificates of Completion
 - Preparing for the Google Cloud Professional Data Engineer Exam completed [June 28, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4161331)
@@ -137,7 +137,7 @@ The GCP Data Engineer learning path consists of lectures, quizzes, and labs work
 - [Google Cloud Generative AI learning path](https://www.cloudskillsboost.google/journeys/118)
 - [Stanford Professor Andrew Ng Generative AI Short Courses](https://www.deeplearning.ai/short-courses/)
 #### Summary
-- The courses on Generative AI was just good background knowlege to have, in case I ever need to build any applications using prompting with language chains, etc.
+- The courses on Generative AI was just good background knowlege to have, in case I ever need to build any applications using prompting with language chains on Large Language Models (LLMs), etc.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Generative_AI.md)
 #### Certificates of Completion
 - Introduction to Generative AI completed [May 23, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3737950)
