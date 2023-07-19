@@ -24,7 +24,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Courses taken
 - [Udemy Data Build Tool](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/)
 #### Summary
-- This is a refresher course on data modeling with the DBT framework.
+- This is a refresher course on data modeling in the data warehouse with the DBT framework.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md)
 #### Certificates of Completion
 - Udemy DBT completed [May 20, 2023](https://www.udemy.com/certificate/UC-de00a2d0-a8a1-4319-8101-bbea3cb3cc5b/)
@@ -47,7 +47,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 - [Udemy KSQL](https://www.udemy.com/course/kafka-ksql/)
 #### Summary
 - I learned how Kafka works and how to build streaming analytics solutions with Kafka and KSQL.
-- After you learn Kafka, all the streaming analytics technologies on AWS, Azure, and GCP are similar: Kinesis, Event Hubs, Pub/Sub, etc.
+- After you learn Kafka, all the streaming analytics technologies on AWS, Azure, and GCP are similar: Kinesis, Event Hubs / Stream Analytics, Pub/Sub / Dataflow, etc.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md)
 #### Certificates of Completion
 - Udemy Kafka completed [May 26, 2023](https://www.udemy.com/certificate/UC-82d2aa28-046b-4b71-afe2-8f6e593d490a/)
@@ -57,7 +57,8 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Courses taken
 - [Udemy FastAPI](https://www.udemy.com/course/completefastapi/)
 #### Summary
-- 
+- This course is useful if I need to build a basic REST API with Python to serve up data. I learned about the basics of API development: CRUD operations, routes, models, schemas, database connections, etc.
+- I focused on the back end related portions of this course and skipped all the front end sections.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_FastAPI.md)
 #### Certificates of Completion
 - Udemy FastAPI completed [May 20, 2023](https://www.udemy.com/certificate/UC-f91bde24-2803-4e24-beba-7e2f3963c9d6/)
@@ -66,7 +67,17 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Courses taken
 - [Udemy Amazon Web Services Data Engineer](https://www.udemy.com/course/aws-data-analytics)
 #### Summary
-- 
+This course is a top level overview of all the AWS services related to data engineering. This course was mainly review for me as I have worked with many AWS services before in production. Services covered include:
+- S3
+- Redshift / Athena
+- Kinesis
+- EMR (Managed Spark, etc.)
+- DynamoDB
+- Glue
+- Lambda
+- Quicksight
+- MWAA (Managed Workflows for Apache Airflow)
+- EKS (Elastic Kubernetes Service)
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_Data_Engineer.md)
 #### Certificates of Completion
 - Udemy AWS Data Engineer completed [June 1, 2023](https://www.udemy.com/certificate/UC-634381db-3681-4d2e-8525-98205f7ac624/)
@@ -75,7 +86,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Courses taken
 - [Udemy Amazon Web Services ML Engineer](https://www.udemy.com/course/aws-machine-learning)
 #### Summary
-- 
+- This course is a top level overview of all the AWS services related to machine learning. I mainly focused on the AWS Sagemaker Studio (ML development environment) sections of this course - the parts relevant to MLOps. Honestly, the machine learning development environments of AWS (Sagemaker), Azure (Machine Learning), and GCP (Vertex AI) are all similar.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_ML_Engineer.md)
 #### Certificates of Completion
 - Udemy AWS ML Engineer completed [June 3, 2023](https://www.udemy.com/certificate/UC-9115613e-cdc4-4ef8-836b-3198f5765b5f/)
@@ -84,7 +95,15 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Courses taken
 - [Google Cloud Data Engineer Learning Path](https://www.cloudskillsboost.google/paths/16)
 #### Summary
-- 
+The GCP Data Engineer learning path consists of lectures, quizzes, and labs working with all GCP services related to data engineering. I used following GCP services in the labs:
+- BigQuery
+- Dataflow (both batch and streaming ETL / analytics)
+- Pub/Sub
+- Cloud Storage
+- Cloud Dataproc (Managed Spark, etc.)
+- Bigtable
+- Cloud Composer (Managed Airflow)
+- Cloud Build ('CI/CD' for data pipelines)
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Data_Engineer.md)
 #### Certificates of Completion
 - Preparing for the Google Cloud Professional Data Engineer Exam completed [June 28, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4161331)
@@ -101,7 +120,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Courses taken
 - [Google Cloud Machine Learning Engineer Learning Path](https://www.cloudskillsboost.google/paths/17)
 #### Summary
-- 
+- The GCP ML Engineer learning path consists of lectures, quizzes, and labs working with all GCP services related to machine learning. I mainly focused on the Vertex AI (ML development environment) and Cloud Build (CI / CD / CT for ML) sections of this course - the parts relevant to MLOps. I also learned how to build neural networks with Tensorflow / Keras from this course - good background knowledge to have.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Machine_Learning_Engineer.md)
 #### Certificates of Completion
 - How Google Does Machine Learning completed [July 5, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4222516)
@@ -116,9 +135,9 @@ The courses above are all up to date for 2023. I took the courses above just to 
 ## Generative AI
 #### Courses taken
 - [Google Cloud Generative AI learning path](https://www.cloudskillsboost.google/journeys/118)
-- [Professor Andrew Ng Generative AI Short Courses](https://www.deeplearning.ai/short-courses/)
+- [Stanford Professor Andrew Ng Generative AI Short Courses](https://www.deeplearning.ai/short-courses/)
 #### Summary
-- 
+- The courses on Generative AI was just good background knowlege to have, in case I ever need to build any applications using prompting with language chains, etc.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Generative_AI.md)
 #### Certificates of Completion
 - Introduction to Generative AI completed [May 23, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3737950)
@@ -131,15 +150,21 @@ The courses above are all up to date for 2023. I took the courses above just to 
 - Transformer Models and BERT Model completed [May 30, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3787108)
 - Create Image Captioning Models completed [May 30, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/3787318)
 - Introduction to Generative AI Studio completed [June 27, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4150368)
+- [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+- [Langchain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
+- [Langchain Chat with Your Data](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/)
 
 ## Misc: Azure Data / ML Engineer, MlOps, Terraform, Kubernetes, etc.
 #### Courses taken
-Watched various lectures on:
-- Azure Data / ML Engineer
-- MlOps
+Just basic tutorial / background knowledge on the below topics:
+- Azure Data / ML Engineer services
 - Terraform
 - Kubernetes
+- MlOps
+- Streamlit
+- Airflow vs. Dagster vs. Prefect
+
 #### Summary
-- 
+- Azure data engineering / ML related services are similar to AWS and GCP services. I also updated my knowledge on Airflow 2+.
 - [Course Notes Part 1](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
 - [Course Notes Part 2](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md)
