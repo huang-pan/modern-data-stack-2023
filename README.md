@@ -57,7 +57,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Courses taken
 - [Udemy FastAPI](https://www.udemy.com/course/completefastapi/)
 #### Summary
-- This course is useful if I need to build a basic REST API with Python to serve up data. I learned about the basics of API development: CRUD operations, routes, models, schemas, database connections, etc.
+- This course is useful if I need to build a basic REST API with Python to serve up data. I learned about the basics of API development using FastAPI: CRUD operations, routes, models, schemas, database connections, etc.
 - I focused on the back end related portions of this course and skipped all the front end sections.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_FastAPI.md)
 #### Certificates of Completion
