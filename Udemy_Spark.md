@@ -241,3 +241,5 @@
     - scheduling within an application
         - can trigger 2 spark jobs within an application to run in parallel
 - Unit Testing
+
+MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway 
