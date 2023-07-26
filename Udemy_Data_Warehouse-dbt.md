@@ -342,3 +342,8 @@ dbt Core v1.5 is slated for release at the end of April, and it will include thr
 - Access: Choose which models ought to be “private” (implementation details, handling complexity within one team or domain) and “public” (an intentional interface, shared with other teams). Other groups and projects can only ref a model — that is, take a critical dependency on it — in accordance with its access.
 - Contracts: Define the structure of a model explicitly. If your model’s SQL doesn’t match the specified column names and data types, it will fail to build. Breaking changes (removing, renaming, retyping a column) will be caught during CI. On data platforms that support build-time constraints, ensure that columns are not null or pass custom checks while a model is being built, in addition to more flexible testing after.
 - Versions: A single model can have multiple versioned definitions, with the same name for downstream reference. When a mature model with an enforced contract and public access needs to undergo a breaking change, rather than breaking downstream queriers immediately, facilitate their migration by bumping the version and communicating a deprecation window.
+
+dbt bought Metricflow
+- https://docs.getdbt.com/docs/build/about-metricflow 
+- https://www.getdbt.com/blog/dbt-semantic-layer-whats-next/ 
+- https://github.com/dbt-labs/metricflow 
