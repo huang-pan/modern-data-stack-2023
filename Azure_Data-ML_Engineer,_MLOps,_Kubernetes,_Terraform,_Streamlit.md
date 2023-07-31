@@ -128,7 +128,10 @@ Kubernetes tutorial
 	- more concise summary of k8s architecture
 	- State full sets hard to manage, easier to use db services outside k8s
 - Volumes, volume mounts
-	- https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts/ 
+	- https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts/
+	- https://bluexp.netapp.com/blog/cvo-blg-kubernetes-persistent-volume-claims-explained
+- stateful set
+	- https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/ 
 
 Terraform
 
