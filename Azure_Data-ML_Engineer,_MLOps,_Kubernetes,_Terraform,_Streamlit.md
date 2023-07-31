@@ -131,7 +131,8 @@ Kubernetes tutorial
 	- https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts/
 	- https://bluexp.netapp.com/blog/cvo-blg-kubernetes-persistent-volume-claims-explained
 - stateful set
-	- https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/ 
+	- https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
+ 	- Like a Deployment, a StatefulSet manages Pods that are based on an identical container spec. Unlike a Deployment, a StatefulSet maintains a sticky identity for each of its Pods. These pods are created from the same spec, but are not interchangeable: each has a persistent identifier that it maintains across any rescheduling. 
 
 Terraform
 
