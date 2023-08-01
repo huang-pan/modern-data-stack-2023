@@ -9,6 +9,7 @@ I updated / refreshed my data engineering skill set in 2023. This consisted of t
 2. Take courses to refresh / update my data engineering skills:
 	- [DBT / Data Warehousing](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md)
 	- [Spark](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md)
+	- [Databricks Data and AI Summit 2023](https://www.youtube.com/watch?v=PIFL7W3DmaY&list=PLTPXxbhUt-YW6v14Vs3sTx6cyK5URKKgO)
 	- [Kafka / KSQL](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md)
 	- [FastAPI](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_FastAPI.md)
 	- [AWS Data Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_Data_Engineer.md)
@@ -17,7 +18,6 @@ I updated / refreshed my data engineering skill set in 2023. This consisted of t
 	- [GCP Machine Learning Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP_Machine_Learning_Engineer.md)
 	- [Generative AI](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Generative_AI.md)
 	- [Misc: Azure Data / ML Engineer, MlOps, Terraform, Kubernetes, etc.](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
-	- [Databricks Data and AI Summit 2023](https://www.youtube.com/watch?v=PIFL7W3DmaY&list=PLTPXxbhUt-YW6v14Vs3sTx6cyK5URKKgO)
 
 The courses above are all up to date for 2023. I took the courses above just to fill in any gaps in my background knowledge and refresh my skill set. I would say that generally, the courses are like tutorial / introductory courses. They have given me enough background knowledge on where to start for any of my future projects. I will go into more depth and really understand the technologies when I work on the actual projects. This is not a problem for me as I'm an experienced data engineer. I've already worked with many tools of the Modern Data Stack already and have learned how to use many technologies on the job in the past. Picking up and applying new technologies is one of my main strengths.
 
@@ -34,9 +34,11 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Courses taken
 - [Udemy PySpark](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
 - [Udemy Advanced Spark 3+](https://www.udemy.com/course/apache-spark-3-beyond-basics/)
+- [Databricks Data and AI Summit 2023](https://www.youtube.com/watch?v=PIFL7W3DmaY&list=PLTPXxbhUt-YW6v14Vs3sTx6cyK5URKKgO)
 #### Summary
 - The Udemy PySpark course is a refresher course on PySpark.
 - I learned how Spark works under the hood and how to optimize Spark jobs with the Advanced Spark 3+ course.
+- The [Databricks Data and AI Summit 2023 videos](https://www.youtube.com/watch?v=PIFL7W3DmaY&list=PLTPXxbhUt-YW6v14Vs3sTx6cyK5URKKgO) of the conference was a great introduction to the modern Databricks platform and integrated development environment. The Databricks platform is currently state of the art. It is a comprehensive platform that unifies data engineering and machine learning development. Features include unified batch and stream processing on Delta Live Tables, declarative pipelines with infrastructure autoscaling, [pyspark.ai](http://pyspark.ai/), Databricks Workflows, LLM model serving / LLMOps, Unity Catalog for data / ML governance, etc.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md)
 #### Certificates of Completion
 - Udemy PySpark completed [May 20, 2023](https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/)
@@ -168,6 +170,5 @@ Just basic tutorial / background knowledge on the below topics:
 
 #### Summary
 - Azure data engineering / ML related services are similar to AWS and GCP services. I've used some Azure services in production before. I also updated my knowledge on Airflow 2+.
-- The [Databricks Data and AI Summit 2023 videos](https://www.youtube.com/watch?v=PIFL7W3DmaY&list=PLTPXxbhUt-YW6v14Vs3sTx6cyK5URKKgO) of the conference was a great introduction to the modern Databricks platform and integrated development environment. The Databricks platform is currently state of the art with unified batch and stream processing on Delta Live Tables, declarative pipelines with infrastructure autoscaling, [pyspark.ai](http://pyspark.ai/), Databricks Workflows, LLM model serving / LLMOps, etc.
 - [Course Notes Part 1](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
 - [Course Notes Part 2](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md)
