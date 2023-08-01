@@ -8,8 +8,7 @@ I updated / refreshed my data engineering skill set in 2023. This consisted of t
 
 2. Take courses to refresh / update my data engineering skills:
 	- [DBT / Data Warehousing](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md)
-	- [Spark](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md)
-	- [Databricks Data and AI Summit 2023](https://www.youtube.com/watch?v=PIFL7W3DmaY&list=PLTPXxbhUt-YW6v14Vs3sTx6cyK5URKKgO)
+	- [Spark](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md) / [Databricks Data and AI Summit 2023](https://www.youtube.com/watch?v=PIFL7W3DmaY&list=PLTPXxbhUt-YW6v14Vs3sTx6cyK5URKKgO)
 	- [Kafka / KSQL](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md)
 	- [FastAPI](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_FastAPI.md)
 	- [AWS Data Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_AWS_Data_Engineer.md)
