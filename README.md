@@ -29,7 +29,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Certificates of Completion
 - Udemy DBT completed [May 20, 2023](https://www.udemy.com/certificate/UC-de00a2d0-a8a1-4319-8101-bbea3cb3cc5b/)
 
-## Spark
+## Spark / Databricks
 #### Courses taken
 - [Udemy PySpark](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
 - [Udemy Advanced Spark 3+](https://www.udemy.com/course/apache-spark-3-beyond-basics/)
