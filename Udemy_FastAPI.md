@@ -366,3 +366,19 @@
         - uses redis
             - redis streams: use to communicate between two microservices as a background task
                 - save info to redis, accessible by both microservices
+             
+Top 7 Ways to 10x Your API Performance
+- https://youtube.com/watch?v=zvWKqUiovAM&feature=share 
+	- 1. 1:00 Caching 
+	- 2. 1:45 Connection Pool 
+	- 3. 2:45 Avoid N+1 Query pattern 
+	- 4. 3:35 Pagination 
+	- 5. 3:58 JSON Serialization 
+	- 6. 4:20 Compression 
+	- 7. 4:50 Asynchronous logging
+- Other techniques:
+	- 1. Tuning the database connection pool size based on the application behaviour. (Large number doesn't always mean more performance)
+	- 2. Optimizing the SQL query. (Ensuring your most frequent queries end up using index scan instead of full table scan)
+	- 3. Not hopping between multiple microservices for a single user request. (While a single user request can hit multiple services but those services should not in turn hit another set of services and so on).
+	- 4. Authorization data should be always cached.
+	- 5. As much as possible, do the most computation on the database layer. There's a huge difference between doing the computation at application layer vs doing it at database layer.
