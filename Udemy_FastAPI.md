@@ -188,6 +188,7 @@
         - [database.py](http://database.py): database definition, connection
             - uses **sqlalchemy**
         - [models.py](http://models.py): model definition: **model** for database table
+            - can also use https://github.com/tiangolo/sqlmodel 
         - [main.py](http://main.py): create instance of database to connect to, uses [database.py](http://database.py)
             - from db.database import engine
             - models.Base.metadata.create\_all\(engine\)
