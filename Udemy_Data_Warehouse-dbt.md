@@ -99,6 +99,7 @@
             - [https://betterprogramming.pub/i\-asked\-chatgpt\-to\-build\-a\-data\-pipeline\-and\-then\-i\-ran\-it\-4537670a60ca](https://betterprogramming.pub/i-asked-chatgpt-to-build-a-data-pipeline-and-then-i-ran-it-4537670a60ca) 
         - [https://piethein.medium.com/using\-dbt\-for\-building\-a\-medallion\-lakehouse\-architecture\-azure\-databricks\-delta\-dbt\-31a31fc9bd0](https://piethein.medium.com/using-dbt-for-building-a-medallion-lakehouse-architecture-azure-databricks-delta-dbt-31a31fc9bd0)
             - Data Lakehouse Medallion architecture \+ dbt
+![medallion-dbt](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cd440c75-d6a1-4607-86a5-5b54c997cbff)
     - **Core** architecture
         - [https://airbyte.com/blog/data\-modeling\-unsung\-hero\-data\-engineering\-architecture\-pattern\-tools](https://airbyte.com/blog/data-modeling-unsung-hero-data-engineering-architecture-pattern-tools)
             - **raw \-\> staging \-\> cleansing \-\> core \-\> marts**
