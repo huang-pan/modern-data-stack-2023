@@ -316,7 +316,7 @@ MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway
 			- use RocksDb instead to store streaming state on HDD
 	- https://youtube.com/watch?v=khhzniCyfP4&feature=share
 		- detailed analysis of how to create robust streaming applications
-- LLMs
+- LLMs 
 	- https://www.youtube.com/watch?v=-ijwLeXgPB4
 		- Foundation Models in the MDS
 		- Self service ad hoc queries for business people 
@@ -325,7 +325,7 @@ MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway
 			- input your own data into the LLM
 	- Use LLMs to generate natural language interfaces / chatbots, etc. add to medium article
 		- deploy internal LLMs so no public data exposure
-- LLMOps: MLFlow 2.5
+- LLMOps: MLFlow 2.5 https://www.databricks.com/dataaisummit/session/llmops-everything-you-need-know-manage-llms/
 	- has all the features for MLOps
 	- plus LLMOps AI Gateway add to MLOps section in medium (also LangSmith)
 		- Vector search: index domain documents, auto index queries and responses for further training
