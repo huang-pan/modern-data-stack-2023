@@ -219,6 +219,9 @@
     - SQL expression or pyspark line \-\-\> unresolved logical plan \-\-\> Spark SQL engine
     - Spark execution plan [https://sparkbyexamples.com/spark/spark\-execution\-plan/?expand\_article=1](https://sparkbyexamples.com/spark/spark-execution-plan/?expand_article=1) 
         - unresolved logical plan \-\-\> logical plan \-\-\> optimized logical plan \-\-\> physical plans \-\-\> cost model \-\-\> selected physical plan \-\-\> RDDs
+- https://youtube.com/watch?v=BVsKJ6xQxsQ&feature=share 
+	- how spark works under the hood: logical, physical plan optimizations
+	- logical, physical operators
 - Memory Allocation / Management
     - driver, executor memory
     - overhead, heap, off heap, pyspark
@@ -243,3 +246,115 @@
 - Unit Testing
 
 MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway 
+
+Databricks Data and AI Summit 2023
+- take this Databricks class: https://www.udemy.com/course/azure-databricks-and-spark-sql-python/ 
+- Lakehouse AI https://youtube.com/watch?v=bQOEIeUx9pU&feature=share 
+	- Databricks state of the art unified data engineering and ML development platform
+	- By breaking down the silos between the data stack, ML stack and DevOps stack, Databricks offers a simplified, faster, and better-governed way to do ML, including integrated feature engineering and governance tooling, end-to-end tracking and lineage of models and data, automatic monitoring, and root cause analysis.
+- Lakehouse IQ https://youtube.com/watch?v=QgLLaUuApzQ&feature=share 
+	- Use natural language to query everything in Databricks ecosystem
+- Spark 3.4 https://youtube.com/watch?v=jmwK_zIFPTM&feature=share 
+	- Spark Connect
+		- connect to Spark from IDE, etc. thin API layer connecting client to spark server
+		- https://youtube.com/watch?v=p9IRFSjuLBE&feature=share
+	- support for pytorch
+	- pyspark.ai
+		- https://youtube.com/watch?v=ZunjkL3L62o&feature=share 
+		- ingest data from the web
+		- english to SQL / pyspark
+		- transcribe audio
+		- create plots, analyses, etc.
+		- explain code
+		- predict, etc.
+		- uses langchain
+		- https://youtube.com/watch?v=ndL3TlWlA1o&feature=share 
+	- Photon next gen Spark, compatible with Spark: https://www.databricks.com/product/photon 
+	- https://youtube.com/watch?v=BVsKJ6xQxsQ&feature=share 
+		- how spark works under the hood: logical, physical plan optimizations
+		- logical, physical operators
+- Delta Live Tables https://youtube.com/watch?v=PIFL7W3DmaY&feature=share 
+	- Delta tables: parquet + metadata
+	- unified batch and streaming tables, declarative tables
+		- streaming tables (ingest): to bronze
+		- materialized views (transforms): to silver
+		- autoscaling, retries
+	- expectations: testing
+		- auto shunt bad data to error tables
+	- multi hop streaming from bronze to silver table
+	- many new techniques for automating declarative streaming tables and materialized views
+	- DLT Serverless https://docs.databricks.com/serverless-compute/index.html
+		- Photon underneath - fast https://www.databricks.com/product/photon 
+	- ST ingest into Bronze --> materialized view in Silver
+	- DLT pipelines: code, target, configuration; auto manage lifecycle, dependency, isolation (dev/stg/prod) - for CI / CD
+		- create dynamic pipelines in python
+		- uses Databricks Pipelines API
+	- Use Github Actions / DAB for CI/CD, integrated with Github PRs
+- AutoLoader
+	- https://youtube.com/watch?v=2F6mBvLoavs&feature=share
+		- auto detect and add files in S3 directory, auto infer schemas, auto error processing
+	- https://youtube.com/watch?v=VUt4sKBelPo&feature=share
+		- declarative pipelines create entire new set of problems: Dangers of schema inference, declarative pipelines 
+		- Streaming merge schema
+		- Autoloader schema explosion
+		- Schema drift, need dashboards to monitor 
+- Configurable metadata pipelines in Databricks
+	- https://youtube.com/watch?v=WYv5haxLlfA&feature=share
+- Databricks Asset Bundles
+	- CI / CD processes for DE / ML: dev -> stg -> prod
+	- https://youtube.com/watch?v=9HOgYVo-WTM&feature=share
+- Databricks Workflows (orchestration, imperative, but can orchestrate declarative data pipelines)
+	- https://youtube.com/watch?v=SKJibVvB2hQ&feature=share 
+	- https://www.databricks.com/blog/2022/05/10/introducing-databricks-workflows.html 
+- Unified Batch and Streaming
+	- https://youtube.com/watch?v=Jv_SCwNndMc&feature=share 
+		- Kinesis -> Delta Live Table --> Workflows triggers and real time alerts -> RT dashboard
+	- https://youtube.com/watch?v=vTbVBlHhecQ&feature=share
+		- general overview of delta lake streaming
+		- what to watch out for: OOM Out of Memory errors (millions of keys in memory)
+			- use RocksDb instead to store streaming state on HDD
+	- https://youtube.com/watch?v=khhzniCyfP4&feature=share
+		- detailed analysis of how to create robust streaming applications
+- LLMs
+	- https://www.youtube.com/watch?v=-ijwLeXgPB4
+		- Foundation Models in the MDS
+		- Self service ad hoc queries for business people 
+		- Prompt engineering for data cleaning and entity resolution 
+		- RAG: Retrieval Augmented Generation
+			- input your own data into the LLM
+	- Use LLMs to generate natural language interfaces / chatbots, etc. add to medium article
+		- deploy internal LLMs so no public data exposure
+- LLMOps: MLFlow 2.5
+	- has all the features for MLOps
+	- plus LLMOps AI Gateway add to MLOps section in medium (also LangSmith)
+		- Vector search: index domain documents, auto index queries and responses for further training
+		- Mlflow evaluation: compare models
+		- GPU serving for LLMs
+	- Lakehouse monitoring: auto generated dashboard, PII detection
+- LLMApp
+	- ![LLMapp](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e7b9727f-ad82-4bfb-86da-13cb7515b191)
+- Unity Catalog
+	- Predictive Optimization, Lakehouse Monitoring (data quality alerts, PII automasking, model performance / drift monitoring)
+		- https://youtube.com/watch?v=8WppyVldn1o&feature=share 
+	- Data search, RBAC down to column level
+		- https://youtube.com/watch?v=CXAFpTo8_WQ&feature=share 
+	- federated access to all data stores (postgres, Snowflake, etc.)
+		- https://youtube.com/watch?v=vGyXpHTYgrQ&feature=share 
+	- Data lineage: easy to track down dirty data origin and all downstream data / models it affected
+		- https://youtube.com/watch?v=bZXswjZ0avA&feature=share 
+- Monte Carlo + Unity Catalog
+	- https://youtube.com/watch?v=09sTDFaOuw4&feature=share 
+	- Data Reliability / Observability
+	- Freshness, Volume, Quality, Schema, Lineage
+	- Detect: ML anomaly detection
+	- Resolve: 
+	- Prevent:
+- Delta Sharing
+	- https://youtube.com/watch?v=imSi6dYBXSg&feature=share 
+	- https://www.databricks.com/product/delta-sharing
+	- Delta sharing, clean rooms: share data, models, notebooks, etc.
+- Databricks Dashboards
+	- integrated across all features, some auto generated
+- Databricks and MS Power BI
+	- Power BI MS Copilot integration
+	- https://youtube.com/watch?v=uadUz6jRb8g&feature=share
