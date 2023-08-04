@@ -156,6 +156,7 @@
 - Spark GraphX
 - After this course, to dig into pyspark more: [https://github.com/cartershanklin/pyspark\-cheatsheet](https://github.com/cartershanklin/pyspark-cheatsheet) 
 
+## Udemy Spark 3 beyond the basics
 [https://www.udemy.com/course/apache\-spark\-3\-beyond\-basics/](https://www.udemy.com/course/apache-spark-3-beyond-basics/)
 
 - Course completion certificate: [https://www.udemy.com/certificate/UC\-230f3948\-d2f2\-405a\-9f55\-3c0f151db965/](https://www.udemy.com/certificate/UC-230f3948-d2f2-405a-9f55-3c0f151db965/) 
