@@ -337,6 +337,11 @@
     - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/sources.yml\#L12](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/sources.yml#L12) more dbt\-expectations tests
     - **dbt test** run tests
 
+dbt + snowflake + blockchain: they use medallion arch (bronze silver gold)
+- https://youtube.com/watch?v=HxJ6Gt_PK_E&feature=share 
+- types of tests:
+![dbt_snowflake](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/addf1a28-f42a-49e4-b7b9-685f384f48f7)
+
 
 dbt Core v1.5 is slated for release at the end of April, and it will include three new constructs:
 - https://www.getdbt.com/blog/analytics-engineering-next-step-forwards/
