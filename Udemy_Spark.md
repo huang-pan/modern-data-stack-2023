@@ -247,7 +247,7 @@
 
 MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway 
 
-Databricks Data and AI Summit 2023
+## Databricks Data and AI Summit 2023
 - take this Databricks class: https://www.udemy.com/course/azure-databricks-and-spark-sql-python/ 
 - Lakehouse AI https://youtube.com/watch?v=bQOEIeUx9pU&feature=share 
 	- Databricks state of the art unified data engineering and ML development platform
