@@ -332,7 +332,7 @@ MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway
 		- Mlflow evaluation: compare models
 		- GPU serving for LLMs
 	- Lakehouse monitoring: auto generated dashboard, PII detection
-- LLMApp
+- LLMApp https://youtu.be/Bu3UZpHy0r0
 	- ![LLMapp](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e7b9727f-ad82-4bfb-86da-13cb7515b191)
 - Unity Catalog
 	- Predictive Optimization, Lakehouse Monitoring (data quality alerts, PII automasking, model performance / drift monitoring)
