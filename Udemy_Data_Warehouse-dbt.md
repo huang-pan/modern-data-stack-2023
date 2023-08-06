@@ -100,6 +100,8 @@
         - [https://piethein.medium.com/using\-dbt\-for\-building\-a\-medallion\-lakehouse\-architecture\-azure\-databricks\-delta\-dbt\-31a31fc9bd0](https://piethein.medium.com/using-dbt-for-building-a-medallion-lakehouse-architecture-azure-databricks-delta-dbt-31a31fc9bd0)
             - Data Lakehouse Medallion architecture \+ dbt
 ![medallion-dbt](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cd440c75-d6a1-4607-86a5-5b54c997cbff)
+![datalakehouse_mesh](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/00ed80d7-c8cc-4687-8460-8cb2cbf70119)
+
     - **Core** architecture
         - [https://airbyte.com/blog/data\-modeling\-unsung\-hero\-data\-engineering\-architecture\-pattern\-tools](https://airbyte.com/blog/data-modeling-unsung-hero-data-engineering-architecture-pattern-tools)
             - **raw \-\> staging \-\> cleansing \-\> core \-\> marts**
