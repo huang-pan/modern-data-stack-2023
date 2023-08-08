@@ -336,6 +336,10 @@ MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway
 		- create dynamic pipelines in python
 		- uses Databricks Pipelines API
 	- Use Github Actions / DAB for CI/CD, integrated with Github PRs
+ 	- Data Lake Table formats: https://youtube.com/live/mXitwotQaAU?feature=share
+  		- Apache Iceberg: most comprehensive format, supports table / catalog versioning that the other formats don't
+    		- Apache Hudi: event based table format, for events
+      		- Delta Tables: periodic log checkpoints
 - AutoLoader
 	- https://youtube.com/watch?v=2F6mBvLoavs&feature=share
 		- auto detect and add files in S3 directory, auto infer schemas, auto error processing
