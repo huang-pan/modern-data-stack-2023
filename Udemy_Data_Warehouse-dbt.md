@@ -355,4 +355,8 @@ dbt Core v1.5 is slated for release at the end of April, and it will include thr
 dbt bought Metricflow
 - https://docs.getdbt.com/docs/build/about-metricflow 
 - https://www.getdbt.com/blog/dbt-semantic-layer-whats-next/ 
-- https://github.com/dbt-labs/metricflow 
+- https://github.com/dbt-labs/metricflow
+
+Also see:
+- Activity Schema: https://www.activityschema.com/
+- Virtual Data Build: https://www.y42.com/blog/virtual-data-builds-one-data-warehouse-environment-for-every-git-commit/
