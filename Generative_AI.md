@@ -40,6 +40,10 @@ Generative AI Short Courses
     - ChatGPT Prompt Engineering for Developers
     - Langchain for LLM Application Development
     - Langchain Chat with Your Data
+    - Evaluating and Deugging Generative AI
+    - Building Generative AI apps with Gradio
+        - similar to the Streamlit tutorial, Hugging Face integration
+        - examples: text summarization, named entity recognition, image captioning, image generation using a diffusion model, LLM chatbot
     - How Diffusion Models work
         - not relevant to data, more for image generation
     - Building Systems with the ChatGPT AI
@@ -187,3 +191,14 @@ Generative AI Short Courses
             - chat history managed outside the chain
             - code creates nice chatbot UI
     - Conclusion
+- Evaluating and Debugging Generative AI
+    - https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/
+        - W&B Standard MLOps platform, has support for LLMOps
+            - ![w b](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/553fe852-b26a-435a-be7d-54dc97fe479f)
+        - Train diffusion models
+        - Evaluate diffusion models
+        - Evaluate LLMs
+            - Track LLM chain spans
+            - track langchain agents
+                - ![tracklangchainagent](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0c149085-f5a9-4b25-b0c0-6fb81d3d811a)
+        - Fine Tune LLMs
