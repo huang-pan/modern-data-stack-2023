@@ -1,5 +1,21 @@
 # Azure Data / ML Engineer, MLOps, Kubernetes, Terraform, Streamlit
 
+Azure Databricks & Spark For Data Engineers (PySpark / SQL)
+
+- https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/ 
+- Delta Lake
+- Azure Data Factory
+- Unity Catalog
+
+Azure Databricks and Spark SQL
+
+- https://www.udemy.com/course/azure-databricks-and-spark-sql-python/ 
+- Medallion Architecture
+- Azure Data Lake Storage v2
+- Spark Structure Streaming and Auto Loader
+- Delta Live Tables
+- CI / CD with Databricks
+
 Azure Data Engineer
 
 - [https://www.youtube.com/playlist?list=PL7ZG6NdDdT8NRHDU5shVgGjlua297bm\-H](https://www.youtube.com/playlist?list=PL7ZG6NdDdT8NRHDU5shVgGjlua297bm-H)
@@ -10,8 +26,6 @@ Azure Data Engineer
         - KQL database: real time database, use KQL to query real time data and push to Power BI
         - [https://learn.microsoft.com/en\-us/fabric/real\-time\-analytics/tutorial\-introduction](https://learn.microsoft.com/en-us/fabric/real-time-analytics/tutorial-introduction) 
         - **Seems to be an easier / more up to date solution than GCP Dataflow or AWS Kinesis Data Analytics**
-- This course seems to be an excellent course if you want to get your hands dirty with Azure data engineering services \(data lakehouse, Spark, Unity Catalog, Azure Data Catalog\): [https://www.udemy.com/course/azure\-databricks\-spark\-core\-for\-data\-engineers/](https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/) 
-    - I'm not doing this course because I already have some experience with Azure, plus I'm doing the GCP data engineering course [https://www.cloudskillsboost.google/paths/16](https://www.cloudskillsboost.google/paths/16) which has plenty of labs. \(I haven't used GCP in production before\)
 - Azure Stream Analytics
     - [https://youtu.be/NbGmyjgY0pU](https://youtu.be/NbGmyjgY0pU) 
     - Looks pretty similar to other streaming solutions; SQL based windows etc.
