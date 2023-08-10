@@ -145,7 +145,6 @@ Just basic tutorial / background knowledge on the below topics:
 - MlOps
 - Streamlit
 - Airflow vs. Dagster vs. Prefect
-- Databricks Data and AI Summit 2023
 
 #### Summary
 - Azure data engineering / ML related services are similar to AWS and GCP services. I've used some Azure services in production before. I also updated my knowledge on Airflow 2+.
