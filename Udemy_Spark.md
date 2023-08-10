@@ -315,7 +315,7 @@ MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway
 		- predict, etc.
 		- uses langchain
 		- https://youtube.com/watch?v=ndL3TlWlA1o&feature=share 
-	- Photon next gen Spark, compatible with Spark: https://www.databricks.com/product/photon 
+	- Photon next gen Spark, compatible with Spark, accelerates SQL queries: https://www.databricks.com/product/photon 
 	- https://youtube.com/watch?v=BVsKJ6xQxsQ&feature=share 
 		- how spark works under the hood: logical, physical plan optimizations
 		- logical, physical operators
