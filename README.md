@@ -134,6 +134,24 @@ The GCP Data Engineer learning path consists of lectures, quizzes, and labs work
 - Machine Learning Operations (MLOps): Getting Started completed [July 8, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4243516)
 - ML Pipelines on Google Cloud completed [July 11, 2023](https://www.cloudskillsboost.google/public_profiles/28006b56-95bc-45dc-ad6c-348b907d9afe/badges/4271248)
 
+## Azure Data / ML Engineer, MlOps, Terraform, Kubernetes, etc.
+#### Courses taken
+- [Azure Databricks & Spark For Data Engineers (PySpark / SQL)](https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/)
+- [Azure Databricks and Spark SQL](https://www.udemy.com/course/azure-databricks-and-spark-sql-python/ )
+
+Just basic tutorial / background knowledge on the below topics:
+- Terraform
+- Kubernetes
+- MlOps
+- Streamlit
+- Airflow vs. Dagster vs. Prefect
+- Databricks Data and AI Summit 2023
+
+#### Summary
+- Azure data engineering / ML related services are similar to AWS and GCP services. I've used some Azure services in production before. I also updated my knowledge on Airflow 2+.
+- [Course Notes Part 1](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
+- [Course Notes Part 2](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md)
+
 ## Generative AI
 #### Courses taken
 - [Google Cloud Generative AI learning path](https://www.cloudskillsboost.google/journeys/118)
@@ -155,21 +173,3 @@ The GCP Data Engineer learning path consists of lectures, quizzes, and labs work
 - [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 - [Langchain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
 - [Langchain Chat with Your Data](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/)
-
-## Misc: Azure Data / ML Engineer, MlOps, Terraform, Kubernetes, etc.
-#### Courses taken
-- [Azure Databricks & Spark For Data Engineers (PySpark / SQL)](https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/)
-- [Azure Databricks and Spark SQL](https://www.udemy.com/course/azure-databricks-and-spark-sql-python/ )
-
-Just basic tutorial / background knowledge on the below topics:
-- Terraform
-- Kubernetes
-- MlOps
-- Streamlit
-- Airflow vs. Dagster vs. Prefect
-- Databricks Data and AI Summit 2023
-
-#### Summary
-- Azure data engineering / ML related services are similar to AWS and GCP services. I've used some Azure services in production before. I also updated my knowledge on Airflow 2+.
-- [Course Notes Part 1](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
-- [Course Notes Part 2](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md)
