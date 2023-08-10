@@ -158,8 +158,10 @@ The GCP Data Engineer learning path consists of lectures, quizzes, and labs work
 
 ## Misc: Azure Data / ML Engineer, MlOps, Terraform, Kubernetes, etc.
 #### Courses taken
+- [Azure Databricks & Spark For Data Engineers (PySpark / SQL)](https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/)
+- [Azure Databricks and Spark SQL](https://www.udemy.com/course/azure-databricks-and-spark-sql-python/ )
+
 Just basic tutorial / background knowledge on the below topics:
-- Azure Data / ML Engineer services
 - Terraform
 - Kubernetes
 - MlOps
