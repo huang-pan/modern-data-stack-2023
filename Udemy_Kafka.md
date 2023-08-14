@@ -407,3 +407,6 @@
     - testing
         - **ksql\-test\-runner**
             - run on ksql script file that has tests
+
+Snowplow
+- Customer data augmentation in real time (structured behavioral data)
