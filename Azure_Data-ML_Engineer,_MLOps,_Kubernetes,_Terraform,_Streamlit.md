@@ -2,7 +2,8 @@
 
 Azure Databricks & Spark For Data Engineers (PySpark / SQL)
 
-- https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/ 
+- https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/
+- Azure: Data Lake gen 2, Spark clusters, notebooks & dashboards, medallion architecture, incremental loads
 - Delta Lake
 - Azure Data Factory
 - Unity Catalog
@@ -10,7 +11,7 @@ Azure Databricks & Spark For Data Engineers (PySpark / SQL)
 Azure Databricks and Spark SQL
 
 - https://www.udemy.com/course/azure-databricks-and-spark-sql-python/ 
-- Medallion Architecture
+- Medallion Architecture, hive metastore
 - Azure Data Lake Storage v2
 - Spark Structure Streaming and Auto Loader
 - Delta Live Tables
