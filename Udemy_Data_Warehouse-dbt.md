@@ -89,7 +89,7 @@
                 - wide MART schema
                     - create wide fact \+ dim tables
     - Data Lakehouse **Medallion** architecture:
-        - [https://www.databricks.com/glossary/medallion\-architecture](https://www.databricks.com/glossary/medallion-architecture) 
+        - [https://www.databricks.com/glossary/medallion\-architecture](https://www.databricks.com/glossary/medallion-architecture)
         - bronze \-\> silver \-\> gold
             - structure good for data scientists
             - can possible have bronze = raw, silver = cleaned, gold = core \(fact / dimension / mart\)
@@ -102,6 +102,8 @@
             - Data Lakehouse Medallion architecture \+ dbt
 ![medallion-dbt](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cd440c75-d6a1-4607-86a5-5b54c997cbff)
 ![datalakehouse_mesh](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/00ed80d7-c8cc-4687-8460-8cb2cbf70119)
+        - Unity Catalog
+  ![Screenshot 2023-08-17 at 8 24 24 AM (2)](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7f081874-35e7-41dc-8c20-f31549d2ea99)
 
     - **Core** architecture
         - [https://airbyte.com/blog/data\-modeling\-unsung\-hero\-data\-engineering\-architecture\-pattern\-tools](https://airbyte.com/blog/data-modeling-unsung-hero-data-engineering-architecture-pattern-tools)
