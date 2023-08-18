@@ -148,11 +148,10 @@ Just basic tutorial / background knowledge on the below topics:
 
 #### Summary
 - The Udemy Azure and Databricks courses were very helpful for understanding the latest Databricks offerings on Azure. Services of note are:
- 	- Delta Live Tables
-	- Unity Catalog
-  	- Azure Data Factory
-  	- Azure Data Lake
-  	- Databricks CI/CD
+ 	- Databricks Delta Lake / Delta Live Tables
+	- Databricks Unity Catalog
+  	- Azure Data Factory / Data Lake
+  	- Azure Devops, Databricks CI/CD
 - Azure data engineering / ML related services are similar to AWS and GCP services. I've used some Azure services in production before.
 - I also updated my knowledge on Airflow 2+, Dagster, Prefect, Kubernetes, Terraform, Streamlit, etc.
 - [Course Notes Part 1](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
