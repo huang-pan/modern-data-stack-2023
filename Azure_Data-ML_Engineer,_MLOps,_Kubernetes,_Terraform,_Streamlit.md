@@ -3,6 +3,7 @@
 Azure Databricks & Spark For Data Engineers (PySpark / SQL)
 
 - https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/
+	- Course complete certificate: https://www.udemy.com/certificate/UC-953b1ee6-3645-4797-8e02-d68b14d0dca2/
 - Azure: Data Lake gen 2, Spark clusters, notebooks & dashboards, medallion architecture, incremental loads
 - Delta Lake
 - Azure Data Factory
@@ -10,7 +11,8 @@ Azure Databricks & Spark For Data Engineers (PySpark / SQL)
 
 Azure Databricks and Spark SQL
 
-- https://www.udemy.com/course/azure-databricks-and-spark-sql-python/ 
+- https://www.udemy.com/course/azure-databricks-and-spark-sql-python/
+	- Course completion certificate: https://www.udemy.com/certificate/UC-f9306a42-9538-4dd1-9ee6-7633cb069371/ 
 - Medallion Architecture, hive metastore
 - Azure Data Lake Storage v2
 - Spark Structure Streaming
@@ -19,10 +21,12 @@ Azure Databricks and Spark SQL
 	- stream into one dataframe from all files in one directory
  	- schema inference, schema evolution
 - Delta Live Tables
+	- Delta Live streaming tables, delta live tables (batch, aggregation)
 	- Delta tables have checkpoints, including streaming tables
 	- Delta Live Expectations: data quality constraints
-	- enhanced autoscaling
+	- enhanced autoscaling: primarily for streaming data
 - CI / CD with Databricks
+	- Azure Devops solution: standard git -> dev -> test -> prod pipelines
 
 Azure Data Engineer
 
