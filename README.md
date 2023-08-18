@@ -157,6 +157,9 @@ Just basic tutorial / background knowledge on the below topics:
 - I also updated my knowledge on Airflow 2+, Dagster, Prefect, Kubernetes, Terraform, Streamlit, etc.
 - [Course Notes Part 1](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
 - [Course Notes Part 2](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md)
+#### Certificates of Completion
+- Azure Databricks & Spark For Data Engineers (PySpark / SQL) [August 16, 2023](https://www.udemy.com/certificate/UC-953b1ee6-3645-4797-8e02-d68b14d0dca2/)
+- Azure Databricks and Spark SQL [August 17, 2023](https://www.udemy.com/certificate/UC-f9306a42-9538-4dd1-9ee6-7633cb069371/)
 
 ## Generative AI
 #### Courses taken
