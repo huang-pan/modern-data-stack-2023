@@ -14,7 +14,8 @@ Azure Databricks and Spark SQL
 - Medallion Architecture, hive metastore
 - Azure Data Lake Storage v2
 - Spark Structure Streaming and Auto Loader
-- Delta Live Tables
+**	- Can stream directly into a pyspark dataframe: a LOT easier than GCP Dataflow, Kinesis Data Analytics
+**- Delta Live Tables
 - CI / CD with Databricks
 
 Azure Data Engineer
