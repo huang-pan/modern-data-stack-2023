@@ -16,6 +16,7 @@ Azure Databricks and Spark SQL
 - Spark Structure Streaming and Auto Loader
 	- **Can stream directly into a pyspark dataframe: a LOT easier than GCP Dataflow, Kinesis Data Analytics**
 - Delta Live Tables
+	- Delta tables have checkpoints, including streaming tables
 - CI / CD with Databricks
 
 Azure Data Engineer
