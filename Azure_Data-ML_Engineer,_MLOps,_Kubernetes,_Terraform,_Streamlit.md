@@ -17,6 +17,8 @@ Azure Databricks and Spark SQL
 	- **Can stream directly into a pyspark dataframe or SQL table: a LOT easier than GCP Dataflow, Kinesis Data Analytics**
 - Delta Live Tables
 	- Delta tables have checkpoints, including streaming tables
+	- Delta Live Expectations: data quality constraints
+	- enhanced autoscaling
 - CI / CD with Databricks
 
 Azure Data Engineer
