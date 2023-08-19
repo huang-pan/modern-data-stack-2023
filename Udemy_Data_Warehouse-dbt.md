@@ -132,6 +132,9 @@
         - **Intermediate** \(`int`\) refers to any models that exist between final fact and dimension tables. These should be built on staging models rather than directly on sources to leverage the data cleaning that was done in staging.
         - **Fact** \(`fct`\) refers to any data that represents something that occurred or is occurring. Examples include sessions, transactions, orders, stories, votes. These are typically skinny, long tables.
         - **Dimension** \(`dim`\) refers to data that represents a person, place or thing. Examples include customers, products, candidates, buildings, employees.
+![granularity](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c0f24dae-5893-48bf-956d-874512d3ec8c)
+![conformed](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4f6e2257-a44e-4f9a-be7c-58b17327e60e)
+
 - 4 ETL patterns
     - append
     - in\-place update
