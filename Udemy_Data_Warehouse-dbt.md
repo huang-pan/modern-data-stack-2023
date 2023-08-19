@@ -37,6 +37,7 @@
         - [https://airbyte.com/blog/snowflake\-data\-warehouse\-architecture](https://airbyte.com/blog/snowflake-data-warehouse-architecture)
         - [https://www.analytics.today/blog/snowflake\-accounts\-best\-practice](https://www.analytics.today/blog/snowflake-accounts-best-practice)
         - [https://www.reddit.com/r/snowflake/comments/umvn1f/how\_to\_design\_snowflake\_databases\_and\_schemas/](https://www.reddit.com/r/snowflake/comments/umvn1f/how_to_design_snowflake_databases_and_schemas/)
+        - https://www.reddit.com/r/Database/comments/dovxgo/determining_schema_for_real_estate_data_warehouse/
     - Data Warehouse data modeling
         - 1st, 2nd, 3rd normal form: https://youtube.com/watch?v=J-drts33N8g&feature=share
         - 3NF Third Normal Form vs Dimensional Modeling vs Data Vault
