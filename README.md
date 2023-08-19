@@ -26,6 +26,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Summary
 - This is a refresher course on data modeling in the data warehouse with the DBT framework.
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md)
+- Github repo: https://github.com/huang-pan/complete-dbt-bootcamp-zero-to-hero
 #### Certificates of Completion
 - Udemy DBT completed [May 20, 2023](https://www.udemy.com/certificate/UC-de00a2d0-a8a1-4319-8101-bbea3cb3cc5b/)
 
