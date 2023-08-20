@@ -89,6 +89,8 @@
                         - SCD type 2, data lineage
                 - wide MART schema
                     - create wide fact \+ dim tables
+            - Advice on data modeling
+                - https://youtube.com/watch?v=F-vkxuq5nv0&feature=share
     - Data Lakehouse **Medallion** architecture:
         - [https://www.databricks.com/glossary/medallion\-architecture](https://www.databricks.com/glossary/medallion-architecture)
         - bronze \-\> silver \-\> gold
