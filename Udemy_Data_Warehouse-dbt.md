@@ -89,6 +89,9 @@
                         - SCD type 2, data lineage
                 - wide MART schema
                     - create wide fact \+ dim tables
+            - Bus Architecture
+                - create data warehouse from multiple data marts, use conformed dimensions
+                - https://youtube.com/watch?v=z7uNwS-OWHA&feature=share
             - Advice on data modeling
                 - https://youtube.com/watch?v=F-vkxuq5nv0&feature=share
     - Data Lakehouse **Medallion** architecture:
