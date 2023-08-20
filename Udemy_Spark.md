@@ -22,7 +22,7 @@
         - [https://www.globalsqa.com/pyspark\-cheat\-sheet/](https://www.globalsqa.com/pyspark-cheat-sheet/)
         - [https://sparkbyexamples.com/pyspark\-tutorial/](https://sparkbyexamples.com/pyspark-tutorial/) 
         - [https://intellipaat.com/blog/tutorial/spark\-tutorial/spark\-and\-rdd\-cheat\-sheet/?US](https://intellipaat.com/blog/tutorial/spark-tutorial/spark-and-rdd-cheat-sheet/?US)
-        - How to optimize Spark workloads: https://www.databricks.com/discover/pages/optimize-data-workloads-guide 
+    - **How to optimize Spark workloads**: https://www.databricks.com/discover/pages/optimize-data-workloads-guide 
 - Set up Spark from the JDK: in reality, I would use a managed service like Spark on EMR or GCP DataProc
     - course starts with installing and running Spark locally
         - spark\-submit pyspark\_script.py
