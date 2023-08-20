@@ -8,6 +8,7 @@ Azure Databricks & Spark For Data Engineers (PySpark / SQL)
 - Delta Lake
 - Azure Data Factory
 - Unity Catalog
+- How to optimize Spark workloads: https://www.databricks.com/discover/pages/optimize-data-workloads-guide
 
 Azure Databricks and Spark SQL
 
