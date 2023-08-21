@@ -276,8 +276,9 @@
 - Memory Allocation / Management
     - driver, executor memory
     - overhead, heap, off heap, pyspark
-- Adaptive Query Execution
+- ***Adaptive Query Execution***
     - dynamically coalescing shuffle partitions, switching join strategies, optimizing skew joins
+    - Spark 3+, details of AQE https://blog.cloudera.com/how-does-apache-spark-3-0-increase-the-performance-of-your-sql-workloads/
 - Data Skew
 - Dynamic Partition Pruning
 - Data Caching: cache, persist
