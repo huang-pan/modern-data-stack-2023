@@ -22,7 +22,8 @@
         - [https://www.globalsqa.com/pyspark\-cheat\-sheet/](https://www.globalsqa.com/pyspark-cheat-sheet/)
         - [https://sparkbyexamples.com/pyspark\-tutorial/](https://sparkbyexamples.com/pyspark-tutorial/) 
         - [https://intellipaat.com/blog/tutorial/spark\-tutorial/spark\-and\-rdd\-cheat\-sheet/?US](https://intellipaat.com/blog/tutorial/spark-tutorial/spark-and-rdd-cheat-sheet/?US)
-    - **How to optimize Spark workloads**: https://www.databricks.com/discover/pages/optimize-data-workloads-guide 
+    - **How to optimize Spark workloads**: https://www.databricks.com/discover/pages/optimize-data-workloads-guide
+    	- 
 - Set up Spark from the JDK: in reality, I would use a managed service like Spark on EMR or GCP DataProc
     - course starts with installing and running Spark locally
         - spark\-submit pyspark\_script.py
@@ -327,6 +328,7 @@ MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway
 		- streaming tables (ingest): to bronze
 		- materialized views (transforms): to silver
 		- autoscaling, retries
+  			- https://synccomputing.com/is-databrickss-autoscaling-cost-efficient/
 	- expectations: testing
 		- auto shunt bad data to error tables
 	- multi hop streaming from bronze to silver table
