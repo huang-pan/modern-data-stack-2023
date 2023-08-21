@@ -328,6 +328,17 @@ MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway
 		- logical, physical operators
 - Delta Live Tables https://youtube.com/watch?v=PIFL7W3DmaY&feature=share 
 	- Delta tables: parquet + metadata
+ 		- ***table partitioning***
+   			- https://stackoverflow.com/questions/70881505/databricks-z-order-vs-partitionby#:~:text=Partitioning%20physically%20splits%20the%20data,possible%20values%20for%20given%20column.
+      			- https://community.databricks.com/t5/data-engineering/what-s-the-difference-between-z-ordering-and-partitioning/td-p/26656
+         		- https://docs.databricks.com/en/tables/partitions.html
+		           - https://docs.databricks.com/en/tables/partitions.html#ingestion-time-clustering
+           		- Partitioning physically splits the data into different files/directories having only one specific value, while ZOrder provides clustering of related data inside the files that may contain multiple possible values for given column.
+Partitioning is useful when you have a low cardinality column - when there are not so many different possible values - for example, you can easily partition by year & month (maybe by day), but if you partition in addition by hour, then you'll have too many partitions with too many files, and it will lead to big performance problems.   Amount of data in each partition should meet a minimum threshold
+ZOrder allows to create bigger files that are more efficient to read compared to many small files. This works somewhat like secondary indexes in terms of improving query read performance. 
+But you can combine both partitioning with ZOrder - for example partition by year/month, and ZOrder by day - that will allow to collocate data of the same day close to each other, and you can access them faster (because you read fewer files). 
+Besides ZOrder, you can also use data skipping to efficiently filter out files that doesn't contain data you need for your query.
+
 	- unified batch and streaming tables, declarative tables
 		- streaming tables (ingest): to bronze
 		- materialized views (transforms): to silver
