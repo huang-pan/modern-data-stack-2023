@@ -120,7 +120,7 @@
             - dbt can be seen as a transformation modeling tool. [Dagster](https://glossary.airbyte.com/term/dagster/) can be used as a [DAG](https://glossary.airbyte.com/term/dag-directed-acyclic-graph/) modeling tool. And so forth. But you can also use [ExaliDraw](https://excalidraw.com/?_gl=1*1vut0at*_ga*MTUzNzQ2NzYxNi4xNjg2NDMwODU5*_ga_HDBMVFQGBH*MTY4Nzc1MDQyNC4yLjAuMTY4Nzc1MDQyNC4wLjAuMA..) for Markdown\-based drawing or [draw.io](https://draw.io/?_gl=1*1vut0at*_ga*MTUzNzQ2NzYxNi4xNjg2NDMwODU5*_ga_HDBMVFQGBH*MTY4Nzc1MDQyNC4yLjAuMTY4Nzc1MDQyNC4wLjAuMA..) \(lots of [templates](https://www.drawio.com/example-diagrams) for AWS, Azure, etc.\) to draw architectures.
             - [https://airbyte.com/blog/data\-modeling\-unsung\-hero\-data\-engineering\-introduction](https://airbyte.com/blog/data-modeling-unsung-hero-data-engineering-introduction)
                 - normalized vs unormalized
-                - Slowly Changing Dimensions
+                - Slowly Changing Dimensions https://phanikumaryadavilli.medium.com/managing-dimensional-data-changes-a-refresher-to-slowly-changing-dimensions-scds-and-their-types-d7f181b7492c
             - [https://airbyte.com/blog/data\-modeling\-unsung\-hero\-data\-engineering\-approaches\-and\-techniques](https://airbyte.com/blog/data-modeling-unsung-hero-data-engineering-approaches-and-techniques)
                 - conceptual \-\> logical \-\> physical 
         - **Entity Relationship Modeling \(ERM\): OLTP**
