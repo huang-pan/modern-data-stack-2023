@@ -220,7 +220,8 @@
     - This is a refresher course on dbt for me. It covers all the basics with simple example, it's more like a tutorial introduction to dbt. While basic, I found this course to be a comprehensive introduction to dbt. The best way for the knowledge to sink in is to continually use dbt on a project or job.
 - Github repos for course:
     - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero)
-    - [https://github.com/huang\-pan/complete\-dbt\-bootcamp\-zero\-to\-hero](https://github.com/huang-pan/complete-dbt-bootcamp-zero-to-hero) 
+    - [https://github.com/huang\-pan/complete\-dbt\-bootcamp\-zero\-to\-hero](https://github.com/huang-pan/complete-dbt-bootcamp-zero-to-hero)
+    - https://tech.instacart.com/adopting-dbt-as-the-data-transformation-tool-at-instacart-36c74bc407df
 - **preset**: managed superset tool
 - dbt Cloud vs Vscode
     - **dbt Cloud nice, but you can do everything in VScode & CLI**
