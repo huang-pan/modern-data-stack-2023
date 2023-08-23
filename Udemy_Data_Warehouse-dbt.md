@@ -369,6 +369,7 @@ dbt bought Metricflow, dbt Core v1.6+
 - https://docs.getdbt.com/docs/build/about-metricflow 
 - https://www.getdbt.com/blog/dbt-semantic-layer-whats-next/ 
 - https://github.com/dbt-labs/metricflow
+- https://github.com/dbt-labs/jaffle-sl-template
 
 Also see:
 - Activity Schema: https://www.activityschema.com/
