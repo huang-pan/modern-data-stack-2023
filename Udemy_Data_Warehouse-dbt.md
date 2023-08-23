@@ -308,6 +308,8 @@
         - singular tests, SQL query expected to return empty result set
     - **dbt test \-\-select dim\_listings\_w\_hosts**
         - run tests on specific model
+    - https://ssmertin.com/articles/strategies-for-data-quality-with-apache-spark/
+    	- test for: completeness, consistency, uniqueness, timeliness, relevance, accuracy, validity
 - macros
     - dbt has many built in macros
     - **macros/\*.sql** files
