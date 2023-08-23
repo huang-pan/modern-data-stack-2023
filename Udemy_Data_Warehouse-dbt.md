@@ -92,6 +92,7 @@
             - Bus Architecture
                 - create data warehouse from multiple data marts, use conformed dimensions
                 - https://youtube.com/watch?v=z7uNwS-OWHA&feature=share
+                - https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/kimball-data-warehouse-bus-architecture/
             - Advice on data modeling
                 - https://youtube.com/watch?v=F-vkxuq5nv0&feature=share
     - Data Lakehouse **Medallion** architecture:
