@@ -43,6 +43,7 @@ Generative AI Short Courses
     - Evaluating and Deugging Generative AI
     - Large Language Models for Semantic Search
       - dense retrieval with embeddings, enhanced keyword search, find relevant documents
+    - Fine Tuning LLMs
     - Building Generative AI apps with Gradio
         - similar to the Streamlit tutorial, Hugging Face integration
         - examples: text summarization, named entity recognition, image captioning, image generation using a diffusion model, LLM chatbot
