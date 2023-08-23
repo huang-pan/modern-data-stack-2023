@@ -199,3 +199,14 @@ Latest Data Tools
 
 - Cool channel doing demos of the latest data tools: [https://www.youtube.com/@demohub/videos](https://www.youtube.com/@demohub/videos)
 - Jupyter AI https://www.marktechpost.com/2023/08/06/meet-jupyter-ai-a-new-open-source-project-that-brings-generative-artificial-intelligence-to-jupyter-notebooks-with-magic-commands-and-a-chat-interface/
+
+Data Product
+- Understand business requirements for upcoming data ingestion work (Securities data, Master data, Positions data etc.)
+	- What’s the timeline to implement the pipeline?
+	- What level of testing is required e.g., Source-to-Target reconciliation, Basic Data Quality vs Functional Testing)
+	- What volume of data are we dealing with?
+	- How will the data be consumed once it has been hosted in the Cloud Data Lake (AWS S3) and Warehouse (Snowflake)?
+- Create a data pipeline spec that covers quality checks, assumptions, business metrics, and allows stakeholders to give feedback BEFORE you start coding
+- Build data quality checks into your pipelines using data contracts such as write-audit-publish and write unit and integration tests to catch quality errors before they enter production
+- Discover the power of data lake technologies Apache Iceberg. Proper schema evolution, partitioning, and parquet file format compression!
+- Level up your SQL skills by having a four-hour crash course on GROUPING SETS, window functions, and cumulative table design
