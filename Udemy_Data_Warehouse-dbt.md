@@ -368,7 +368,12 @@ dbt Core v1.5 is slated for release at the end of April, and it will include thr
 - Versions: A single model can have multiple versioned definitions, with the same name for downstream reference. When a mature model with an enforced contract and public access needs to undergo a breaking change, rather than breaking downstream queriers immediately, facilitate their migration by bumping the version and communicating a deprecation window.
 
 dbt bought Metricflow, dbt Core v1.6+
-- https://docs.getdbt.com/docs/build/about-metricflow 
+- https://docs.getdbt.com/docs/build/about-metricflow
+    - logical models: current models
+    - semantic models: KPI models
+        - entities: ID
+	    - dimensions: columns you aggregate / group by
+	    - measures: columns you sum / avg, etc.
 - https://www.getdbt.com/blog/dbt-semantic-layer-whats-next/ 
 - https://github.com/dbt-labs/metricflow
 - https://github.com/dbt-labs/jaffle-sl-template
