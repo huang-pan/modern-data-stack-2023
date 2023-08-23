@@ -358,7 +358,9 @@ dbt + snowflake + blockchain: they use medallion arch (bronze silver gold)
 - types of tests:
 ![dbt_snowflake](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/addf1a28-f42a-49e4-b7b9-685f384f48f7)
 
-
+dbt best practices https://docs.getdbt.com/guides/best-practices/how-we-structure/1-guide-overview 
+- directory / project scaffolding, style guide
+  
 dbt Core v1.5 is slated for release at the end of April, and it will include three new constructs:
 - https://www.getdbt.com/blog/analytics-engineering-next-step-forwards/
 - Access: Choose which models ought to be “private” (implementation details, handling complexity within one team or domain) and “public” (an intentional interface, shared with other teams). Other groups and projects can only ref a model — that is, take a critical dependency on it — in accordance with its access.
