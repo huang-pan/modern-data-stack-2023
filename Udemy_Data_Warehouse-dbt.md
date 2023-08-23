@@ -129,6 +129,7 @@
                 - snowflake: more normalization of dimension tables
                 - [https://www.guru99.com/star\-snowflake\-data\-warehousing.html](https://www.guru99.com/star-snowflake-data-warehousing.html) 
     - dbt: Naming Conventions
+        - **https://docs.getdbt.com/guides/best-practices/how-we-structure/1-guide-overview**
         - **[https://docs.getdbt.com/blog/stakeholder\-friendly\-model\-names](https://docs.getdbt.com/blog/stakeholder-friendly-model-names)** 
         - [https://towardsdatascience.com/the\-most\-efficient\-way\-to\-organize\-dbt\-models\-244e23c17072](https://towardsdatascience.com/the-most-efficient-way-to-organize-dbt-models-244e23c17072) 
         - In working on this project, we established some conventions for naming our models.
