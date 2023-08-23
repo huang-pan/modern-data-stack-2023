@@ -207,6 +207,18 @@ Data Product
 	- What volume of data are we dealing with?
 	- How will the data be consumed once it has been hosted in the Cloud Data Lake (AWS S3) and Warehouse (Snowflake)?
 - Create a data pipeline spec that covers quality checks, assumptions, business metrics, and allows stakeholders to give feedback BEFORE you start coding
+   	- stakeholders / end users / areas impacted
+	- data
+		- upstream / source
+			- data contracts?
+		- downstream
+			- internal tools
+			- external tools
+			- KPIs / metrics
+			- data science / ML
+		- frequency
+	- level of testing
+	- implementation timeline
 - Build data quality checks into your pipelines using data contracts such as write-audit-publish and write unit and integration tests to catch quality errors before they enter production
 - Discover the power of data lake technologies Apache Iceberg. Proper schema evolution, partitioning, and parquet file format compression!
 - Level up your SQL skills by having a four-hour crash course on GROUPING SETS, window functions, and cumulative table design
