@@ -214,6 +214,13 @@
     - use CDC to limit data ingest to warehouse
     - process dim tables before fact tables: create new dim table Surrogate Keys \-\> update fact table FKs
     - look for opportunities for parallel processing
+- Case study dimensional modeling
+	- https://youtube.com/watch?v=7HyGM3Iw0Kc&si=kX1FdNosFXzgXHba 
+		- start with business problem --> find smallest grain --> create conceptual model --> create logical model
+		- logical model: fact, dimension tables; each table: primary key, attributes
+		- degenerate dimension ID: ID without any attributes (e.g. bar code), put in fact table, no dimension table
+  	- ![fact_dim](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/73c1cf9f-73d9-48e8-b3ef-098f41555c46)
+
 
 [https://www.udemy.com/course/complete\-dbt\-data\-build\-tool\-bootcamp\-zero\-to\-hero\-learn\-dbt/](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/)
 
