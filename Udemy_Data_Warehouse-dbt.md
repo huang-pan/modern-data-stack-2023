@@ -222,6 +222,10 @@
   	- ![fact_dim](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/73c1cf9f-73d9-48e8-b3ef-098f41555c46)
 
 
+
+
+
+
 [https://www.udemy.com/course/complete\-dbt\-data\-build\-tool\-bootcamp\-zero\-to\-hero\-learn\-dbt/](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/)
 
 - Course completion certificate: [https://www.udemy.com/certificate/UC\-de00a2d0\-a8a1\-4319\-8101\-bbea3cb3cc5b/](https://www.udemy.com/certificate/UC-de00a2d0-a8a1-4319-8101-bbea3cb3cc5b/) 
