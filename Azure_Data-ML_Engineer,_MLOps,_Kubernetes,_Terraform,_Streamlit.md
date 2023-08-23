@@ -146,6 +146,18 @@ MLOps
         - experiment tracking
         - a model registry
         - model training \(hyperparameter tuning\) / evaluation / test pipelines
+- ***MLOps testing***
+    - https://madewithml.com/courses/mlops/testing/  
+	- model testing, use pytest
+ 		- test fixture: common test elements shared among different tests
+	- Unit tests: tests on individual components that each have a single responsibility (ex. function that filters a list).
+        - Integration tests: tests on the combined functionality of individual components (ex. data processing).
+        - System tests: tests on the design of a system for expected outputs given inputs (ex. training, inference, etc.).
+        - Acceptance tests: tests to verify that requirements have been met, usually referred to as User Acceptance Testing (UAT).
+        - Regression tests: tests based on errors we've seen before to ensure new changes don't reintroduce them.
+    - Juvo used pytest, see test fixture code
+    - https://ssmertin.com/articles/strategies-for-data-quality-with-apache-spark/
+    	- test for: completeness, consistency, uniqueness, timeliness, relevance, accuracy, validity
 
 Kubernetes tutorial
 
