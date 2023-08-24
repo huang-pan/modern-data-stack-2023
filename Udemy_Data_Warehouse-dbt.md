@@ -316,6 +316,8 @@
         - singular tests, SQL query expected to return empty result set
     - **dbt test \-\-select dim\_listings\_w\_hosts**
         - run tests on specific model
+    - Datafold data-diff complete dataset comparison testing
+    	- https://github.com/huang-pan/modern-data-stack-2023/blob/main/dbt/Download%20the%20definitive%20guide%20to%20dbt%20testing.pdf
     - https://ssmertin.com/articles/strategies-for-data-quality-with-apache-spark/
     	- test for: completeness, consistency, uniqueness, timeliness, relevance, accuracy, validity
 - macros
