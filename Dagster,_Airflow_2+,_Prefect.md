@@ -143,7 +143,7 @@ Airflow 2\+:
 - what's new in Airflow 2.4 [https://www.astronomer.io/blog/apache\-airflow\-2\-4\-everything\-you\-need\-to\-know/](https://www.astronomer.io/blog/apache-airflow-2-4-everything-you-need-to-know/)
     - data driven scheduling: DAG run on Dataset completion
 - Airflow 2.7
-    - Soda testing framework https://youtube.com/watch?v=YZTcIi5o7FI&si=hCVPcuLsrWwRl13M
+    - Soda testing framework: Airflow + Soda + Snowflake https://youtube.com/watch?v=YZTcIi5o7FI&si=hCVPcuLsrWwRl13M
 - ways to install Airflow 
     - forgot details of Airflow scheduler using **celery message queue using rabbitMQ message bus** \(can also use **redis** like at Juvo\) to send data to workers
     - [https://airflow.apache.org/docs/apache\-airflow/stable/installation/index.html](https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html)
