@@ -217,7 +217,7 @@
 - Case study dimensional modeling
 	- https://youtube.com/watch?v=7HyGM3Iw0Kc&si=kX1FdNosFXzgXHba 
 		- start with business problem --> find smallest grain --> create conceptual model --> create logical model
-		- logical model: fact, dimension tables; each table: primary key, attributes
+		- logical model: fact, dimension tables (who, what, when, how); each table: primary key, attributes
 		- degenerate dimension ID: ID without any attributes (e.g. bar code), put in fact table, no dimension table
   	- ![fact_dim](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/73c1cf9f-73d9-48e8-b3ef-098f41555c46)
 
