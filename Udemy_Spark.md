@@ -273,6 +273,15 @@
 - https://youtube.com/watch?v=BVsKJ6xQxsQ&feature=share 
 	- how spark works under the hood: logical, physical plan optimizations
 	- logical, physical operators
+- ***Databricks / Spark optimizations***
+	- https://www.databricks.com/discover/pages/optimize-data-workloads-guide
+- Shuffle hash joins (expensive, major source of slowing down Spark jobs) vs Broadcast joins (cheaper)
+	- https://youtube.com/watch?v=vswrfVkP10Y&si=nnYWCIo1GjuD5P3o 
+	- stage: read in 2 DFs, each with 3 partitions -> map partitions to new partitions based on join keys -> shuffle partitions (take longest time, disk / network IO) --> stage: reduce phase, join data
+- Sort Merge Join (default join)
+	- https://youtube.com/watch?v=isOuTH_49pY&si=dLhxHm7PN5r1gSZ2
+ 	- shuffle / repartition (map) -> sort data within partition -> merge / join (reduce)
+- Other Joins (not commonly used): https://youtube.com/watch?v=fp53QhSfQcI&si=ocvSMtdW4B1i_-pZ
 - Memory Allocation / Management
     - driver, executor memory
     - overhead, heap, off heap, pyspark
