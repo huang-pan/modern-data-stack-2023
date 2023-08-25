@@ -162,14 +162,20 @@ MLOps
     - https://madewithml.com/courses/mlops/testing/  
 	- model testing, use pytest
  		- test fixture: common test elements shared among different tests
-	- Unit tests: tests on individual components that each have a single responsibility (ex. function that filters a list).
+    - test types
+	    - Unit tests: tests on individual components that each have a single responsibility (ex. function that filters a list).
+          - models and unit tests on cleaning data between raw and staging
         - Integration tests: tests on the combined functionality of individual components (ex. data processing).
+          - not yet, need to create tests on combined / aggregated data
         - System tests: tests on the design of a system for expected outputs given inputs (ex. training, inference, etc.).
+          - not yet, this is more of a MLOps thing
         - Acceptance tests: tests to verify that requirements have been met, usually referred to as User Acceptance Testing (UAT).
+          - biz stakeholder feedback?        
         - Regression tests: tests based on errors we've seen before to ensure new changes don't reintroduce them.
+          - should be part of feedback loop from analytics, data science, MLOps        
     - Juvo used pytest, see test fixture code
     - https://ssmertin.com/articles/strategies-for-data-quality-with-apache-spark/
-    	- test for: completeness, consistency, uniqueness, timeliness, relevance, accuracy, validity
+    	- test for: completeness (check for missing data), consistency (data within range), uniqueness, timeliness, relevance, accuracy, validity
 
 Kubernetes tutorial
 
