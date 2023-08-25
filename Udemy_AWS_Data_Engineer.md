@@ -240,10 +240,10 @@
         - elastic resize, classic resize
         - GIS support
         - AQUA: advanced query accelerator, speeds up queries
-    - table distribution
-        - AUTO, EVEN, KEY, ALL
+    - ***table distribution*** https://maskepravin02.medium.com/why-distkey-and-sortkey-are-important-45ca94d12290
         - sort key based on column
             - single, compound, interleaved
+        - distribution key: AUTO, EVEN, KEY, ALL
         - vacuum: clean up space
     - data ingest
         - batch copy
