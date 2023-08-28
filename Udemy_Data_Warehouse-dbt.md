@@ -395,6 +395,7 @@ dbt bought Metricflow, dbt Core v1.6+
 - https://www.getdbt.com/blog/dbt-semantic-layer-whats-next/ 
 - https://github.com/dbt-labs/metricflow
 - https://github.com/dbt-labs/jaffle-sl-template
+- https://news.kpiinstitute.org/key-performance-indicators-infographic/
 
 Also see:
 - Activity Schema: https://www.activityschema.com/
