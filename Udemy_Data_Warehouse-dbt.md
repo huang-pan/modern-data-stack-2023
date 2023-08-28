@@ -318,6 +318,7 @@
         - run tests on specific model
     - dbt testing frameworks
     	- https://github.com/calogica/dbt-expectations
+     		- has a lot more generic tests than dbt core https://datacoves.com/post/dbt-test-options
     	- https://github.com/EqualExperts/dbt-unit-testing
     - Datafold data-diff complete dataset comparison testing
     	- https://github.com/huang-pan/modern-data-stack-2023/blob/main/dbt/Download%20the%20definitive%20guide%20to%20dbt%20testing.pdf
