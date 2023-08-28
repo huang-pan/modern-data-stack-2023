@@ -398,3 +398,4 @@ dbt bought Metricflow, dbt Core v1.6+
 Also see:
 - Activity Schema: https://www.activityschema.com/
 - Virtual Data Build: https://www.y42.com/blog/virtual-data-builds-one-data-warehouse-environment-for-every-git-commit/
+- https://enigma.com/blog/post/dev-stage-prod-is-the-wrong-pattern-for-data-pipelines
