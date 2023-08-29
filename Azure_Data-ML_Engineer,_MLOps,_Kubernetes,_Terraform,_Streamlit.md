@@ -163,7 +163,7 @@ MLOps
 	- model testing, use pytest
  		- test fixture: common test elements shared among different tests
     - test types
-	    - Unit tests: tests on individual components that each have a single responsibility (ex. function that filters a list).
+	- Unit tests: tests on individual components that each have a single responsibility (ex. function that filters a list).
           - models and unit tests on cleaning data between raw and staging
         - Integration tests: tests on the combined functionality of individual components (ex. data processing).
           - not yet, need to create tests on combined / aggregated data
@@ -176,6 +176,14 @@ MLOps
     - Juvo used pytest, see test fixture code
     - https://ssmertin.com/articles/strategies-for-data-quality-with-apache-spark/
     	- test for: completeness (check for missing data), consistency (data within range), uniqueness, timeliness, relevance, accuracy, validity
+- Data pipeline testing https://dataqualityguru.substack.com/p/the-essential-role-of-automated-tests
+     	- Unit tests: Validate each logical unit or functions that are part of the ETL process. If the pipeline consists of a group of transformations, those can be tested separately using a set of input values and expected output.
+	- Contract tests: Applicable for assets consumed in downstream processes. I already presented some concepts in my previous post, but the idea is to test the items from the contract: schema, semantics, references, distribution, and freshness (SLAs).
+	- Data quality tests: Audit the data stored in a data asset to check for accuracy, consistency, completeness, uniqueness, and timeliness.
+	- Integration tests: The flow between different data assets is correct, and there are no communication, interaction, or compatibility problems.
+	- Performance tests: Assesses the resource utilization and scalability of the pipeline. This is crucial for high-volume data pipelines to meet the required SLAs.
+	- End-to-end tests: Test the data pipeline as a whole, from the source to the target or output. This could be categorized as “black box” testing because there is no need to know the internal structure of the pipeline, but only the expected output given the input.
+ 	- pytest (mock tests, fixtures), just like at Juvo
 
 Kubernetes tutorial
 
