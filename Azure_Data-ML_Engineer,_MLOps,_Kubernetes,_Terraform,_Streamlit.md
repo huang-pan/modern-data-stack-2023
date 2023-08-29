@@ -177,7 +177,7 @@ MLOps
     - https://ssmertin.com/articles/strategies-for-data-quality-with-apache-spark/
     	- test for: completeness (check for missing data), consistency (data within range), uniqueness, timeliness, relevance, accuracy, validity
 - Data pipeline testing https://dataqualityguru.substack.com/p/the-essential-role-of-automated-tests
-     	- Unit tests: Validate each logical unit or functions that are part of the ETL process. If the pipeline consists of a group of transformations, those can be tested separately using a set of input values and expected output.
+	- Unit tests: Validate each logical unit or functions that are part of the ETL process. If the pipeline consists of a group of transformations, those can be tested separately using a set of input values and expected output.
 	- Contract tests: Applicable for assets consumed in downstream processes. I already presented some concepts in my previous post, but the idea is to test the items from the contract: schema, semantics, references, distribution, and freshness (SLAs).
 	- Data quality tests: Audit the data stored in a data asset to check for accuracy, consistency, completeness, uniqueness, and timeliness.
 	- Integration tests: The flow between different data assets is correct, and there are no communication, interaction, or compatibility problems.
