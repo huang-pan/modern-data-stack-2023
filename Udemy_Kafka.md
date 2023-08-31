@@ -414,3 +414,47 @@ Snowplow
 Streaming system design
 - https://www.linkedin.com/posts/nagarajulu_systemdesign-probablisticdatastructures-performace-activity-7096705093797875712-E7bv/
     - filter out streaming inputs
+- Popular streaming technologies 
+	- Flink
+		- Flink real stream processing framework, lower latency, less throughput than Spark streaming, Java based
+		- does both streaming and batch
+		- but kinesis data analytics is based on Flink and is SQL based (streaming analytics)
+		- https://tech.dream11.in/blog/navigating-the-streamverse-a-technical-odyssey-into-advanced-stream-processing-at-dream11 
+	- Spark Streaming (streaming ETL, streaming analytics)
+	- Kafka (message bus)
+		- Ksqldb: SQL on kafka streams (streaming ETL, streaming analytics)
+		- Faust: python on kafka streams (streaming ETL, streaming analytics)
+		- lower cost: redpanda.com
+		- more scalable: Pulsar
+	- Storm
+		- lowest latency, but low level primitives (map reduce), no higher level abstractions
+	- Trident
+		- higher level abstractions on Storm
+	- Protobuf: high performance serialized data
+	- Avro: row based storage format
+		- column based: Parquet, ORC, Delta Live Tables, Iceberg
+- Spark vs Flink
+	- ![Screenshot_20230830-203252_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7ccebc36-fd78-4159-8de5-f8bc2f76890e)
+
+	- ![Screenshot_20230830-204839_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4d92304e-ac6f-495f-821a-629cfd45f379)
+
+	- ![Screenshot_20230830-203604_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/561c3812-8edb-4fe3-94c2-e1ba64d06b09)
+
+- Storm / Trident / Samza / Spark Streaming https://youtu.be/ZWez6hOpirY?si=Jn9nlbncR9gPr3Yl
+	- ![Screenshot_20230830-204959_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3b5afbd6-26bb-456b-b226-236dbb4ec91e)
+
+	- ![Screenshot_20230830-205203_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dfc0b4a1-df7e-4cbe-bec8-99982f563119)
+
+	- ![Screenshot_20230830-205253_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9c7cd265-750b-4fea-9998-227c7a985323)
+
+	- ![Screenshot_20230830-205418_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2c72e73e-5d73-427f-9e22-194dc2b32517)
+
+	- ![Screenshot_20230830-205540_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/633487c4-143a-4863-a433-cd5b130f8d48)
+
+	- ![Screenshot_20230830-205602_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1c4c4648-6484-43a9-b4e7-8d41da713334)
+
+	- ![Screenshot_20230830-205644_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/75219c18-d24c-439f-a4bd-3aa6414a9d70)
+
+	- ![Screenshot_20230830-210142_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2ec8cf33-48ab-42ee-bf86-2825d496e180)
+
+	- ![Screenshot_20230830-192134_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/abf57c17-d04d-490b-b2eb-a8d1c18ca62b)
