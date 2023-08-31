@@ -128,7 +128,8 @@
         - **Dimensional Modeling: OLAP**
             - star vs snowflake schemas
                 - snowflake: more normalization of dimension tables
-                - [https://www.guru99.com/star\-snowflake\-data\-warehousing.html](https://www.guru99.com/star-snowflake-data-warehousing.html) 
+                - [https://www.guru99.com/star\-snowflake\-data\-warehousing.html](https://www.guru99.com/star-snowflake-data-warehousing.html)
+	- https://www.interviewquery.com/p/data-modeling-interview-questions 
     - dbt: Naming Conventions
         - **https://docs.getdbt.com/guides/best-practices/how-we-structure/1-guide-overview**
         - **[https://docs.getdbt.com/blog/stakeholder\-friendly\-model\-names](https://docs.getdbt.com/blog/stakeholder-friendly-model-names)** 
