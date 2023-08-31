@@ -250,6 +250,7 @@ Data Product
 - Level up your SQL skills by having a four-hour crash course on GROUPING SETS, window functions, and cumulative table design
 
 Data Contracts
+
 In its simplest form Data Contract is an agreement between Data Producers and Data Consumers on what the Data being produced should look like, what SLAs it should meet and the semantics of it.
 Data Contract should hold the following non-exhaustive list of metadata:
 - Schema of the Data being Produced.
