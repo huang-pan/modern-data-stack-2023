@@ -226,7 +226,7 @@
 
 - Course completion certificate: [https://www.udemy.com/certificate/UC\-de00a2d0\-a8a1\-4319\-8101\-bbea3cb3cc5b/](https://www.udemy.com/certificate/UC-de00a2d0-a8a1-4319-8101-bbea3cb3cc5b/) 
 - Summary:
-    - This is a refresher course on dbt for me. It covers all the basics with simple example, it's more like a tutorial introduction to dbt. While basic, I found this course to be a comprehensive introduction to dbt. The best way for the knowledge to sink in is to continually use dbt on a project or job.
+    - This is a refresher course on dbt for me. It covers all the basics with simple example, it's more like a tutorial introduction to dbt. While basic, I found this course to be a comprehensive introduction to dbt.
 - Github repos for course:
     - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero)
     - [https://github.com/huang\-pan/complete\-dbt\-bootcamp\-zero\-to\-hero](https://github.com/huang-pan/complete-dbt-bootcamp-zero-to-hero)
