@@ -27,6 +27,10 @@
      	- https://youtube.com/watch?v=5EkYtX9CuC4&feature=share
       		- start with general sizing, then monitor RAM, CPU, I/O usage
         	- spark usually needs high memory VMs
+	- https://www.newsletter.swirlai.com/p/a-guide-to-optimising-your-spark
+	- https://www.newsletter.swirlai.com/p/a-guide-to-optimising-your-spark-841 
+		- If the main use case for Spark is OLAP - use ****Parquet**** or ORC.
+		- If the main use case is about frequently writing data (OLTP) - use ****Avro****.
 - Set up Spark from the JDK: in reality, I would use a managed service like Spark on EMR or GCP DataProc
     - course starts with installing and running Spark locally
         - spark\-submit pyspark\_script.py
