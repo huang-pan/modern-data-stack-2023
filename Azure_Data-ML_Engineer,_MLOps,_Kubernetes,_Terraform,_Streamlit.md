@@ -278,3 +278,17 @@ Some Purposes of Data Contracts:
 8. On a schedule Data in the Object Storage is validated against additional SLAs and is pushed to the Data Warehouse to be Transformed and Modeled for Analytical purposes.
 9. Consumers and Producers are alerted to any SLA breaches.
 10. Data that was Invalidated in Real Time is consumed by Flink Applications that alert on invalid schemas. There could be a recovery Flink App with logic on how to fix invalidated Data.
+
+
+10 categories of tech debt:
+In order of prevalence…
+1. Outstanding migrations
+2. Missing or incomplete documentation
+3. Poor test quality or coverage
+4. Poorly designed code
+5. Dead or unused code
+6. Code that's not aligned to current standards
+7. Lack of needed expertise on a team, resulting in code that's difficult to maintain
+8. Problematic dependencies
+9. Incomplete migrations or upgrades
+10. Out-of-date release process
