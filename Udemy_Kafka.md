@@ -440,7 +440,7 @@ Streaming system design
 
 	- ![Screenshot_20230830-203604_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/561c3812-8edb-4fe3-94c2-e1ba64d06b09)
 
-- Storm / Trident / Samza / Spark Streaming https://youtu.be/ZWez6hOpirY?si=Jn9nlbncR9gPr3Yl
+- Storm / Trident / Samza / Spark Streaming https://youtu.be/ZWez6hOpirY?si=Jn9nlbncR9gPr3Yl  https://youtube.com/watch?v=6ZaMfEc9kbI&si=FQxLWXeHZTdqDWlp
 	- ![Screenshot_20230830-204959_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3b5afbd6-26bb-456b-b226-236dbb4ec91e)
 
 	- ![Screenshot_20230830-205203_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dfc0b4a1-df7e-4cbe-bec8-99982f563119)
