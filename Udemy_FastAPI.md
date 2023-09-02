@@ -259,6 +259,8 @@
         - create\_access\_token function
         - get\_current\_user function now requires authentication
     - authentication.py
+    - ![oath2](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3e9fd3f5-4c5c-4e92-bfba-b40202b81ca9)
+
 - files
     - stored in memory or on disk \(S3\)
         - can change below to read / write from S3 instead of local disk, etc.
