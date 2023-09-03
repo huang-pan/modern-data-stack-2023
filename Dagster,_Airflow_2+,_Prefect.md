@@ -140,10 +140,34 @@ Airflow 2\+:
     - dynamic task mapping
     - grid view
     - events timetable: run DAGs at arbitrary dates
-- what's new in Airflow 2.4 [https://www.astronomer.io/blog/apache\-airflow\-2\-4\-everything\-you\-need\-to\-know/](https://www.astronomer.io/blog/apache-airflow-2-4-everything-you-need-to-know/)
-    - data driven scheduling: DAG run on Dataset completion
+- what's new in Airflow 2.4 https://www.astronomer.io/blog/apache-airflow-2-4-everything-you-need-to-know/
+	- data driven scheduling: DAG run on ****Dataset**** completion
+		- https://youtube.com/watch?v=kPI2mPs-eQA&si=YeI0Skt1zmlWVuW4 
 - Airflow 2.7
-    - Soda testing framework: Airflow + Soda + Snowflake https://youtube.com/watch?v=YZTcIi5o7FI&si=hCVPcuLsrWwRl13M
+	- What's new in Airflow 2.7 https://youtube.com/watch?v=uB7zweaF8EA&si=0cG6PbjcqsMLwl4C 
+		- minor cosmetic changes
+		- EMR cluster setup / teardown tasks
+	- Tight integration with dbt https://youtube.com/watch?v=MhCuxTDlVkE&si=4xUGl-xXhxP6kspX 
+		- airflow bash command: dbt run, dbt test (old way)
+		- airflow call dbt cloud through API (needs dbt cloud subscription)
+		- cosmos https://astronomer.github.io/astronomer-cosmos/index.html: bring dbt transforms into Airflow (best way)
+		- bring dbt project (e.g. jaffle shop) into airflow dag git repo / folder scaffolding
+	- Soda testing framework: Airflow + Soda.io + Snowflake 
+		- https://youtube.com/watch?v=YZTcIi5o7FI&si=hCVPcuLsrWwRl13M 
+		- python based testing of snowflake transforms, no need to use dbt
+		- https://quickstarts.snowflake.com/guide/soda/index.html?index=..%2F..index#0
+- Astronomer.io
+	- https://youtube.com/watch?v=JI-m9Spr7sg&si=YksZgfS6fD0xDfmL 
+	- best way to run managed Airflow
+	- Airflow DAG repo / folder scaffolding
+		- dags
+		- include
+		- test
+		- requirements
+	- easy push to dev Airflow environment
+		- Easy DAG creation UI in astronomer.io
+	- Github CI / CD to prod Airflow environment
+
 - ways to install Airflow 
     - forgot details of Airflow scheduler using **celery message queue using rabbitMQ message bus** \(can also use **redis** like at Juvo\) to send data to workers
     - [https://airflow.apache.org/docs/apache\-airflow/stable/installation/index.html](https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html)
