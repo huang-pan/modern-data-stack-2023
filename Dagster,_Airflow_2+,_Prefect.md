@@ -159,7 +159,7 @@ Airflow 2\+:
 - Astronomer.io
 	- https://youtube.com/watch?v=JI-m9Spr7sg&si=YksZgfS6fD0xDfmL 
 	- best way to run managed Airflow
-	- Airflow DAG repo / folder scaffolding
+	- ****Airflow DAG repo / folder scaffolding****
 		- dags
 		- include
 		- test
