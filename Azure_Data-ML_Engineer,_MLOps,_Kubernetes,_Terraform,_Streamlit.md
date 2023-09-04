@@ -252,6 +252,16 @@ Data Product
 - Discover the power of data lake technologies Apache Iceberg. Proper schema evolution, partitioning, and parquet file format compression!
 - Level up your SQL skills by having a four-hour crash course on GROUPING SETS, window functions, and cumulative table design
 
+KPIs
+- 1st level metrics, 2nd level metrics
+- Customer Lifetime Value = Average Revenue Per Customer / Churn Rate, Customer Acquisition Cost,
+	- The CLV is the amount the customer spends every month (average revenue per customer, or ARPC for short) times the expected number of months they use our platform for. A clearer way of defining CLV is by dividing the ARPC by the churn rate (the percentage of users that stop using our platform each month)
+ 	- https://www.interviewquery.com/questions/marketing-channel-metrics
+  	- 
+![kpi](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b150e889-1832-41c3-a07b-05b40fbb0dc4)
+
+
+
 Data Contracts
 
 In its simplest form Data Contract is an agreement between Data Producers and Data Consumers on what the Data being produced should look like, what SLAs it should meet and the semantics of it.
