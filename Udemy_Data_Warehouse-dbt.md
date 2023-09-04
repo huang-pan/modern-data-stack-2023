@@ -221,7 +221,8 @@
 		- logical model: fact, dimension tables (who, what, when, how); each table: primary key, attributes
 		- degenerate dimension ID: ID without any attributes (e.g. bar code), put in fact table, no dimension table
   	- ![fact_dim](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/73c1cf9f-73d9-48e8-b3ef-098f41555c46)
-
+  	- Dim tables: Who What When How; Fact: measures
+  		- https://www.interviewquery.com/questions/retailer-data-warehouse 
 
 ## [https://www.udemy.com/course/complete\-dbt\-data\-build\-tool\-bootcamp\-zero\-to\-hero\-learn\-dbt/](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/)
 
