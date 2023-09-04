@@ -379,7 +379,8 @@ dbt best practices https://docs.getdbt.com/guides/best-practices/how-we-structur
 - directory / project scaffolding, style guide
 - CI / CD: https://paulfry999.medium.com/v0-4-pre-chatgpt-how-to-create-ci-cd-pipelines-for-dbt-core-88e68ab506dd
 	- use dbt cloud to enable CI / CD from git changes
-  
+- https://www.arecadata.com/the-definitive-guide-for-debugging-dbt/
+
 dbt Core v1.5 is slated for release at the end of April, and it will include three new constructs:
 - https://www.getdbt.com/blog/analytics-engineering-next-step-forwards/
 - Access: Choose which models ought to be “private” (implementation details, handling complexity within one team or domain) and “public” (an intentional interface, shared with other teams). Other groups and projects can only ref a model — that is, take a critical dependency on it — in accordance with its access.
