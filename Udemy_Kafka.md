@@ -433,6 +433,7 @@ Streaming system design
 	- Protobuf: high performance serialized data
 	- Avro: row based storage format
 		- column based: Parquet, ORC, Delta Live Tables, Iceberg
+	- https://streamingdata.substack.com/p/data-platforms-in-2030
 - Spark vs Flink
 	- ![Screenshot_20230830-203252_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7ccebc36-fd78-4159-8de5-f8bc2f76890e)
 
