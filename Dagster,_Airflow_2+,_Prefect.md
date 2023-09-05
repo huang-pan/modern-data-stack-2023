@@ -2,8 +2,6 @@
 
 Dagster
 
-- **TLDR: If I were to start a new data engineering project from scratch, I'd consider using Dagster**
-    - also great for ML pipelines
 - Dagster
     - Type\-checked, **composable** pipeline definitions
         - declarative \(Airflow imperative\)
