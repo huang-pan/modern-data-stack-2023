@@ -254,6 +254,9 @@ Data Product
 
 KPIs
 - 1st level metrics, 2nd level metrics
+	- https://www.kalungi.com/blog/10-marketing-kpis-every-b2b-saas-company-should-track
+	- https://userpilot.com/blog/b2b-saas-metrics/
+	- https://www.chargebee.com/blog/saas-kpis/ 
 - Customer Lifetime Value = Average Revenue Per Customer / Churn Rate, Customer Acquisition Cost,
 	- The CLV is the amount the customer spends every month (average revenue per customer, or ARPC for short) times the expected number of months they use our platform for. A clearer way of defining CLV is by dividing the ARPC by the churn rate (the percentage of users that stop using our platform each month)
  	- https://www.interviewquery.com/questions/marketing-channel-metrics
