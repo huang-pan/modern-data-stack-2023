@@ -222,7 +222,23 @@
 		- degenerate dimension ID: ID without any attributes (e.g. bar code), put in fact table, no dimension table
   	- ![fact_dim](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/73c1cf9f-73d9-48e8-b3ef-098f41555c46)
   	- Dim tables: Who What When How; Fact: measures
-  		- https://www.interviewquery.com/questions/retailer-data-warehouse 
+  		- https://www.interviewquery.com/questions/retailer-data-warehouse
+- Fixing slow queries
+	- If a query is running slowly or incurring high costs, I instinctively check for the following six factors. This approach typically resolves most issues related to query speed and cost.
+	𝟭. 𝗨𝘀𝗲 𝗶𝗻𝗱𝗲𝘅𝗲𝘀 𝗮𝗻𝗱 𝗽𝗮𝗿𝘁𝗶𝘁𝗶𝗼𝗻𝘀
+	Partitioning divides the data into smaller parts, and indexing helps the database retrieve data more quickly. Before executing your query, check if there is a partition or index you can use; this will significantly enhance your query's performance.
+	𝟮. 𝗔𝘃𝗼𝗶𝗱 𝘂𝘀𝗶𝗻𝗴 𝗳𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝘀 𝗼𝗻 𝗪𝗛𝗘𝗥𝗘 𝗰𝗹𝗮𝘂𝘀𝗲𝘀 𝗮𝗻𝗱 𝗝𝗢𝗜𝗡’𝘀 Functions can prevent index usage. Instead, consider using calculated/generated columns with indexes.
+	𝟯. 𝗥𝗲𝘃𝗶𝗲𝘄 𝗲𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻 𝗽𝗹𝗮𝗻
+	Review the execution plan to identify any performance bottlenecks. Determine which operation is incurring high costs and explore ways to reduce the query's overall cost. Sometimes even though there is an index is present and the query intended to use it, query engine still might not use it. Maybe your index has corrupted? You can repair your index. You can even force query engine to use the index if it is still not using it.
+	𝟰. 𝗔𝘃𝗼𝗶𝗱 𝗰𝗼𝗺𝗽𝘂𝘁𝗮𝘁𝗶𝗼𝗻𝗮𝗹𝗹𝘆 𝗲𝘅𝗽𝗲𝗻𝘀𝗶𝘃𝗲 𝘀𝘁𝗮𝘁𝗲𝗺𝗲𝗻𝘁𝘀: 𝗨𝗡𝗜𝗢𝗡 𝗗𝗜𝗦𝗧𝗜𝗡𝗖𝗧, 𝗟𝗜𝗞𝗘 %%, 𝗖𝗧𝗘’𝘀, 𝗦𝘂𝗯𝗾𝘂𝗲𝗿𝗶𝗲𝘀
+	Some statements are costly. Try to write queries without costly statements, use them as a last resort.
+	UNION DISTINCT compares the results of two sets and removes duplicates. If you are certain that the two result sets do not have duplicate rows, you can use UNION ALL, which is less computationally expensive.
+	The same principle applies to the 'LIKE' operator. Not only does it prevent index usage, but when used with both beginning and end wildcards, it becomes more computationally expensive. Try to avoid wildcard matching whenever possible.
+	Common Table Expressions (CTEs) and subqueries cannot be indexed, so they can also be slow if they produce large results. Use them with caution.
+	𝟱. 𝗨𝘀𝗲 𝗪𝗛𝗘𝗥𝗘, 𝗳𝗶𝗹𝘁𝗲𝗿 𝗱𝗮𝘁𝗮 𝗲𝗮𝗿𝗹𝘆
+	Optimize your queries by filtering your data early with the WHERE clause. This is one of the most fundamental yet occasionally overlooked query optimization techniques. If you don't require data from the previous year, make sure to filter it out.
+	𝟲. 𝗔𝘃𝗼𝗶𝗱 𝗦𝗘𝗟𝗘𝗖𝗧 *
+	If you don’t need column do not select it. This rule holds significant importance, especially for columnar storage systems like BigQuery and Redshift, a
 
 ## [https://www.udemy.com/course/complete\-dbt\-data\-build\-tool\-bootcamp\-zero\-to\-hero\-learn\-dbt/](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/)
 
