@@ -223,9 +223,8 @@
   	- ![fact_dim](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/73c1cf9f-73d9-48e8-b3ef-098f41555c46)
   	- Dim tables: Who What When How; Fact: measures
   		- https://www.interviewquery.com/questions/retailer-data-warehouse
-- Fixing slow queries
-	- If a query is running slowly or incurring high costs, I instinctively check for the following six factors. This approach typically resolves most issues related to query speed and cost.
-	𝟭. 𝗨𝘀𝗲 𝗶𝗻𝗱𝗲𝘅𝗲𝘀 𝗮𝗻𝗱 𝗽𝗮𝗿𝘁𝗶𝘁𝗶𝗼𝗻𝘀
+- Fixing slow queries: If a query is running slowly or incurring high costs, I instinctively check for the following six factors. This approach typically resolves most issues related to query speed and cost.
+ 	𝟭. 𝗨𝘀𝗲 𝗶𝗻𝗱𝗲𝘅𝗲𝘀 𝗮𝗻𝗱 𝗽𝗮𝗿𝘁𝗶𝘁𝗶𝗼𝗻𝘀
 	Partitioning divides the data into smaller parts, and indexing helps the database retrieve data more quickly. Before executing your query, check if there is a partition or index you can use; this will significantly enhance your query's performance.
 	𝟮. 𝗔𝘃𝗼𝗶𝗱 𝘂𝘀𝗶𝗻𝗴 𝗳𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝘀 𝗼𝗻 𝗪𝗛𝗘𝗥𝗘 𝗰𝗹𝗮𝘂𝘀𝗲𝘀 𝗮𝗻𝗱 𝗝𝗢𝗜𝗡’𝘀 Functions can prevent index usage. Instead, consider using calculated/generated columns with indexes.
 	𝟯. 𝗥𝗲𝘃𝗶𝗲𝘄 𝗲𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻 𝗽𝗹𝗮𝗻
