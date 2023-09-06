@@ -230,7 +230,7 @@
     - log compaction theory and practice
     - unclean leader election
     - large messages in kafka
-- Message Bus (Kafka - atomic messages) vs Streaming technology (Flink, Storm, etc. - aggregations)
+- Message Bus (Kafka - atomic messages) vs Streaming framework (Flink, Storm, etc. - continuous aggregations)
 ![streaming vs messaging](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fd9f70f0-9f4b-4d1a-911a-65b410870f01)
 
 ![kafka_uber](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a8c4b3b4-a242-4957-9b33-0347d7612f7f)
