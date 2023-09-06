@@ -40,10 +40,12 @@ Generative AI Short Courses
     - ChatGPT Prompt Engineering for Developers
     - Langchain for LLM Application Development
     - Langchain Chat with Your Data
-    - Evaluating and Deugging Generative AI
+    - Evaluating and Debugging Generative AI using Weights and Biases
     - Large Language Models for Semantic Search
       - dense retrieval with embeddings, enhanced keyword search, find relevant documents
     - Fine Tuning LLMs
+    - Understanding and Applying Text Embeddings with Vertex AI
+    - How Business Thinkers Can Start Building AI Plugins with Semantic Kernel
     - Building Generative AI apps with Gradio
         - similar to the Streamlit tutorial, Hugging Face integration
         - examples: text summarization, named entity recognition, image captioning, image generation using a diffusion model, LLM chatbot
