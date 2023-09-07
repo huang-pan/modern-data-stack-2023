@@ -233,7 +233,7 @@
     - unclean leader election
     - large messages in kafka
 - Message Bus (Kafka - atomic messages) vs Streaming Framework (Flink, Storm, etc. - continuous aggregations)
-	- Streaming ETL / Analytics (Kafka Consumer): Kafka Streams / KSQL / Faust, Kinesis Data Analytics (SQL), Flink (Java / Scala), Spark streaming (SQL) / Delta Live Tables, Rising Wave (SQL)
+	- Streaming ETL / Analytics (Kafka Consumer): Kafka Streams / KSQL / Faust, Kinesis Data Analytics (SQL), Flink (Java / Scala), Spark streaming (SQL) / Delta Live Tables, Rising Wave (SQL), Beam / Dataflow
  	- RabbitMQ (push based) vs Kafka (pull based, more complex systems) https://www.upsolver.com/blog/kafka-versus-rabbitmq-architecture-performance-use-case
 ![streaming vs messaging](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fd9f70f0-9f4b-4d1a-911a-65b410870f01)
 
