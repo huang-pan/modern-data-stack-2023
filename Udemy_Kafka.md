@@ -12,7 +12,9 @@
 - Apache Kafka
     - open sourced by linkedin
     - distributed, scalable: 100s of brokers, millions of messages per second
-    - Kafka latency less than 10ms real time, high performance throughput
+    - Kafka latency less than ****10ms**** real time, high performance throughput
+    - max throughput ~800 MB/s, limited by network? Gigabit ethernet, etc.
+    	- https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-your-apache-kafka-clusters-to-optimize-performance-and-cost/
 - Kafka \(Confluent, AWS MSK serverless\) vs Kinesis
     - [https://streamsets.com/blog/kafka\-vs\-kinesis/](https://streamsets.com/blog/kafka-vs-kinesis/)
     - [https://dev.to/aws\-builders/aws\-msk\-confluent\-cloud\-aiven\-how\-to\-chose\-your\-managed\-kafka\-service\-provider\-15m0](https://dev.to/aws-builders/aws-msk-confluent-cloud-aiven-how-to-chose-your-managed-kafka-service-provider-15m0)
