@@ -3,7 +3,7 @@
 Azure Databricks & Spark For Data Engineers (PySpark / SQL)
 
 - https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/
-	- Course complete certificate: https://www.udemy.com/certificate/UC-953b1ee6-3645-4797-8e02-d68b14d0dca2/
+	- Course completion certificate: https://www.udemy.com/certificate/UC-953b1ee6-3645-4797-8e02-d68b14d0dca2/
 - Azure: Data Lake gen 2, Spark clusters, notebooks & dashboards, medallion architecture, incremental loads
 - Delta Lake
 - Azure Data Factory
