@@ -16,7 +16,7 @@ Azure Databricks and Spark SQL
 	- Course completion certificate: https://www.udemy.com/certificate/UC-f9306a42-9538-4dd1-9ee6-7633cb069371/ 
 - Medallion Architecture, hive metastore
 - Azure Data Lake Storage v2
-- Spark Structure Streaming
+- Spark Structured Streaming
 	- **Can stream directly into a pyspark dataframe or SQL table: a LOT easier than GCP Dataflow, Kinesis Data Analytics**
 - Auto Loader
 	- stream into one dataframe from all files in one directory
