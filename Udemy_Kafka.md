@@ -423,7 +423,9 @@ Snowplow
 Streaming system design
 - https://www.linkedin.com/posts/nagarajulu_systemdesign-probablisticdatastructures-performace-activity-7096705093797875712-E7bv/
     - filter out streaming inputs
-- Popular streaming technologies 
+- Popular streaming technologies
+	- https://www.linkedin.com/pulse/spark-streaming-vs-flink-storm-kafka-streams-samza-choose-prakash
+ 	- https://blog.scottlogic.com/2018/07/06/comparing-streaming-frameworks-pt1.html
 	- Flink
 		- Flink real stream processing framework, lower latency, less throughput than Spark streaming, Java based
 		- does both streaming and batch
