@@ -232,6 +232,7 @@ Latest Data Tools
 
 - Cool channel doing demos of the latest data tools: [https://www.youtube.com/@demohub/videos](https://www.youtube.com/@demohub/videos)
 - Jupyter AI https://www.marktechpost.com/2023/08/06/meet-jupyter-ai-a-new-open-source-project-that-brings-generative-artificial-intelligence-to-jupyter-notebooks-with-magic-commands-and-a-chat-interface/
+- ***Data Tooling cost analysis***, etc.: https://medium.com/@hugolu87
 
 Data Product
 - Understand business requirements for upcoming data ingestion work (Securities data, Master data, Positions data etc.)
