@@ -295,6 +295,9 @@ GCP Data Engineer Learning Path
     - Dataflow windowing
     - Bigtable
         - like AWS DynamoDB: low latency, big data database for OLTP
+            - https://db-engines.com/en/system/Amazon+DynamoDB%3BGoogle+Cloud+Bigtable
+            - DynamoDB: document store, key value store, low latency
+            - BigTable: key value store, wide column store, low latency
         - based off of HBase
     - Labs
         - push streaming data into PubSub
