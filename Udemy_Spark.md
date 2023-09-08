@@ -157,9 +157,13 @@
         - train models with live data
     - can use **in conjunction with Spark SQL** / Dataframes
         - interactively query live streams with SQL
-    -  Spark streaming trigger available now, trigger on size 100mb, multi hop streaming
-    	-  ****streaming analytics solution**** with Kafka, Spark streaming, delta tables in data lakehouse
-     	-  oltp -> kafka topic -> spark stream -> bronze landing delta table (append) -> spark stream trigger available now on size 100mb -> silver (star schema fact / dim tables) -> batch spark -> gold (aggregate metrics)
+    - Spark streaming example https://sparkbyexamples.com/spark/spark-streaming-with-kafka/
+    	- use spark stream to read from Kafka topic into dataframe, <100 ms latency
+       		- can query dataframe using Spark SQL
+        - newer way to do it: kafka topic --> Kafka connector -> dump into data lakehouse --> auto load into Delta Live Table --> Spark SQL query Delta Live Table
+    - Spark streaming trigger available now, trigger on size 100mb, multi hop streaming
+    	- ****streaming analytics solution**** with Kafka, Spark streaming, delta tables in data lakehouse
+     	- oltp -> kafka topic -> spark stream -> bronze landing delta table (append) -> spark stream trigger available now on size 100mb -> silver (star schema fact / dim tables) -> batch spark -> gold (aggregate metrics)
       		- oltp -> kafka topic -> data lake json file -> bronze landing delta live table (append) -> delta live table silver (star schema fact / dim tables) -> materialized view gold (aggregate metrics)
       		- oltp ->  kinesis firehose -> S3 json / parquet / iceberg file -> snowpipe streaming -> snowflake dynamic table -> silver dynamic tables (star schema fact / dim tables) -> gold dynamic table
       	-  https://youtube.com/watch?v=JfDGYKvRfWw&si=rRwRpMn1i2-dtiT6
