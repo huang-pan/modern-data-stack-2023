@@ -52,8 +52,16 @@ Azure Databricks and Spark SQL
 Azure Data Engineer
 
 - [https://www.youtube.com/playlist?list=PL7ZG6NdDdT8NRHDU5shVgGjlua297bm\-H](https://www.youtube.com/playlist?list=PL7ZG6NdDdT8NRHDU5shVgGjlua297bm-H)
-- Azure has a similar set of data engineering services to GCP and AWS. I went through the above lectures quickly because of this.
-- If your company is Windows / .NET focused, you should start here. 
+	- Azure has a similar set of data engineering services to GCP and AWS. I went through the above lectures quickly because of this.
+		- Azure Data Lake gen 2
+		- Azure SQL (cloud MS SQL Server)
+		- Azure Cosmos DB (like Mongo DB, Dynamo DB, Bigtable)
+		- Azure Synapse Analytics
+		- Azure Data Factory
+		- Azure Stream Analytics
+		- Azure Databricks
+		- Azure HDInsight (Hadoop, Spark, Kafka)
+	- If your company is Windows / .NET focused, you should start here. 
 - Microsoft has recently [introduced](https://venturebeat.com/data-infrastructure/how-microsoft-fabric-aims-to-beat-amazon-and-google-in-the-cloud-war/) a new data integration environment called [Fabric](https://learn.microsoft.com/en-us/fabric/get-started/microsoft-fabric-overview). Its goal is to break down all data silos and be a one stop shop for all your data needs. All your data is located in a data lakehouse, Fabric can access data in AWS & GCP data lakes, and AI prompting through Microsoft [Copilot](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/) will be integrated with it. They hope to [leapfrog](https://venturebeat.com/data-infrastructure/how-microsoft-fabric-aims-to-beat-amazon-and-google-in-the-cloud-war/) AWS & GCP with this technology.
     - **Real Time Analytics in Fabric**: [https://learn.microsoft.com/en\-us/fabric/real\-time\-analytics/overview](https://learn.microsoft.com/en-us/fabric/real-time-analytics/overview) 
         - KQL database: real time database, use KQL to query real time data and push to Power BI
