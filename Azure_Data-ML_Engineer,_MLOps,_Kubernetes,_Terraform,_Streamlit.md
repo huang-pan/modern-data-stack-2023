@@ -21,7 +21,7 @@ Azure Databricks and Spark SQL
 - Auto Loader
 	- stream into one dataframe from all files in one directory
  	- schema inference, schema evolution
-- Delta Live Tables
+- Delta Live Tables https://docs.databricks.com/en/delta-live-tables/tutorial-sql.html 
 	- Delta Live streaming tables, delta live tables (batch, aggregation)
 	- Delta tables have checkpoints, including streaming tables
 	- Delta Live Expectations: data quality constraints
