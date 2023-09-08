@@ -223,6 +223,8 @@ GCP Data Engineer Learning Path
         - MapReduce in Beam
             - **Don't like Beam / Dataflow that much**
                 - **map reduce too low level**
+                    - can convert Pcollection to Dataframe, but still too clunky, needs extra step https://beam.apache.org/documentation/dsls/dataframes/overview/
+                        - same applies to SQL interface to Beam
                 - **still uses legacy Java programming: prefer SQL like in Microsoft Fabric Real Time Analysis**
                     - [https://learn.microsoft.com/en\-us/fabric/real\-time\-analytics/overview](https://learn.microsoft.com/en-us/fabric/real-time-analytics/overview) 
             - [https://beam.apache.org/documentation/programming\-guide/](https://beam.apache.org/documentation/programming-guide/)
