@@ -26,6 +26,8 @@ Azure Databricks and Spark SQL
 	- Delta tables have checkpoints, including streaming tables
 	- Delta Live Expectations: data quality constraints
 	- enhanced autoscaling: primarily for streaming data
+ 	- https://learn.microsoft.com/en-us/azure/databricks/delta-live-tables/transform
+  		- DLT (bronze, raw, incremental, streaming) -> DLT (silver, cleaned) -> Materialized View (Gold, aggregates)
 - CI / CD with Databricks
 	- Azure Devops solution: standard git -> dev -> test -> prod pipelines
 - Data Lake Table formats: https://youtube.com/live/mXitwotQaAU?feature=share
