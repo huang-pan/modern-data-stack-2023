@@ -496,6 +496,9 @@ GCP Data Engineer Learning Path
         - Serverless data processing with Dataflow: using Dataflow SQL for streaming analytics
             - **You can create a \(streaming\) dataflow pipeline from just a SQL query:** [https://cloud.google.com/dataflow/docs/tutorials/join\-streaming\-data\-with\-sql](https://cloud.google.com/dataflow/docs/tutorials/join-streaming-data-with-sql) 
             - [https://github.com/GoogleCloudPlatform/training\-data\-analyst/blob/master/quests/dataflow\_python/6\_SQL\_Streaming\_Analytics/solution/streaming\_minute\_traffic\_SQL\_pipeline.py](https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/quests/dataflow_python/6_SQL_Streaming_Analytics/solution/streaming_minute_traffic_SQL_pipeline.py) 
+            - https://cloud.google.com/dataflow/docs/tutorials/join-streaming-data-with-sql
+                - use Dataflow to ****join pub sub topic with bigquery table, write to bigquery table****
+                - Dataflow ****latency 1.7 seconds**** https://stackoverflow.com/questions/39571154/google-cloud-dataflow-latency-for-real-time-processing
             - difference between batch and streaming version same as above:
                 - **streaming version reads from PubSub**
                 - **streaming version has endless run, append to bigquery table**
