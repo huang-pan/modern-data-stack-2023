@@ -28,6 +28,8 @@ Azure Databricks and Spark SQL
 	- enhanced autoscaling: primarily for streaming data
  	- https://learn.microsoft.com/en-us/azure/databricks/delta-live-tables/transform
   		- DLT (bronze, raw, incremental, streaming) -> DLT (silver, cleaned) -> Materialized View (Gold, aggregates)
+    	- https://stephenallwright.com/materialize  Materialized View vs Table
+     		- If you need to store data long term and use it as part of a data model then you should create a table, however if you want to join multiple tables and query this infrequently, as part of an analysis for example, then a materialized view would be the better choice.
 - CI / CD with Databricks
 	- Azure Devops solution: standard git -> dev -> test -> prod pipelines
 - Data Lake Table formats: https://youtube.com/live/mXitwotQaAU?feature=share
