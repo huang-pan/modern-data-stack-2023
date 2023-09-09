@@ -155,6 +155,14 @@ Just basic tutorial / background knowledge on the below topics:
   	- Azure Data Factory / Data Lake
   	- Azure Devops, Databricks CI/CD
 - Azure data engineering / ML related services are similar to AWS and GCP services. I've used some Azure services in production before.
+	- Azure Data Lake gen 2
+	- Azure SQL (cloud MS SQL Server)
+	- Azure Cosmos DB (like Mongo DB, Dynamo DB, Bigtable)
+	- Azure Synapse Analytics
+	- Azure Data Factory
+	- Azure Stream Analytics
+ 	- Azure Databricks
+	- Azure HDInsight (Hadoop, Spark, Kafka)
 - I also updated my knowledge on Airflow 2+, Dagster, Prefect, Kubernetes, Terraform, Streamlit, etc.
 - [Course Notes Part 1](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure_Data-ML_Engineer%2C_MLOps%2C_Kubernetes%2C_Terraform%2C_Streamlit.md)
 - [Course Notes Part 2](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Dagster%2C_Airflow_2%2B%2C_Prefect.md)
