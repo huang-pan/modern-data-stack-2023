@@ -151,6 +151,7 @@ Just basic tutorial / background knowledge on the below topics:
 #### Summary
 - The Udemy Azure and Databricks courses were very helpful for understanding the latest Databricks offerings on Azure. Services of note are:
  	- Databricks Delta Lake / Delta Live Tables
+  		- Delta Lake vs Iceberg vs Hudi
 	- Databricks Unity Catalog
   	- Azure Data Factory / Data Lake
   	- Azure Devops, Databricks CI/CD
