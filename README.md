@@ -51,6 +51,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Summary
 - I learned how Kafka works and how to build streaming analytics solutions with Kafka and KSQL.
 - After you learn Kafka, all the streaming analytics technologies on AWS (Kinesis), Azure (Event Hubs / Stream Analytics), and GCP (Pub/Sub / Dataflow) are similar.
+- I also do a comparison of streaming technologies (Kafka, Flink, Spark Streaming, etc.)
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md)
 #### Certificates of Completion
 - Udemy Kafka completed [May 26, 2023](https://www.udemy.com/certificate/UC-82d2aa28-046b-4b71-afe2-8f6e593d490a/)
