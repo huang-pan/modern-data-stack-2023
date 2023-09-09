@@ -33,9 +33,12 @@ Azure Databricks and Spark SQL
 - CI / CD with Databricks
 	- Azure Devops solution: standard git -> dev -> test -> prod pipelines
 - Data Lake Table formats: https://youtube.com/live/mXitwotQaAU?feature=share
-    - Apache Iceberg: most comprehensive format, supports table / catalog versioning that the other formats don't
+    - Apache Iceberg: most comprehensive format, supports table / catalog versioning that the other formats don't, but isn't as good for stream processing
     - Apache Hudi: event based table format, for events
     - Delta Tables: periodic log checkpoints
+    - https://medium.com/starschema-blog/open-table-formats-for-efficient-data-processing-delta-lake-vs-iceberg-vs-hudi-b1107141e9a6
+    - https://www.onehouse.ai/blog/apache-hudi-vs-delta-lake-vs-apache-iceberg-lakehouse-feature-comparison
+    - https://iomete.com/blog/apache-iceberg-delta-lake
 - Also see Apache Iceberg: https://www.linkedin.com/posts/sesha-reddy-pattem-543aa311b_apacheiceberg-datamanagementbrilliance-metadatamastery-activity-7100064046502027266-FsDs/
 	- Metadata: Metadata in Iceberg comes in three forms — Metadata Files, Manifest Lists, and Manifest Files. Metadata Files store the high-level information about the dataset. Manifest Lists index all the manifest files and keep track of their changes. Manifest Files maintain the actual data files' metadata, enhancing query performance by pruning unnecessary files.
 	- 📜 Schema Evolution: Evolving your data schema while keeping your workflow uninterrupted is a breeze with Iceberg. As data structures transform over time, Iceberg's schema evolution supports adding, removing, or modifying columns without breaking downstream applications.
