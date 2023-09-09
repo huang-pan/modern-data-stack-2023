@@ -149,7 +149,7 @@ Airflow 2\+:
 		- airflow bash command: dbt run, dbt test (old way)
 		- airflow call dbt cloud through API (needs dbt cloud subscription)
 		- cosmos https://astronomer.github.io/astronomer-cosmos/index.html: bring dbt transforms into Airflow (best way)
-		- bring dbt project (e.g. jaffle shop) into airflow dag git repo / folder scaffolding
+		- bring dbt project (e.g. jaffle shop) into ****astronomer airflow dag git repo / folder scaffolding****
 	- Soda testing framework: Airflow + Soda.io + Snowflake 
 		- https://youtube.com/watch?v=YZTcIi5o7FI&si=hCVPcuLsrWwRl13M 
 		- python based testing of snowflake transforms, no need to use dbt
