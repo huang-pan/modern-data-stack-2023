@@ -147,7 +147,7 @@ Just basic tutorial / background knowledge on the below topics:
 - Kubernetes
 - MlOps
 - Streamlit
-- Airflow vs. Dagster vs. Prefect
+- Airflow vs. Dagster vs. Prefect; Snowflake
 
 #### Summary
 - The Udemy Azure and Databricks courses were very helpful for understanding the latest Databricks offerings on Azure. Services of note are:
