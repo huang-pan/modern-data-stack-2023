@@ -25,6 +25,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 - [Udemy Data Build Tool](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/)
 #### Summary
 - This is a refresher course on data modeling in the data warehouse with the DBT framework.
+	- Some notes on: query optimization framework
 - [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Data_Warehouse-dbt.md)
 - Github repo: https://github.com/huang-pan/complete-dbt-bootcamp-zero-to-hero
 #### Certificates of Completion
