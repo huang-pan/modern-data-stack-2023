@@ -1,4 +1,4 @@
-# Dagster, Airflow 2+, Prefect
+# Dagster, Airflow 2+, Prefect, Snowflake
 
 Dagster
 
@@ -205,3 +205,24 @@ Airflow 2\+:
     - debug spark: first go into Spark job history UI, look at logical plan
         - spark submit shell \(wrapper\): custom Spark jobs at run time
 - Jenkins: get up and running on localhost:9090
+
+Snowflake
+
+- https://docs.snowflake.com/en/guides-overview-cost 
+	- 1 extra small snowflake warehouse for Airflow jobs
+		- fewest number of queries
+		- query planner to see if long running queries are more efficient
+			- break down queries, add intermediate tables
+		- periodic COPY INTO cheaper than Snowpipe
+	- 1 small / medium for analysts, data scientists
+	- 1 small / medium for Sigma Computing
+		- Sigma has Snowflake Cost Monitoring Dashboard
+		- https://www.sigmacomputing.com/interactive-demos/snowflake-cost-monitoring-template
+- query optimization strategies in Snowflake
+	- https://www.analytics.today/blog/top-3-snowflake-performance-tuning-tactics
+		- snowflake warehouses have a scaling strategy now
+		- split tables, use materialized views
+		- optimize queries
+			- OBT, but only select needed columns in queries
+				- use LIMIT in queries
+		- https://docs.snowflake.com/en/user-guide/performance-query-exploring 
