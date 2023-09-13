@@ -227,7 +227,7 @@ Snowflake
 				- auto pipeline, replaces streams and tasks
 				- no schema evolution
 			- https://docs.snowflake.com/en/user-guide/dynamic-tables-comparison
-	- performance / optimization
+	- performance
  		- warehouse structure
 		   	- 1 extra small snowflake warehouse for Airflow jobs
 				- fewest number of queries
@@ -242,7 +242,8 @@ Snowflake
 		- query acceleration service
 			- https://docs.snowflake.com/en/user-guide/query-acceleration-service
 		- search optimization service
-			- https://docs.snowflake.com/en/user-guide/search-optimization-service 
+			- https://docs.snowflake.com/en/user-guide/search-optimization-service
+   	- optimization
 		- https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions
 			- tables are closed source column store format, micro-partitioned
 		- set table clustering keys (expensive compute to recluster)
