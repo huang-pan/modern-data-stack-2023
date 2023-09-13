@@ -208,6 +208,7 @@ Airflow 2\+:
 
 Snowflake
 
+- https://docs.snowflake.com/en/guides-overview
 - https://docs.snowflake.com/en/guides-overview-cost 
 	- 1 extra small snowflake warehouse for Airflow jobs
 		- fewest number of queries
