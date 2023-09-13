@@ -208,7 +208,58 @@ Airflow 2\+:
 
 Snowflake
 
-- https://docs.snowflake.com/en/guides-overview
+- https://docs.snowflake.com/en/guides-overview 
+	- features
+		- https://docs.snowflake.com/en/user-guide/tables-external-intro
+		- https://docs.snowflake.com/en/user-guide/object-clone 
+		- schema evolution
+			- https://docs.snowflake.com/en/user-guide/data-load-schema-evolution
+		- snowpipe, snowpipe streaming
+		- tasks
+			- https://docs.snowflake.com/en/user-guide/tasks-intro
+			- A task can execute any one of the following types of SQL code:
+				- Single SQL statement
+				- Call to a stored procedure
+				- Procedural logic using Snowflake Scripting
+			- Tasks can be combined with table streams for continuous ELT workflows to process recently changed table rows. Streams ensure exactly once semantics for new or changed data in a table.
+		- Dynamic tables
+			- https://docs.snowflake.com/en/user-guide/dynamic-tables-about 
+				- auto pipeline, replaces streams and tasks
+				- no schema evolution
+			- https://docs.snowflake.com/en/user-guide/dynamic-tables-comparison
+	- performance / optimization
+		- warehouse auto-scaling
+		- multicluster warehouses
+		- caching
+		- query acceleration service
+			- https://docs.snowflake.com/en/user-guide/query-acceleration-service
+		- search optimization service
+			- https://docs.snowflake.com/en/user-guide/search-optimization-service 
+		- https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions
+			- tables are closed source column store format, micro-partitioned
+		- set table clustering keys (expensive compute to recluster)
+			- https://docs.snowflake.com/en/user-guide/tables-clustering-keys
+			- https://docs.snowflake.com/en/user-guide/tables-auto-reclustering
+		- query profiling
+			- https://docs.snowflake.com/en/user-guide/ui-query-profile
+			- https://docs.snowflake.com/en/user-guide/performance-query-exploring
+			- https://docs.snowflake.com/en/user-guide/performance-query-warehouse
+		- https://www.analytics.today/blog/top-3-snowflake-performance-tuning-tactics
+			- split tables, use materialized views
+			- optimize queries
+				- OBT, but only select needed columns in queries
+					- use LIMIT in queries
+		- https://medium.com/@gupta.sahil.201191/snowflake-performance-optimization-techniques-9d135e07ef37
+	- RBAC
+		- https://hevodata.com/learn/snowflake-roles/#3
+			- orgadmin, accountadmin, securityadmin, sysadmin, etc.
+		- Row Access Policies https://docs.snowflake.com/en/user-guide/security-row-intro 
+		- Dynamic Data Masking down to column level https://docs.snowflake.com/en/user-guide/security-column-ddm-intro 
+	- Warehouse load monitoring, cost controls
+		- https://docs.snowflake.com/en/user-guide/warehouses-load-monitoring
+		- https://docs.snowflake.com/en/user-guide/cost-controlling 
+		- Sigma has Snowflake Cost Monitoring Dashboard
+			- https://www.sigmacomputing.com/interactive-demos/snowflake-cost-monitoring-template
 - https://docs.snowflake.com/en/guides-overview-cost 
 	- 1 extra small snowflake warehouse for Airflow jobs
 		- fewest number of queries
