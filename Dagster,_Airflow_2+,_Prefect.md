@@ -225,4 +225,5 @@ Snowflake
 		- optimize queries
 			- OBT, but only select needed columns in queries
 				- use LIMIT in queries
-		- https://docs.snowflake.com/en/user-guide/performance-query-exploring 
+	- https://docs.snowflake.com/en/user-guide/performance-query-exploring
+ 	- https://medium.com/@gupta.sahil.201191/snowflake-performance-optimization-techniques-9d135e07ef37
