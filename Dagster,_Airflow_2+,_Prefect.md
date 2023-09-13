@@ -228,7 +228,15 @@ Snowflake
 				- no schema evolution
 			- https://docs.snowflake.com/en/user-guide/dynamic-tables-comparison
 	- performance / optimization
-		- warehouse auto-scaling
+ 		- warehouse structure
+		   	- 1 extra small snowflake warehouse for Airflow jobs
+				- fewest number of queries
+				- query planner to see if long running queries are more efficient
+					- break down queries, add intermediate tables
+				- periodic COPY INTO cheaper than Snowpipe
+			- 1 small / medium for analysts, data scientists
+			- 1 small / medium for Sigma Computing
+  		- warehouse auto-scaling
 		- multicluster warehouses
 		- caching
 		- query acceleration service
@@ -257,25 +265,7 @@ Snowflake
 		- Dynamic Data Masking down to column level https://docs.snowflake.com/en/user-guide/security-column-ddm-intro 
 	- Warehouse load monitoring, cost controls
 		- https://docs.snowflake.com/en/user-guide/warehouses-load-monitoring
-		- https://docs.snowflake.com/en/user-guide/cost-controlling 
+		- https://docs.snowflake.com/en/guides-overview-cost 
+			- https://docs.snowflake.com/en/user-guide/cost-controlling 
 		- Sigma has Snowflake Cost Monitoring Dashboard
 			- https://www.sigmacomputing.com/interactive-demos/snowflake-cost-monitoring-template
-- https://docs.snowflake.com/en/guides-overview-cost 
-	- 1 extra small snowflake warehouse for Airflow jobs
-		- fewest number of queries
-		- query planner to see if long running queries are more efficient
-			- break down queries, add intermediate tables
-		- periodic COPY INTO cheaper than Snowpipe
-	- 1 small / medium for analysts, data scientists
-	- 1 small / medium for Sigma Computing
-		- Sigma has Snowflake Cost Monitoring Dashboard
-		- https://www.sigmacomputing.com/interactive-demos/snowflake-cost-monitoring-template
-- query optimization strategies in Snowflake
-	- https://www.analytics.today/blog/top-3-snowflake-performance-tuning-tactics
-		- snowflake warehouses have a scaling strategy now
-		- split tables, use materialized views
-		- optimize queries
-			- OBT, but only select needed columns in queries
-				- use LIMIT in queries
-	- https://docs.snowflake.com/en/user-guide/performance-query-exploring
- 	- https://medium.com/@gupta.sahil.201191/snowflake-performance-optimization-techniques-9d135e07ef37
