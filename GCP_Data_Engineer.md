@@ -111,6 +111,7 @@ GCP Data Engineer Learning Path
 - Modernizing Data Lakes and Data Warehouses with Google Cloud
     - Cloud Storage: GCP's version of the data lake
     - Cloud SQL: query data on Cloud Storage
+    - Cloud Spanner: relational database with unlimited scale
     - Labs
         - BigQuery data analysis
             - **BigQuery: no separate compute size options like Snowflake\!**
