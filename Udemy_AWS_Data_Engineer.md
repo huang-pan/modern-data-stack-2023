@@ -88,6 +88,7 @@
         - use lambda to change the object before it's received by the caller application
 - NoSQL databases
     - DynamoDB
+        - can store JSON documents, no limit to storage size
         - scalable nosql DB, autoscaling, RCU / WCU / throttling
             - query using PartiQL \(similar to SQL\)
         - had dynamoDB streams: CDC output from DDB, enables event driven programming
