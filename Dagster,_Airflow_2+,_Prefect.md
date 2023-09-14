@@ -270,3 +270,4 @@ Snowflake
 		- https://docs.snowflake.com/en/user-guide/cost-controlling 
 	- Sigma has Snowflake Cost Monitoring Dashboard
 		- https://www.sigmacomputing.com/interactive-demos/snowflake-cost-monitoring-template
+	- https://sonra.io/snowflake/7-guardrails-against-common-mistakes-that-inflate-snowflake-credit-usage/
