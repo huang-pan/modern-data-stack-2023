@@ -206,6 +206,10 @@ Airflow 2\+:
         - spark submit shell \(wrapper\): custom Spark jobs at run time
 - Jenkins: get up and running on localhost:9090
 
+Neo4j
+- https://neo4j.com/developer/graph-data-science/graph-algorithms/
+- https://neo4j.com/blog/graph-algorithms-neo4j-15-different-graph-algorithms-and-what-they-do/
+
 Snowflake
 
 - https://docs.snowflake.com/en/guides-overview 
