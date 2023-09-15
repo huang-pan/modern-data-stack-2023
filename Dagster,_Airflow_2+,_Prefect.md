@@ -225,7 +225,8 @@ Snowflake
 			- Single SQL statement
 			- Call to a stored procedure
 			- Procedural logic using Snowflake Scripting
-		- Tasks can be combined with table streams for continuous ELT workflows to process recently changed table rows. Streams ensure exactly once semantics for new or changed data in a table.
+		- Pipelines: Tasks can be combined with table streams for continuous ELT workflows to process recently changed table rows. Streams ensure exactly once semantics for new or changed data in a table.
+  		- https://julielovesdata.medium.com/value-passing-in-snowflake-tasks-3a19e10a30a4
 	- Dynamic tables
 		- https://docs.snowflake.com/en/user-guide/dynamic-tables-about 
 			- auto pipeline, replaces streams and tasks
