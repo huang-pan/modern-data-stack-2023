@@ -218,6 +218,8 @@ Snowflake
 	- https://docs.snowflake.com/en/user-guide/object-clone 
 	- schema evolution
 		- https://docs.snowflake.com/en/user-guide/data-load-schema-evolution
+  		- This feature is limited to COPY INTO <table> statements and Snowpipe data loads. INSERT operations cannot evolve the target table schema automatically.
+    		- Snowpipe Streaming data loads are not supported with schema evolution.
 	- snowpipe, snowpipe streaming
 	- tasks
 		- https://docs.snowflake.com/en/user-guide/tasks-intro
