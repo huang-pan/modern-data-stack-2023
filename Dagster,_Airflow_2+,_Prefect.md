@@ -204,6 +204,7 @@ Airflow 2\+:
     - explained usage of Spark \(dataframe transformation, write back to S3 / redshift\)
     - debug spark: first go into Spark job history UI, look at logical plan
         - spark submit shell \(wrapper\): custom Spark jobs at run time
+    - Airflow S3 File sensor: https://medium.com/@satadru1998/mastering-data-workflow-precision-and-control-with-airflows-s3-file-sensor-6869d60f099d
 - Jenkins: get up and running on localhost:9090
 
 Neo4j
