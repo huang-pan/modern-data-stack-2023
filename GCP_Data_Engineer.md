@@ -54,6 +54,7 @@ GCP Data Engineer Learning Path
 - Google Cloud Big Data and Machine Learning Fundamentals
     - Gives an intro to GCP services for data and machine learning
     - **Dataflow** is based on Apache Beam, and unifies stream and batch processing on GCP
+        - https://medium.com/@abdurrahmanmasood/how-to-create-a-batch-data-pipeline-on-gcp-with-dataflow-e7abdbc7ed0c
     - ML on GCP
         - prebuilt APIs
         - AutoML
