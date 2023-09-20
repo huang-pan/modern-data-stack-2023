@@ -152,6 +152,7 @@ Generative AI Short Courses
         - chunk size, chunk overlap
         - type of splitters: character text, markdown header, token text, sentence transformer, recursive character text splitter, language \(c\+\+, python, ruby, markdown\), NLTK text splitter \(sentence text splitter\), spacy text splitter \(sentence text splitter\)
     - Vectorstores and Embedding
+        - https://www.elastic.co/what-is/vector-database  
         - split text / document \-\-\> embedding \-\-\> vector store
         - embedding similarity search
             - question to LLM: returns all similar embeddings
