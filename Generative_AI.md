@@ -29,6 +29,7 @@ Generative AI Learning Path
 - Summary
     - The short lectures in each course gives some nice knowledge / background on LLMs. There are quizzes in each course. There is some overlap with the GCP Machine Learning learning path: [https://www.cloudskillsboost.google/journeys/17](https://www.cloudskillsboost.google/journeys/17) 
     - The important and practical thing is to get really good at prompting the LLMs to produce the code that you want.
+    - https://www.elastic.co/what-is/vector-database
 - Demo
     - [https://youtu.be/Jl1S4ZcSY8k](https://youtu.be/Jl1S4ZcSY8k)
         - can combine langchain prompts \+ SQL queries using GCP
