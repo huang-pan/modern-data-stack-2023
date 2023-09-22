@@ -11,6 +11,8 @@ Dagster
     - Integration with ML frameworks like TensorFlow and PyTorch
     - Strong emphasis on testing and reproducibility
         - great for CI / CD, local dev / test
+    - dbt model pipeline auto materialization upon one upstream model change
+    	- https://youtube.com/watch?v=2yuyIl31ypM&si=hDBFgNc0NnVhTmQX
 - tutorials
     - [https://dagster.io/blog/dagster\-crash\-course\-oct\-2022](https://dagster.io/blog/dagster-crash-course-oct-2022) 
     - [https://www.youtube.com/watch?v=L5kTxCM\-tOk](https://www.youtube.com/watch?v=L5kTxCM-tOk)
