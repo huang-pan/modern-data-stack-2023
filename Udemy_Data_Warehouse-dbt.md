@@ -396,6 +396,9 @@ dbt best practices https://docs.getdbt.com/guides/best-practices/how-we-structur
 - CI / CD: https://paulfry999.medium.com/v0-4-pre-chatgpt-how-to-create-ci-cd-pipelines-for-dbt-core-88e68ab506dd
 	- use dbt cloud to enable CI / CD from git changes
 - https://www.arecadata.com/the-definitive-guide-for-debugging-dbt/
+- dbt clone
+	- https://docs.getdbt.com/reference/commands/clone
+ 	- clone snowflake databases
 
 dbt Core v1.5 is slated for release at the end of April, and it will include three new constructs:
 - https://www.getdbt.com/blog/analytics-engineering-next-step-forwards/
