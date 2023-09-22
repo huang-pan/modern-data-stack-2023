@@ -70,6 +70,9 @@ Dagster
 
 Airflow vs. Dagster vs. Prefect
 
+- https://dataengineeringcentral.substack.com/p/the-truth-about-prefect-mage-and
+	- Prefect: meh
+ 	- Mage: made with dev experience in mind
 - [https://www.restack.io/docs/airflow\-vs\-dagster](https://www.restack.io/docs/airflow-vs-dagster)
     - The TaskFlow API: One of the most important additions of the 2.0 release was the introduction of the TaskFlow API. Namely, it offers the ability to use decorators to declare DAGs \( @dag\) and tasks \( @task\), making it much easier to work with tasks as typical Python functions \(instead of the counter\-intuitive PythonOperator\) while also abstracting the complexities of XCOM to move small bits of data between tasks.
     - TaskGroups: As a data engineer working with Airflow, you’ve probably experienced the eternal struggle of navigating a more\-than\-100\-tasks DAG. With earlier versions of Airflow, the only possible option to improve this experience was the use of SubDAGs \(via the SubDagOperator\) which added unnecessary complexity because a SubDAG is technically yet one more DAG to manage. On the other hand, the TaskGroup concept introduced with Airflow 2.0 allows you to group a set of tasks without defining them as a separate DAG, making it much more convenient to use.
