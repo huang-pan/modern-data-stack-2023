@@ -165,8 +165,11 @@ Airflow 2\+:
 	- easy push to dev Airflow environment
 		- Easy DAG creation UI in astronomer.io
 	- Github CI / CD to prod Airflow environment
-
-- ways to install Airflow 
+- ways to install Airflow
+    - https://seattledataguy.substack.com/p/mistakes-i-have-seen-when-data-teams
+  	- don't put dags, webserver, scheduler in same repo
+	- use premade hooks, operators, sensors, variables
+	- types of executors: sequential, local, celery, kubernetes, debug
     - forgot details of Airflow scheduler using **celery message queue using rabbitMQ message bus** \(can also use **redis** like at Juvo\) to send data to workers
     - [https://airflow.apache.org/docs/apache\-airflow/stable/installation/index.html](https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html)
         - pip, docker, helm, managed services
