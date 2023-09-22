@@ -273,6 +273,7 @@ Snowflake
 			- OBT, but only select needed columns in queries
 				- use LIMIT in queries
 	- https://medium.com/@gupta.sahil.201191/snowflake-performance-optimization-techniques-9d135e07ef37
+ 	- dbt runs use up a lot of snowflake compute; consider SQLmesh instead
 - RBAC
 	- https://hevodata.com/learn/snowflake-roles/#3
 		- orgadmin, accountadmin, securityadmin, sysadmin, etc.
