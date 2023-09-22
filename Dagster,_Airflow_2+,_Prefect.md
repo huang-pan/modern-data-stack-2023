@@ -241,6 +241,7 @@ Snowflake
 			- auto pipeline, replaces streams and tasks
 			- no schema evolution
 		- https://docs.snowflake.com/en/user-guide/dynamic-tables-comparison
+  	- https://coalesce.io/ dbt for Snowflake
 - performance
 	- warehouse structure
 		- 1 extra small snowflake warehouse for Airflow jobs
