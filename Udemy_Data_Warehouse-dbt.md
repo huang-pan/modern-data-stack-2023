@@ -55,6 +55,7 @@
                 - single source of truth for data source that maintains consistency, conformity, and understandability
                 - dbt naturally supports dim modeling
                 - good balance between normalized modeling and data vault 2.0
+                - https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/ 
             - Data Vault 2.0: Linstedt, hub, link, satellite, optimized for fast reads and constant addition of new data sources
                 - mainly for Enterprise Data Warehouses with a lot of different data sources, optimized for data ingestion, not reporting
                     - data supply driven
