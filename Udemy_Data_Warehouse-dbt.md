@@ -347,6 +347,7 @@
     - **macros/\*.sql** files
         - jinja templates that can be referenced by models, tests, etc.
         - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/tests/no\_nulls\_in\_dim\_listings.sql](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/tests/no_nulls_in_dim_listings.sql) uses macro
+        - dbt loops https://docs.getdbt.com/guides/advanced/using-jinja 
 - [hub.getdbt.com](http://hub.getdbt.com)
     - dbt third party packages, specify them here:
         - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/packages.yml](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/packages.yml) 
@@ -354,7 +355,6 @@
         - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/fct/fct\_reviews.sql](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/fct/fct_reviews.sql) uses [https://github.com/dbt\-labs/dbt\-utils/tree/1.1.1/\#generate\_surrogate\_key\-source](https://github.com/dbt-labs/dbt-utils/tree/1.1.1/#generate_surrogate_key-source)
         - https://docs.getdbt.com/reference/commands/deps
         - https://docs.getdbt.com/docs/collaborate/govern/project-dependencies
-    - dbt loops https://docs.getdbt.com/guides/advanced/using-jinja 
 - documentation
     - 2 ways to define documentation:
         - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/schema.yml](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/schema.yml) description: fields
