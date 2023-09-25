@@ -371,6 +371,8 @@ GCP Data Engineer Learning Path
             - Performing efficient joins
                 - If it is possible to avoid a join, or reduce the amount of data being joined, do so.
                 - **create denormalized tables**
+                - https://robertsahlin.com/schema-evolution-in-streaming-dataflow-jobs-and-bigquery-tables-part-2/
+	                - BigQuery performs best when your data is denormalized. Rather than preserving a relational (star or snowflake) schema you can improve performance by denormalizing your data with nested and repeated data structures. Nested and repeated fields can maintain relationships without the negative performance impact of preserving a relational (normalized) schema. The rationale is that the storage savings from using normalized data are less than the performance gains of using denormalized data. Joins require network communication (bandwidth) when shuffling while denormalization enable parallel execution.
                 - Avoid self\-joins of large tables
                     - Use a window function instead of a self\-join
                     - Sometimes, it can be helpful to precompute functions on smaller tables, and then join with the precomputed values rather than repeat an expensive calculation each time.
