@@ -45,6 +45,7 @@ Generative AI Short Courses
     - Large Language Models for Semantic Search
       - dense retrieval with embeddings, enhanced keyword search, find relevant documents
     - Fine Tuning LLMs
+    - Pair Programming with a Large Language Model
     - Understanding and Applying Text Embeddings with Vertex AI
     - How Business Thinkers Can Start Building AI Plugins with Semantic Kernel
     - Building Generative AI apps with Gradio
