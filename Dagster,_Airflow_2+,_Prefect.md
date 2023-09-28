@@ -217,6 +217,14 @@ Airflow 2\+:
     - Airflow S3 File sensor: https://medium.com/@satadru1998/mastering-data-workflow-precision-and-control-with-airflows-s3-file-sensor-6869d60f099d
 - Jenkins: get up and running on localhost:9090
 
+Mage
+- https://youtube.com/live/JKALtxziBG0?si=o3lTVcVFt70LcpLK 
+	- Mage easy imperative pipeline dev env
+	- Integrated with vs code
+	- Can dev and visualize dbt models 
+	- Unit testing of pipeline steps out of the box 
+	- Still early stages
+
 Neo4j
 - https://neo4j.com/developer/graph-data-science/graph-algorithms/
 - https://neo4j.com/blog/graph-algorithms-neo4j-15-different-graph-algorithms-and-what-they-do/
