@@ -6,6 +6,8 @@ Dagster
     - Type\-checked, **composable** pipeline definitions
         - declarative \(Airflow imperative\)
             - a lot less duplicate code than Airflow
+    	- ****imperative****: explicitly define operations
+     	- ****declarative****: define the outcomes you want
     - Automatic tracking of dependencies between tasks
     - Built\-in data validation and error handling
     - Integration with ML frameworks like TensorFlow and PyTorch
