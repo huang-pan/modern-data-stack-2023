@@ -23,6 +23,7 @@
     - [https://github.com/CatalinStefan/fastapi\-microservices](https://github.com/CatalinStefan/fastapi-microservices) 
     - [https://github.com/CatalinStefan/fastapi\-ocr](https://github.com/CatalinStefan/fastapi-ocr)
     - FastAPI cheat sheet: [https://lyz\-code.github.io/blue\-book/fastapi/](https://lyz-code.github.io/blue-book/fastapi/)
+    - FastAPI boilerplate setup: https://www.linkedin.com/posts/kamran-abdi-1582b514a_github-kamranabdicsefastapi-postgres-boilerplate-activity-7111052328517939200-m7od/
 -  FastAPI features
     - installation
         - [https://docs.python.org/3/tutorial/venv.html](https://docs.python.org/3/tutorial/venv.html)
