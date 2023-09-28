@@ -289,3 +289,8 @@ Snowflake
 	- Sigma has Snowflake Cost Monitoring Dashboard
 		- https://www.sigmacomputing.com/interactive-demos/snowflake-cost-monitoring-template
 	- https://sonra.io/snowflake/7-guardrails-against-common-mistakes-that-inflate-snowflake-credit-usage/
+- Data Lineage
+	- https://www.phdata.io/blog/ultimate-guide-to-data-lineage-directly-in-snowflake/
+ 	- https://www.metaplane.dev/blog/the-definitive-guide-to-snowflake-data-lineage
+  	- https://community.snowflake.com/s/question/0D53r0000BZbxJgCQJ/how-do-you-address-data-lineage
+  		- coalesce, dbt, atlan, databand.ai, etc.
