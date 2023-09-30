@@ -147,7 +147,8 @@ Airflow 2\+:
     - events timetable: run DAGs at arbitrary dates
 - what's new in Airflow 2.4 https://www.astronomer.io/blog/apache-airflow-2-4-everything-you-need-to-know/
 	- data driven scheduling: DAG run on ****Dataset**** completion
-		- https://youtube.com/watch?v=kPI2mPs-eQA&si=YeI0Skt1zmlWVuW4 
+		- https://youtube.com/watch?v=kPI2mPs-eQA&si=YeI0Skt1zmlWVuW4
+  	- dynamic dags
 - Airflow 2.7
 	- What's new in Airflow 2.7 https://youtube.com/watch?v=uB7zweaF8EA&si=0cG6PbjcqsMLwl4C 
 		- minor cosmetic changes
