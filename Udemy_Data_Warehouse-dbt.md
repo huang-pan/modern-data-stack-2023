@@ -249,6 +249,7 @@
     - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero)
     - [https://github.com/huang\-pan/complete\-dbt\-bootcamp\-zero\-to\-hero](https://github.com/huang-pan/complete-dbt-bootcamp-zero-to-hero)
     - https://tech.instacart.com/adopting-dbt-as-the-data-transformation-tool-at-instacart-36c74bc407df
+    - https://github.com/Hiflylabs/awesome-dbt
 - **preset**: managed superset tool
 - dbt Cloud vs Vscode
     - **dbt Cloud nice, but you can do everything in VScode & CLI**
