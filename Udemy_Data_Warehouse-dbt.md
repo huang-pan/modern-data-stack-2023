@@ -362,7 +362,7 @@
         - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/overview.md](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/overview.md) markdown files, this is the documentation landing page
             - references this image: [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/assets/input\_schema.png](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/assets/input_schema.png) 
         - [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/schema.yml\#L32](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/schema.yml#L32) references [https://github.com/nordquant/complete\-dbt\-bootcamp\-zero\-to\-hero/blob/main/models/docs.md](https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/models/docs.md) 
-    - **dbt docs generates** generates documentation into target/ folder
+    - **dbt docs generate** generates documentation into target/ folder
         - **dbt docs serve** creates lightweight localhost dbt documentation server
             - project details, model details, test details
             - dbt **data lineage** dependency graph automatically created
