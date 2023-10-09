@@ -9,6 +9,7 @@ Azure Databricks & Spark For Data Engineers (PySpark / SQL)
 - Azure Data Factory
 - Unity Catalog
 - **How to optimize Spark workloads**: https://www.databricks.com/discover/pages/optimize-data-workloads-guide
+	- Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251 
 
 Azure Databricks and Spark SQL
 
