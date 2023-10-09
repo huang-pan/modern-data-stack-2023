@@ -31,7 +31,8 @@
 		- https://www.newsletter.swirlai.com/p/a-guide-to-optimising-your-spark-841 
 			- If the main use case for Spark is OLAP - use ****Parquet**** or ORC.
 			- If the main use case is about frequently writing data (OLTP) - use ****Avro****.
-    	- partitioning: https://medium.com/@tagnev.vengat/essential-tips-for-optimizing-apache-spark-queries-part-1-data-partitioning-unleashed-e4c3f1eae8b 
+    	- partitioning: https://medium.com/@tagnev.vengat/essential-tips-for-optimizing-apache-spark-queries-part-1-data-partitioning-unleashed-e4c3f1eae8b
+     	- Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251 
 - Set up Spark from the JDK: in reality, I would use a managed service like Spark on EMR or GCP DataProc
     - course starts with installing and running Spark locally
         - spark\-submit pyspark\_script.py
