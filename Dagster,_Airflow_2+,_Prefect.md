@@ -255,6 +255,9 @@ Snowflake
 			- no schema evolution
 		- https://docs.snowflake.com/en/user-guide/dynamic-tables-comparison
 	- https://coalesce.io/ dbt for Snowflake
+ 	- Snowflake can read Iceberg in external storage space
+  		- https://youtube.com/watch?v=Ix2BZV1AjxA&si=th1tfQ9KDZWFsDaG
+    		- Need separate AWS Glue Catalog in conjunction with Snowflake Catalog
 - performance
 	- warehouse structure
 		- 1 extra small snowflake warehouse for Airflow jobs
