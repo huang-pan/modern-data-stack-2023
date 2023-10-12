@@ -104,6 +104,7 @@
         - **DynamoDB Accelerator \(DAX\)**
             - in memory cache for DDB, solved hot key problem: too many reads
             - microsecond latency for cached reads and queries
+            - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.client.run-application-python.03-getitem-test.html
     - elasticache \- managed redis \(in memory key value store\)
         - sub\-ms latency
         - write scaling: sharding
