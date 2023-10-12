@@ -52,9 +52,9 @@
     - has list of valid HTTP response codes
     	- Informational (100-199)
      	- Success (200-299)
-	- Redirection (300-399)
-	- Client Error (400-499)
-	- Server Error (500-599)
+      	- Redirection (300-399)
+      	- Client Error (400-499)
+      	- Server Error (500-599)
    ![httpstatuscodes](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/42db4807-0fe9-407c-bafc-18fe8d37493a)
 
     - schemas of custom types like BlogType
