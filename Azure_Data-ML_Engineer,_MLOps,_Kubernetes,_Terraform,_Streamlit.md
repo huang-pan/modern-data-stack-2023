@@ -227,7 +227,16 @@ Kubernetes tutorial
 Terraform
 
 - Refresher lecture, just the basics
-- [https://www.youtube.com/watch?v=7xngnjfIlK4](https://www.youtube.com/watch?v=7xngnjfIlK4) 
+- [https://www.youtube.com/watch?v=7xngnjfIlK4](https://www.youtube.com/watch?v=7xngnjfIlK4)
+	- terraform init
+ 	- terraform plan: show the plan to create / update the infrastructure
+  		- terraform config: what you want the infrastructure to be
+    		- terraform state: what the infrastructure actually is
+  ![terraform state](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e866dfd4-cc46-490e-95da-3cdb0578b536)
+
+  	- terraform apply: apply the plan
+  	- terraform destroy
+ 
 
 Streamlit
 
