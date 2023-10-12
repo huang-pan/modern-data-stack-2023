@@ -454,3 +454,114 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - Databricks and MS Power BI
 	- Power BI MS Copilot integration
 	- https://youtube.com/watch?v=uadUz6jRb8g&feature=share
+
+Example streaming data architecture using Databricks Delta Live Streaming Tables / Delta Live Tables & Views; or Spark Structured Streaming
+- AWS services such as S3, Lambda, DMS, Athena, SNS, Kinesis, EMR etc.
+- kafka JSON payloads
+	- SMS messages, Design and build multi-tenant systems capable of loading and transforming large volumes of structured and semi-structured fast moving data
+	- Kafka / Kinesis throughput sizing, latency
+		- https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Kafka.md 
+- structured streaming
+	- can stream into bronze_df from Kafka topic, etc.
+	- can also use kinesis data firehose to stream into S3 bucket directory and then create streaming table from that directory
+		- https://learn.microsoft.com/en-us/azure/databricks/delta-live-tables/transform 
+		- https://docs.databricks.com/en/delta-live-tables/tutorial-sql.html 
+	- batch: can also autoload into bronze_df from S3 bucket directory
+- delta live table: autoscaling if use spark cluster, or use serverless compute
+	- https://www.databricks.com/blog/2022/06/29/delta-live-tables-announces-new-capabilities-and-performance-optimizations.html
+		- DLT employs an enhanced auto-scaling algorithm purpose-built for streaming. scales up for streaming ETL / analytics.
+		- DLTs Enhanced Autoscaling optimizes cluster utilization while ensuring that overall end-to-end latency is minimized. 
+		- It does this by detecting fluctuations of streaming workloads, including data waiting to be ingested, and provisioning the right amount of resources needed (up to a user-specified limit). In addition, Enhanced Autoscaling will gracefully shut down clusters whenever utilization is low while guaranteeing the evacuation of all tasks to avoid impacting the pipeline.
+	- cluster autoscaling?
+		- same as DLT enhanced autoscaling https://docs.databricks.com/en/delta-live-tables/auto-scaling.html 
+		- Spark cluster autoscaling not worth it: too much time spent changing size of cluster, but you have to try it / tune it to see if it works for your workload
+			- https://synccomputing.com/is-databrickss-autoscaling-cost-efficient/
+	- https://www.youtube.com/watch?v=vTbVBlHhecQ
+		- delta lake streaming: be prepared to break streams
+			- stream to stream joins
+			- stream to static table joins
+		- bounds: cpu, ram, disk, network I/O
+			- Out of Memory Error OOM: too many key / value pairs in memory
+			- find approximate bounds from delta tables: size cluster correctly (or use autoscale, serverless compute)
+			- calculate how fast table is growing: average bytes per day
+		- rate limiting
+			- limit the volume of data per trigger
+			- limit the microbatch frequency
+		- avoid real time schema evolution
+	- https://www.youtube.com/watch?v=khhzniCyfP4
+		- streaming application mistakes
+		- streaming transforms
+			- window aggregation
+			- pattern detection
+			- enrichment
+			- routing
+		- kafka best practices
+			- size kafka cluster (topics / partitions) correctly for consumption
+				- rate limiting
+			- kafka errors topic
+		- size delta table correctly for volatile data
+			- rate limiting: see above
+			- size spark cluster correctly for time of day volume spikes
+		- checkpoints so don't have to restart stream from scratch
+		- stateful store management (watch size of stateful store growing --> OOM)
+			- streaming aggregation
+			- drop duplicates
+			- stream to stream joins
+			- use watermark to filter outdated data, periodically clean
+			- use RocksDB for stateful store: low latency, stores state to disk to avoid OOM
+- databricks SQL serverless compute https://docs.databricks.com/en/serverless-compute/index.html 
+	- serverless warehouses now an option vs regular spark clusters
+		- for DB SQL, ML Model Serving, workflows, DLT, notebooks; NOT FOR PYSPARK (general compute)
+	- https://www.youtube.com/watch?v=Jv_SCwNndMc
+		- example serverless compute for real time pipeline
+		- kinesis -> Delta Live Table Table pipeline
+			- -> spark structured streaming data analytics
+			- -> databricks notebooks display streaming visualization
+			- -> databricks SQL dashboard
+		- can see Delta Live Table pipeline in Databricks UI
+			- example notebook: spark readstream format delta into delta live table group by window, etc
+			- configure stream: format kinesis, streamname, region, aws access key, aws secret key
+		- Data lineage in Databricks UI
+- photon: next gen spark, accelerates SQL queries 2x
+- databricks optimizations
+	- https://www.databricks.com/discover/pages/optimize-data-workloads-guide
+	- Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251
+- Databricks workflows for orchestration over entire lakehouse
+	- https://www.databricks.com/blog/2022/05/10/introducing-databricks-workflows.html
+		- orchestrate databricks notebooks, Delta Live Table pipeline, dbt, spark submit jobs
+		- supports both data engineering and ML
+	- https://www.youtube.com/watch?v=SKJibVvB2hQ
+		- schedule and monitor structured streaming and delta live tables
+		- lots of connectors to MDS
+		- can use serverless compute
+	- integrates with Databricks Asset Bundles and Github Actions CI / CD
+- Azure devops CI / CD
+	- https://www.udemy.com/course/azure-databricks-and-spark-sql-python/learn/lecture/38369238#overview
+		- PR -> main branch -> build pipeline -> build artifact (notebooks) -> deploy to test / prod environment
+		- CI: create build pipeline in Azure DevOps: runs build job -> create artifact
+		- CD: create release pipeline: artifact -> deploy to test / prod environment run by Databricks workflows
+		- test / prod environment
+			- databricks workspace with dev / test / prod folders with notebooks that can be called by databricks workflows
+			- can also use Databricks Asset Bundles
+	- Databricks Asset Bundles 
+		- https://www.youtube.com/watch?v=9HOgYVo-WTM 
+			- yaml file that specifies artifacts, resources, configurations of a databricks project
+				- databricks workspace, cluster size
+				- dev / stg / prod environments
+			- example DLT pipeline
+				- stream into df from DLT, do cleaning, 
+				- stream into another df from cleaned df, do aggregation (groupby)
+		- https://www.youtube.com/watch?v=uG0dTF5mmvc 
+	- can also use Github Actions
+- databricks namespaces? 
+	- You reference all data in Unity Catalog using a three-level namespace: catalog.schema.table.
+	- workspaces: 
+		- one for each region (north america, canada, central america)
+			- dev / stg / prod folders in each workspace
+		- can have one workspace each for dev / stg / prod
+	- Unity Catalog oversees all workspaces
+		- https://docs.databricks.com/en/data-governance/unity-catalog/index.html 
+		- You reference all data in Unity Catalog using a three-level namespace: catalog.schema.table. 
+		- data lineage in all workspaces
+			- federated data from AWS, etc.
+
