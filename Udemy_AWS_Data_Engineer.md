@@ -269,7 +269,8 @@
     - mariadb
     - oracle
     - SQL server
-- Quicksight
+- Quicksight https://www.youtube.com/watch?v=z5O-VXgt7SQ
+    - serverless, pay for usage, no monthly fee
     - native integration with AWS data: redshift, aurora, athena, etc.
         - data sets imported into SPICE \(Super\-fast Parallel In\-memory Calculation Engine\): queries on large dataset fast
     - has ML algos
