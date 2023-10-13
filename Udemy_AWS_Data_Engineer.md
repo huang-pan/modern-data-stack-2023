@@ -309,3 +309,15 @@
                 - DSP: upsampling / downsampling
         - https://youtu.be/x8AgLhAydzY
             - can schedule time series aggregation queries, output to separate timestream table
+    - AWS MemoryDB for Redis: read heavy, low latency reads, in memory, high volume
+        - https://docs.aws.amazon.com/memorydb/latest/devguide/what-is-memorydb-for-redis.html
+            - https://docs.aws.amazon.com/memorydb/latest/devguide/getting-startedclusters.connecttonode.html
+            - https://www.youtube.com/watch?v=Jbq_XZMZEKY
+                - access memorydb using AWS Cloud9 IDE code editor / terminal
+        - MemoryDB for Redis is a durable, in-memory database service that delivers ultra-fast performance. It is purpose-built for modern applications with microservices architectures.
+        - MemoryDB is compatible with Redis, a popular open source data store, enabling you to quickly build applications using the same flexible and friendly Redis data structures, APIs, and commands that they already use today. With MemoryDB, all of your data is stored in memory, which enables you to achieve microsecond read and single-digit millisecond write latency and high throughput.
+        - Strong consistency for primary nodes and guaranteed eventual consistency for replica nodes.
+    - AWS DocumentDB
+    - AWS Neptune
+    - AWS QLDB: blockchain / ledger
+    - AWS Keyspaces: wide column key value store, cassandra, write heavy
