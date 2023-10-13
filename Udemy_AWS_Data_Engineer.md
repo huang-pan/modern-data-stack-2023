@@ -109,6 +109,7 @@
         - sub\-ms latency
         - write scaling: sharding
         - read scaling: read replicas
+        - https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/GettingStarted.ConnectToCacheNode.html 
 - Lambda
     - used for: real time file processing \(low latency load to Redshift\), RT stream processing, ETL, process AWS events
     - lots of I/O, not for long running applications
