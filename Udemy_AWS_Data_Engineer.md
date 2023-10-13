@@ -153,11 +153,18 @@
     - AWS EMR Studio [https://youtu.be/rZ3zeJ6WKPY](https://youtu.be/rZ3zeJ6WKPY) 
         - Provision EMR cluster from JupyerLab
         - Connect to git repo from JupyterLab
+        - https://www.youtube.com/watch?v=3cW6e64YRdY
+            - Open up Spark history UI, etc.
+    - AWS EMR Workspace
     - cluster of EC2 instances, transient or long running clusters, supports HDFS / S3
         - auto scaling \(older\)
         - managed scaling \(newer\)
             - scales spot, on\-demand, permanent instances
             - transient vs long\-running clusters
+        - https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-master-core-task-nodes.html
+            - primary node: master node
+            - core node: worker node
+            - task node: additional worker node to speed up parallelized tasks
         - **EMR Serverless** now available
         - EMR on AWS EKS: submit Spark job on EKS without provisioning clusters
     - **EMR Notebook**
