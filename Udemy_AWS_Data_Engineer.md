@@ -120,6 +120,10 @@
     - Data Catalog: catalog all your data in AWS
         - auto schema inference, schemas are versioned
         - used by Athena and Redshift Spectrum
+        - add tables using crawler
+	    - create iceberg tables in AWS Glue Catalog
+	    - ***Stream schema registries***
+    - Workflows (orchestration) using AWS Step functions
     - create custom ETL jobs, Glue scheduler to schedule them, glue triggers to trigger ETL jobs
         - glue ETL is based on Spark
             - supports serverless streaming ETL \(consumes from Kinesis / Kafka, spark structured streaming\)
