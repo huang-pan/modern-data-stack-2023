@@ -193,3 +193,7 @@
     - kendra: search with natural language
     - **codeguru**
         - automate code reviews, supports python
+    - Bedrock
+        - Amazon Bedrock is a fully managed serverless service that offers a choice of high-performing foundation models (FMs) from leading AI companies like AI21 Labs, Anthropic, Cohere, Meta, Stability AI, and Amazon with a single API, along with a broad set of capabilities you need to build generative AI applications, simplifying development while maintaining privacy and security.
+        - https://aws.amazon.com/bedrock/
+        - https://www.youtube.com/watch?v=ab1mbj0acDo
