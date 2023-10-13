@@ -319,7 +319,10 @@
         - Strong consistency for primary nodes and guaranteed eventual consistency for replica nodes.
 ![redis](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/75af9cc6-4442-45a1-befc-2862984b4dd5)
 
-    - AWS DocumentDB
+    - AWS DocumentDB https://www.youtube.com/watch?v=qKi3MHFNYIM 
+        - compatible with MongoDB, JSON store
+        - up to 64 TB
+        - connect to connect to DocumentDB from Tableau, DbVisualizer https://www.dbvis.com/
     - AWS Neptune
     - AWS QLDB: blockchain / ledger
     - AWS Keyspaces: wide column key value store, cassandra, write heavy
