@@ -145,7 +145,7 @@
     - run batch jobs as Docker images
     - non\-ETL work
 - **step functions**
-    - design workflows, e.g. manage a batch job, a pipeline to train a ML model, has visualizations of DAG
+    - design serverless workflows, e.g. manage a batch job, a pipeline to train a ML model, has visualizations of DAG
 - EMR
     - AWS EMR [https://youtu.be/v9nk6mVxJDU](https://youtu.be/v9nk6mVxJDU) 
         - can get to Spark history server from AWS console
