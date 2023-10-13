@@ -269,6 +269,8 @@
         - like Bigquery ML: do ML models in redshift using SQL
     - **Redshift Serverless**
         - to compete with Snowflake, etc.
+    - Access Redshift / Redshift Serveress using Query Editor V2 IDE in AWS console (pretty nice)
+    - AWS Aurora Zero ETL integration
 - RDS: OLTP databases
     - Aurora: 64 TB max
     - mysql
