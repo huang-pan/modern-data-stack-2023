@@ -296,4 +296,15 @@
         - [https://youtu.be/ZET50M20hkU](https://youtu.be/ZET50M20hkU)
         - GCP Cloud Composer Managed Airflow has nicer interface
     - AWS EKS
-        - [https://youtu.be/aZd0UolVwD4](https://youtu.be/aZd0UolVwD4) 
+        - [https://youtu.be/aZd0UolVwD4](https://youtu.be/aZd0UolVwD4)
+    - AWS Timestream https://aws.amazon.com/timestream/
+        - https://docs.aws.amazon.com/timestream/latest/developerguide/what-is-timestream.html
+        - managed, serverless timestream database
+        - https://www.youtube.com/watch?v=YBWCGDd4ChQ
+            - time series data model: easy schema changes
+                - partition keys
+            - built in interpolation algorithms
+                - cubic spline interpolation
+                - DSP: upsampling / downsampling
+        - https://youtu.be/x8AgLhAydzY
+            - can schedule time series aggregation queries, output to separate timestream table
