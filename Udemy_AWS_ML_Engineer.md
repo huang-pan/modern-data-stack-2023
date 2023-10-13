@@ -125,6 +125,9 @@
         - learns as it goes, so you don't have to try every possible combination
     - jumpstart
         - one click models from model zoos
+        - Foundation models for LLMs
+        - computer vision models
+        - NLP models
     - data wrangler
         - data cleaning, EDA in sagemaker studio
     - **feature store**
