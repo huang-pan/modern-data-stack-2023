@@ -356,3 +356,10 @@
 	- Create Topic, publish message to topic
 		- subscribers: email, SMS, kinesis data firehose, SQS, lambda, http
 	- dead letter queue
+    - AWS Event Bridge 
+	- https://www.youtube.com/watch?v=5K6qpMOVS0E
+	- event bus, create filters for routing events, enrich events
+	- multiple sources / sinks
+	- scheduler
+	- schema registry
+	- simpler version of MSK Managed Kafka / Kinesis
