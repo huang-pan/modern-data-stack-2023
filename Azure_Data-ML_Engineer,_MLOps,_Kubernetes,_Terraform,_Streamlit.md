@@ -236,6 +236,31 @@ Terraform
 
   	- terraform apply: apply the plan
   	- terraform destroy
+  	- IaC
+		- variables, for loops, count, depends on, providers
+		- perform actions on local or remote (terraform registry)
+	- modules
+		- package and reuse resource configurations, collection of .tf files
+			- compute.tf
+			- database.tf
+			- dns.tf
+			- main.tf 
+			- variables.tf 
+			- ...
+		- root module: all ..tf files in the main working directory
+		- child modules
+			- parameterized using different input variables
+	- registry.terraform.io: contains many common modules
+	- multiple environments (dev / stg / prod)
+		- workspaces (not recommended)
+		- file structure: recommended, separate directories for dev / stg / prod with .tf, .tfvars files in each directory
+		- possible multiple AWS accounts, one for each environment (dev / stg / prod)
+	- testing
+		- static checks: terraform fmt, validate, plan
+		- external: tflint
+	- workflow
+		- run code changes locally -> PR -> CI tests -> PR merge to main CD (staging) -> main merge to release CD (prod)
+	- terragrunt / gruntwork.io; clean terraform code DRY, multiple cloud accounts
  
 
 Streamlit
