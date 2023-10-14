@@ -242,8 +242,17 @@
     - opensearch: fork of elasticsearch and kibana
         - managed service, serverless service available
 - Athena
-    - serverless SQL queries of petabytes S3, presto underneath
+    - serverless SQL queries of petabytes S3, presto / trino underneath or pySpark / spark SQL
+    - https://github.com/johnny-chivers/sql-for-athena
+    - AWS Data Catalog as a data source, iceberg support
+    	- query all data in redshift, S3, RDS, etc.
+    	- data source connectors to many data sources for query by athena
+     		- build your own using lambda
+    - query editor, notebook editor
+    - workflows powered by step functions
     - structured, semi\-structured, unstructured
+    	- https://www.youtube.com/watch?v=QYlT4SLQTAQ
+	- can query json directory from athena
     - notebook, quicksight integration
     - use parquet, ORC columnar file formats
         - note Microsoft Fabric does this by default
