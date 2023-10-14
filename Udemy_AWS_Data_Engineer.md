@@ -349,3 +349,7 @@
     - AWS Neptune
     - AWS QLDB: blockchain / ledger
     - AWS Keyspaces: wide column key value store, cassandra, write heavy
+    - AWS SNS Simple Notification Service
+	- Create Topic, publish message to topic
+		- subscribers: email, SMS, kinesis data firehose, SQS, lambda, http
+	- dead letter queue
