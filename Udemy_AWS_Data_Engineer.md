@@ -48,6 +48,9 @@
             - used for decoupling applications, buffer writes to a database
             - new FIFO queue
                 - messages processed in order, sent exactly once
+	    - send / receive messages
+            - subscribers: SNS
+            - lambda triggers
         - Managed Streaming for Apache Kafka
             - please see Udemy Kafka course which I also took: [https://www.udemy.com/course/apache\-kafka/](https://www.udemy.com/course/apache-kafka/)
             - autoscaling of workers possible
