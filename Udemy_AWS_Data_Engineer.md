@@ -119,6 +119,14 @@
     - new functions callable in seconds
     - events processed in milliseconds
     - **lambda code can be versioned in terraform Git repo or its own separate repo**
+    - many different types of lambda applications
+	- CI / CD pipeline
+		- Serverless API backend (node)
+		- file / notification / queue processing
+		- scheduled job
+	- serverless application: many public applications
+		- https://github.com/amazon-archives/serverless-app-examples/tree/master/python 
+	- application composer: visual IDE for lambda functions
 - Glue
     - Data Catalog: catalog all your data in AWS
         - auto schema inference, schemas are versioned
