@@ -252,6 +252,7 @@
         - kibana dashboard
     - opensearch: fork of elasticsearch and kibana
         - managed service, serverless service available
+	- https://github.com/johnny-chivers/amazon-opensearch-service
 - Athena
     - serverless SQL queries of petabytes S3, presto / trino underneath or pySpark / spark SQL
     - https://github.com/johnny-chivers/sql-for-athena
