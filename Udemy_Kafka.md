@@ -16,10 +16,13 @@
     - max throughput ****~800 MB/s****?, limited by network? Gigabit ethernet, etc.
     	- https://aws.amazon.com/blogs/big-data/best-practices-for-right-sizing-your-apache-kafka-clusters-to-optimize-performance-and-cost/
 - Kafka \(Confluent, AWS MSK serverless\) vs Kinesis
+    - kinesis easier to setup, kafka harder to set up (kafka kraft cluster, connectors, condukctor), but more powerful
     - [https://streamsets.com/blog/kafka\-vs\-kinesis/](https://streamsets.com/blog/kafka-vs-kinesis/)
     - [https://dev.to/aws\-builders/aws\-msk\-confluent\-cloud\-aiven\-how\-to\-chose\-your\-managed\-kafka\-service\-provider\-15m0](https://dev.to/aws-builders/aws-msk-confluent-cloud-aiven-how-to-chose-your-managed-kafka-service-provider-15m0)
         - AWS MSK cheaper, better integrated with AWS security than confluent, plus they have the serverless version
     - [https://medium.com/slalom\-build/a\-guide\-to\-choosing\-the\-right\-streaming\-solution\-for\-you\-on\-aws\-57089f03e034](https://medium.com/slalom-build/a-guide-to-choosing-the-right-streaming-solution-for-you-on-aws-57089f03e034)
+    - https://programmaticponderings.com/2023/04/23/streaming-data-on-aws-amazon-kinesis-data-streams-or-amazon-msk/
+    - https://www.softkraft.co/aws-kinesis-vs-kafka-comparison/ 
 - kafka cluster
     - producers
         - push based to topics
