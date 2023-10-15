@@ -343,6 +343,7 @@
     	- https://github.com/huang-pan/modern-data-stack-2023/blob/main/dbt/Download%20the%20definitive%20guide%20to%20dbt%20testing.pdf
     - https://ssmertin.com/articles/strategies-for-data-quality-with-apache-spark/
     	- test for: completeness (check for missing data), consistency (data within range), uniqueness, timeliness, relevance, accuracy, validity
+     	- https://seattledataguy.substack.com/p/how-and-why-we-need-to-implement
 - macros
     - dbt has many built in macros
     - **macros/\*.sql** files
