@@ -37,6 +37,7 @@ Azure Databricks and Spark SQL
     - Apache Iceberg: most comprehensive format, supports table / catalog versioning that the other formats don't, but isn't as good for stream processing
     - Apache Hudi: event based table format, for events
     - Delta Tables: periodic log checkpoints
+    - https://delta.io/blog/delta-lake-vs-parquet-comparison/
     - https://medium.com/starschema-blog/open-table-formats-for-efficient-data-processing-delta-lake-vs-iceberg-vs-hudi-b1107141e9a6
     - https://www.onehouse.ai/blog/apache-hudi-vs-delta-lake-vs-apache-iceberg-lakehouse-feature-comparison
     - https://iomete.com/blog/apache-iceberg-delta-lake
