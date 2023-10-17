@@ -282,6 +282,7 @@
         - vacuum: clean up space
     - data ingest
         - batch copy
+        - autoload from S3: https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-redshift-supports-auto-copy-amazon-s3/
         - Aurora auto replication to Redshift
         - kinesis data streams, MSK streaming ingest
         - dblink sync data with postgres
