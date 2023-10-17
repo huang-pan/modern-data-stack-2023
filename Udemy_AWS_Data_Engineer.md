@@ -28,10 +28,12 @@
 - Collection
     - real time \- immediate actions
         - kinesis data streams
+        	- https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html 
             - streaming technologies pretty similar
                 - please see Udemy Kafka course which I also took: [https://www.udemy.com/course/apache\-kafka/](https://www.udemy.com/course/apache-kafka/)
                 - For actual lab work completed, please see DataFlow section of GCP Data Engineer course: [https://www.cloudskillsboost.google/paths/16](https://www.cloudskillsboost.google/paths/16)
             - partition key, 1MB/sec or 1000 msg/sec per shard
+            	- ****partition keys are like Kafka topics****
             - retention 1 day to 365 days
             - provisioned vs on\-demand mode
             - producers, consumers 200ms latency
