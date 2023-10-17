@@ -214,7 +214,7 @@
     - move data between AWS services like S3, EMR, RDS, DDB
 - kinesis data analytics is now Managed Flink
     - **Real Time Analytics on AWS**
-        - **Kinesis Data Analytics \(using SQL [https://docs.aws.amazon.com/kinesisanalytics/latest/dev/what\-is.html](https://docs.aws.amazon.com/kinesisanalytics/latest/dev/what-is.html) \) \-\-\> kinesis data stream \-\-\> redis \-\-\> AWS quicksight dashboard, etc.**
+        - kinesis data stream --> **Kinesis Data Analytics \(using SQL [https://docs.aws.amazon.com/kinesisanalytics/latest/dev/what\-is.html](https://docs.aws.amazon.com/kinesisanalytics/latest/dev/what-is.html) \) \-\-\> kinesis data stream \-\-\> redis \-\-\> AWS quicksight dashboard, etc.**
     - **Kinesis Data Analytics is managed Apache Flink** [https://youtu.be/xu3A\_7DcRgQ](https://youtu.be/xu3A_7DcRgQ)
         - **still uses low level map reduce on streams like Apache Beam**
         - has autoscaling
