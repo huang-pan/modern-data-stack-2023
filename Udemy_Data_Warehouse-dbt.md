@@ -405,6 +405,7 @@ dbt best practices https://docs.getdbt.com/guides/best-practices/how-we-structur
 - dbt clone
 	- https://docs.getdbt.com/reference/commands/clone
  	- clone snowflake databases
+- dbt threads to parallel process models in parallel https://docs.getdbt.com/docs/running-a-dbt-project/using-threads
 
 dbt Core v1.5 is slated for release at the end of April, and it will include three new constructs:
 - https://www.getdbt.com/blog/analytics-engineering-next-step-forwards/
