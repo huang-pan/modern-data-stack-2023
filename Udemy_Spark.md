@@ -376,7 +376,8 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- multi hop streaming from bronze to silver table
 	- many new techniques for automating declarative streaming tables and materialized views
 	- DLT Serverless https://docs.databricks.com/serverless-compute/index.html
-		- Photon underneath - fast https://www.databricks.com/product/photon 
+		- Photon underneath - fast https://www.databricks.com/product/photon
+  		- Databricks medium SQL serverless warehouses best bang for your buck: https://towardsdatascience.com/5-lessons-learned-from-testing-databricks-sql-serverless-dbt-1d85bc861358
 	- ST ingest into Bronze --> materialized view in Silver
 	- DLT pipelines: code, target, configuration; auto manage lifecycle, dependency, isolation (dev/stg/prod) - for CI / CD
 		- create dynamic pipelines in python
@@ -522,6 +523,7 @@ Example streaming data architecture using Databricks Delta Live Streaming Tables
 			- example notebook: spark readstream format delta into delta live table group by window, etc
 			- configure stream: format kinesis, streamname, region, aws access key, aws secret key
 		- Data lineage in Databricks UI
+  	- Databricks medium SQL serverless warehouses best bang for your buck: https://towardsdatascience.com/5-lessons-learned-from-testing-databricks-sql-serverless-dbt-1d85bc861358
 - photon: next gen spark, accelerates SQL queries 2x
 - databricks optimizations
 	- https://www.databricks.com/discover/pages/optimize-data-workloads-guide
