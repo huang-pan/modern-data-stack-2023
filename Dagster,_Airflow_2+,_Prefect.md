@@ -142,7 +142,7 @@ Airflow 2\+:
 			- can use this in conjunction with Airflow on K8s: have set number  K8s worker pods, communicate with them using celery message queue (as with Juvo)
 		- Kubernetes Executor https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/executor/kubernetes.html
 			- The Kubernetes executor runs each task instance in its own pod on a Kubernetes cluster.
-			- Uses metadatadb
+			- Uses metadatadb, no need for celery queue (Greenstand)
 			- Can install using Airflow Helm Chart (see Greenstand work with Helm / Ansible)
 - Premade hooks, operators
 	- https://registry.astronomer.io/ 
