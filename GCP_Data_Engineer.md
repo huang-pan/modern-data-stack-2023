@@ -540,6 +540,7 @@ GCP Data Engineer Learning Path
                 - [https://cloud.google.com/architecture/cicd\-pipeline\-for\-data\-processing](https://cloud.google.com/architecture/cicd-pipeline-for-data-processing) 
                     - **Lab uses GCP managed Airflow instead of Cloud Data Fusion for CI / CD**
                     - **The setup for this is too complex to manage when starting a new data engineering project\! Use a managed service like Dagster Cloud or Astronomer\!\!**
+                    - Cloud Composer ****DOES NOT**** have a local Airflow dev environment like Astronomer: https://cloud.google.com/composer/docs/composer-2/dag-cicd-github
                 - [https://github.com/GoogleCloudPlatform/ci\-cd\-for\-data\-processing\-workflow/tree/master/example/1.terraform\-automation](https://github.com/GoogleCloudPlatform/ci-cd-for-data-processing-workflow/tree/master/example/1.terraform-automation) 
                     - also terraform files, use in conjunction with env\-setup folder
                     - terraform init \-\> plan \-\> apply
