@@ -128,6 +128,26 @@ Airflow vs. Dagster vs. Prefect
 
 Airflow 2\+:
 
+- Airflow Architecture
+	- https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/overview.html 
+		- Astronomer Airflow 2 deploy modes: celery (fast execution), KubernetesPod (slower, scalable)
+	- Executor types
+		- Sequential Executor https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/executor/sequential.html 
+			- local, no parallelism
+		- Local Executor https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/executor/local.html
+			- has parallelism
+		- Celery Executor https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/executor/celery.html
+			- celery backend: rabbitmq, redis, etc.
+			- looks to be harder to set up: AWS EC2 instances, terraform / ansible, etc.
+			- not as scalable as K8s
+			- https://www.accionlabs.com/how-to-setup-airflow-multinode-cluster-with-celery-rabbitmq 
+		- Kubernetes Executor https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/executor/kubernetes.html
+			- The Kubernetes executor runs each task instance in its own pod on a Kubernetes cluster.
+			- Uses metadatadb
+			- Can install using Airflow Helm Chart (see Greenstand work with Helm / Ansible)
+- Premade hooks, operators
+	- https://registry.astronomer.io/ 
+- 
 - Airflow
     - Task\-based workflow definition
     - Dynamic task generation
