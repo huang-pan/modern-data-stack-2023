@@ -195,6 +195,7 @@
         - cluster has cluster manager
         - worker node has node manager
             - within a worker, the executor take care of running a task and returns the results back to the Spark context
+    - worker node has x (3?) number of executors
     - cluster capacity: sum of all worker nodes
         - worker node: 16 CPU cores, 64 GB ram
 - **spark\-submit**
