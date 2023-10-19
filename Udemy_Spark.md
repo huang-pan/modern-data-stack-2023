@@ -476,7 +476,7 @@ Example streaming data architecture using Databricks Delta Live Streaming Tables
 		- It does this by detecting fluctuations of streaming workloads, including data waiting to be ingested, and provisioning the right amount of resources needed (up to a user-specified limit). In addition, Enhanced Autoscaling will gracefully shut down clusters whenever utilization is low while guaranteeing the evacuation of all tasks to avoid impacting the pipeline.
 	- cluster autoscaling?
 		- same as DLT enhanced autoscaling https://docs.databricks.com/en/delta-live-tables/auto-scaling.html 
-		- Spark cluster autoscaling not worth it: too much time spent changing size of cluster, but you have to try it / tune it to see if it works for your workload
+		- ****Spark cluster autoscaling not worth it****: too much time spent changing size of cluster, but you have to try it / tune it to see if it works for your workload
 			- https://synccomputing.com/is-databrickss-autoscaling-cost-efficient/
 	- https://www.youtube.com/watch?v=vTbVBlHhecQ
 		- delta lake streaming: be prepared to break streams
@@ -524,7 +524,7 @@ Example streaming data architecture using Databricks Delta Live Streaming Tables
 			- example notebook: spark readstream format delta into delta live table group by window, etc
 			- configure stream: format kinesis, streamname, region, aws access key, aws secret key
 		- Data lineage in Databricks UI
-  	- Databricks medium SQL serverless warehouses best bang for your buck: https://towardsdatascience.com/5-lessons-learned-from-testing-databricks-sql-serverless-dbt-1d85bc861358
+  	- Databricks ****medium SQL serverless warehouses**** best bang for your buck: https://towardsdatascience.com/5-lessons-learned-from-testing-databricks-sql-serverless-dbt-1d85bc861358
 - photon: next gen spark, accelerates SQL queries 2x
 - databricks optimizations
 	- https://www.databricks.com/discover/pages/optimize-data-workloads-guide
