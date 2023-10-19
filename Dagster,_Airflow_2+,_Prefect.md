@@ -138,9 +138,8 @@ Airflow 2\+:
 			- has parallelism
 		- Celery Executor https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/executor/celery.html
 			- celery backend: rabbitmq, redis, etc.
-			- looks to be harder to set up: AWS EC2 instances, terraform / ansible, etc.
-			- not as scalable as K8s
-			- https://www.accionlabs.com/how-to-setup-airflow-multinode-cluster-with-celery-rabbitmq 
+			- https://www.accionlabs.com/how-to-setup-airflow-multinode-cluster-with-celery-rabbitmq
+			- can use this in conjunction with Airflow on K8s: have set number  K8s worker pods, communicate with them using celery message queue (as with Juvo)
 		- Kubernetes Executor https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/executor/kubernetes.html
 			- The Kubernetes executor runs each task instance in its own pod on a Kubernetes cluster.
 			- Uses metadatadb
