@@ -5,7 +5,10 @@ Azure Databricks & Spark For Data Engineers (PySpark / SQL)
 - https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/
 	- Course completion certificate: https://www.udemy.com/certificate/UC-953b1ee6-3645-4797-8e02-d68b14d0dca2/
 - Azure: Data Lake gen 2, Spark clusters, notebooks & dashboards, medallion architecture, incremental loads
-- Delta Lake
+- Delta Lake: process image, video, audio files in Spark
+	- https://blog.devgenius.io/handling-media-files-in-pyspark-image-audio-video-files-8e3bcd7a5c4e
+	- https://godatadriven.com/blog/real-distributed-image-processing-with-apache-spark/
+ 	- https://community.databricks.com/t5/data-engineering/how-to-process-images-and-video-through-structured-streaming/td-p/18738
 - Azure Data Factory
 - Unity Catalog
 - **How to optimize Spark workloads**: https://www.databricks.com/discover/pages/optimize-data-workloads-guide
