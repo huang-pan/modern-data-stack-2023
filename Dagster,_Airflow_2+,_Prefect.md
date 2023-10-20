@@ -197,6 +197,7 @@ Airflow 2\+:
   	- don't put dags, webserver, scheduler in same repo
 	- use premade hooks, operators, sensors, variables
 	- types of executors: sequential, local, celery, kubernetes, debug
+	- scale! https://shopify.engineering/lessons-learned-apache-airflow-scale
     - forgot details of Airflow scheduler using **celery message queue using rabbitMQ message bus** \(can also use **redis** like at Juvo\) to send data to workers
     - [https://airflow.apache.org/docs/apache\-airflow/stable/installation/index.html](https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html)
         - pip, docker, helm, managed services
