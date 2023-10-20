@@ -198,6 +198,12 @@ Airflow 2\+:
 		- use premade hooks, operators, sensors, variables
 		- types of executors: sequential, local, celery, kubernetes, debug
 		- scale! https://shopify.engineering/lessons-learned-apache-airflow-scale
+			- Airflow logs can be on S3, but it's slow
+			- reduce metadata amount
+			- load distribution
+				- pools: limits concurrency for a set of tasks
+				- priority weight for a task
+				- different celery queues for isolated workers
     - forgot details of Airflow scheduler using **celery message queue using rabbitMQ message bus** \(can also use **redis** like at Juvo\) to send data to workers
     - [https://airflow.apache.org/docs/apache\-airflow/stable/installation/index.html](https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html)
         - pip, docker, helm, managed services
