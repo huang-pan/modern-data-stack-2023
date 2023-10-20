@@ -308,6 +308,9 @@
     - dynamically coalescing shuffle partitions, switching join strategies, optimizing skew joins
     - Spark 3+, details of AQE https://blog.cloudera.com/how-does-apache-spark-3-0-increase-the-performance-of-your-sql-workloads/
 - Data Skew
+	- https://towardsdatascience.com/data-skew-in-pyspark-783d529a9dd7
+ 	- https://statusneo.com/solving-data-skewness-in-apache-spark-techniques-and-best-practices/
+  	- https://medium.com/@suffyan.asad1/handling-data-skew-in-apache-spark-techniques-tips-and-tricks-to-improve-performance-e2934b00b021
 - Dynamic Partition Pruning
 - Data Caching: cache, persist
 - Repartition, Coalesce
