@@ -22,7 +22,28 @@
         - [https://www.globalsqa.com/pyspark\-cheat\-sheet/](https://www.globalsqa.com/pyspark-cheat-sheet/)
         - [https://sparkbyexamples.com/pyspark\-tutorial/](https://sparkbyexamples.com/pyspark-tutorial/) 
         - [https://intellipaat.com/blog/tutorial/spark\-tutorial/spark\-and\-rdd\-cheat\-sheet/?US](https://intellipaat.com/blog/tutorial/spark-tutorial/spark-and-rdd-cheat-sheet/?US)
-    - ***How to optimize Spark workloads***: https://www.databricks.com/discover/pages/optimize-data-workloads-guide
+    - ***How to optimize Spark workloads***:
+	- https://www.databricks.com/discover/pages/optimize-data-workloads-guide 
+		- Z-order on high cardinality columns (e.g. uuid) - physically sorts or co-locates data
+		- partition on low cardinality columns (e.g. year, month) - 
+		- above common techniques for index clustering, e.g. like w/Azure SQL DB at Roofstock
+		- use Photon to speed up queries
+		- Spark UI Query execution plan or spark profiler to dig into queries
+		- data skew
+			- look at query plan, ID skew
+				- redo query: filter out skewed values
+				- break up tables into smaller ones, redo query
+				- redo partition, z order
+			- spark 3+: Adaptive Query Execution: monitors ANALYZE TABLE statistics, changes query plan during runtime
+			- add salt to skewed columns
+		- cluster instance types:
+			- memory: for lots of shuffles during execution
+			- compute: structured streaming
+			- storage: delta caching
+			- GPU: ML / Deep Learning
+			- General purpose
+		- right sizing number of workers guide
+	- Delta Lake 3.0: Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251   
     	- https://www.linkedin.com/posts/bigdatabysumit_bigdata-career-dataengineering-activity-7093867870463397888-Et4V/
      	- https://youtube.com/watch?v=5EkYtX9CuC4&feature=share
       		- start with general sizing, then monitor RAM, CPU, I/O usage
@@ -32,7 +53,6 @@
 			- If the main use case for Spark is OLAP - use ****Parquet**** or ORC.
 			- If the main use case is about frequently writing data (OLTP) - use ****Avro****.
     	- partitioning: https://medium.com/@tagnev.vengat/essential-tips-for-optimizing-apache-spark-queries-part-1-data-partitioning-unleashed-e4c3f1eae8b
-     	- Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251 
 - Set up Spark from the JDK: in reality, I would use a managed service like Spark on EMR or GCP DataProc
     - course starts with installing and running Spark locally
         - spark\-submit pyspark\_script.py
