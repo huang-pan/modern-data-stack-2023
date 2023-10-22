@@ -23,26 +23,26 @@
         - [https://sparkbyexamples.com/pyspark\-tutorial/](https://sparkbyexamples.com/pyspark-tutorial/) 
         - [https://intellipaat.com/blog/tutorial/spark\-tutorial/spark\-and\-rdd\-cheat\-sheet/?US](https://intellipaat.com/blog/tutorial/spark-tutorial/spark-and-rdd-cheat-sheet/?US)
     - ***How to optimize Spark workloads***:
-	- https://www.databricks.com/discover/pages/optimize-data-workloads-guide 
-		- Z-order on high cardinality columns (e.g. uuid) - physically sorts or co-locates data
-		- partition on low cardinality columns (e.g. year, month) - 
-		- above common techniques for index clustering, e.g. like w/Azure SQL DB at Roofstock
-		- use Photon to speed up queries
-		- Spark UI Query execution plan or spark profiler to dig into queries
-		- data skew
-			- look at query plan, ID skew
-				- redo query: filter out skewed values
-				- break up tables into smaller ones, redo query
-				- redo partition, z order
-			- spark 3+: Adaptive Query Execution: monitors ANALYZE TABLE statistics, changes query plan during runtime
-			- add salt to skewed columns
-		- cluster instance types:
-			- memory: for lots of shuffles during execution
-			- compute: structured streaming
-			- storage: delta caching
-			- GPU: ML / Deep Learning
-			- General purpose
-		- right sizing number of workers guide
+		- https://www.databricks.com/discover/pages/optimize-data-workloads-guide 
+			- Z-order on high cardinality columns (e.g. uuid) - physically sorts or co-locates data
+			- partition on low cardinality columns (e.g. year, month) - 
+			- above common techniques for index clustering, e.g. like w/Azure SQL DB at Roofstock
+			- use Photon to speed up queries
+			- Spark UI Query execution plan or spark profiler to dig into queries
+			- data skew
+				- look at query plan, ID skew
+					- redo query: filter out skewed values
+					- break up tables into smaller ones, redo query
+					- redo partition, z order
+				- spark 3+: Adaptive Query Execution: monitors ANALYZE TABLE statistics, changes query plan during runtime
+				- add salt to skewed columns
+			- cluster instance types:
+				- memory: for lots of shuffles during execution
+				- compute: structured streaming
+				- storage: delta caching
+				- GPU: ML / Deep Learning
+				- General purpose
+			- right sizing number of workers guide
 	- Delta Lake 3.0: Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251   
     	- https://www.linkedin.com/posts/bigdatabysumit_bigdata-career-dataengineering-activity-7093867870463397888-Et4V/
      	- https://youtube.com/watch?v=5EkYtX9CuC4&feature=share
