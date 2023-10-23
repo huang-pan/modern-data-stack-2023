@@ -131,6 +131,7 @@ Airflow 2\+:
 - Airflow Architecture
 	- https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/overview.html 
 		- Astronomer Airflow 2 deploy modes: celery (fast execution), KubernetesPod (slower, scalable, isolation)
+  		- Airflow on Kubernetes: https://youtube.com/watch?v=Vg75zZ6_9hU&si=hivWYZOEYOyz_1Fo
 	- Executor types
 		- Sequential Executor https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/executor/sequential.html 
 			- local, no parallelism
