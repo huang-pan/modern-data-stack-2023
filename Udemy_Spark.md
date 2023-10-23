@@ -646,7 +646,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - Geospatial
 	- grid index systems: KD trees, ball trees, quad trees
 	- storage: geoparquet
-- ####Example solutions architecture notebooks in pdf above####
+- ****Example solutions architecture notebooks in pdf above****
 - A lot of companies are using DLT pipelines for streaming IoT
 	- case studies: Rivian, Akamai, Grammarly, Honeywell, Wood Mackenzie, AT&T
 - 
