@@ -424,7 +424,7 @@
 Snowplow
 - Customer data augmentation in real time (structured behavioral data)
 
-Streaming system design
+## Streaming system design
 - https://www.linkedin.com/posts/nagarajulu_systemdesign-probablisticdatastructures-performace-activity-7096705093797875712-E7bv/
     - filter out streaming inputs
 - Popular streaming technologies
