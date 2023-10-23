@@ -434,3 +434,5 @@ Also see:
 	- https://youtu.be/_reNgMlqYu0?si=B6jUEOMsXqOojv1w
 	- https://www.youtube.com/watch?v=UJ5FJ7BFP-k
  		- file names always src_object from dbt style guide, e.g. stg_trips_departures.sql / .yml etc.
+	- https://www.youtube.com/watch?v=9kWkNI9k28U
+ 		- data analysis on Tableau
