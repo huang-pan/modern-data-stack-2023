@@ -430,5 +430,7 @@ Also see:
 - Activity Schema: https://www.activityschema.com/
 - Virtual Data Build: https://www.y42.com/blog/virtual-data-builds-one-data-warehouse-environment-for-every-git-commit/
 - https://enigma.com/blog/post/dev-stage-prod-is-the-wrong-pattern-for-data-pipelines
-- Y42 now better DBT IDE than DBT Cloud, has data versioning, orchestration, lineage, easy model modify, etc.
-	- https://youtu.be/_reNgMlqYu0?si=B6jUEOMsXqOojv1w 
+- Y42 now better DBT IDE than DBT Cloud, has data versioning, orchestration, lineage, easy model modify & documentation, model draft or verified, etc.
+	- https://youtu.be/_reNgMlqYu0?si=B6jUEOMsXqOojv1w
+	- https://www.youtube.com/watch?v=UJ5FJ7BFP-k
+ 		- file names always src_object from dbt style guide, e.g. stg_trips_departures.sql / .yml etc.
