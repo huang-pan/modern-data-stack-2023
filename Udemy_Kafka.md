@@ -242,7 +242,7 @@
 
 ![kafka_uber](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a8c4b3b4-a242-4957-9b33-0347d7612f7f)
 
-## KSQL
+## Udemy KSQL
 
 [https://www.udemy.com/course/kafka\-ksql/](https://www.udemy.com/course/kafka-ksql/)
 
