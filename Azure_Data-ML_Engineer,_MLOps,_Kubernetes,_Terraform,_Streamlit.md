@@ -2,7 +2,7 @@
 
 ****NOTE****: for more on Databricks / Spark: https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md
 
-Azure Databricks & Spark For Data Engineers (PySpark / SQL)
+## Azure Databricks & Spark For Data Engineers (PySpark / SQL)
 
 - https://www.udemy.com/course/azure-databricks-spark-core-for-data-engineers/
 	- Course completion certificate: https://www.udemy.com/certificate/UC-953b1ee6-3645-4797-8e02-d68b14d0dca2/
@@ -16,7 +16,7 @@ Azure Databricks & Spark For Data Engineers (PySpark / SQL)
 - **How to optimize Spark workloads**: https://www.databricks.com/discover/pages/optimize-data-workloads-guide
 	- Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251 
 
-Azure Databricks and Spark SQL
+## Azure Databricks and Spark SQL
 
 - https://www.udemy.com/course/azure-databricks-and-spark-sql-python/
 	- Course completion certificate: https://www.udemy.com/certificate/UC-f9306a42-9538-4dd1-9ee6-7633cb069371/ 
@@ -61,7 +61,7 @@ Azure Databricks and Spark SQL
 	- 📆 Snapshot Maintenance: Iceberg’s snapshot expiration feature ensures that old data versions are pruned over time, optimizing storage usage while maintaining historical integrity.
 - Polars is a pandas replacement: https://www.confessionsofadataguy.com/replacing-pandas-with-polars-a-practical-guide/
 
-Azure Data Engineer
+## Azure Data Engineer
 
 - [https://www.youtube.com/playlist?list=PL7ZG6NdDdT8NRHDU5shVgGjlua297bm\-H](https://www.youtube.com/playlist?list=PL7ZG6NdDdT8NRHDU5shVgGjlua297bm-H)
 	- Azure has a similar set of data engineering services to GCP and AWS. I went through the above lectures quickly because of this.
@@ -95,7 +95,7 @@ Azure Data Engineer
             - For Azure services
             - still don't like it \- clunky UI interfaces \(git integration? CI / CD?\) \- prefer Dagster
 
-Azure ML Engineer
+## Azure ML Engineer
 
 - [https://www.youtube.com/watch?v=OwZHNH8EfSU](https://www.youtube.com/watch?v=OwZHNH8EfSU)
 - Azure has a similar set of machine learning services to GCP and AWS. I went through the above lectures quickly because of this.
@@ -119,7 +119,7 @@ Azure ML Engineer
 - Azure MLOps
     - [https://opendatascience.com/machine\-learning\-operations\-mlops\-with\-azure\-machine\-learning/](https://opendatascience.com/machine-learning-operations-mlops-with-azure-machine-learning/) 
 
-MLOps
+## MLOps
 
 - Building ML Platform [https://neptune.ai/blog/ml\-platform\-guide](https://neptune.ai/blog/ml-platform-guide) 
     - [https://neptune.ai/blog/mlops\-architecture\-guide](https://neptune.ai/blog/mlops-architecture-guide) 
@@ -213,7 +213,7 @@ MLOps
 	- End-to-end tests: Test the data pipeline as a whole, from the source to the target or output. This could be categorized as “black box” testing because there is no need to know the internal structure of the pipeline, but only the expected output given the input.
  	- pytest (mock tests, fixtures), just like at Juvo
 
-Kubernetes tutorial
+## Kubernetes tutorial
 
 - Refresher lecture, just the basics
 - [https://www.youtube.com/watch?v=X48VuDVv0do](https://www.youtube.com/watch?v=X48VuDVv0do)
@@ -228,9 +228,7 @@ Kubernetes tutorial
  	- Like a Deployment, a StatefulSet manages Pods that are based on an identical container spec. Unlike a Deployment, a StatefulSet maintains a sticky identity for each of its Pods. These pods are created from the same spec, but are not interchangeable: each has a persistent identifier that it maintains across any rescheduling. 
 ![k8s](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f932b21f-e33f-45d3-811a-0df5e3d610bb)
 
-
-
-Terraform
+## Terraform
 
 - Refresher lecture, just the basics
 - [https://www.youtube.com/watch?v=7xngnjfIlK4](https://www.youtube.com/watch?v=7xngnjfIlK4)
@@ -268,8 +266,7 @@ Terraform
 		- run code changes locally -> PR -> CI tests -> PR merge to main CD (staging) -> main merge to release CD (prod)
 	- terragrunt / gruntwork.io; clean terraform code DRY, multiple cloud accounts
  
-
-Streamlit
+## Streamlit
 
 - create data / ML web apps using python scripts
     - seems pretty straightforward
@@ -277,7 +274,7 @@ Streamlit
 - [https://www.youtube.com/live/YzvMpvXyUfs?feature=share](https://www.youtube.com/live/YzvMpvXyUfs?feature=share) 
 - [https://youtu.be/\_wq1NbDCkL8](https://youtu.be/_wq1NbDCkL8)
 
-Notebooks
+## Notebooks
 
 - Hex
     - [https://www.linkedin.com/company/hex\-technologies/people/](https://www.linkedin.com/company/hex-technologies/people/) 91 people
@@ -286,13 +283,13 @@ Notebooks
 - Noteable
     - [https://www.linkedin.com/company/noteable\-io/people/](https://www.linkedin.com/company/noteable-io/people/) 27 people
 
-Latest Data Tools
+## Latest Data Tools
 
 - Cool channel doing demos of the latest data tools: [https://www.youtube.com/@demohub/videos](https://www.youtube.com/@demohub/videos)
 - Jupyter AI https://www.marktechpost.com/2023/08/06/meet-jupyter-ai-a-new-open-source-project-that-brings-generative-artificial-intelligence-to-jupyter-notebooks-with-magic-commands-and-a-chat-interface/
 - ***Data Tooling cost analysis***, etc.: https://medium.com/@hugolu87
 
-Data Product
+## Data Product
 - Understand business requirements for upcoming data ingestion work (Securities data, Master data, Positions data etc.)
 	- What’s the timeline to implement the pipeline?
 	- What level of testing is required e.g., Source-to-Target reconciliation, Basic Data Quality vs Functional Testing)
@@ -315,7 +312,7 @@ Data Product
 - Discover the power of data lake technologies Apache Iceberg. Proper schema evolution, partitioning, and parquet file format compression!
 - Level up your SQL skills by having a four-hour crash course on GROUPING SETS, window functions, and cumulative table design
 
-KPIs
+## KPIs
 - 1st level metrics, 2nd level metrics
 	- https://www.kalungi.com/blog/10-marketing-kpis-every-b2b-saas-company-should-track
 	- https://userpilot.com/blog/b2b-saas-metrics/
@@ -328,7 +325,7 @@ KPIs
 
 
 
-Data Contracts
+## Data Contracts
 
 In its simplest form Data Contract is an agreement between Data Producers and Data Consumers on what the Data being produced should look like, what SLAs it should meet and the semantics of it.
 Data Contract should hold the following non-exhaustive list of metadata:
@@ -358,6 +355,7 @@ Some Purposes of Data Contracts:
 9. Consumers and Producers are alerted to any SLA breaches.
 10. Data that was Invalidated in Real Time is consumed by Flink Applications that alert on invalid schemas. There could be a recovery Flink App with logic on how to fix invalidated Data.
 
+## Technical Debt
 
 10 categories of tech debt:
 In order of prevalence…
