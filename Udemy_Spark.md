@@ -480,7 +480,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- Power BI MS Copilot integration
 	- https://youtube.com/watch?v=uadUz6jRb8g&feature=share
 
-Example streaming data architecture using Databricks Delta Live Streaming Tables / Delta Live Tables & Views; or Spark Structured Streaming
+## Example streaming data architecture using Databricks Delta Live Streaming Tables / Delta Live Tables & Views; or Spark Structured Streaming
 - AWS services such as S3, Lambda, DMS, Athena, SNS, Kinesis, EMR etc.
 - kafka JSON payloads
 	- SMS messages, Design and build multi-tenant systems capable of loading and transforming large volumes of structured and semi-structured fast moving data
@@ -591,3 +591,67 @@ Example streaming data architecture using Databricks Delta Live Streaming Tables
 		- data lineage in all workspaces
 			- federated data from AWS, etc.
 
+## The Big Book of Data Engineering with Databricks 2nd edition
+[big-book-of-data-engineering-2nd-edition-final.pdf](https://github.com/huang-pan/modern-data-stack-2023/files/13065105/big-book-of-data-engineering-2nd-edition-final.pdf)
+- Use larger clusters (memory / CPU, etc. optimized): workloads run faster
+- Use Delta Cache
+- Lazy Evaluation faster than without it
+- pyspark profilers
+	- cProfile
+	- driver profiling
+	- worker profiling
+		- UDF profiler: Spark 3.3+
+- DLT
+	- Spark Structured Streaming: has check pointing; Delta Live Streaming Tables automatically takes care of checkpointing and triggers
+		- streaming trigger: how often stream will look for new data
+			- SLA > 10 minutes, use trigger.once -> batch processing
+		- lower streaming latency by
+			- using shorter trigger interval
+			- increasing resources available: adding more workers, use compute / memory optimized instances
+			- having fewer streams per cluster
+			- check for data skew in each Spark job
+			- stateful queries (aggregations, etc) need to have watermark set
+		- stateful streaming
+			- streaming aggregations / drop duplicates / stream - stream joins, etc.
+			- use RocksDB to store streaming state to avoid worker node Out Of Memory errors
+				- adds latency to streaming pipeline, but alleviates OOM pressure
+			- higher watermark threshold -> more streaming data in memory
+	- either SQL or python, SQL preferred for dbt
+	- lower latency when reading directly from message bus
+		- Needs schema mapping when reading data from Kafka
+	- OR stream into S3, use databricks autoloader
+		- COPY INTO command with mergeSchema schema inference
+			- schema changes tracked by Unity Catalog
+			- use COPY into when source directly has small number of files
+		- Autoloader
+			- use for larger number of files
+			- for both streaming and batch
+		- recommended to use autoloader with DLT pipelines
+			- schema inference / evolution
+			- auto error handling, quality control, data lineage, setting expectations
+	- DLT streaming uses spark structured streaming under the hood
+	- DLT pipelines vs Databricks Workflows
+- Databricks Workflows
+	- an alternative to DLT pipelines
+	- Spark jobs that run on Spark clusters (autoscale)
+		- spark structured streaming
+	- photon
+	- serverless SQL warehouse
+	- Unity Catalog
+	- Delta Lake Storage
+- production
+	- unit tests for all spark steps
+	- can use the same batch unit tests for streaming
+	- can have multiple streams per Spark cluster
+- Geospatial
+	- grid index systems: KD trees, ball trees, quad trees
+	- storage: geoparquet
+- Example solutions architecture notebooks in pdf above
+- A lot of companies are using DLT pipelines for streaming IoT
+	- case studies: Rivian, Akamai, Grammarly, Honeywell, Wood Mackenzie, AT&T
+- 
+- Questions
+	- DLT pipeline Unity Catalog integration?
+	- Databricks vs Snowflake cost?
+	- dbt integration?
+	- Sigma Computing Integration?
