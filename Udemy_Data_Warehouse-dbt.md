@@ -433,6 +433,6 @@ Also see:
 	- Virtual Data Build: https://www.y42.com/blog/virtual-data-builds-one-data-warehouse-environment-for-every-git-commit/
 	- https://youtu.be/_reNgMlqYu0?si=B6jUEOMsXqOojv1w
 	- https://www.youtube.com/watch?v=UJ5FJ7BFP-k
- 		- file names always src_object from dbt style guide, e.g. stg_trips_departures.sql / .yml etc.
+ 		- file names always src_object from dbt style guide, e.g. stg_trips_departures.sql / .yml, int_modelxxx.sql / .yml, etc.
 	- https://www.youtube.com/watch?v=9kWkNI9k28U
  		- data analysis on Tableau
