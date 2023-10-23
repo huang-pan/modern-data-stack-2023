@@ -1,6 +1,6 @@
 # Dagster, Airflow 2+, Prefect, Snowflake
 
-Dagster
+## Dagster
 
 - Dagster
     - Type\-checked, **composable** pipeline definitions
@@ -72,7 +72,7 @@ Dagster
     - [https://github.com/huang\-pan/dagster\_starter](https://github.com/huang-pan/dagster_starter) 
         - uses pytest
 
-Airflow vs. Dagster vs. Prefect
+## Airflow vs. Dagster vs. Prefect
 
 - https://dataengineeringcentral.substack.com/p/the-truth-about-prefect-mage-and
 	- Prefect: meh
@@ -126,7 +126,7 @@ Airflow vs. Dagster vs. Prefect
     - Prefect ML pipeline
         - [https://medium.com/@haythemtellili/ml\-workflow\-orchestration\-ddc8165c26c0](https://medium.com/@haythemtellili/ml-workflow-orchestration-ddc8165c26c0) 
 
-Airflow 2\+:
+## Airflow 2\+:
 
 - Airflow Architecture
 	- https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/overview.html 
@@ -245,7 +245,7 @@ Airflow 2\+:
     - Airflow S3 File sensor: https://medium.com/@satadru1998/mastering-data-workflow-precision-and-control-with-airflows-s3-file-sensor-6869d60f099d
 - Jenkins: get up and running on localhost:9090
 
-Mage
+## Mage
 - https://youtube.com/live/JKALtxziBG0?si=o3lTVcVFt70LcpLK 
 	- Mage easy imperative pipeline dev env
 	- Integrated with vs code
@@ -253,11 +253,11 @@ Mage
 	- Unit testing of pipeline steps out of the box 
 	- Still early stages
 
-Neo4j
+## Neo4j
 - https://neo4j.com/developer/graph-data-science/graph-algorithms/
 - https://neo4j.com/blog/graph-algorithms-neo4j-15-different-graph-algorithms-and-what-they-do/
 
-Snowflake
+## Snowflake
 
 - https://docs.snowflake.com/en/guides-overview 
 - features
