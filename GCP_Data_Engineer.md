@@ -610,3 +610,7 @@ GCP Data Engineer Learning Path
         - Predict Visitor Purchases with a Classification Model in BigQuery ML
         - Cloud Composer: Copying BigQuery Tables Across Different Locations
         - Engineer Data in Google Cloud: Challenge Lab
+
+GCP BigLake
+- GCP's version of AWS Athena
+- https://cloud.google.com/biglake?hl=en
