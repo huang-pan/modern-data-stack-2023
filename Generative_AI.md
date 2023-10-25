@@ -44,6 +44,7 @@ Generative AI Short Courses
     - Evaluating and Debugging Generative AI using Weights and Biases
     - Large Language Models for Semantic Search
       - dense retrieval with embeddings, enhanced keyword search, find relevant documents
+    - Functions, Tools, and Agents with LangChain
     - Fine Tuning LLMs
     - Pair Programming with a Large Language Model
     - Understanding and Applying Text Embeddings with Vertex AI
