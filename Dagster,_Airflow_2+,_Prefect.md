@@ -218,6 +218,7 @@
     - sequentialexecutor \(default, one task at a time\), localexecutor \(has parallel local processes\)
     - **celeryexecutor**: celery backend \(rabbitMQ, redis\): Juvo's redis backend kept on getting clogged with unrun tasks, so I had to clear it manually
         - celery flower: web UI to monitor workers
+        - https://airflow.apache.org/docs/apache-airflow/stable/security/flower.html
     - dask executor
     - kubernetesexecutor: we were going to upgrade Juvo from the celeryexecutor to k8sexecutor
         - also has k8spodoperator
