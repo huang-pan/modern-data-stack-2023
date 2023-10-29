@@ -132,6 +132,8 @@
 	- https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/overview.html 
 		- Astronomer Airflow 2 deploy modes: celery (fast execution), KubernetesPod (slower, scalable, isolation)
   		- Airflow on Kubernetes: https://youtube.com/watch?v=Vg75zZ6_9hU&si=hivWYZOEYOyz_1Fo
+    		- Things to consider when building an Airflow service: https://youtube.com/watch?v=Q7H0JYVnI9I&si=XZsaXZrkfdXP6ee8
+      		- Testing Airflow with Dagtest: https://youtube.com/watch?v=wkAb8mDDHMs&si=Ly_fxW-VpCuUtRWe
 	- Executor types
 		- Sequential Executor https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/executor/sequential.html 
 			- local, no parallelism
@@ -178,6 +180,7 @@
 		- airflow call dbt cloud through API (needs dbt cloud subscription)
 		- cosmos https://astronomer.github.io/astronomer-cosmos/index.html: bring dbt transforms into Airflow (best way)
 		- bring dbt project (e.g. jaffle shop) into ****astronomer airflow dag git repo / folder scaffolding****
+	- Testing Airflow with Dagtest: https://youtube.com/watch?v=wkAb8mDDHMs&si=Ly_fxW-VpCuUtRWe
 	- Soda testing framework: Airflow + Soda.io + Snowflake 
 		- https://youtube.com/watch?v=YZTcIi5o7FI&si=hCVPcuLsrWwRl13M 
 		- python based testing of snowflake transforms, no need to use dbt
