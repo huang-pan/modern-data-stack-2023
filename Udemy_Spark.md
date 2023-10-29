@@ -75,8 +75,8 @@
 	 		- partition using low cardinality columns; bucket on high cardinality columns
    			- can have bucketed and non-bucketed tables: Databricks workspace: Data section (table), DBFS section (actualy parquet files)
       			- can read in bucketed / non-bucketed tables into dataframes
-         			- df1.join(df2, 'PK').explain(): bucketed to bucketed df join: no shuffle at both sides, just a sort merge join
-         			- non-bucketed to non-bucketed df join: shuffle at both sides, an expensive shuffle hash join
+         			- df1.join(df2, 'PK').explain(): bucketed to bucketed df join: ****no shuffle**** at both sides, just a ****sort merge join****
+         			- non-bucketed to non-bucketed df join: ****shuffle**** at both sides, an expensive ****shuffle hash join****
          			- bucketed to non-bucketed df join: shuffle on one side, then sort merge join
  		- partition first: if get a lot of small files, then use bucketing to group small files together
    		- https://medium.com/@ghoshsiddharth25/partitioning-vs-bucketing-in-apache-spark-a37b342082e4
