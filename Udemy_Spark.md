@@ -44,6 +44,22 @@
 				- GPU: ML / Deep Learning
 				- General purpose
 			- right sizing number of workers guide
+		-  Spark performance optimizations
+			- https://youtube.com/watch?v=NvziNVQSlqk&si=Yl5G2PolHOBbbtU3
+    			- https://youtube.com/watch?v=boGuRnyFL-I&si=x5DSjEDIH4_Z5Ef5
+			- code
+    			- file format (parquet)
+       			- spark optimizations
+          		- configuration, garbage collection
+  ![shuffle](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d675d4c0-ae88-4a65-a288-195782659a1c)
+![sparkui](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/726db2a8-460b-4a4e-a740-325cb76de992)
+![partitioning](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9b915abf-816d-4eda-88f2-7b30ce5eec3e)
+![gc](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/aad5569b-56c2-4d39-90ac-4f67b3409f26)
+![expensive](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5bc2e53b-5d70-4f57-b68c-99d2a659033d)
+![diskspill](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/54b815d6-0b34-4bec-a941-087fa8fffadd)
+![dynamicallocation](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e43e25b6-6c08-4aab-9651-ab8b9b29ad62)
+![serialize](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1721a154-193c-42bc-9169-1f05e737c1ae)
+
 	- Delta Lake 3.0: Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251   
     	- https://www.linkedin.com/posts/bigdatabysumit_bigdata-career-dataengineering-activity-7093867870463397888-Et4V/
      	- https://youtube.com/watch?v=5EkYtX9CuC4&feature=share
