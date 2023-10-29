@@ -265,6 +265,9 @@
 	- workflow
 		- run code changes locally -> PR -> CI tests -> PR merge to main CD (staging) -> main merge to release CD (prod)
 	- terragrunt / gruntwork.io; clean terraform code DRY, multiple cloud accounts
+ - YAML: how YAML is structured
+ 	- https://www.linkedin.com/posts/eniolaamiola_devops-kubernetes-k8s-activity-7124334714789711872-8Zv8/
+  	- scalars, lists, nested lists, dictionaries, nested dicts, comments
  
 ## Streamlit
 
