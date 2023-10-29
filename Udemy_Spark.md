@@ -325,6 +325,10 @@
 - Spark Memory https://www.linkedin.com/posts/aurimas-griciunas_mlops-machinelearning-dataengineering-activity-7103325115748110336-xqcm/
   ![sparkmemory](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/abfe03b4-4aed-4512-a23c-f1b27f07ad42)
 
+
+	- https://youtu.be/RPGCJXmTGWw?si=EZ-BdK-t9Q2wsAnt
+![memory](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5ceb2b03-117a-4f1c-adcc-42b245b8dcbf)
+
 - Spark SQL
     - one SQL expression = one Spark **job**
     - SQL expression or pyspark line \-\-\> unresolved logical plan \-\-\> Spark SQL engine
