@@ -379,6 +379,15 @@
     - scheduling within an application
         - can trigger 2 spark jobs within an application to run in parallel
 - Unit Testing
+- Debug Spark
+	- https://youtu.be/6z53q66cqHY?si=-ORxZFBO6Q8EjGSC
+![1sparknostart](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/81dc7549-341f-48e9-abbb-164e48f5d56c)
+![2slowtasks](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/70560958-74af-45cd-9b97-95e5de92a59f)
+![3slowagg](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/56a62b57-f1f5-4589-8fd9-5ac6d5ccdd12)
+![4slowjoin](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/97ebd583-2af7-42e6-8f96-376891093b18)
+![5driveroom](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9f9d256b-3c5c-49a5-b93f-11a25ae71f45)
+![6execoom](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5cd0f30b-a638-47d6-9f13-6607e69bc515)
+
 
 MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway 
 
