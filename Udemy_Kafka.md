@@ -477,3 +477,6 @@ Snowplow
 	- ![Screenshot_20230830-210142_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2ec8cf33-48ab-42ee-bf86-2825d496e180)
 
 	- ![Screenshot_20230830-192134_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/abf57c17-d04d-490b-b2eb-a8d1c18ca62b)
+
+- Apache Beam
+	- https://engineering.linkedin.com/blog/2023/revolutionizing-real-time-streaming-processing--4-trillion-event
