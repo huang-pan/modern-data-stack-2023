@@ -293,6 +293,28 @@
 - ***Data Tooling cost analysis***, etc.: https://medium.com/@hugolu87
 
 ## Data Product
+- https://moderndata101.substack.com/p/data-pipelines-for-data-products
+	- Data product is an autonomous, read-optimized, standardized data unit containing at least one dataset (Domain Dataset), created for satisfying user needs
+ 	- Both internal and external data products
+	- An internal data product is an application that uses data to make the next action immediate (e.g. a dashboard)
+- https://moderndata101.substack.com/p/the-go-to-metrics-for-data-products
+	- Product = customer x business x technology
+	- customer metrics: customer lifetime value, # new users, DAU / MAU, retention rate, etc.
+	- business metrics: directly generated revenue, costs / time saved
+ 	- market metrics: # new opportunities / listings per month, etc. and how it affects the business
+	- tech metrics: cycle time, deployment frequency
+- https://www.datamesh-architecture.com/data-product-canvas
+	- A Data Product Canvas is a visual framework that guides your team through the data product specification. We suggest to fill out this canvas collaboratively. In total, the Data Product Canvas consists of ten building blocks:
+	- Domain
+	- Data Product Name
+	- Consumer and Use Case
+	- Output Port
+	- Metadata
+	- Input Ports
+	- Data Product Design
+	- Observability
+	- Ubiquitous Language
+	- Classification
 - Understand business requirements for upcoming data ingestion work (Securities data, Master data, Positions data etc.)
 	- What’s the timeline to implement the pipeline?
 	- What level of testing is required e.g., Source-to-Target reconciliation, Basic Data Quality vs Functional Testing)
