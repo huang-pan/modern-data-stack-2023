@@ -281,7 +281,15 @@
 		- Pipelines: Tasks can be combined with table streams for continuous ELT workflows to process recently changed table rows. Streams ensure exactly once semantics for new or changed data in a table.
   		- https://julielovesdata.medium.com/value-passing-in-snowflake-tasks-3a19e10a30a4
 	- Dynamic tables
-		- https://docs.snowflake.com/en/user-guide/dynamic-tables-about 
+		- https://docs.snowflake.com/en/user-guide/dynamic-tables-about
+			- https://youtu.be/4O2_I25izIs?si=Mt_dBHBr6kM9puL2 
+			- streams and tasks: imperative way of creating pipelines
+				- SQL can be optimized more than dynamic tables
+				- can use serverless tasks
+			- dynamic tables: declarative way of creating pipelines
+				- figures out merge / insert / delete statement
+				- best for incremental refresh tables, not suitable for very large tables
+				- no serverless option
 			- auto pipeline, replaces streams and tasks
 			- no schema evolution
 		- https://docs.snowflake.com/en/user-guide/dynamic-tables-comparison
