@@ -380,6 +380,10 @@ Some Purposes of Data Contracts:
 9. Consumers and Producers are alerted to any SLA breaches.
 10. Data that was Invalidated in Real Time is consumed by Flink Applications that alert on invalid schemas. There could be a recovery Flink App with logic on how to fix invalidated Data.
 
+## Data Quality
+
+- https://blog.det.life/mastering-data-quality-10-essential-checks-with-real-world-examples-and-7-best-practices-fa303f2ae42b
+
 ## Technical Debt
 
 10 categories of tech debt:
