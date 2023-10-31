@@ -341,6 +341,7 @@
     	- https://github.com/EqualExperts/dbt-unit-testing
     - Datafold data-diff complete dataset comparison testing
     	- https://github.com/huang-pan/modern-data-stack-2023/blob/main/dbt/Download%20the%20definitive%20guide%20to%20dbt%20testing.pdf
+	- https://blog.det.life/mastering-data-quality-10-essential-checks-with-real-world-examples-and-7-best-practices-fa303f2ae42b
     - https://ssmertin.com/articles/strategies-for-data-quality-with-apache-spark/
     	- test for: completeness (check for missing data), consistency (data within range), uniqueness, timeliness, relevance, accuracy, validity
      	- https://seattledataguy.substack.com/p/how-and-why-we-need-to-implement
