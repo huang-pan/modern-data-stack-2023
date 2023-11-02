@@ -294,6 +294,10 @@
 - ***Data Tooling cost analysis***, etc.: https://medium.com/@hugolu87
 
 ## Data Product
+- https://moderndata101.substack.com/p/how-to-build-data-products-design
+- https://moderndata101.substack.com/p/how-to-build-data-products-build
+- https://moderndata101.substack.com/p/how-to-build-data-products-deploy
+- https://moderndata101.substack.com/p/evolving-data-products
 - https://moderndata101.substack.com/p/data-pipelines-for-data-products
 	- Data product is an autonomous, read-optimized, standardized data unit containing at least one dataset (Domain Dataset), created for satisfying user needs
  	- Both internal and external data products
