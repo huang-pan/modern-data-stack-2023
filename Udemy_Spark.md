@@ -368,7 +368,7 @@
 	- Dynamic Partition Pruning vs. Static Partition Pruning: predicate pushdown during query, DPP only uses the partitions that contain info for the query
 - Data Caching: cache, persist
 - Repartition, Coalesce
-    - repartition by hash, range of values; repartition evenly distributes the data
+    - repartition by hash, range of values; repartition evenly distributes the data: serialize data, move, deserialize
     - coalesce consolidates data across partitions and reduces the number of partitions; coalesce does not evenly distribute the data
 - Broadcast Variables
     - broadcast join
