@@ -364,10 +364,12 @@
  	- https://statusneo.com/solving-data-skewness-in-apache-spark-techniques-and-best-practices/
   	- https://medium.com/@suffyan.asad1/handling-data-skew-in-apache-spark-techniques-tips-and-tricks-to-improve-performance-e2934b00b021
 - Dynamic Partition Pruning
+	- https://youtube.com/watch?v=W9yo0bnf0ss&si=asF1j-A3rg0iFXsz
+	- Dynamic Partition Pruning vs. Static Partition Pruning: predicate pushdown during query, DPP only uses the partitions that contain info for the query
 - Data Caching: cache, persist
 - Repartition, Coalesce
-    - repartition by hash, range of values
-    - coalesce consolidates data across partitions and reduces the number of partitions
+    - repartition by hash, range of values; repartition evenly distributes the data
+    - coalesce consolidates data across partitions and reduces the number of partitions; coalesce does not evenly distribute the data
 - Broadcast Variables
     - broadcast join
 - Accumulators
