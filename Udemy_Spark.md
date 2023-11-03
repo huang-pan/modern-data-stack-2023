@@ -363,6 +363,17 @@
 	- https://towardsdatascience.com/data-skew-in-pyspark-783d529a9dd7
  	- https://statusneo.com/solving-data-skewness-in-apache-spark-techniques-and-best-practices/
   	- https://medium.com/@suffyan.asad1/handling-data-skew-in-apache-spark-techniques-tips-and-tricks-to-improve-performance-e2934b00b021
+- Partitioning
+	- https://www.youtube.com/watch?v=KcflbFv5saY 
+	- Input Partitioning
+		- RDDs immutable, input partitioning set at beginning of Spark job
+		- spark.sql.files.maxPartitionBytes: max number of bytes per partition
+		- getNumPartitions()
+	- Output Partitioning
+		- sets number of output files to write
+	- Shuffle Partitioning
+		- spark.sql.shuffle.partitions
+		- default is 200 shuffle partitions
 - Dynamic Partition Pruning
 	- https://youtube.com/watch?v=W9yo0bnf0ss&si=asF1j-A3rg0iFXsz
 	- Dynamic Partition Pruning vs. Static Partition Pruning: predicate pushdown during query, DPP only uses the partitions that contain info for the query
