@@ -369,7 +369,7 @@
 - Data Caching: cache, persist
 - Repartition, Coalesce
     - repartition by hash, range of values; repartition evenly distributes the data: serialize data, move, deserialize
-    - coalesce consolidates data across partitions and reduces the number of partitions; coalesce does not evenly distribute the data
+    - coalesce consolidates data across partitions and reduces the number of partitions; coalesce does not evenly distribute the data, is faster than repartition
 - Broadcast Variables
     - broadcast join
 - Accumulators
