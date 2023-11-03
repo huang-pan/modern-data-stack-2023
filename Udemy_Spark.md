@@ -383,6 +383,7 @@
 - Unit Testing
 - Debug Spark
 	- https://youtu.be/6z53q66cqHY?si=-ORxZFBO6Q8EjGSC
+ 	- Note: trade off for increasing number of partitions: increase number of partitions uses less memory per executor, but more executors - more tasks are spread across more executors
 ![1sparknostart](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/81dc7549-341f-48e9-abbb-164e48f5d56c)
 ![2slowtasks](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/70560958-74af-45cd-9b97-95e5de92a59f)
 ![3slowagg](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/56a62b57-f1f5-4589-8fd9-5ac6d5ccdd12)
