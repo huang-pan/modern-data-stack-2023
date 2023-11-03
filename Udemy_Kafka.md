@@ -436,6 +436,9 @@ Snowplow
 		- but kinesis data analytics is based on Flink and is SQL based (streaming analytics)
 		- https://tech.dream11.in/blog/navigating-the-streamverse-a-technical-odyssey-into-advanced-stream-processing-at-dream11 
 	- Spark Streaming (streaming ETL, streaming analytics)
+ 		- https://youtu.be/qlJmjkgHZ88?si=pJ2KTB6NJiUExSzP
+  ![streaming](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/47fa425d-04f7-445c-839e-1f00a4c0edf3)
+
 	- Kafka (message bus)
 		- Ksqldb: SQL on kafka streams (streaming ETL, streaming analytics)
 		- Faust: python on kafka streams (streaming ETL, streaming analytics)
