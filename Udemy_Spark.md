@@ -433,7 +433,7 @@ MLFlow AI Gateway: https://www.databricks.com/blog/announcing-mlflow-ai-gateway
 		- how spark works under the hood: logical, physical plan optimizations
 		- logical, physical operators
 - Delta Live Tables https://youtube.com/watch?v=PIFL7W3DmaY&feature=share 
-	- Delta tables: parquet + metadata
+	- Delta tables: parquet + metadata, https://youtu.be/ouecrLhjPBM?si=W3hm3c6WRC7vzZjz
  		- ***table partitioning***
    			- https://stackoverflow.com/questions/70881505/databricks-z-order-vs-partitionby#:~:text=Partitioning%20physically%20splits%20the%20data,possible%20values%20for%20given%20column.
       			- https://community.databricks.com/t5/data-engineering/what-s-the-difference-between-z-ordering-and-partitioning/td-p/26656
