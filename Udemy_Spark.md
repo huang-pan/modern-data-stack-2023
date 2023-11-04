@@ -359,6 +359,7 @@
 - ***Adaptive Query Execution***
     - dynamically coalescing shuffle partitions, switching join strategies, optimizing skew joins
     - Spark 3+, details of AQE https://blog.cloudera.com/how-does-apache-spark-3-0-increase-the-performance-of-your-sql-workloads/
+    - https://youtube.com/watch?v=elCPrsqBaME&si=mA98M8yZw0OzBQoi
 - Data Skew
 	- https://towardsdatascience.com/data-skew-in-pyspark-783d529a9dd7
  	- https://statusneo.com/solving-data-skewness-in-apache-spark-techniques-and-best-practices/
