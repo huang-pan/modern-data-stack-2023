@@ -298,6 +298,7 @@
 - https://moderndata101.substack.com/p/how-to-build-data-products-build
 - https://moderndata101.substack.com/p/how-to-build-data-products-deploy
 - https://moderndata101.substack.com/p/evolving-data-products
+- https://moderndata101.substack.com/p/transitioning-to-a-data-product-ecosystem
 - https://moderndata101.substack.com/p/data-pipelines-for-data-products
 	- Data product is an autonomous, read-optimized, standardized data unit containing at least one dataset (Domain Dataset), created for satisfying user needs
  	- Both internal and external data products
