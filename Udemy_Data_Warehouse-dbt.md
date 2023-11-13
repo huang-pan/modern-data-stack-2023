@@ -428,6 +428,20 @@ dbt bought Metricflow, dbt Core v1.6+
 - https://news.kpiinstitute.org/key-performance-indicators-infographic/
 - With ****dbt Explorer****, you can view your project's resources (such as models, tests, and metrics) and their lineage to gain a better understanding of its latest production state. Navigate and manage your projects within ****dbt Cloud**** to help your data consumers discover and leverage your dbt resources. https://docs.getdbt.com/docs/collaborate/explore-projects
 
+Coalesce 2023
+- Scale dbt and BigQuery
+	- https://youtu.be/jevxRnJDS94?si=nZBXoJTG2Tc05SY8
+ 	- 22k dbt models, use macros to parameterize models, python script to general models from macros
+	- BigQuery 100 concurrent queries per project, use terraform to scale projects
+ 	- dbtCloud 2000 models in a single job -> use Airflow + dbt core instead of dbt cloud
+  	- date partition when possible, cluster keys based on most common where clauses and join keys
+  	- use One Big Table approach for long running queries to avoid joins
+- Secoda Data Catalog: great way to monitor end to end metadata of all your data processes
+	- https://youtu.be/7hdlZ6rDa5g?si=5jO3nOfpI05WfU26
+	- macro and micro metadata (table, column level)
+- Select Star: best column level lineage
+	- https://www.youtube.com/watch?v=bQmTS3oCJS0
+
 Also see:
 - Activity Schema: https://www.activityschema.com/
 - https://enigma.com/blog/post/dev-stage-prod-is-the-wrong-pattern-for-data-pipelines
