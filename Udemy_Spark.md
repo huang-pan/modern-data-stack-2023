@@ -779,5 +779,4 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - Questions
 	- DLT pipeline Unity Catalog integration?
 	- Databricks vs Snowflake cost?
-	- dbt integration?
 	- Sigma Computing Integration?
