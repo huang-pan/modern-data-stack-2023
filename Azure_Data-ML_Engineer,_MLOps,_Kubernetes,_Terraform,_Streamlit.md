@@ -346,6 +346,8 @@
 - Level up your SQL skills by having a four-hour crash course on GROUPING SETS, window functions, and cumulative table design
 
 ## KPIs
+- Types of startup metrics
+	- https://www.linkedin.com/posts/davidsymsmith_startupmetrics-performanceindicators-metrics-activity-7130177000257818625-R0U6/
 - 1st level metrics, 2nd level metrics
 	- https://www.kalungi.com/blog/10-marketing-kpis-every-b2b-saas-company-should-track
 	- https://userpilot.com/blog/b2b-saas-metrics/
