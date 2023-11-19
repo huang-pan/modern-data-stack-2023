@@ -647,6 +647,76 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 		- data lineage in all workspaces
 			- federated data from AWS, etc.
 
+## Spark + high Velocity of data
+- 3V's: Volume, Variety, Velocity
+	- https://www.youtube.com/watch?v=svYMMRnZzQM&feature=share 
+- https://blog.dataengineer.io/p/how-to-optimize-100-tb-data-pipelines
+- How to process extremely large (> 100TBs) data sets without burning millions
+	- I first worked with >100 TB pipelines when I joined the Core Growth team at Facebook in 2016 back when it was the best place to work. The first three months were filled with ice cream, bike rides, and lots of fun!
+	- Then suddenly my dream paradise turned intense when my boss, Jitender told me, I was to own the push, email, and SMS notification data for all of Facebook.
+- I was excited about this challenge when I learned:
+	- Facebook sends 50 BILLION NOTIFICATIONS every single day
+	- Facebook has five channels they send notifications through
+	- Jewel, Push, Email, SMS, and Logged Out Push
+	- We need low latency for optimal machine learning
+	- The notification filtering machine learning degraded significantly if it was delayed > 1 day.
+	- It’s a complex space that balances between spammy and engaging!
+- 
+- I was tasked with creating a much more efficient version of “notif_delivery_deduped” which was a deduplicated log of all notification events each day.
+- The old pipeline was just a big GROUP BY query that fired at the end of the day. Except this query took NINE HOURS to run and oftentimes would fail and delay the notifications ML training algorithms downstream!
+- 
+- Deduping tens of billions of records in micro-batch
+	- Initially, my manager suggested I create a streaming job in Flink that dedupes the data in real-time from Scribe (scribe was Facebook’s version of Kafka).
+	- I tried to make that streaming job work. The issue was the dedupe required tens of TBs of RAM in order to run since it needed to hold onto each record in memory to dedupe. Facebook’s infrastructure at the time couldn’t address this without some crazy customizations.
+- The next idea was to dedupe every hour in batch and then merge those hours together.
+- I initially tried a pipeline that was
+	- Dedupe hour 1 → Dedupe hour 2 → merge hours 1 and 2 → Dedupe hour 3 → merge hours 1,2 and 3, etc until all 24 hours were deduped
+	- The problem with this approach was it required a TON of IO of the data and it barely improved the landing time. 9 hours to 6 hours!
+- After working with more of the engineers, we figured doing it like a tree would greatly improve the landing time of the data!
+- 
+- This design worked the best! Here’s a code repo with the pattern detailed
+	- This pattern worked! It allowed almost all the deduping to happen throughout the day and minimized the IO-heavy operations! Now the notification datasets would land one hour after midnight instead of nine hours!
+	- This pattern involves a lot of FULL OUTER JOIN and GROUP BY which involves a great deal of shuffling! So how do you minimize shuffling?
+	- Make sure the merge tables and final table are sorted and bucketed on the unique identifier. This means the only time you actually pay the shuffle cost is during the GROUP BY and all the FULL OUTER JOINs happen without shuffle at all! Bucket joins are one of the most powerful things you can do when managing extremely large data!
+- Feeding the deduped events into machine learning training
+	- After we optimized the flow of notifications events, I set my sights downstream. There was an inefficient join between the notification machine learning features table and the deduped events table. This table also had its own dedupe step.
+- Right around this time, Facebook started adopting Spark in places. I became one of the first data engineers at Facebook to try Spark in the warehouse!
+- So, I did two things here:
+	- Made the generation of the features table sorted and bucketed on the same keys as the events table
+	- I migrated the GROUP BY to Spark so the dedupe, sort, and bucket were 10 times more efficient. (Spark vs Hive performance difference is most profound in the case of high cardinality GROUP BY and JOIN)
+	- This allowed the notifications team to generate and evaluate their machine-learning features much more reliably and on time! We cut notification compute usage by 30% too!
+- 
+- The dos and don’ts of extremely large data
+- Please do the following when working with very large data
+	- Use Apache Spark or Apache Flink to process the data.
+	- Use Scala Spark or SparkSQL not PySpark because you’ll feel the small performance differences at this huge scale.
+	- Partition your data both by day and by hour (intervals smaller than this seem to be counter-productive because of Spark’s slow startup time)
+	- Consider subpartitioning your data
+		- At Facebook, we partitioned on day, hour, and “channel” where channel was the method we used to send the notification
+		- Ideal candidates for subpartitions are low-cardinality (< 15 values)
+	- Sample if you can and just don’t work with big data
+	- Track your costs
+		- Costs are in the following areas:
+			- Computation cost from Spark
+			- IO cost from S3 (or whatever cloud provider you’re using)
+			- Storage cost from S3 (or whatever cloud provider you’re using)
+		- Generally speaking, the biggest point of cost is going to be the ingress and egress of data from S3
+		- Short retention since we don’t want to pay for such a large cloud storage
+			- Make sure to store long-term aggregates though so you don’t miss anything when the data falls out of retention
+	- Check your disk spill. Increase partitioning or memory if it’s high!
+	- Log data ahead of time using things like sidecar proxies to minimize the number of joins needed to solve the problem
+	- Try to have your joins fit into memory and leverage broadcast join
+- Please never do the following when working with very large data:
+	- Long retention = burning tons of money
+	- Try to tackle the problem with Trino/Presto, Snowflake, or any other technology that doesn’t spill to disk well!
+	- Do joins that aren’t bucketed or broadcastable
+	- Remember that shuffle caused by JOIN is much more expensive than shuffle caused by GROUP BY
+	- Using SparkSQL ORDER BY and not sortWithinPartitions, a global ordering of your data is a pipe dream when it is this big!
+- Please rarely do the following (as they seem like they could help but don’t):
+	- Rarely change any other Spark setting except spark.executor.memory, spark.sql.shuffle.partitions, spark.driver.memory, spark.default.parallelism, spark.sql.adaptive.enabled, spark.sql.autoBroadcastJoinThreshold
+	- Rarely increase the broadcast join threshold beyond 8 GBs, it doesn’t work and causes reliability issues
+	- Rarely change compression types like lz4 vs snappy. I’ve always found this to be an unfruitful endeavor
+
 ## The Big Book of Data Engineering with Databricks 2nd edition
 [big-book-of-data-engineering-2nd-edition-final.pdf](https://github.com/huang-pan/modern-data-stack-2023/files/13065105/big-book-of-data-engineering-2nd-edition-final.pdf)
 - Use larger clusters (memory / CPU, etc. optimized): workloads run faster
