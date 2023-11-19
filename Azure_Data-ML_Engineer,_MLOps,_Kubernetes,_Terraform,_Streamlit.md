@@ -231,6 +231,8 @@
 
 ## Terraform
 
+- ****Terraform + dbt Cloud, Fivetran, etc****
+	- https://youtube.com/watch?v=vkQsGLhqF6I&si=1oOeiFz-m5yneqTf
 - Refresher lecture, just the basics
 - [https://www.youtube.com/watch?v=7xngnjfIlK4](https://www.youtube.com/watch?v=7xngnjfIlK4)
 	- terraform init
