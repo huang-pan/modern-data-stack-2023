@@ -689,18 +689,18 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - The dos and don’ts of extremely large data
 - Please do the following when working with very large data
 	- Use Apache Spark or Apache Flink to process the data.
-	- Use Scala Spark or SparkSQL not PySpark because you’ll feel the small performance differences at this huge scale.
-	- Partition your data both by day and by hour (intervals smaller than this seem to be counter-productive because of Spark’s slow startup time)
+	- Use Scala Spark or ****SparkSQL**** not PySpark because you’ll feel the small performance differences at this huge scale.
+	- ****Partition your data both by day and by hour**** (intervals smaller than this seem to be counter-productive because of Spark’s slow startup time)
 	- Consider subpartitioning your data
 		- At Facebook, we partitioned on day, hour, and “channel” where channel was the method we used to send the notification
-		- Ideal candidates for subpartitions are low-cardinality (< 15 values)
+		- ****Ideal candidates for subpartitions are low-cardinality (< 15 values)****
 	- Sample if you can and just don’t work with big data
 	- Track your costs
 		- Costs are in the following areas:
 			- Computation cost from Spark
 			- IO cost from S3 (or whatever cloud provider you’re using)
 			- Storage cost from S3 (or whatever cloud provider you’re using)
-		- Generally speaking, the biggest point of cost is going to be the ingress and egress of data from S3
+		- ****Generally speaking, the biggest point of cost is going to be the ingress and egress of data from S3****
 		- Short retention since we don’t want to pay for such a large cloud storage
 			- Make sure to store long-term aggregates though so you don’t miss anything when the data falls out of retention
 	- Check your disk spill. Increase partitioning or memory if it’s high!
@@ -708,13 +708,13 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- Try to have your joins fit into memory and leverage broadcast join
 - Please never do the following when working with very large data:
 	- Long retention = burning tons of money
-	- Try to tackle the problem with Trino/Presto, Snowflake, or any other technology that doesn’t spill to disk well!
+	- Try to tackle the problem with Trino/Presto, ****Snowflake, or any other technology that doesn’t spill to disk well!****
 	- Do joins that aren’t bucketed or broadcastable
-	- Remember that shuffle caused by JOIN is much more expensive than shuffle caused by GROUP BY
-	- Using SparkSQL ORDER BY and not sortWithinPartitions, a global ordering of your data is a pipe dream when it is this big!
+	- ****Remember that shuffle caused by JOIN is much more expensive than shuffle caused by GROUP BY****
+	- ****Using SparkSQL ORDER BY and not sortWithinPartitions, a global ordering of your data is a pipe dream when it is this big!****
 - Please rarely do the following (as they seem like they could help but don’t):
-	- Rarely change any other Spark setting except spark.executor.memory, spark.sql.shuffle.partitions, spark.driver.memory, spark.default.parallelism, spark.sql.adaptive.enabled, spark.sql.autoBroadcastJoinThreshold
-	- Rarely increase the broadcast join threshold beyond 8 GBs, it doesn’t work and causes reliability issues
+	- Rarely change any other Spark setting except ****spark.executor.memory, spark.sql.shuffle.partitions, spark.driver.memory, spark.default.parallelism, spark.sql.adaptive.enabled, spark.sql.autoBroadcastJoinThreshold****
+	- ****Rarely increase the broadcast join threshold beyond 8 GBs, it doesn’t work and causes reliability issues****
 	- Rarely change compression types like lz4 vs snappy. I’ve always found this to be an unfruitful endeavor
 
 ## The Big Book of Data Engineering with Databricks 2nd edition
