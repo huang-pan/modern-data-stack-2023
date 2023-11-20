@@ -775,7 +775,19 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - ****Example solutions architecture notebooks in pdf above****
 - A lot of companies are using DLT pipelines for streaming IoT
 	- case studies: Rivian, Akamai, Grammarly, Honeywell, Wood Mackenzie, AT&T
-- 
+
+***Medallion architecture best practices***
+- https://youtube.com/live/QimxOUwHdgo?si=r00ucK2VSTE93QMC 
+	- Scd type 2 merges not optimal in delta lake; data vault append / insert only architecture better for delta lake 
+	- DLT insert only incremental tables best for iot
+	- Meshdallion arch: DLT for bronze silver, dbt for gold
+	- Can explode nest json into silver layer but costs a lot of storage, data analyst like
+	- Can also keep nested json in gold, data scientist like, and have separate layer for unnested json for analysts 
+- https://www.databricks.com/blog/2023/04/14/how-we-performed-etl-one-billion-records-under-1-delta-live-tables.html
+	- How We Performed ETL on One Billion Records For Under $1 With Delta Live Tables
+	- TPC-DI benchmark
+-
+-
 - Questions
 	- DLT pipeline Unity Catalog integration?
 	- Databricks vs Snowflake cost?
