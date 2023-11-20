@@ -348,6 +348,10 @@
 ## KPIs
 - Types of startup metrics
 	- https://www.linkedin.com/posts/davidsymsmith_startupmetrics-performanceindicators-metrics-activity-7130177000257818625-R0U6/
+- Data team advice
+	- https://youtube.com/watch?v=6HLo36SjOdo&si=ymtFT7JhkUukQ5sl
+		- Focus on metric deltas between time periods,  cohorts
+		- Attend non data team meetings,  e.g. marketing, revenue driving 
 - 1st level metrics, 2nd level metrics
 	- https://www.kalungi.com/blog/10-marketing-kpis-every-b2b-saas-company-should-track
 	- https://userpilot.com/blog/b2b-saas-metrics/
