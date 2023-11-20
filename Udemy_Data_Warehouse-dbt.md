@@ -441,6 +441,42 @@ Coalesce 2023
 	- macro and micro metadata (table, column level)
 - Select Star: best column level lineage
 	- https://www.youtube.com/watch?v=bQmTS3oCJS0
+- Databricks (unity catalog) + dbt works well
+	- https://youtube.com/watch?v=ih4vRcFjFTo&si=pPhz4NUtBVzKQqqE 
+	- https://youtube.com/watch?v=yoalcSP1lbo&si=pcbmjSdkP7r05XhK 
+		- Udemy stack: ****Airflow, dbt, Databricks / delta lake, soda.io****
+- dbtCloud updates
+	- https://youtube.com/watch?v=NIseH-Gd-U4&si=MjQ_dSPSGQF0vqEK 
+		- Dbt mesh, data contract, model version 
+		- Dbt cloud cross project collaboration, dbt explorer cross project 
+	- https://youtube.com/watch?v=3sp6tmYykVc&si=HABsr2cXYIdJkCRL 
+		- Dbt cloud git PR incremental CI
+	- https://youtube.com/watch?v=8QburYXTUuo&si=5dcb-HfJ5XLpEL4X 
+		- Sqlfluff incorporated into dbt cloud ide
+		- Dbt cloud cli
+- ****Terraform + dbt Cloud, Fivetran, etc****
+	- https://youtube.com/watch?v=vkQsGLhqF6I&si=1oOeiFz-m5yneqTf
+- Materialize: real time data warehouse plus dbt
+	- https://youtube.com/watch?v=WS23Hb9sNy4&si=37Y21Rwiyk4XxFXq
+- Data team advice
+	- https://youtube.com/watch?v=6HLo36SjOdo&si=ymtFT7JhkUukQ5sl
+		- ****Focus on metric deltas between time periods,  cohorts****
+		- ****Attend non data team meetings,  e.g. marketing, revenue driving****
+- dbt semantic layer (metricflow)
+	-  https://youtube.com/watch?v=2Qo5_CIsSH4&si=_rjS78msW_DaLMaU 
+		- Integration hex, mode, Google sheets, Tableau
+	- https://youtube.com/watch?v=mqKrTZwfjbM&si=bqhZpemm8Zm_v7Dq 
+		- Zenlytic llm for semantic layer
+- ****Datafold catches data errors before PR merge****
+	- https://youtube.com/watch?v=5Xxm6cYRmFg&si=Faw4zxqClgXjNTS5 
+		- Datafold part of ci CD process 
+		- Collibra data dictionary 
+- ****dbt-meshify**** package
+	- https://youtube.com/watch?v=FAsY0Qx8EyU&si=LB53V_XAFo2uBczK 
+		- ****Auto create model contracts, versions****, groups, multiple projects, cross project dependencies
+- dbt + Data Vault
+	- https://www.youtube.com/watch?v=bi3x9f5lxp0 
+	- https://youtube.com/watch?v=V7mPgMRCnpQ&si=_lYTYhOWGTjW5JBc
 
 Also see:
 - Activity Schema: https://www.activityschema.com/
