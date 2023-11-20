@@ -267,6 +267,8 @@
 	- Snowfake a lot easier to use than Databricks, but hard to control costs at larger scale
  	- Databricks may require a lot of time maintaining / optimizing. But it may work well for extremely large data, see: https://blog.dataengineer.io/p/how-to-optimize-100-tb-data-pipelines
 	- Try both and see what works the best for your business requirements
+- https://www.linkedin.com/posts/nick-akincilar-3417945_benchmarking-snowflake-vs-spark-to-optimize-activity-7130908981018943489-_8ei/
+	- Snowflake 2x faster than Spark for the same ETL process given the same compute size
 - https://docs.snowflake.com/en/guides-overview 
 - features
 	- https://docs.snowflake.com/en/user-guide/tables-external-intro
