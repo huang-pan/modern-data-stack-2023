@@ -786,9 +786,3 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - https://www.databricks.com/blog/2023/04/14/how-we-performed-etl-one-billion-records-under-1-delta-live-tables.html
 	- How We Performed ETL on One Billion Records For Under $1 With Delta Live Tables
 	- TPC-DI benchmark
--
--
-- Questions
-	- DLT pipeline Unity Catalog integration?
-	- Databricks vs Snowflake cost?
-	- Sigma Computing Integration?
