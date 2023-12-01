@@ -477,6 +477,8 @@ Coalesce 2023
 - dbt + Data Vault
 	- https://www.youtube.com/watch?v=bi3x9f5lxp0 
 	- https://youtube.com/watch?v=V7mPgMRCnpQ&si=_lYTYhOWGTjW5JBc
+- Data Lineage using dlt and dbt
+	- https://dlthub.com/docs/blog/dlt-data-lineage
 
 Also see:
 - Activity Schema: https://www.activityschema.com/
