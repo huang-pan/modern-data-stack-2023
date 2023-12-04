@@ -359,3 +359,5 @@
 ![dynamicpipeline](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ce7db7eb-d24e-47a1-aaef-daf2c5f881e7)
 ![sqlmacro](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/57df1e49-9081-4cc6-a16f-3f9d53863d55)
 ![dynamicsql](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d629c549-b7a9-46c5-8906-68027caf125c)
+- Level Up Your Spark Pipelines With Hex And Snowpark
+	- https://youtube.com/watch?v=8IGP72KxTBw&si=Sw0hl_YUFY9hawra
