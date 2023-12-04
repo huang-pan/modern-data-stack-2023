@@ -371,3 +371,6 @@
 - Fast, Easy, And Secure AI/ML Development And Deployment In Snowflake
 	- https://youtube.com/watch?v=3WqDHoBGzPM&si=JyrCl3AQ7uIoSHs2
  ![snowflake ml](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d30f2d29-7b8d-4687-add5-af210c930e10)
+- Unstructured data in Snowflake
+	- https://youtube.com/watch?v=9YQTqQ2Ow48&si=erFkfj3O8g5oPoBK
+![snowflake unstructured](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a1246109-a5bd-4635-93ac-1393e3d5e4d9)
