@@ -374,5 +374,7 @@
 - Unstructured data in Snowflake
 	- https://youtube.com/watch?v=9YQTqQ2Ow48&si=erFkfj3O8g5oPoBK
 ![snowflake unstructured](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a1246109-a5bd-4635-93ac-1393e3d5e4d9)
+- Snowflake + dbt
+	- https://youtu.be/84RA7TuhCpg?si=_QxarT8WvkgMMsI4
 - Snowflake & dbtvault
 	- https://youtube.com/watch?v=u3LNHgUqFg4&si=jqXzh7mWm9Ez-aKz 
