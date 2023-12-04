@@ -351,7 +351,9 @@
 		- https://www.sigmacomputing.com/interactive-demos/snowflake-cost-monitoring-template
 	- https://sonra.io/snowflake/7-guardrails-against-common-mistakes-that-inflate-snowflake-credit-usage/
    	- Understand, Control, And Optimize Spend In Snowflake More Effectively
-		- https://youtube.com/watch?v=Dwf11NxNqbw&si=9QTlHnx6ZEkAE-Wr 
+		- https://youtube.com/watch?v=Dwf11NxNqbw&si=9QTlHnx6ZEkAE-Wr
+   	- Reduce Costs With Snowpipe Streaming And Dynamic Tables
+		- https://youtube.com/watch?v=y67bH9ss07Y&si=RYzbsnPGqtWt2mAU 
 - Data Lineage
 	- https://www.phdata.io/blog/ultimate-guide-to-data-lineage-directly-in-snowflake/
  	- https://www.metaplane.dev/blog/the-definitive-guide-to-snowflake-data-lineage
@@ -364,3 +366,8 @@
 ![dynamicsql](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d629c549-b7a9-46c5-8906-68027caf125c)
 - Level Up Your Spark Pipelines With Hex And Snowpark
 	- https://youtube.com/watch?v=8IGP72KxTBw&si=Sw0hl_YUFY9hawra
+- Building a Comprehensive Data Science Platform on Snowflake at Regions Bank
+	- https://youtube.com/watch?v=z2zdIzfuNQo&si=Bnq4gAlJw-YqgRmb
+- Fast, Easy, And Secure AI/ML Development And Deployment In Snowflake
+	- https://youtube.com/watch?v=3WqDHoBGzPM&si=JyrCl3AQ7uIoSHs2
+ ![snowflake ml](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d30f2d29-7b8d-4687-add5-af210c930e10)
