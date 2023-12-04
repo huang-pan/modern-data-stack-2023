@@ -300,6 +300,7 @@
 			- auto pipeline, replaces streams and tasks
 			- no schema evolution
 		- https://docs.snowflake.com/en/user-guide/dynamic-tables-comparison
+  		- https://coalesce.io/product-technology/slowly-changing-dimensions-with-dynamic-tables-and-coalesce/
 	- https://coalesce.io/ dbt for Snowflake
  	- Snowflake can read Iceberg in external storage space
   		- https://youtube.com/watch?v=Ix2BZV1AjxA&si=th1tfQ9KDZWFsDaG
