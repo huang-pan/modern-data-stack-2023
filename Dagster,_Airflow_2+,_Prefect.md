@@ -366,6 +366,8 @@
 ![dynamicsql](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d629c549-b7a9-46c5-8906-68027caf125c)
 - Level Up Your Spark Pipelines With Hex And Snowpark
 	- https://youtube.com/watch?v=8IGP72KxTBw&si=Sw0hl_YUFY9hawra
+ 	- pyspark to snowpark
+		- https://youtube.com/watch?v=M7uAWoPKMsg&si=-wqneWvcng5MY4Cn 
 - Building a Comprehensive Data Science Platform on Snowflake at Regions Bank
 	- https://youtube.com/watch?v=z2zdIzfuNQo&si=Bnq4gAlJw-YqgRmb
 - Fast, Easy, And Secure AI/ML Development And Deployment In Snowflake
