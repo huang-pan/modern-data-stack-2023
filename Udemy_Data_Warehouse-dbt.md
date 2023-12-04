@@ -479,6 +479,8 @@ Coalesce 2023
 	- https://youtube.com/watch?v=V7mPgMRCnpQ&si=_lYTYhOWGTjW5JBc
 - Data Lineage using dlt and dbt
 	- https://dlthub.com/docs/blog/dlt-data-lineage
+- dbt + Soda.io (error monitoring)
+	- https://youtube.com/watch?v=lcGHJxVLOLI&si=sj8ovWynZR-3EW11
 
 Also see:
 - Activity Schema: https://www.activityschema.com/
