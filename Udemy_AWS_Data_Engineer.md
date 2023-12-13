@@ -378,4 +378,8 @@
 - https://aws.amazon.com/s3/storage-classes/express-one-zone/
 	- https://www.dataengineeringweekly.com/p/thoughts-on-amazon-express-one-and
  	- Amazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-built to deliver consistent single-digit millisecond data access for your most frequently accessed data and latency-sensitive applications. S3 Express One Zone can improve data access speeds by 10x and reduce request costs by 50% compared to S3 Standard and scales to process millions of requests per minute.
+- Kinesis vs MSK
+	- https://youtube.com/watch?v=kcBAKz0MPf8&si=bGQDXckOdwRwQhMF
+ 	- MSK higher ops configuration and management
+  	- MSK more expensive for small throughput
 
