@@ -380,6 +380,12 @@
  	- Amazon S3 Express One Zone is a high-performance, single-Availability Zone storage class purpose-built to deliver consistent single-digit millisecond data access for your most frequently accessed data and latency-sensitive applications. S3 Express One Zone can improve data access speeds by 10x and reduce request costs by 50% compared to S3 Standard and scales to process millions of requests per minute.
 - Kinesis vs MSK
 	- https://youtube.com/watch?v=kcBAKz0MPf8&si=bGQDXckOdwRwQhMF
- 	- MSK higher ops configuration and management
-  	- MSK more expensive for small throughput
+	 	- MSK higher ops configuration and management
+  		- MSK more expensive for small throughput
+	- https://www.youtube.com/watch?v=TJS19EuzH2k
+		- Want low Latency ? No - use Kinesis. Yes - use Kafka
+		- Message ordering important ? No - use Kinesis. Yes - use Kafka
+		- Low Cost is important ? No - use Kafka. Yes - use Kinesis
+		- Longer Retention period required ? No - use Kinesis. Yes - use Kafka
+		- Have people to manage it ? - No - use Kinesis. Yes - use Kafka
 
