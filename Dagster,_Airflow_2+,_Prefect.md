@@ -379,4 +379,6 @@
 - Snowflake + dbt
 	- https://youtu.be/84RA7TuhCpg?si=_QxarT8WvkgMMsI4
 - Snowflake & dbtvault
-	- https://youtube.com/watch?v=u3LNHgUqFg4&si=jqXzh7mWm9Ez-aKz 
+	- https://youtube.com/watch?v=u3LNHgUqFg4&si=jqXzh7mWm9Ez-aKz
+- Snowflake + tinybird real time API speed layer
+	- https://youtube.com/live/IOuXREaJj5Q?si=cwJJ3RqIbxqUHBDK 
