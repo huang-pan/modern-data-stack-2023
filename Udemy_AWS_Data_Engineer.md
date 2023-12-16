@@ -388,4 +388,7 @@
 		- Low Cost is important ? No - use Kafka. Yes - use Kinesis
 		- Longer Retention period required ? No - use Kinesis. Yes - use Kafka
 		- Have people to manage it ? - No - use Kinesis. Yes - use Kafka
+  	- https://www.youtube.com/watch?v=COWNl4e0tlY
+  	- https://medium.com/@amitv2706/how-did-we-choose-between-aws-msk-and-kinesis-d796f4f29cb3
+  	- https://www.kai-waehner.de/blog/2022/08/30/when-not-to-choose-amazon-msk-serverless-for-apache-kafka/ 
 
