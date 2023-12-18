@@ -381,4 +381,5 @@
 - Snowflake & dbtvault
 	- https://youtube.com/watch?v=u3LNHgUqFg4&si=jqXzh7mWm9Ez-aKz
 - Snowflake + tinybird real time API speed layer
-	- https://youtube.com/live/IOuXREaJj5Q?si=cwJJ3RqIbxqUHBDK 
+	- https://youtube.com/live/IOuXREaJj5Q?si=cwJJ3RqIbxqUHBDK
+- data.world Snowflake native Data Catalog https://youtu.be/LcOel1im0tI?si=4KFtHDJBVh8KY4bz 
