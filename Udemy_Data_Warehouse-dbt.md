@@ -481,6 +481,8 @@ Coalesce 2023
 	- https://dlthub.com/docs/blog/dlt-data-lineage
 - dbt + Soda.io (error monitoring)
 	- https://youtube.com/watch?v=lcGHJxVLOLI&si=sj8ovWynZR-3EW11
+- dbt practical advice https://www.youtube.com/watch?v=-QmCTS2viMQ
+	- data engineering dbt repo, analyst dbt repo
 
 Also see:
 - Activity Schema: https://www.activityschema.com/
