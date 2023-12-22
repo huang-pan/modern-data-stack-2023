@@ -264,6 +264,7 @@
 ## Snowflake
 
 - https://medium.com/@noah.goodrich/snowflake-vs-databricks-revisited-edd8201b5799
+	- Snowflake cheaper for orgs than Databricks https://squadrondata.com/databricks-vs-snowflake-org-impact-analysis/
 	- https://www.fujitsu.com/au/imagesgig5/A%20Practitioners%20Guide%20to%20Databricks%20vs%20Snowflake.pdf
 	- Snowfake a lot easier to use than Databricks, but hard to control costs at larger scale
  	- Databricks may require a lot of time maintaining / optimizing. But it may work well for extremely large data, see: https://blog.dataengineer.io/p/how-to-optimize-100-tb-data-pipelines
