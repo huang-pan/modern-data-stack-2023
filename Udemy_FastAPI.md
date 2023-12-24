@@ -390,6 +390,12 @@
 - Fuzz Testing: This injects invalid or unexpected input data into the API and tries to crash the API. In this way, it identifies the API vulnerabilities.
 
 # Top 7 Ways to 10x Your API Performance
+- https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7144366633526988800-4cGQ/
+	- Result Pagination: This method is used to optimize large result sets by streaming them back to the client, enhancing service responsiveness and user experience.
+ 	- Asynchronous Logging: This approach involves sending logs to a lock-free buffer and returning immediately, rather than dealing with the disk on every call. Logs are periodically flushed to the disk, significantly reducing I/O overhead.
+  	- Data Caching: Frequently accessed data can be stored in a cache to speed up retrieval. Clients check the cache before querying the database, with data storage solutions like Redis offering faster access due to in-memory storage.
+  	- Payload Compression: To reduce data transmission time, requests and responses can be compressed (e.g., using gzip), making the upload and download processes quicker.
+  	- Connection Pooling: This technique involves using a pool of open connections to manage database interaction, which reduces the overhead associated with opening and closing connections each time data needs to be loaded. The pool manages the lifecycle of connections for efficient resource use.
 - https://youtube.com/watch?v=zvWKqUiovAM&feature=share 
 	- 1. 1:00 Caching 
 	- 2. 1:45 Connection Pool 
