@@ -428,6 +428,7 @@ Snowplow
 - https://www.linkedin.com/posts/nagarajulu_systemdesign-probablisticdatastructures-performace-activity-7096705093797875712-E7bv/
     - filter out streaming inputs
 - Popular streaming technologies
+	- https://www.youtube.com/watch?v=2zEYG2p0TRo
 	- https://www.linkedin.com/pulse/spark-streaming-vs-flink-storm-kafka-streams-samza-choose-prakash
  	- https://blog.scottlogic.com/2018/07/06/comparing-streaming-frameworks-pt1.html
   	- https://www.youtube.com/watch?v=K-NYuwzpvEM
