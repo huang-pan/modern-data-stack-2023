@@ -483,6 +483,9 @@ Coalesce 2023
 	- https://youtube.com/watch?v=lcGHJxVLOLI&si=sj8ovWynZR-3EW11
 - dbt practical advice https://www.youtube.com/watch?v=-QmCTS2viMQ
 	- data engineering dbt repo, analyst dbt repo
+- Semantic Layer can be used in feature store for ML
+	- https://www.youtube.com/watch?v=HbpdnJv2TKc
+	- Tecton best feature store
 
 Also see:
 - Activity Schema: https://www.activityschema.com/
