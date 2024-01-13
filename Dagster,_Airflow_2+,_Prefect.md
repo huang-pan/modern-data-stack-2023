@@ -185,6 +185,9 @@
 		- https://youtube.com/watch?v=YZTcIi5o7FI&si=hCVPcuLsrWwRl13M 
 		- python based testing of snowflake transforms, no need to use dbt
 		- https://quickstarts.snowflake.com/guide/soda/index.html?index=..%2F..index#0
+- Airflow 2.8
+	- https://www.youtube.com/watch?v=uVnudVsDuZE
+	- One significant improvement is the Object Storage API, which simplifies data transfer between various object storages and makes interaction with different object storage systems more Pythonic. They also discuss listeners for data sets, which allow users to be notified when data sets are updated or changed, and new branching operators that eliminate dependency conflicts. The presenter then demonstrates using dynamic tasks in Airflow, which adapts to varying numbers of input files without having to modify the code each day. They also introduce the Object Storage feature, which allows users to define object storage paths in tasks and view XCOM values in a new tab for better UI interaction. Moreover, the new File Transfer Operator helps stream copy files between different locations, and listeners enable users to react to specific events in Airflow. Furthermore, the speaker highlights two new features in Airflow 2.8, using specific package versions within a task and enabling raw HTML in DAG descriptions. They also touch upon other new features, such as the new DAG run clear number attribute, the ability to add descriptions to pools, a new previous end date success method in the context, and the ability to set the start date to none for dags with no schedule. While discussing potential improvements, the speaker mentions the potential for monitoring Redshift tables and triggering DAGs on data changes but acknowledges that Airflow data sets are not currently designed for this purpose. Instead, they encourage viewers to stay tuned for future developments 
 - Astronomer.io
 	- https://youtube.com/watch?v=JI-m9Spr7sg&si=YksZgfS6fD0xDfmL 
 	- best way to run managed Airflow
