@@ -485,3 +485,6 @@ Snowplow
 
 - Apache Beam
 	- https://engineering.linkedin.com/blog/2023/revolutionizing-real-time-streaming-processing--4-trillion-event
+- [
+](https://www.youtube.com/watch?v=5lFXI5333mg)https://www.youtube.com/watch?v=5lFXI5333mg
+![Screenshot_20240114-102804_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6b20e0f4-9716-4296-9fde-04f08c72572c)
