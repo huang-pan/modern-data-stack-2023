@@ -212,7 +212,10 @@
         - type 0: always retain original value in the data warehouse
         - type 4: min\-dimension
         - type 5, 6, 7: hybrid
-- ETL
+- Bridge Tables (or Link Tables)
+	- “These are used in “many-to-many relationships” between dimensions. For instance, if you have a scenario where multiple products can be in different promotions at the same time, a bridge table would be used to manage this relationship. “ -Ralph Kimball
+ 	- Another common example used in most articles and in Kimballs’ books is healthcare and a patient’s diagnosis, which can have more than one diagnosis at a time. In turn, you’ll often see a bridge table used (See the model below).
+  	- Many data modelers try to avoid implementing too many bridge table situations as they can add a lot of risk in terms of miscounting or joining across the tables.- ETL
     - use CDC to limit data ingest to warehouse
     - process dim tables before fact tables: create new dim table Surrogate Keys \-\> update fact table FKs
     - look for opportunities for parallel processing
