@@ -104,6 +104,8 @@
                 - [https://youtu.be/aA5upa1iqJ0](https://youtu.be/aA5upa1iqJ0)
             - can also have DEV schema, just as a dev playground for data engineers / scientists
                 - can create more schemas as needed
+	- https://www.youtube.com/watch?v=8Qlfs2IohHM
+ 		- Raw, Staging, Bronze, Silver, Gold, harmonized, archived
         - medillion architecture generated with chatgpt
             - [https://betterprogramming.pub/i\-asked\-chatgpt\-to\-build\-a\-data\-pipeline\-and\-then\-i\-ran\-it\-4537670a60ca](https://betterprogramming.pub/i-asked-chatgpt-to-build-a-data-pipeline-and-then-i-ran-it-4537670a60ca) 
         - [https://piethein.medium.com/using\-dbt\-for\-building\-a\-medallion\-lakehouse\-architecture\-azure\-databricks\-delta\-dbt\-31a31fc9bd0](https://piethein.medium.com/using-dbt-for-building-a-medallion-lakehouse-architecture-azure-databricks-delta-dbt-31a31fc9bd0)
