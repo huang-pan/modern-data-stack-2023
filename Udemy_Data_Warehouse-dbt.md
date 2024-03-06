@@ -491,6 +491,10 @@ Coalesce 2023
 - Semantic Layer can be used in feature store for ML
 	- https://www.youtube.com/watch?v=HbpdnJv2TKc
 	- Tecton best feature store
+- common data models
+	- https://youtube.com/watch?v=ltQgbSs99WU&si=XfBfHGqtARZHLPz9
+- dbt semantic layer
+	- https://youtube.com/watch?v=9aKaouNBYHw&si=tZ_ZasVEoDLP0X7i
 
 Also see:
 - Activity Schema: https://www.activityschema.com/
