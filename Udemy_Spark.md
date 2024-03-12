@@ -775,6 +775,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - ****Example solutions architecture notebooks in pdf above****
 - A lot of companies are using DLT pipelines for streaming IoT
 	- case studies: Rivian, Akamai, Grammarly, Honeywell, Wood Mackenzie, AT&T
+- https://blog.dataengineer.io/p/how-to-save-millions-by-optimizing  **no shuffles** group by join bucketing
 
 ***Medallion architecture best practices***
 - https://youtube.com/live/QimxOUwHdgo?si=r00ucK2VSTE93QMC 
