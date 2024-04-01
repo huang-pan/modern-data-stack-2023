@@ -727,3 +727,5 @@ def create_query(phase, EVERY_N):
         - Deploy a BigQuery ML Customer Churn Classifier to Vertex AI for Online Predictions
         - Vertex Pipelines: Qwik Start
         - Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab
+     
+- Model Excellence Scores: A Framework for Enhancing the Quality of Machine Learning Systems at Scale https://www.uber.com/en-SG/blog/enhancing-the-quality-of-machine-learning-systems-at-scale/
