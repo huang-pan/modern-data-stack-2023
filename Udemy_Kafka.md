@@ -490,3 +490,4 @@ Snowplow
 - Apache Pulsar https://pulsar.apache.org/
 	- https://www.youtube.com/watch?v=-uwbMvJ_yro
 - https://learn.glassflow.dev/blog/articles/choosing-between-a-streaming-database-and-a-stream-processing-framework-in-python
+- Moirai: A Time Series Foundation Model for Universal Forecasting https://blog.salesforceairesearch.com/moirai/
