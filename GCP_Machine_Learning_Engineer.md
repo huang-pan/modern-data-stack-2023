@@ -729,3 +729,4 @@ def create_query(phase, EVERY_N):
         - Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab
      
 - Model Excellence Scores: A Framework for Enhancing the Quality of Machine Learning Systems at Scale https://www.uber.com/en-SG/blog/enhancing-the-quality-of-machine-learning-systems-at-scale/
+- https://medium.com/airbnb-engineering/chronon-airbnbs-ml-feature-platform-is-now-open-source-d9c4dba859e8
