@@ -461,8 +461,9 @@ Coalesce 2023
 		- Dbt cloud cli
 - ****Terraform + dbt Cloud, Fivetran, etc****
 	- https://youtube.com/watch?v=vkQsGLhqF6I&si=1oOeiFz-m5yneqTf
-- Materialize: real time data warehouse plus dbt
+- **Materialize**: real time data warehouse plus dbt
 	- https://youtube.com/watch?v=WS23Hb9sNy4&si=37Y21Rwiyk4XxFXq
+ 	- https://www.youtube.com/watch?v=pLb5sFZ7nWw
 - Data team advice
 	- https://youtube.com/watch?v=6HLo36SjOdo&si=ymtFT7JhkUukQ5sl
 		- ****Focus on metric deltas between time periods,  cohorts****
