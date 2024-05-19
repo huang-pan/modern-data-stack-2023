@@ -5,6 +5,10 @@
 - Course completion certificate: [https://www.udemy.com/certificate/UC\-9875515d\-9606\-4bfc\-8ddc\-e408d9d65aae/](https://www.udemy.com/certificate/UC-9875515d-9606-4bfc-8ddc-e408d9d65aae/) 
 - Summary:
     - This is a basic refresher course on data warehouses for me.
+
+![medallion](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1f7a9164-bd06-4401-bbbf-dec23133abcd)
+
+
 - warehouse / data lake
     - **Possible ways to structure a data warehouse like Snowflake**
         - Ultimately depends on company / project / use case
