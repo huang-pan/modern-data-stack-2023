@@ -238,8 +238,8 @@
 	- https://www.youtube.com/watch?v=OHzZ7KuioMA
 	- https://www.youtube.com/watch?v=SPcwo0Gq9T8
 - Refresher lecture, just the basics
-- [https://www.youtube.com/watch?v=7xngnjfIlK4](https://www.youtube.com/watch?v=7xngnjfIlK4)
-	- terraform init
+	- [https://www.youtube.com/watch?v=7xngnjfIlK4](https://www.youtube.com/watch?v=7xngnjfIlK4)
+ 	- terraform init
  	- terraform plan: show the plan to create / update the infrastructure
   		- terraform config: what you want the infrastructure to be
     		- terraform state: what the infrastructure actually is
@@ -272,9 +272,11 @@
 	- workflow
 		- run code changes locally -> PR -> CI tests -> PR merge to main CD (staging) -> main merge to release CD (prod)
 	- terragrunt / gruntwork.io; clean terraform code DRY, multiple cloud accounts
- - YAML: how YAML is structured
+- YAML: how YAML is structured
  	- https://www.linkedin.com/posts/eniolaamiola_devops-kubernetes-k8s-activity-7124334714789711872-8Zv8/
   	- scalars, lists, nested lists, dictionaries, nested dicts, comments
+- Terraform best practices
+	- https://www.youtube.com/watch?v=gxPykhPxRW0
  
 ## Streamlit
 
