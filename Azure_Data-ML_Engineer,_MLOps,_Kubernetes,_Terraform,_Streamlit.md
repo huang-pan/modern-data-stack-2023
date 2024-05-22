@@ -222,7 +222,7 @@
 	- more concise summary of k8s architecture
 	- State full sets hard to manage, easier to use db services outside k8s
 - https://www.linkedin.com/posts/nasiullha-chaudhari_kubernetes-interview-qa-activity-7193482366181396481-S5Fu/
-	- great detailed explanation of k8s
+	- ****great detailed explanation of k8s****
 - Volumes, volume mounts, persistent volume claim
 	- https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts/
 	- https://bluexp.netapp.com/blog/cvo-blg-kubernetes-persistent-volume-claims-explained
