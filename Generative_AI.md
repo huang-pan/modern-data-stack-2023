@@ -211,3 +211,5 @@ Generative AI Short Courses
             - track langchain agents
                 - ![tracklangchainagent](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0c149085-f5a9-4b25-b0c0-6fb81d3d811a)
         - Fine Tune LLMs
+
+- Langgraph is built on top of Langchain and allows for DAGs https://www.youtube.com/live/c7osr__qlos
