@@ -213,3 +213,4 @@ Generative AI Short Courses
         - Fine Tune LLMs
 
 - Langgraph is built on top of Langchain and allows for DAGs https://www.youtube.com/live/c7osr__qlos
+- The emerging LLMOps stack: https://www.youtube.com/watch?v=OiyP8uUI1OU
