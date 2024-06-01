@@ -730,3 +730,4 @@ def create_query(phase, EVERY_N):
      
 - Model Excellence Scores: A Framework for Enhancing the Quality of Machine Learning Systems at Scale https://www.uber.com/en-SG/blog/enhancing-the-quality-of-machine-learning-systems-at-scale/
 - https://medium.com/airbnb-engineering/chronon-airbnbs-ml-feature-platform-is-now-open-source-d9c4dba859e8
+- ZenML modular open source plug and play MLOps framework https://www.youtube.com/watch?v=6UCob-4508Q
