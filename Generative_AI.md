@@ -214,3 +214,4 @@ Generative AI Short Courses
 
 - Langgraph is built on top of Langchain and allows for DAGs https://www.youtube.com/live/c7osr__qlos
 - The emerging LLMOps stack: https://www.youtube.com/watch?v=OiyP8uUI1OU
+- Astronomer and LLMOps https://www.youtube.com/watch?v=oOUKB9Z4FTQ
