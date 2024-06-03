@@ -199,6 +199,7 @@
 	- easy push to dev Airflow environment
 		- Easy DAG creation UI in astronomer.io
 	- Github CI / CD to prod Airflow environment
+ 	- ****LLM summarizing Airflow logs for Astronomer**** https://www.youtube.com/watch?v=sRyCGVFJWx4
 - ways to install Airflow
     - https://seattledataguy.substack.com/p/mistakes-i-have-seen-when-data-teams
   		- don't put dags, webserver, scheduler in same repo
