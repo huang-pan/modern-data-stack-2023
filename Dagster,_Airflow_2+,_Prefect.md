@@ -1,4 +1,4 @@
-# Dagster, Airflow 2+, Prefect, Snowflake
+# Dagster, Airflow 2+, Prefect, Snowflake, Dremio
 
 ## Dagster
 
@@ -387,4 +387,24 @@
 	- https://youtube.com/watch?v=u3LNHgUqFg4&si=jqXzh7mWm9Ez-aKz
 - Snowflake + tinybird real time API speed layer
 	- https://youtube.com/live/IOuXREaJj5Q?si=cwJJ3RqIbxqUHBDK
-- data.world Snowflake native Data Catalog https://youtu.be/LcOel1im0tI?si=4KFtHDJBVh8KY4bz 
+- data.world Snowflake native Data Catalog https://youtu.be/LcOel1im0tI?si=4KFtHDJBVh8KY4bz
+
+## Dremio
+- Open source, unified data lakehouse solution https://www.youtube.com/watch?v=cc6CCQpg1FA
+	- 1 to 5 minute latency from data sources
+	- has own semantic layer
+	- product targeted towards existing enterprises with many data sources and complex data engineering
+ 		- can replace databricks, pinot, presto, etc.
+   		- better than AWS Athena
+- zero-etl solution: databases, snowflake, etc. accessible as data sources in lakehouse, no need to copy and move data
+	- Snowflake as data source https://www.youtube.com/watch?v=Aa2xAfI8wNs
+ 	- Dremio Arctic: uses Iceberg's data versioning, ****data versioned as code**** (like Y42), auto optimization, data catalog
+- has own SQL warehouse compute solution, cheaper than Snowflake?
+	- Dremio Sonar: uses Apache Arrow (great for in-memory querying)   
+- uses Apache Iceberg under the hood (superior to Delta Table, Parquet; has strong data versioning / data catalog, automated partitioning, time travel, ****partition versioning, schema evolution****, )
+ 	- Dremio replicates data from data sources into queryable Apache Iceberg files
+- Project Nessie for CI/CD on Dremio's LakeHouse https://www.youtube.com/live/xqF8sgIBiDA
+- Data sources supported:
+- BI tools supported:
+ 	- currently no Sigma Computing support
+- real life performance: ?
