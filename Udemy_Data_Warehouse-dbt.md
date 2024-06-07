@@ -515,5 +515,6 @@ Also see:
  		- file names always src_object from dbt style guide, e.g. stg_trips_departures.sql / .yml, int_modelxxx.sql / .yml, etc.
 	- https://www.youtube.com/watch?v=9kWkNI9k28U
  		- data analysis on Tableau
+	- Y42 implicitly has data-diff in their git PR processes: https://www.linkedin.com/posts/hung-dang-y42_datafold-recently-announced-that-they-will-ugcPost-7199017036537069568-a6NC/
 - https://seattledataguy.substack.com/p/data-modeling-where-theory-meets
 	- ****datelist**** tables https://ctskennerton.github.io/2022/09/29/datelist-tables-at-roblox-data-engineering-meetup/
