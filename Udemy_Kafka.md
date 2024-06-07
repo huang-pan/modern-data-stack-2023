@@ -522,6 +522,9 @@ RT Stream Processing
 	- RisingWave, etc. Easier, more modern, is also a serving database 
 
 RT OLAP
+- Rockset replicates AWS DynamoDB tables https://www.youtube.com/watch?v=JGIzdFHZVXs
+	- Rockset search and analytics DB https://www.youtube.com/watch?v=xGaUJTHuehQ
+	- used converged indicies: row based index, column based index, inverted (document) index
 - Clickhouse
 - Firebolt
 - Materialize
