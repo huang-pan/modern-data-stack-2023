@@ -125,7 +125,7 @@ https://www.youtube.com/watch?v=iENEd59Rrqs
 <img width="1792" alt="Screenshot 2024-06-04 at 11 04 11 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a1430d49-4453-40ba-97ea-dcabc1f0752f">
 <img width="1792" alt="Screenshot 2024-06-04 at 11 04 41 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f7f0172f-9fc4-42c9-8c2c-5aac8c254eb2">
 
-
+https://www.youtube.com/watch?v=AdY7xyj7a28
 <img width="1792" alt="Screenshot 2024-06-04 at 11 27 57 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0e5fa005-4f21-45c4-9a96-6f57a8f5b9e1">
 <img width="1792" alt="Screenshot 2024-06-04 at 11 28 22 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7aa72e3d-bcd2-46fe-ac16-662c3f6cf5a3">
 
