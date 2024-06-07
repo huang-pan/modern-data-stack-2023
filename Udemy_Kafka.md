@@ -506,14 +506,11 @@ https://blog.dataengineer.io/p/how-to-choose-between-batch-micro
 <img width="1792" alt="Screenshot 2024-06-04 at 3 15 35 PM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d3252b0b-5941-4893-819e-1064d448de4c">
 
 Message Bus
-- 
 - Redpanda tech details https://www.youtube.com/watch?v=yi0c0o3tFfc
 	- Red panda easier better version of kafka
 - Pulsar tech details https://www.youtube.com/watch?v=4OHUTJDlnag
-	- 
 
 RT Stream Processing
-- 
 - Flink tech details https://www.youtube.com/watch?v=vZFpPMwQ1po
 	- Flink older tech
 	- Flink join postgres and kafka topic too complicated, requires pairs programming analyst and data engineer
@@ -524,7 +521,6 @@ RT Stream Processing
 	- RisingWave, etc. Easier, more modern, is also a serving database 
 
 RT OLAP
-- 
 - Clickhouse
 - Firebolt
 - Materialize
