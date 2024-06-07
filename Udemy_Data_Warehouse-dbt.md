@@ -353,7 +353,7 @@
 	- https://www.youtube.com/watch?v=nHSEiwa9iIQ
 		- data diff used for: data replication & migration, CI / CD
 		- Allium.so uses datafold
-		- Y42 implicitly has data-diff in their git PR processes: https://www.linkedin.com/posts/hung-dang-y42_datafold-recently-announced-that-they-will-ugcPost-7199017036537069568-a6NC/
+		- ****Y42**** implicitly has data-diff in their git PR processes: https://www.linkedin.com/posts/hung-dang-y42_datafold-recently-announced-that-they-will-ugcPost-7199017036537069568-a6NC/
 - Data Quality
 	- https://blog.det.life/mastering-data-quality-10-essential-checks-with-real-world-examples-and-7-best-practices-fa303f2ae42b
     - https://ssmertin.com/articles/strategies-for-data-quality-with-apache-spark/
