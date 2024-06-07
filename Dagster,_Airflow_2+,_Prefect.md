@@ -402,9 +402,18 @@
 - has own SQL warehouse compute solution, cheaper than Snowflake?
 	- Dremio Sonar: uses Apache Arrow (great for in-memory querying)   
 - uses Apache Iceberg under the hood (superior to Delta Table, Parquet; has strong data versioning / data catalog, automated partitioning, time travel, ****partition versioning, schema evolution****, )
- 	- Dremio replicates data from data sources into queryable Apache Iceberg files
+ 	- Dremio data reflections replicates data from data sources into queryable Apache Iceberg files
 - Project Nessie for CI/CD on Dremio's LakeHouse https://www.youtube.com/live/xqF8sgIBiDA
 - Data sources supported:
+	- https://docs.dremio.com/current/sonar/data-sources/
+	- https://docs.starburst.io/latest/connector.html
 - BI tools supported:
+	- https://docs.dremio.com/current/sonar/client-applications/clients/
+ 	- https://docs.starburst.io/clients/index.html
  	- currently no Sigma Computing support
 - real life performance: ?
+	- https://www.starburst.io/platform/compare/dremio/
+ 	- https://www.reddit.com/r/dataengineering/comments/17svlvl/dremio_vs_starburst/
+- Dremio vs Starburst
+	- Dremio 351 https://www.linkedin.com/company/dremio/people/
+ 	- Starburst 552 https://www.linkedin.com/company/starburstdata/people/
