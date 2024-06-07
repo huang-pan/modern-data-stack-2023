@@ -2,10 +2,7 @@ SubQuery
 
 - https://www.youtube.com/watch?v=7YGR6pBJ0wI 
 - Open source blockchain indexer
-- 
-
-
-
+![thumbnail (1)](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/56d66a50-a1aa-495d-997e-673d862d6fe5)
 
 Notes
 
