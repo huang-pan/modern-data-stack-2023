@@ -14,6 +14,9 @@ Decentralized Storage
 - https://www.youtube.com/watch?v=S3wkcIP7mEk 2024
 - ![Screenshot_20240611-173226_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9596525e-aaae-4fd3-99b0-5182c532fe33)
 
+Decentralized Machine Learning
+- https://www.youtube.com/watch?v=SyAdBo6vRAA 2024 flock.io decentralized training
+- ![Screenshot_20240611-182845_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0a38d1eb-1b42-4ec5-a0b8-caa4058ffd96)
 
 
 Notes
