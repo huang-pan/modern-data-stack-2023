@@ -6,6 +6,10 @@ SubQuery
 HyperIndex / HyperSync
 - Modern Blockchain Indexing: Syncing Millions Of Events In Seconds https://www.youtube.com/watch?v=ihXPtsLmbuY
 - ![Screenshot_20240611-172718_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8076d865-713a-4436-bd26-eefd15f9db7b)
+- ![Screenshot_20240611-172642_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/88b2b0de-1314-4f62-ad3d-05ef736a5e79)
+- ![Screenshot_20240611-172548_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1f61c013-6a1e-4f7b-a3b3-ac29a47932cc)
+- ![Screenshot_20240611-172445_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0d59d71d-4ffe-4faf-adfd-7f3018ea7b97)
+
 
 Notes
 - European DiD https://www.youtube.com/watch?v=ynNOCK61Lzw 
