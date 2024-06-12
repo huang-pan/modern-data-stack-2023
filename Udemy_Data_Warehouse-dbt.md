@@ -44,7 +44,7 @@
         - https://www.reddit.com/r/Database/comments/dovxgo/determining_schema_for_real_estate_data_warehouse/
     - Data Warehouse data modeling
     	- Entity & attributes https://www.youtube.com/watch?v=ZdaxYazyw5Y
-	- 1st, 2nd, 3rd normal form, BCNF, 4NF, 5NF
+		- 1st, 2nd, 3rd normal form, BCNF, 4NF, 5NF
 		- https://youtube.com/watch?v=J-drts33N8g&feature=share 
 		- https://www.youtube.com/watch?v=xPCimZd4Dog 
         - 3NF Third Normal Form vs Dimensional Modeling vs Data Vault
