@@ -787,3 +787,12 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - https://www.databricks.com/blog/2023/04/14/how-we-performed-etl-one-billion-records-under-1-delta-live-tables.html
 	- How We Performed ETL on One Billion Records For Under $1 With Delta Live Tables
 	- TPC-DI benchmark
+
+***Databricks & Apache Spark Performance Tuning***
+- https://www.youtube.com/watch?v=hLOpfxpgc70
+- ![Screenshot_20240611-215434_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/48052837-60da-47be-b060-567d3a38d11d)
+- ![Screenshot_20240611-215149_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/723b5d2f-0b5c-4565-b0e4-e4e8a357aecb)
+- ![Screenshot_20240611-214932_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/57813c01-cd03-4185-8629-9e27c8662763)
+- ![Screenshot_20240611-214802_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/15522cf1-0ac7-4d44-9377-fd061667908e)
+- ![Screenshot_20240611-214626_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/64ec829e-c1d9-4e53-af54-4a08f86b0c86)
+
