@@ -10,6 +10,11 @@ HyperIndex / HyperSync
 - ![Screenshot_20240611-172548_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1f61c013-6a1e-4f7b-a3b3-ac29a47932cc)
 - ![Screenshot_20240611-172445_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0d59d71d-4ffe-4faf-adfd-7f3018ea7b97)
 
+Decentralized Storage
+- https://www.youtube.com/watch?v=S3wkcIP7mEk 2024
+- ![Screenshot_20240611-173226_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9596525e-aaae-4fd3-99b0-5182c532fe33)
+
+
 
 Notes
 - European DiD https://www.youtube.com/watch?v=ynNOCK61Lzw 
