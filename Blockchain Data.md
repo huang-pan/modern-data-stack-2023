@@ -1,8 +1,11 @@
 SubQuery
 
-- https://www.youtube.com/watch?v=7YGR6pBJ0wI 
-- Open source blockchain indexer
+- Open source blockchain indexer https://www.youtube.com/watch?v=7YGR6pBJ0wI 
 ![thumbnail (1)](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/56d66a50-a1aa-495d-997e-673d862d6fe5)
+
+HyperIndex / HyperSync
+- Modern Blockchain Indexing: Syncing Millions Of Events In Seconds https://www.youtube.com/watch?v=ihXPtsLmbuY
+- ![Screenshot_20240611-172718_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8076d865-713a-4436-bd26-eefd15f9db7b)
 
 Notes
 - European DiD https://www.youtube.com/watch?v=ynNOCK61Lzw 
