@@ -796,3 +796,11 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - ![Screenshot_20240611-214802_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/15522cf1-0ac7-4d44-9377-fd061667908e)
 - ![Screenshot_20240611-214626_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/64ec829e-c1d9-4e53-af54-4a08f86b0c86)
 
+***Databricks Summit 2024***
+- https://seattledataguy.substack.com/p/developing-production-databricks
+	- Developing Production Databricks Pipelines
+- https://www.youtube.com/watch?v=HHzvWh9sJuE 
+- truly serverless compute
+- LLM dev integration in Databrick dev env
+- LLM search on data
+- ![Screenshot_20240613-115139_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/75c6ac9b-295d-46a2-80b9-25e823ea9651)
