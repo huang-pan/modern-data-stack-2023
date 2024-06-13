@@ -388,6 +388,8 @@
 - Snowflake + tinybird real time API speed layer
 	- https://youtube.com/live/IOuXREaJj5Q?si=cwJJ3RqIbxqUHBDK
 - data.world Snowflake native Data Catalog https://youtu.be/LcOel1im0tI?si=4KFtHDJBVh8KY4bz
+- https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
+	- ****Snowflake ML has a model registry and feature store****
 
 ## Dremio
 - Open source, unified data lakehouse solution https://www.youtube.com/watch?v=cc6CCQpg1FA
