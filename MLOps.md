@@ -130,7 +130,7 @@ https://www.youtube.com/watch?v=AdY7xyj7a28
 <img width="1792" alt="Screenshot 2024-06-04 at 11 28 22 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7aa72e3d-bcd2-46fe-ac16-662c3f6cf5a3">
 
 
-###Eppo
+##Eppo
 - https://www.geteppo.com/
 - End to end experimentation platform for A/B testing, integrates with MDS
 [Building a Modern Experimentation Stack (Eppo).pdf](https://github.com/user-attachments/files/15825712/Building.a.Modern.Experimentation.Stack.Eppo.pdf)
