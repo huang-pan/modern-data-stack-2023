@@ -39,6 +39,7 @@
 - CI / CD with Databricks
 	- Azure Devops solution: standard git -> dev -> test -> prod pipelines
 - Data Lake Table formats: https://youtube.com/live/mXitwotQaAU?feature=share
+	- https://tabular.io/guides/
     - Apache Iceberg: most comprehensive format, supports table / catalog versioning that the other formats don't, but isn't as good for stream processing
     - Apache Hudi: event based table format, for events
     - Delta Tables: periodic log checkpoints
