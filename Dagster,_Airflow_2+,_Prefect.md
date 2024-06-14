@@ -416,6 +416,7 @@
 - real life performance: ?
 	- https://www.starburst.io/platform/compare/dremio/
  	- https://www.reddit.com/r/dataengineering/comments/17svlvl/dremio_vs_starburst/
-- Dremio vs Starburst
+- Dremio vs Starburst vs lakeFS
 	- Dremio 351 https://www.linkedin.com/company/dremio/people/
  	- Starburst 552 https://www.linkedin.com/company/starburstdata/people/
+  	- lakeFS https://www.youtube.com/@lakefs/videos
