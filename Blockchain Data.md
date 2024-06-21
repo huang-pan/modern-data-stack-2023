@@ -18,6 +18,9 @@ Decentralized Machine Learning
 - https://www.youtube.com/watch?v=SyAdBo6vRAA 2024 flock.io decentralized training
 - ![Screenshot_20240611-182845_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0a38d1eb-1b42-4ec5-a0b8-caa4058ffd96)
 
+Shadow
+- https://blog.shadow.xyz/how-shadow-works/
+- Shadow unlocks custom onchain data that you can pull into your subgraph or database for enhanced indexing and analytics, with just a few lines of code.
 
 Notes
 - European DiD https://www.youtube.com/watch?v=ynNOCK61Lzw 
