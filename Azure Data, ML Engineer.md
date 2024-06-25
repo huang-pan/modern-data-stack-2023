@@ -1,6 +1,6 @@
 # Azure Data / ML Engineer
 
-****NOTE****: for more on Databricks / Spark: https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy_Spark.md
+****NOTE****: for more on Databricks / Spark: https://github.com/huang-pan/modern-data-stack-2023/blob/main/Databricks%2C%20Spark.md
 
 ## Azure Databricks & Spark For Data Engineers (PySpark / SQL)
 
