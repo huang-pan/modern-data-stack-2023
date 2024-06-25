@@ -1,0 +1,68 @@
+# Data Product, KPIs
+
+## Data Product
+- https://moderndata101.substack.com/p/how-to-build-data-products-design
+- https://moderndata101.substack.com/p/how-to-build-data-products-build
+- https://moderndata101.substack.com/p/how-to-build-data-products-deploy
+- https://moderndata101.substack.com/p/evolving-data-products
+- https://moderndata101.substack.com/p/transitioning-to-a-data-product-ecosystem
+- https://moderndata101.substack.com/p/data-pipelines-for-data-products
+	- Data product is an autonomous, read-optimized, standardized data unit containing at least one dataset (Domain Dataset), created for satisfying user needs
+ 	- Both internal and external data products
+	- An internal data product is an application that uses data to make the next action immediate (e.g. a dashboard)
+- https://moderndata101.substack.com/p/the-go-to-metrics-for-data-products
+	- Product = customer x business x technology
+	- customer metrics: customer lifetime value, # new users, DAU / MAU, retention rate, etc.
+	- business metrics: directly generated revenue, costs / time saved
+ 	- market metrics: # new opportunities / listings per month, etc. and how it affects the business
+	- tech metrics: cycle time, deployment frequency
+- https://www.datamesh-architecture.com/data-product-canvas
+	- A Data Product Canvas is a visual framework that guides your team through the data product specification. We suggest to fill out this canvas collaboratively. In total, the Data Product Canvas consists of ten building blocks:
+	- Domain
+	- Data Product Name
+	- Consumer and Use Case
+	- Output Port
+	- Metadata
+	- Input Ports
+	- Data Product Design
+	- Observability
+	- Ubiquitous Language
+	- Classification
+- Understand business requirements for upcoming data ingestion work (Securities data, Master data, Positions data etc.)
+	- What’s the timeline to implement the pipeline?
+	- What level of testing is required e.g., Source-to-Target reconciliation, Basic Data Quality vs Functional Testing)
+	- What volume of data are we dealing with?
+	- How will the data be consumed once it has been hosted in the Cloud Data Lake (AWS S3) and Warehouse (Snowflake)?
+- Create a data pipeline spec that covers quality checks, assumptions, business metrics, and allows stakeholders to give feedback BEFORE you start coding
+   	- stakeholders / end users / areas impacted
+	- data
+		- upstream / source
+			- data contracts?
+		- downstream
+			- internal tools
+			- external tools
+			- KPIs / metrics
+			- data science / ML
+		- frequency
+	- level of testing
+	- implementation timeline
+- Build data quality checks into your pipelines using data contracts such as write-audit-publish and write unit and integration tests to catch quality errors before they enter production
+- Discover the power of data lake technologies Apache Iceberg. Proper schema evolution, partitioning, and parquet file format compression!
+- Level up your SQL skills by having a four-hour crash course on GROUPING SETS, window functions, and cumulative table design
+
+## KPIs
+- Types of startup metrics
+	- https://www.linkedin.com/posts/davidsymsmith_startupmetrics-performanceindicators-metrics-activity-7130177000257818625-R0U6/
+- Data team advice
+	- https://youtube.com/watch?v=6HLo36SjOdo&si=ymtFT7JhkUukQ5sl
+		- Focus on metric deltas between time periods,  cohorts
+		- Attend non data team meetings,  e.g. marketing, revenue driving 
+- 1st level metrics, 2nd level metrics
+	- https://www.kalungi.com/blog/10-marketing-kpis-every-b2b-saas-company-should-track
+	- https://userpilot.com/blog/b2b-saas-metrics/
+	- https://www.chargebee.com/blog/saas-kpis/ 
+- Customer Lifetime Value = Average Revenue Per Customer / Churn Rate, Customer Acquisition Cost,
+	- The CLV is the amount the customer spends every month (average revenue per customer, or ARPC for short) times the expected number of months they use our platform for. A clearer way of defining CLV is by dividing the ARPC by the churn rate (the percentage of users that stop using our platform each month)
+ 	- https://www.interviewquery.com/questions/marketing-channel-metrics
+  	- 
+![kpi](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b150e889-1832-41c3-a07b-05b40fbb0dc4)
