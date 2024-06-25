@@ -1,4 +1,4 @@
-# Alternative LakeHouse
+# Alternative LakeHouses
 
 ## Dremio
 - Open source, unified data lakehouse solution https://www.youtube.com/watch?v=cc6CCQpg1FA
