@@ -57,6 +57,7 @@
         - **Data Modeling in the Modern Data Stack**
             - **[https://youtu.be/IdCmMkQLvGA](https://youtu.be/IdCmMkQLvGA)**
                 - conceptional \(biz needs\) \-\-\> logical \(detailed biz solution\) \-\-\> physical layers \(detailed tech solution\)
+![Screenshot_20240624-155827_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/951332a1-2e25-427c-afc8-ae02796d91ce)
             - Normalized modeling: Inmon copies directly from databases to data warehouse, also has data marts
             - Denormalized modeling: Kimball, dimensional modeling \(fact, dim, mart\), star, snowflake schemas, SCD
                 - single source of truth for data source that maintains consistency, conformity, and understandability
