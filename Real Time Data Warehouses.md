@@ -2,9 +2,16 @@
 
 ## RT OLAP
 
+## Rockset
+
 - Rockset replicates AWS DynamoDB tables https://www.youtube.com/watch?v=JGIzdFHZVXs
 	- Rockset search and analytics DB https://www.youtube.com/watch?v=xGaUJTHuehQ
 	- used converged indicies: row based index, column based index, inverted (document) index
+- Rockset product overview https://www.youtube.com/watch?v=4nEQpISidw4
+![Screenshot_20240620-104355_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0baab291-2d40-4db4-9efc-8ed3b2820df8)
+
+
+
 - Clickhouse
 	- https://www.youtube.com/watch?v=HRh5setqGCU 
 	- RT data warehouse
