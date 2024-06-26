@@ -8,6 +8,7 @@
  		- can replace databricks, pinot, presto, etc.
    		- better than AWS Athena
 - zero-etl solution: databases, snowflake, etc. accessible as data sources in lakehouse, no need to copy and move data
+	- https://www.dremio.com/wp-content/uploads/2023/12/Episode-41-Zero-ETL.pdf
 	- Snowflake as data source https://www.youtube.com/watch?v=Aa2xAfI8wNs
  	- Dremio Arctic: uses Iceberg's data versioning, ****data versioned as code**** (like Y42), auto optimization, data catalog
 - has own SQL warehouse compute solution, cheaper than Snowflake?
