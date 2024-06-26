@@ -2,15 +2,8 @@
 
 ## Delta Lake Uniform: Iceberg, Delta Lake, Hudi
 
-- Delta Live Tables https://docs.databricks.com/en/delta-live-tables/tutorial-sql.html 
-	- Delta Live streaming tables, delta live tables (batch, aggregation)
-	- Delta tables have checkpoints, including streaming tables
-	- Delta Live Expectations: data quality constraints
-	- enhanced autoscaling: primarily for streaming data
- 	- https://learn.microsoft.com/en-us/azure/databricks/delta-live-tables/transform
-  		- DLT (bronze, raw, incremental, streaming) -> DLT (silver, cleaned) -> Materialized View (Gold, aggregates)
-    	- https://stephenallwright.com/materialize  Materialized View vs Table
-     		- If you need to store data long term and use it as part of a data model then you should create a table, however if you want to join multiple tables and query this infrequently, as part of an analysis for example, then a materialized view would be the better choice.
+- Apache XTable: Interoperability with Hudi, Iceberg, and Delta Tables https://www.youtube.com/watch?v=8IukpmyGDB8
+	- works with Spark, AWS glue catalog
 - Data Lake Table formats: https://youtube.com/live/mXitwotQaAU?feature=share
 	- https://tabular.io/guides/
     - Apache Iceberg: most comprehensive format, supports table / catalog versioning that the other formats don't, but isn't as good for stream processing
@@ -21,6 +14,23 @@
     - https://www.onehouse.ai/blog/apache-hudi-vs-delta-lake-vs-apache-iceberg-lakehouse-feature-comparison
     - https://iomete.com/blog/apache-iceberg-delta-lake
     - Open Lakehouse Architecture: https://www.linkedin.com/posts/alexmerced_cloud-based-open-lakehouse-architecture-activity-7107740230387912705-fAlb/ 
+
+## Delta Tables
+
+- Delta Live Tables https://docs.databricks.com/en/delta-live-tables/tutorial-sql.html 
+	- Delta Live streaming tables, delta live tables (batch, aggregation)
+	- Delta tables have checkpoints, including streaming tables
+	- Delta Live Expectations: data quality constraints
+	- enhanced autoscaling: primarily for streaming data
+ 	- https://learn.microsoft.com/en-us/azure/databricks/delta-live-tables/transform
+  		- DLT (bronze, raw, incremental, streaming) -> DLT (silver, cleaned) -> Materialized View (Gold, aggregates)
+    	- https://stephenallwright.com/materialize  Materialized View vs Table
+     		- If you need to store data long term and use it as part of a data model then you should create a table, however if you want to join multiple tables and query this infrequently, as part of an analysis for example, then a materialized view would be the better choice.
+
+## Apache Hudi
+
+## Apache Iceberg
+
 - Also see Apache Iceberg: https://www.linkedin.com/posts/sesha-reddy-pattem-543aa311b_apacheiceberg-datamanagementbrilliance-metadatamastery-activity-7100064046502027266-FsDs/
 	- Iceberg 101: https://tabular.io/guides-and-papers/
 	- Metadata: Metadata in Iceberg comes in three forms — Metadata Files, Manifest Lists, and Manifest Files. Metadata Files store the high-level information about the dataset. Manifest Lists index all the manifest files and keep track of their changes. Manifest Files maintain the actual data files' metadata, enhancing query performance by pruning unnecessary files.
