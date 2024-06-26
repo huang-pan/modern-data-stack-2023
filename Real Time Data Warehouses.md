@@ -56,6 +56,7 @@
 ## Firebolt
 
 - Firebolt fastest RT cloud data warehouse https://www.youtube.com/watch?v=K0g4GUY7PMI
+	- faster, cheaper than Snowflake
 ![Screenshot_20240620-161328_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fbb56250-63ea-48aa-b449-d13ae8343f98)
 ![Screenshot_20240620-161346_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/269536c7-b5dd-4f50-9236-cd94df745cd1)
 ![Screenshot_20240620-161358_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fa1d4102-a007-4976-812e-61140c134dd1)
