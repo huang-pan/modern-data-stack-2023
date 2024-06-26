@@ -30,3 +30,7 @@
 	- Dremio 351 https://www.linkedin.com/company/dremio/people/
  	- Starburst 552 https://www.linkedin.com/company/starburstdata/people/
   	- lakeFS https://www.youtube.com/@lakefs/videos
+
+## StarRocks / CelerData
+
+- StarRocks / CelerData fastest RT LakeHouse query engine: Iceberg, etc.
