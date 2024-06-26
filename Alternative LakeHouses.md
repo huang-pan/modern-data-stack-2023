@@ -44,7 +44,7 @@
 
 ## Apache Doris / VeloDB
 
-- Apache Doris is an open source, real time data warehouse / LakeHouse https://doris.apache.org/
+- Apache Doris is an open source, real time data LakeHouse https://doris.apache.org/
 	- https://www.velodb.io/ is the commercial version of Doris
  	- https://www.linkedin.com/company/velodb/people/ they are in China
 - StarRocks is a fork of Doris
@@ -63,6 +63,25 @@
 ![Screenshot_20240622-080625_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7a5f893d-9ab5-49a5-ba92-f2a72ae96868)
 ![Screenshot_20240622-080628_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cba9f12f-1b4c-426b-888d-356b26062196)
 ![Screenshot_20240622-080647_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d1b27ac3-6edc-4302-b40f-0f8458ef3c23)
+- Doris + Hudi https://www.youtube.com/watch?v=NZ6yx7-RZps
+![Screenshot_20240622-081201_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fb62a79e-f3db-44b3-923e-7f85462c903d)
+![Screenshot_20240622-081243_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b0f77539-e2de-40ce-97e2-1ef3d2071e2b)
+![Screenshot_20240622-081247_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d9965130-67fe-4612-ad60-ff4e95d1ac44)
+![Screenshot_20240622-081311_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/34f3d8b0-1abf-4a65-a25a-d10e11b4aa47)
+![Screenshot_20240622-081314_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a51a0d0b-e038-4dae-9a0f-a8ba07092766)
+![Screenshot_20240622-081344_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/42de37aa-5410-4bbd-86cf-22b74707f05b)
+![Screenshot_20240622-081355_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c9cd0639-3450-4d08-812e-fd0448cbf7ea)
+![Screenshot_20240622-081359_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/38380b6a-c2a8-44fc-9b68-12e86459b49d)
+![Screenshot_20240622-081410_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/20aaa1b0-eccd-404c-94af-32490a51233a)
+![Screenshot_20240622-081418_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/59897555-a74c-44da-bef7-719ddc56789a)
+![Screenshot_20240622-081428_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8de37882-0997-42c2-9c35-d33600a82477)
+![Screenshot_20240622-081448_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/62fe5256-2625-4523-a5c0-eb246562c0c9)
+![Screenshot_20240622-081459_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2983467c-fd64-4ea4-b7cf-a6fcaad78ddc)
+![Screenshot_20240622-081504_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/77080103-64dc-47ef-af52-a7f2036c3214)
+![Screenshot_20240622-081510_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/38261984-3a97-4689-a902-3d733fcda34f)
+![Screenshot_20240622-081514_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/54328cfa-eabf-4611-9b51-5f77f853fc1d)
+![Screenshot_20240622-081525_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/06e58d44-4e4c-4912-860b-b55731a342f7)
+![Screenshot_20240622-081530_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a50426bb-a0a7-4608-b9f9-96edcd7ec65c)
 
 ## StarRocks / CelerData
 
