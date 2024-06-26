@@ -108,6 +108,7 @@ https://betterprogramming.pub/start-your-stream-processing-journey-with-just-4-l
 - RisingWave tech details https://www.youtube.com/watch?v=6cKxLk6bpyY
 	- RisingWave newer tech: stream processing (streaming ETL, streaming analytics) + streaming database
 	- RisingWave, etc. Easier, more modern, is also a serving database
+- RisingWave vs Flink https://www.slideshare.net/slideshow/battle-of-the-stream-processing-titans-flink-versus-risingwave-258323520/258323520
 - RisingWave -> StarRocks / CelerData https://www.youtube.com/watch?v=c1pcWcSkZzU
 ![Screenshot_20240621-164305_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3b77f926-fcac-4d8e-aae0-4b68a11217ee)
 ![Screenshot_20240621-164329_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ef786125-16d2-4e70-baf7-9c14498bedc4)
