@@ -48,11 +48,6 @@
 ![Screenshot_20240620-155520_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a20840f0-5c45-4b3d-9e14-b124e968a4d4)
 ![Screenshot_20240620-155523_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/278a91f6-cb24-4a31-bee5-03cf48ccc975)
 
-
-## StarRocks / CelerData
-
-- StarRocks / CelerData fastest RT LakeHouse query engine: Iceberg, etc.
-
 ## Firebolt
 
 - Firebolt fastest RT cloud data warehouse https://www.youtube.com/watch?v=K0g4GUY7PMI
