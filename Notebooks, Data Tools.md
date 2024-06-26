@@ -18,6 +18,6 @@
 ## ETL / reverse ETL tools
 
 - https://www.linkedin.com/posts/jeff-skoldberg-141812111_this-story-is-becoming-more-and-more-common-activity-7211422236086337536-J9Q7/
-- If you are spending too much on Fivetran or frustrated with Airbyte, I believe Flow by Estuary offers best-in-class stability and simplicity while providing two advantages over the competition:
-1️⃣ Real time ingestion
-2️⃣ Lower cost of ownership
+    - If you are spending too much on Fivetran or frustrated with Airbyte, I believe Flow by Estuary offers best-in-class stability and simplicity while providing two advantages over the competition:
+        1️⃣ Real time ingestion
+        2️⃣ Lower cost of ownership
