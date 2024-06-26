@@ -41,6 +41,16 @@
 ![Screenshot_20240620-165454_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/401d74e3-6ed0-4f46-85ce-f0efb98a13fe)
 ![Screenshot_20240620-165503_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5f8ff7d2-f2e6-4bbe-9f65-d13e3df1a733)
 ![Screenshot_20240620-165510_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0a6aa249-c493-4773-aebc-4a2e78f71c0b)
+- Best Practices for Building an Iceberg Data Lakehouse with Dremio https://www.youtube.com/watch?v=z01h-RkiXgM
+![Screenshot_20240621-171009_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/69d1d4be-48c0-4bee-ac50-1cd7fe99cc44)
+![Screenshot_20240621-171032_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0c151dcf-a7a6-44d1-baa4-b1fc52fc6e77)
+![Screenshot_20240621-171036_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fb264007-1e7c-44e8-b6e6-118c601134ad)
+![Screenshot_20240621-171043_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0446788f-ab03-4da4-9337-05394381fb62)
+![Screenshot_20240621-171048_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4eff6e1f-ab09-4b86-9b4a-dcc3881c5b06)
+![Screenshot_20240621-171056_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fdb842f1-2faf-4316-9b37-1844b9591cf6)
+![Screenshot_20240621-171128_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e19f04ba-867e-4966-a6ef-ee920e76c878)
+![Screenshot_20240621-171137_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3d561f6d-360a-4b60-93d6-19c6565b9377)
+![Screenshot_20240621-171143_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d78199e3-1b26-497e-85f4-0cfd5dcec3ba)
 
 ## Apache Doris / VeloDB
 
