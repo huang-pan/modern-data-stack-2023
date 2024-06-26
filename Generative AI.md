@@ -219,3 +219,5 @@ Generative AI Short Courses
 <img width="1792" alt="Screenshot 2024-06-02 at 5 50 16 PM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2b832e40-545f-4136-9179-01bb432ff5a0">
 
 - Risc-V open source CPU instruction set (like ARM which is closed source), has adaptable vector processing of data of variable lengths https://www.youtube.com/watch?v=Ozj_xU0rSyY
+
+- Advanced Q&A Chatbot Using Ragstack With vector-enabled Astra DB Serverless database And Huggingface https://www.youtube.com/watch?v=8Vq4K1EGq2g
