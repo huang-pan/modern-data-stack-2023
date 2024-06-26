@@ -65,7 +65,13 @@
 
 ## Druid
 
-- Druid older technology https://www.youtube.com/watch?v=4qP_z8n8in0
+- Druid older technology trying to modernize https://www.youtube.com/watch?v=4qP_z8n8in0
 ![Screenshot_20240620-171956_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/71cf93e8-739b-4174-95bc-dced43b3a9d7)
 ![Screenshot_20240620-171959_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/96560803-433d-4ae7-b84b-79fc60e629fa)
+- Druid still behind? https://www.youtube.com/watch?v=wgJaB_PuHO4
+![Screenshot_20240620-172640_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f9fdf6f9-c52c-49ce-96ab-4e12d746a737)
+![Screenshot_20240620-172748_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b17ce331-2bf3-4410-8210-d42c5895fa17)
+![Screenshot_20240620-172802_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8e4202ff-0842-491b-b7ba-212ee5e06692)
+![Screenshot_20240620-172822_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dc153468-9aa2-4463-9ea2-7d148a60ac6e)
+![Screenshot_20240620-172828_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/591fac46-6e5f-477c-b9f3-5915dd4efa3b)
 
