@@ -15,6 +15,28 @@
     - https://iomete.com/blog/apache-iceberg-delta-lake
     - Open Lakehouse Architecture: https://www.linkedin.com/posts/alexmerced_cloud-based-open-lakehouse-architecture-activity-7107740230387912705-fAlb/ 
 
+## Arrow
+
+- https://www.linkedin.com/posts/jorritsandbrink_dataengineering-softwareengineering-activity-7210043267881549824-7dv-/
+	- Parquet and Arrow are complementary. Both can be considered "the standard" in their domain.
+		- Parquet is an on-disk format.
+  		- Arrow is primarily an in-memory format¹
+- Similarities — both are:
+	- designed for analytics
+	- "hybrid columnar" ➜ column chunks are stored contiguously within row groups²
+- Differences:
+	- Parquet uses general-purpose block compression (e.g. Snappy), Arrow does not³
+	- Parquet encodes heavily, Arrow does not⁴
+- They optimize for different things:
+	- Parquet is small on disk and on wire ➜ good if storage or network is bottleneck
+	- Arrow does not compress and encode ➜ good if compute is bottleneck
+- Last but not least, Arrow supports O(1) "random access", while Parquet needs to decompress and decode entire "pages" to access individual values.
+- The small print:
+	- ¹ Arrow can also be serialized on disk (".arrow" file) or sent over a wire.
+ 	- ² Parquet speaks of "column chunks" and "row groups". Arrow calls them "arrays" and "record batches".
+  	- ³ Compression can be disabled in Parquet.
+  	- ⁴ Arrow does support dictionary encoding.
+
 ## Delta Tables
 
 - Delta Live Tables https://docs.databricks.com/en/delta-live-tables/tutorial-sql.html 
@@ -45,25 +67,34 @@
 	- 📆 Snapshot Maintenance: Iceberg’s snapshot expiration feature ensures that old data versions are pruned over time, optimizing storage usage while maintaining historical integrity.
 	- partition evolution, table versioning, catalog versioning
 - Polars is a pandas replacement: https://www.confessionsofadataguy.com/replacing-pandas-with-polars-a-practical-guide/
-
-## Arrow
-
-- https://www.linkedin.com/posts/jorritsandbrink_dataengineering-softwareengineering-activity-7210043267881549824-7dv-/
-	- Parquet and Arrow are complementary. Both can be considered "the standard" in their domain.
-		- Parquet is an on-disk format.
-  		- Arrow is primarily an in-memory format¹
-- Similarities — both are:
-	- designed for analytics
-	- "hybrid columnar" ➜ column chunks are stored contiguously within row groups²
-- Differences:
-	- Parquet uses general-purpose block compression (e.g. Snappy), Arrow does not³
-	- Parquet encodes heavily, Arrow does not⁴
-- They optimize for different things:
-	- Parquet is small on disk and on wire ➜ good if storage or network is bottleneck
-	- Arrow does not compress and encode ➜ good if compute is bottleneck
-- Last but not least, Arrow supports O(1) "random access", while Parquet needs to decompress and decode entire "pages" to access individual values.
-- The small print:
-	- ¹ Arrow can also be serialized on disk (".arrow" file) or sent over a wire.
- 	- ² Parquet speaks of "column chunks" and "row groups". Arrow calls them "arrays" and "record batches".
-  	- ³ Compression can be disabled in Parquet.
-  	- ⁴ Arrow does support dictionary encoding.
+- Apache Iceberg Overview (Jan 2024 Edition) - Architecture, Ecosystem, and more! https://www.youtube.com/watch?v=stJLaIZRcJs
+![Screenshot_20240621-165232_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/07200201-636e-4d52-879d-08f8ea163618)
+![Screenshot_20240621-165238_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/76411304-0823-48af-ad34-0b05a90a1363)
+![Screenshot_20240621-165241_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/98a7d94e-6071-427b-accb-cb54507e34e9)
+![Screenshot_20240621-165245_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dc496e1d-c026-4481-8c25-3192ce420c42)
+![Screenshot_20240621-165301_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a2804bd5-a1fc-42c7-a088-614e2fcab35a)
+![Screenshot_20240621-165307_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a9b1d3fa-deb9-4e51-961b-151a16bc9a6d)
+![Screenshot_20240621-165310_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0e3cadbc-26b4-4a3c-ba18-10d9fb4106e4)
+![Screenshot_20240621-165408_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/bc8c57c8-5f50-4d27-a2ef-3fae84a18b4a)
+![Screenshot_20240621-165413_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e5a3a00a-4c95-4ded-8ad0-280362a8a61f)
+![Screenshot_20240621-165419_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/68445ae4-b73c-4d96-920a-4e4718f94140)
+![Screenshot_20240621-165427_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3e70db46-8429-41fb-8c09-6a66baa88e20)
+![Screenshot_20240621-165502_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/813f1bdc-2c97-45e2-a11e-e6cbe82e16e7)
+![Screenshot_20240621-165507_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5e098aa4-acd6-4582-9a09-8f45e36c9da1)
+![Screenshot_20240621-165515_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c89a1e07-cd14-457b-ada7-b55b138eb46f)
+![Screenshot_20240621-165534_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4219e94d-ee48-4d1d-a98c-96e31c1eebee)
+![Screenshot_20240621-165538_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/66646ba9-b266-4cc6-a309-4ea13b2238f1)
+![Screenshot_20240621-165541_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/612d3689-07df-4e0e-ad9a-d08211a0e9fb)
+![Screenshot_20240621-165554_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7ae20f72-8410-4e8a-81bb-bba71f7752c9)
+![Screenshot_20240621-165557_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c350d6f6-7fd6-4716-9542-ac917b32c776)
+![Screenshot_20240621-165606_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a8f0677f-0ff5-433a-b684-f2afb914ae63)
+![Screenshot_20240621-165612_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/861b9c13-5f58-473f-8a78-a292f5553a7c)
+![Screenshot_20240621-165639_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d0688185-b230-4cfc-82e7-724e36277954)
+![Screenshot_20240621-165653_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/50fc441a-adbd-4f9f-b5c6-fef7cc921f46)
+![Screenshot_20240621-165657_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/163ed6cf-4257-4e8c-b407-d0b909f849a4)
+![Screenshot_20240621-165714_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c171e8bf-4c60-46cc-9604-74cff6385929)
+![Screenshot_20240621-165721_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7aa32574-b569-4ed9-9b0f-7dda4fca153e)
+![Screenshot_20240621-165835_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ba836850-97a8-4e6c-bdd9-931e052ecca4)
+![Screenshot_20240621-165836_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/86fa5220-0383-49a3-ad48-a196477d7847)
+![Screenshot_20240621-165839_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ef44fb48-ab49-425e-b437-a0c6d36d0784)
+![Screenshot_20240621-170005_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cc9b1d33-76a3-449e-b2fb-1894d05261fc)
