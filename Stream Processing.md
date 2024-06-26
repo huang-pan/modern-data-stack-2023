@@ -68,8 +68,6 @@ Snowplow
 	- https://engineering.linkedin.com/blog/2023/revolutionizing-real-time-streaming-processing--4-trillion-event
 - https://www.youtube.com/watch?v=5lFXI5333mg
 ![Screenshot_20240114-102804_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6b20e0f4-9716-4296-9fde-04f08c72572c)
-- Apache Pulsar https://pulsar.apache.org/
-	- https://www.youtube.com/watch?v=-uwbMvJ_yro
 - https://learn.glassflow.dev/blog/articles/choosing-between-a-streaming-database-and-a-stream-processing-framework-in-python
 - Moirai: A Time Series Foundation Model for Universal Forecasting https://blog.salesforceairesearch.com/moirai/
 - Apache Spark Vs. Apache Flink Vs. Apache Kafka Vs. Apache Storm! https://www.youtube.com/watch?v=V3Q3EkbEc_k
@@ -87,17 +85,13 @@ https://betterprogramming.pub/start-your-stream-processing-journey-with-just-4-l
 <img width="1792" alt="Screenshot 2024-06-05 at 11 22 05 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1fb5d390-bec2-4a3f-a11c-9b0567e78bc7">
 <img width="1792" alt="Screenshot 2024-06-04 at 3 15 35 PM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d3252b0b-5941-4893-819e-1064d448de4c">
 
-Message Bus
-- Redpanda tech details https://www.youtube.com/watch?v=yi0c0o3tFfc
-	- Red panda easier better version of kafka
-- Pulsar tech details https://www.youtube.com/watch?v=4OHUTJDlnag
-
 RT Stream Processing
 - Flink tech details https://www.youtube.com/watch?v=vZFpPMwQ1po
 	- Flink older tech
 	- Flink join postgres and kafka topic too complicated, requires pairs programming analyst and data engineer
 <img width="1792" alt="Screenshot 2024-06-05 at 8 26 14 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/532bb0b1-6d56-4f98-8887-143e2cae951c">
 
+## RisingWave
 - RisingWave tech details https://www.youtube.com/watch?v=6cKxLk6bpyY
 	- RisingWave newer tech
 	- RisingWave, etc. Easier, more modern, is also a serving database 

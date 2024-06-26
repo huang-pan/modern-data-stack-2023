@@ -422,3 +422,14 @@
     - testing
         - **ksql\-test\-runner**
             - run on ksql script file that has tests
+
+## Redpanda
+
+- Redpanda tech details https://www.youtube.com/watch?v=yi0c0o3tFfc
+	- Red panda easier better version of kafka
+
+## Pulsar
+
+- Apache Pulsar https://pulsar.apache.org/
+	- https://www.youtube.com/watch?v=-uwbMvJ_yro
+- Pulsar tech details https://www.youtube.com/watch?v=4OHUTJDlnag
