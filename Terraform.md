@@ -49,3 +49,7 @@
   	- scalars, lists, nested lists, dictionaries, nested dicts, comments
 - Terraform best practices
 	- https://www.youtube.com/watch?v=gxPykhPxRW0
+- https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli
+	- SLA: Service Level Agreement, the agreement you make with your clients or users
+ 	- SLO: Service Level Objectives, the objectives your team must hit to meet that agreement
+	- SLI: Service Level Indicators, the real numbers on your performance
