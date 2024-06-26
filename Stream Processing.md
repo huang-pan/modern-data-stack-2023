@@ -100,6 +100,17 @@ RT Stream Processing
 ![Screenshot_20240621-161128_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6f312f28-53de-4685-bfab-a8cdd40118d6)
 
 ## RisingWave
+- https://betterprogramming.pub/start-your-stream-processing-journey-with-just-4-lines-of-code-5863573268b9
 - RisingWave tech details https://www.youtube.com/watch?v=6cKxLk6bpyY
-	- RisingWave newer tech
-	- RisingWave, etc. Easier, more modern, is also a serving database 
+	- RisingWave newer tech: stream processing (streaming ETL, streaming analytics) + streaming database
+	- RisingWave, etc. Easier, more modern, is also a serving database
+- RisingWave -> StarRocks / CelerData https://www.youtube.com/watch?v=c1pcWcSkZzU
+![Screenshot_20240621-164305_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3b77f926-fcac-4d8e-aae0-4b68a11217ee)
+![Screenshot_20240621-164329_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ef786125-16d2-4e70-baf7-9c14498bedc4)
+![Screenshot_20240621-164349_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b6c56895-13b5-48c1-88b7-106c00a858d8)
+![Screenshot_20240621-164431_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/17eca03d-9f16-4a11-aff9-7ec3d1bcb644)
+![Screenshot_20240621-164449_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5ea815d7-5df7-4487-99cf-b91d4a7fde3c)
+![Screenshot_20240621-164502_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a8124b78-3695-4b88-b40f-71009c8822a7)
+![Screenshot_20240621-164514_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a493579a-6e6d-490c-8422-b5f2c77c2d37)
+![Screenshot_20240621-164529_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2a355ced-39e3-4b7c-b812-78b853db3e51)
+
