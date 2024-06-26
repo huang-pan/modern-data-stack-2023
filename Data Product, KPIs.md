@@ -2,7 +2,8 @@
 
 ## Running Data Teams
 
-### Run a data team like a business https://www.linkedin.com/posts/ethanaaron_people-take-take-take-from-data-teams-activity-7184551839420325888-5W5K/
+### Run a data team like a business
+- https://www.linkedin.com/posts/ethanaaron_people-take-take-take-from-data-teams-activity-7184551839420325888-5W5K/
 1. CEO best practice 👉 Have a board of advisors
 - As a data team, you should find executives and business stakeholders you can talk to on a monthly or quarterly basis about how things are going, what's going well, and how you can improve.
 2. Sales best practice 👉 Record your calls
@@ -18,7 +19,8 @@
 7. Finance best practice 👉 Think about economics. Please
 - As a data team, you have to think about your team through the lens of a P&L. Your team has a cost (headcount + tooling + internal overhead) and your team creates value. The return on investment (the value created divided by the cost) should be a no brainer investment for your company. Every once in a while, take a step back and make sure that's the case. If not, find ways to increase the value you create, or reduce your costs.
 
-### 10 tactical best practices for data leaders https://www.linkedin.com/posts/ethanaaron_10-tactical-best-practices-for-data-leaders-activity-7210743681497079808-gaSe/
+### 10 tactical best practices for data leaders
+- https://www.linkedin.com/posts/ethanaaron_10-tactical-best-practices-for-data-leaders-activity-7210743681497079808-gaSe/
 1. Meet with everyone on the leadership team 1:1 at least once a month -- it's the best way to identify high value initiatives
 2. Never talk about data technology, infrastructure, or queries with people outside the data team -- they just don't care
 3. Categorize metrics on dashboards into either 'output metrics' (which you can't directly control) or 'input metrics' (which you can directly control
