@@ -1,7 +1,8 @@
 # Data Product, KPIs
 
-## Data Product
-- Run a data team like a business https://www.linkedin.com/posts/ethanaaron_people-take-take-take-from-data-teams-activity-7184551839420325888-5W5K/
+## Running Data Teams
+
+### Run a data team like a business https://www.linkedin.com/posts/ethanaaron_people-take-take-take-from-data-teams-activity-7184551839420325888-5W5K/
 1. CEO best practice 👉 Have a board of advisors
 - As a data team, you should find executives and business stakeholders you can talk to on a monthly or quarterly basis about how things are going, what's going well, and how you can improve.
 2. Sales best practice 👉 Record your calls
@@ -16,7 +17,8 @@
 - As a data team, it's easy to get caught up in numbers and metrics, and forget that you're working in a company full of human beings. Allocate time to building relationships. To hear about someone's week. To actually connect with stakeholders you work with. It'll pay off in the long term, medium term, and short-term.
 7. Finance best practice 👉 Think about economics. Please
 - As a data team, you have to think about your team through the lens of a P&L. Your team has a cost (headcount + tooling + internal overhead) and your team creates value. The return on investment (the value created divided by the cost) should be a no brainer investment for your company. Every once in a while, take a step back and make sure that's the case. If not, find ways to increase the value you create, or reduce your costs.
-- 10 tactical best practices for data leaders https://www.linkedin.com/posts/ethanaaron_10-tactical-best-practices-for-data-leaders-activity-7210743681497079808-gaSe/
+
+### 10 tactical best practices for data leaders https://www.linkedin.com/posts/ethanaaron_10-tactical-best-practices-for-data-leaders-activity-7210743681497079808-gaSe/
 1. Meet with everyone on the leadership team 1:1 at least once a month -- it's the best way to identify high value initiatives
 2. Never talk about data technology, infrastructure, or queries with people outside the data team -- they just don't care
 3. Categorize metrics on dashboards into either 'output metrics' (which you can't directly control) or 'input metrics' (which you can directly control
@@ -27,6 +29,8 @@
 8. Track value created. It's tough, I know. But you need to at least have back of the envelope metrics or testimonials from executives that demonstrate the value the data team is creating on the whole and from particular initiatives. This is ammo for raises, headcount planning, and technology budget (if you can justify the ROI)
 9. Always ask yourself: 'If we did this in a spreadsheet would we really be THAT much worse off?' You'll find that if you let business users keep low value stuff in spreadsheets, the ROI of your team will skyrocket
 10. Create two paths for data asset development. First, a production path that has a rigorous QA process and ensures production data assets can be trusted. Second, an ad hoc path that allows for faster iteration and allows teams to innovate quickly without having to wait in a long production development backlog
+
+## Data Product
 - https://moderndata101.substack.com/p/how-to-build-data-products-design
 - https://moderndata101.substack.com/p/how-to-build-data-products-build
 - https://moderndata101.substack.com/p/how-to-build-data-products-deploy
