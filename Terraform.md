@@ -19,7 +19,7 @@
   	- IaC
 		- variables, for loops, count, depends on, providers
 		- perform actions on local or remote (terraform registry)
-	- modules
+	- modules https://www.youtube.com/watch?v=fg67eIMmB_U
 		- package and reuse resource configurations, collection of .tf files
 			- compute.tf
 			- database.tf
