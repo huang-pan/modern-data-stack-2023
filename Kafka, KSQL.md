@@ -427,6 +427,8 @@
 
 - Redpanda tech details https://www.youtube.com/watch?v=yi0c0o3tFfc
 	- Red panda easier better version of kafka, lower cost
+- https://www.youtube.com/watch?v=F7ozakgIGSs
+	- Seastar framework, and how Redpanda achieves superior performance by working closely with hardware.
 
 ## Pulsar
 
