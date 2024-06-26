@@ -102,6 +102,9 @@
                 - create data warehouse from multiple data marts, use conformed dimensions
                 - https://youtube.com/watch?v=z7uNwS-OWHA&feature=share
                 - https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/kimball-data-warehouse-bus-architecture/
+            - Conformed dimensions https://www.youtube.com/watch?v=mK1MKKRmAoA
+![Screenshot_20240624-155548_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1ba7c9f7-9f94-4623-950a-f63e2066b643)
+![Screenshot_20240624-155435_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/34781ab6-f80e-43c9-9dad-6b8e94d4f387)
             - Advice on data modeling
                 - https://youtube.com/watch?v=F-vkxuq5nv0&feature=share
     - Data Lakehouse **Medallion** architecture:
