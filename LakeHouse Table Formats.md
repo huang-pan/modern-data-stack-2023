@@ -45,3 +45,25 @@
 	- 📆 Snapshot Maintenance: Iceberg’s snapshot expiration feature ensures that old data versions are pruned over time, optimizing storage usage while maintaining historical integrity.
 	- partition evolution, table versioning, catalog versioning
 - Polars is a pandas replacement: https://www.confessionsofadataguy.com/replacing-pandas-with-polars-a-practical-guide/
+
+## Arrow
+
+- https://www.linkedin.com/posts/jorritsandbrink_dataengineering-softwareengineering-activity-7210043267881549824-7dv-/
+	- Parquet and Arrow are complementary. Both can be considered "the standard" in their domain.
+		- Parquet is an on-disk format.
+  		- Arrow is primarily an in-memory format¹
+- Similarities — both are:
+	- designed for analytics
+	- "hybrid columnar" ➜ column chunks are stored contiguously within row groups²
+- Differences:
+	- Parquet uses general-purpose block compression (e.g. Snappy), Arrow does not³
+	- Parquet encodes heavily, Arrow does not⁴
+- They optimize for different things:
+	- Parquet is small on disk and on wire ➜ good if storage or network is bottleneck
+	- Arrow does not compress and encode ➜ good if compute is bottleneck
+- Last but not least, Arrow supports O(1) "random access", while Parquet needs to decompress and decode entire "pages" to access individual values.
+- The small print:
+	- ¹ Arrow can also be serialized on disk (".arrow" file) or sent over a wire.
+ 	- ² Parquet speaks of "column chunks" and "row groups". Arrow calls them "arrays" and "record batches".
+  	- ³ Compression can be disabled in Parquet.
+  	- ⁴ Arrow does support dictionary encoding.
