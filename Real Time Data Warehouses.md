@@ -5,6 +5,7 @@
 - Real Time OLAP data warehouses by Pinot / StarTree https://www.youtube.com/watch?v=rJvDQSjmZCg
 	- only Pinot supports Delta Lake / Snowflake / BigQuery as a data source
  	- Pinot supports a lot more index types
+  	- All 3 (Pinot, Druid, ClickHouse) are bad at multi-table joins
 ![Screenshot_20240621-162116_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6e22630c-58b7-4e2a-a8a8-27c0506d7625)
 ![Screenshot_20240621-162131_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b9728ef6-9535-4819-aebb-bc923d0d3924)
 ![Screenshot_20240621-162140_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e0cfad74-3df4-49d0-aab0-2f44442d0db0)
