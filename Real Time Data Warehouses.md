@@ -63,6 +63,20 @@
 
 ## Tiny Bird + Snowflake
 
+## Pinot
+
+- Apache Pinot / StarTree https://www.youtube.com/watch?v=F8Q_pGIH9yY
+![Screenshot_20240621-154808_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9f6455ba-3cc2-43e7-83b1-2df50b8cd8fb)
+![Screenshot_20240621-154846_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/41e06c92-dd6e-4c9a-8766-625afb81f6f9)
+![Screenshot_20240621-154933_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/329182ec-36d2-4cf0-911d-c1aa0d0ff7b8)
+![Screenshot_20240621-155015_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/df5088db-dd69-4599-993e-ae92703ca0d2)
+![Screenshot_20240621-155033_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ea8332dd-ef3c-47c3-8f61-bf1c8f6b2bd6)
+![Screenshot_20240621-155058_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4b6917b4-aaf4-4e0d-9a2d-9685998beb41)
+![Screenshot_20240621-155135_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5a45f2c8-53b4-4d45-866c-0044ac86705f)
+![Screenshot_20240621-155156_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/749f6d0c-bfa6-4b95-90f0-fecf996c2ac3)
+![Screenshot_20240621-155200_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/385c51ba-d55e-4dfe-bd05-7e88576e391f)
+![Screenshot_20240621-155215_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ffa98b6d-77d4-4fb1-9b9a-33ed280e62ec)
+
 ## Druid
 
 - Druid older technology trying to modernize https://www.youtube.com/watch?v=4qP_z8n8in0
