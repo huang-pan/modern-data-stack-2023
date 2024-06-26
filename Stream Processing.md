@@ -64,8 +64,6 @@ Snowplow
 
 	- ![Screenshot_20230830-192134_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/abf57c17-d04d-490b-b2eb-a8d1c18ca62b)
 
-- Apache Beam
-	- https://engineering.linkedin.com/blog/2023/revolutionizing-real-time-streaming-processing--4-trillion-event
 - https://www.youtube.com/watch?v=5lFXI5333mg
 ![Screenshot_20240114-102804_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6b20e0f4-9716-4296-9fde-04f08c72572c)
 - https://learn.glassflow.dev/blog/articles/choosing-between-a-streaming-database-and-a-stream-processing-framework-in-python
@@ -97,6 +95,8 @@ https://betterprogramming.pub/start-your-stream-processing-journey-with-just-4-l
 
 ## Bytewax
 
+- Apache Beam
+	- https://engineering.linkedin.com/blog/2023/revolutionizing-real-time-streaming-processing--4-trillion-event
 - Bytewax like python version of Apache Beam, is a stream processing framework https://www.youtube.com/watch?v=PmJnIe9Apc4
 ![Screenshot_20240621-160915_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/66b3a9b5-a8f4-4296-b39c-1b37b4857dfb)
 ![Screenshot_20240621-161106_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/51c77a4d-715d-4a0c-a784-113debeaafa7)
