@@ -85,7 +85,11 @@ https://betterprogramming.pub/start-your-stream-processing-journey-with-just-4-l
 <img width="1792" alt="Screenshot 2024-06-05 at 11 22 05 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1fb5d390-bec2-4a3f-a11c-9b0567e78bc7">
 <img width="1792" alt="Screenshot 2024-06-04 at 3 15 35 PM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d3252b0b-5941-4893-819e-1064d448de4c">
 
-RT Stream Processing
+## Apache Flink
+
+- https://rmoff.net/2023/09/29/learning-apache-flink-s01e01-where-do-i-start/
+	- Decodable: managed Flink
+	- DeltaStream : managed Flink
 - Flink tech details https://www.youtube.com/watch?v=vZFpPMwQ1po
 	- Flink older tech
 	- Flink join postgres and kafka topic too complicated, requires pairs programming analyst and data engineer
