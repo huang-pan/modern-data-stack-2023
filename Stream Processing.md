@@ -88,6 +88,7 @@ https://betterprogramming.pub/start-your-stream-processing-journey-with-just-4-l
 - https://rmoff.net/2023/09/29/learning-apache-flink-s01e01-where-do-i-start/
 	- Decodable: managed Flink
 	- DeltaStream : managed Flink
+- Flink + Kafka https://www.youtube.com/watch?v=EsndjcspRA8
 - Flink tech details https://www.youtube.com/watch?v=vZFpPMwQ1po
 	- Flink older tech
 	- Flink join postgres and kafka topic too complicated, requires pairs programming analyst and data engineer
