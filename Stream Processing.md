@@ -91,6 +91,14 @@ RT Stream Processing
 	- Flink join postgres and kafka topic too complicated, requires pairs programming analyst and data engineer
 <img width="1792" alt="Screenshot 2024-06-05 at 8 26 14 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/532bb0b1-6d56-4f98-8887-143e2cae951c">
 
+## Bytewax
+
+- Bytewax like python version of Apache Beam, is a stream processing framework https://www.youtube.com/watch?v=PmJnIe9Apc4
+![Screenshot_20240621-160915_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/66b3a9b5-a8f4-4296-b39c-1b37b4857dfb)
+![Screenshot_20240621-161106_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/51c77a4d-715d-4a0c-a784-113debeaafa7)
+![Screenshot_20240621-161117_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/25da7399-f50e-466c-a559-a1f74d216681)
+![Screenshot_20240621-161128_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6f312f28-53de-4685-bfab-a8cdd40118d6)
+
 ## RisingWave
 - RisingWave tech details https://www.youtube.com/watch?v=6cKxLk6bpyY
 	- RisingWave newer tech
