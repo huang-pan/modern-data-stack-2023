@@ -42,6 +42,28 @@
 ![Screenshot_20240620-165503_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5f8ff7d2-f2e6-4bbe-9f65-d13e3df1a733)
 ![Screenshot_20240620-165510_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0a6aa249-c493-4773-aebc-4a2e78f71c0b)
 
+## Apache Doris / VeloDB
+
+- Apache Doris is an open source, real time data warehouse / LakeHouse https://doris.apache.org/
+	- https://www.velodb.io/ is the commercial version of Doris
+ 	- https://www.linkedin.com/company/velodb/people/ they are in China
+- StarRocks is a fork of Doris
+- Doris architecture https://www.youtube.com/watch?v=w_hreEaiDQ4
+![Screenshot_20240622-075920_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7b537b81-a070-4432-9231-c8832b845cd8)
+![Screenshot_20240622-080105_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4a36143e-4a96-4f10-8e9a-90ac676e05f2)
+![Screenshot_20240622-080207_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/da86add7-9560-48be-8a63-88149fb1c318)
+![Screenshot_20240622-080216_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5a0d1cc3-596d-4b34-acfa-bb596211f114)
+![Screenshot_20240622-080455_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a1f58285-9c33-4638-ac1b-e7cbd717ab91)
+![Screenshot_20240622-080459_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ff53bbe2-246a-4828-bf17-eec3dd190a79)
+![Screenshot_20240622-080520_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2d913546-3dab-41d0-9df9-960817bbc4ad)
+![Screenshot_20240622-080532_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c4dfa586-5f87-4e0f-b1bd-2c5e99e9a778)
+![Screenshot_20240622-080552_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/474d05a8-4481-4cf7-b64b-a1467ffb0ca8)
+![Screenshot_20240622-080558_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/72dc13d8-a6b9-4aad-940e-db66dabbc283)
+![Screenshot_20240622-080609_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e9dcfc52-1b65-4430-a2a2-ef6c8a40de83)
+![Screenshot_20240622-080625_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7a5f893d-9ab5-49a5-ba92-f2a72ae96868)
+![Screenshot_20240622-080628_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cba9f12f-1b4c-426b-888d-356b26062196)
+![Screenshot_20240622-080647_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d1b27ac3-6edc-4302-b40f-0f8458ef3c23)
+
 ## StarRocks / CelerData
 
 - StarRocks / CelerData fastest RT LakeHouse query engine: Iceberg, etc.
