@@ -31,7 +31,7 @@
 		- cloud DW: perf, cheaper than Snowflake 1/3
 		- observability, logging, tracing, metrics, Elasticsearch Logstash Kibana 1/3
 - ClickHouse bad at joins https://www.youtube.com/watch?v=1xvFZskEp1o
-	- Starrocks good at RT joins, cost based query optimizer
+	- StarRocks good at RT joins, cost based query optimizer
 	- Clickhouse bad at RT joins, good for RT log search, rule based query optimizer 
 ![Screenshot_20240620-155335_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/baf6af95-fdfd-4909-8f9b-5fd6f9c3572a)
 ![Screenshot_20240620-155342_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c4d87720-36bc-49e5-a9c4-6cd85cc54be7)
@@ -49,6 +49,7 @@
 ![Screenshot_20240620-155523_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/278a91f6-cb24-4a31-bee5-03cf48ccc975)
 
 
+## StarRocks / CelerData
 
 ## Firebolt
 
