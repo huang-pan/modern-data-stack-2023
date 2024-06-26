@@ -96,3 +96,22 @@
 ## StarRocks / CelerData
 
 - StarRocks / CelerData fastest RT LakeHouse query engine: Iceberg, etc.
+- Kafka -> Flink -> StarRocks https://www.youtube.com/watch?v=xV3-J3GMSns
+![Screenshot_20240621-163440_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d59faa8b-3ff2-4a1d-a992-1e821ab75ddd)
+![Screenshot_20240621-163448_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f6fb2e68-cb28-4fbc-951f-9f17870cbba7)
+![Screenshot_20240621-163520_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e63a4286-5ec8-4c2c-8b93-39585cf023e8)
+![Screenshot_20240621-163534_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3f439318-c9f7-4d10-bbe6-57a5f1485d43)
+![Screenshot_20240621-163550_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b0f97386-7e8e-4993-9144-9a166e52991a)
+![Screenshot_20240621-163557_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/58912120-bf83-4b33-b7e0-011f138c998f)
+![Screenshot_20240621-163604_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/df69d7e7-6361-4ef3-9b17-c1c580e029ba)
+![Screenshot_20240621-163614_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dda0f48b-9f6e-4f7b-a1b5-6d992aa10b5a)
+![Screenshot_20240621-163625_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e0ca0ef4-de49-4c04-b327-f2e4c004884e)
+![Screenshot_20240621-163649_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/41a3ca05-e3f7-4d9e-834b-3208d40735b6)
+![Screenshot_20240621-163654_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/30ab974b-df1d-481c-b442-e13480bc11e8)
+![Screenshot_20240621-163700_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/770991e2-0656-4c42-ba08-5722f7f646f7)
+![Screenshot_20240621-163712_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/685600f6-b070-4ef8-8642-0e8e8b90dbc4)
+![Screenshot_20240621-163722_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/22a8fe29-08b7-4c65-b5c2-61e27edf1a14)
+![Screenshot_20240621-163732_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1bd535a5-1d20-4bb5-8ecc-dc5171f4beb0)
+![Screenshot_20240621-163745_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/abc1ceab-4a63-4a99-9f6e-866a77aa1b8e)
+![Screenshot_20240621-163852_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/17d11666-18b7-4403-bcd3-627daff35d53)
+![Screenshot_20240621-163922_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8526b04c-85ca-4197-91c6-0379c13df6bd)
