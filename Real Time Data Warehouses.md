@@ -2,7 +2,7 @@
 
 ***RT OLAP***
 
-## Rockset
+## RocksDB / Rockset
 
 - Rockset replicates AWS DynamoDB tables https://www.youtube.com/watch?v=JGIzdFHZVXs
 	- Rockset search and analytics DB https://www.youtube.com/watch?v=xGaUJTHuehQ
@@ -63,7 +63,7 @@
 
 ## Tiny Bird + Snowflake
 
-## Pinot
+## Pinot / StarTree
 
 - Apache Pinot / StarTree https://www.youtube.com/watch?v=F8Q_pGIH9yY
 ![Screenshot_20240621-154808_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9f6455ba-3cc2-43e7-83b1-2df50b8cd8fb)
@@ -102,7 +102,7 @@
 ![Screenshot_20240621-160455_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3c095ba3-3f58-41ea-be16-7148f12bb4db)
 ![Screenshot_20240621-160515_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/43c9df67-a599-414b-ba12-9abb48ed3be0)
 
-## Druid
+## Druid / Imply
 
 - Druid older technology trying to modernize https://www.youtube.com/watch?v=4qP_z8n8in0
 ![Screenshot_20240620-171956_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/71cf93e8-739b-4174-95bc-dced43b3a9d7)
