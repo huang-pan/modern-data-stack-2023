@@ -62,3 +62,10 @@
 ## Materialize
 
 ## Tiny Bird + Snowflake
+
+## Druid
+
+- Druid older technology https://www.youtube.com/watch?v=4qP_z8n8in0
+![Screenshot_20240620-171956_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/71cf93e8-739b-4174-95bc-dced43b3a9d7)
+![Screenshot_20240620-171959_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/96560803-433d-4ae7-b84b-79fc60e629fa)
+
