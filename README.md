@@ -7,12 +7,12 @@ I updated / refreshed my data engineering skill set in 2023. This consisted of t
 1. Research all the up to date tools in the [Modern Data Stack in 2023](https://medium.com/@huangpan/modern-data-stack-2023-ab3364b9281d)
 
 2. Take courses to refresh / update my data engineering skills:
-	- [DBT / Data Warehousing](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy%20Data%20Warehouse%2C%20DBT.md)
+	- [DBT / Data Warehousing](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Data%20Warehouse%2C%20DBT.md)
 	- [Spark](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Databricks%2C%20Spark.md) / [Databricks Data and AI Summit 2023](https://www.youtube.com/watch?v=PIFL7W3DmaY&list=PLTPXxbhUt-YW6v14Vs3sTx6cyK5URKKgO)
-	- [Kafka / KSQL](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy%20Kafka%2C%20KSQL.md)
-	- [FastAPI](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy%20FastAPI.md)
-	- [AWS Data Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy%20AWS%20Data%20Engineer.md)
-	- [AWS Machine Learning Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy%20AWS%20ML%20Engineer.md)
+	- [Kafka / KSQL](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Kafka%2C%20KSQL.md)
+	- [FastAPI](https://github.com/huang-pan/modern-data-stack-2023/blob/main/FastAPI.md)
+	- [AWS Data Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/AWS%20Data%20Engineer.md)
+	- [AWS Machine Learning Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/AWS%20ML%20Engineer.md)
 	- [GCP Data Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP%20Data%20Engineer.md)
 	- [GCP Machine Learning Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/GCP%20Machine%20Learning%20Engineer.md)
 	- [Azure Databricks Data / ML Engineer](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure%20Data%2C%20ML%20Engineer.md)
@@ -26,7 +26,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Summary
 - This is a refresher course on data modeling in the data warehouse with the DBT framework.
 	- Some notes on: query optimization framework
-- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy%20Data%20Warehouse%2C%20DBT.md)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Data%20Warehouse%2C%20DBT.md)
 - Github repo: https://github.com/huang-pan/complete-dbt-bootcamp-zero-to-hero
 #### Certificates of Completion
 - Udemy DBT completed [May 20, 2023](https://www.udemy.com/certificate/UC-de00a2d0-a8a1-4319-8101-bbea3cb3cc5b/)
@@ -53,7 +53,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 - I learned how Kafka works and how to build streaming analytics solutions with Kafka and KSQL.
 - After you learn Kafka, all the streaming analytics technologies on AWS (Kinesis), Azure (Event Hubs / Stream Analytics), and GCP (Pub/Sub / Dataflow) are similar.
 - I also do a comparison of streaming technologies (Kafka, Flink, Spark Streaming, etc.)
-- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy%20Kafka%2C%20KSQL.md)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Kafka%2C%20KSQL.md)
 #### Certificates of Completion
 - Udemy Kafka completed [May 26, 2023](https://www.udemy.com/certificate/UC-82d2aa28-046b-4b71-afe2-8f6e593d490a/)
 - Udemy KSQL completed [May 26, 2023](https://www.udemy.com/certificate/UC-510b1e24-cc7f-40a8-bb30-a96b6acf8d31/)
@@ -64,7 +64,7 @@ The courses above are all up to date for 2023. I took the courses above just to 
 #### Summary
 - This course is useful if I need to build a basic REST API with Python to serve up data. I learned about the basics of API development using FastAPI: CRUD operations, routes, models, schemas, database connections, etc.
 - I focused on the back end related portions of this course and skipped all the front end sections.
-- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy%20FastAPI.md)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/FastAPI.md)
 #### Certificates of Completion
 - Udemy FastAPI completed [May 20, 2023](https://www.udemy.com/certificate/UC-f91bde24-2803-4e24-beba-7e2f3963c9d6/)
 
@@ -83,7 +83,7 @@ This course is a top level overview of all the AWS services related to data engi
 - Quicksight
 - MWAA (Managed Workflows for Apache Airflow)
 - EKS (Elastic Kubernetes Service)
-- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy%20AWS%20Data%20Engineer.md)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/AWS%20Data%20Engineer.md)
 #### Certificates of Completion
 - Udemy AWS Data Engineer completed [June 1, 2023](https://www.udemy.com/certificate/UC-634381db-3681-4d2e-8525-98205f7ac624/)
 
@@ -92,7 +92,7 @@ This course is a top level overview of all the AWS services related to data engi
 - [Udemy Amazon Web Services ML Engineer](https://www.udemy.com/course/aws-machine-learning)
 #### Summary
 - This course is a top level overview of all the AWS services related to machine learning. I mainly focused on the AWS Sagemaker Studio (ML development environment) sections of this course - the parts relevant to MLOps. Honestly, the machine learning development environments of AWS (Sagemaker), Azure (Machine Learning), and GCP (Vertex AI) are all similar.
-- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Udemy%20AWS%20ML%20Engineer.md)
+- [Course Notes](https://github.com/huang-pan/modern-data-stack-2023/blob/main/AWS%20ML%20Engineer.md)
 #### Certificates of Completion
 - Udemy AWS ML Engineer completed [June 3, 2023](https://www.udemy.com/certificate/UC-9115613e-cdc4-4ef8-836b-3198f5765b5f/)
 
