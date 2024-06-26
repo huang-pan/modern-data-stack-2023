@@ -14,6 +14,22 @@
     - https://www.onehouse.ai/blog/apache-hudi-vs-delta-lake-vs-apache-iceberg-lakehouse-feature-comparison
     - https://iomete.com/blog/apache-iceberg-delta-lake
     - Open Lakehouse Architecture: https://www.linkedin.com/posts/alexmerced_cloud-based-open-lakehouse-architecture-activity-7107740230387912705-fAlb/ 
+- Iceberg vs. Hudi vs. Delta Lake https://www.youtube.com/watch?v=rQ_jNoDr3KE
+![Screenshot_20240621-164745_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d4f67a85-d544-41fe-9843-662bdd8c79f6)
+![Screenshot_20240621-164751_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c2544cc5-5d83-40e2-b2ee-4d3cd1062c68)
+![Screenshot_20240621-164757_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dff53663-ef6c-4a8f-8b54-fd4ab1c70f8a)
+![Screenshot_20240621-164802_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d51eed58-0d42-43f6-9fe7-17d594aea31d)
+![Screenshot_20240621-164806_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e0f00219-96f8-4d8b-8ad4-4a9a1bf94c53)
+![Screenshot_20240621-164816_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/abcd71e2-984f-4839-bb3f-05ec63205c33)
+![Screenshot_20240621-164826_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2a8c2890-2a8a-4cbc-a22b-3d71316c1d59)
+![Screenshot_20240621-164829_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5b666df3-3e50-4b62-99f5-be8976b25125)
+![Screenshot_20240621-164832_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f11be0bd-61aa-4005-a4b7-edc63771d623)
+![Screenshot_20240621-164836_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a16768ce-2c1a-4e3e-962b-78fe01ca5056)
+![Screenshot_20240621-164839_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a949494f-7c69-4438-9059-5d361d53369b)
+![Screenshot_20240621-164842_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f0cbe3f7-8721-4ad7-ab80-dc86ed9af994)
+![Screenshot_20240621-164859_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cc01a364-835a-4b8b-ac3d-605979aba496)
+![Screenshot_20240621-164909_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/93e58a8e-6b52-4303-be82-3f5ecf3c55be)
+![Screenshot_20240621-164914_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/efda7d91-3958-4b92-b937-842d9ceff205)
 
 ## Arrow
 
