@@ -106,7 +106,6 @@ Notes
 				- since the input addresses own the output prior to the transaction being mined, we label them as senders.  
 				- similarly since the output addresses receive the output after the transaction is mined we label them as receivers. this helpful when unifying utxo blockchains with account based blockchains (paper) https://eprint.iacr.org/2018/262.pdf
 			- in bigquery-public-data.crypto_bitcoin.transactions , transaction table represents arrows between transaction blocks
-				- 
 	- https://cloud.google.com/blog/products/gcp/bitcoin-in-bigquery-blockchain-analytics-on-public-data
 		- dataset updates every 10 minutes.
 		- biqquery UNNEST https://cloud.google.com/bigquery/docs/reference/standard-sql/arrays
