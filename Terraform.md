@@ -2,6 +2,9 @@
 
 ## Terraform
 
+- Terraform, Vault, and Packer https://www.youtube.com/watch?v=tckVYA9_Wwg
+	- Vault: store secrets
+	- Packer: package up virtual machine images
 - ****Terraform + dbt Cloud, Fivetran, etc****
 	- https://youtube.com/watch?v=vkQsGLhqF6I&si=1oOeiFz-m5yneqTf
 	- https://www.youtube.com/watch?v=OHzZ7KuioMA
