@@ -87,7 +87,8 @@ https://betterprogramming.pub/start-your-stream-processing-journey-with-just-4-l
 
 - https://rmoff.net/2023/09/29/learning-apache-flink-s01e01-where-do-i-start/
 	- Decodable: managed Flink
-	- DeltaStream : managed Flink
+	- DeltaStream : serverless Flink https://www.youtube.com/watch?v=tuMp-zIBFyg
+![Screenshot_20240620-154503_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d6533311-8094-43e1-99af-530d175dc8bd)
 - Flink + Kafka https://www.youtube.com/watch?v=EsndjcspRA8
 - Flink tech details https://www.youtube.com/watch?v=vZFpPMwQ1po
 	- Flink older tech
