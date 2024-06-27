@@ -4,6 +4,8 @@
 
 - Apache XTable: Interoperability with Hudi, Iceberg, and Delta Tables https://www.youtube.com/watch?v=8IukpmyGDB8
 	- works with Spark, AWS glue catalog
+- Delta Lake Uniform: Databricks bought out Tabular (Iceberg) in 2024, unifying Delta Tables, Iceberg, Hudi
+![Screenshot_20240618-103517_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2616d198-3abf-47f3-90d1-69ee570c66a0)
 - Data Lake Table formats: https://youtube.com/live/mXitwotQaAU?feature=share
 	- https://tabular.io/guides/
     - Apache Iceberg: most comprehensive format, supports table / catalog versioning that the other formats don't, but isn't as good for stream processing
