@@ -55,7 +55,7 @@
   	- ³ Compression can be disabled in Parquet.
   	- ⁴ Arrow does support dictionary encoding.
 
-## Delta Tables
+## Delta Tables / Databricks
 
 - Delta Live Tables https://docs.databricks.com/en/delta-live-tables/tutorial-sql.html 
 	- Delta Live streaming tables, delta live tables (batch, aggregation)
@@ -69,7 +69,7 @@
 
 ## Apache Hudi
 
-## Apache Iceberg
+## Apache Iceberg / Tabular
 
 - Also see Apache Iceberg: https://www.linkedin.com/posts/sesha-reddy-pattem-543aa311b_apacheiceberg-datamanagementbrilliance-metadatamastery-activity-7100064046502027266-FsDs/
 	- Iceberg 101: https://tabular.io/guides-and-papers/
