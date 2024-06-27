@@ -83,6 +83,8 @@
 	- 📆 Snapshot Maintenance: Iceberg’s snapshot expiration feature ensures that old data versions are pruned over time, optimizing storage usage while maintaining historical integrity.
 	- partition evolution, table versioning, catalog versioning
 - Polars is a pandas replacement: https://www.confessionsofadataguy.com/replacing-pandas-with-polars-a-practical-guide/
+- Vendors supporting Iceberg https://iceberg.apache.org/vendors/
+	- CelerData, ClickHouse, Cloudera, Dremio, Iomete, ****PuppyGraph****, Snowflake, Starburst, Tabular, ****Upsolver****
 - Apache Iceberg Overview (Jan 2024 Edition) - Architecture, Ecosystem, and more! https://www.youtube.com/watch?v=stJLaIZRcJs
 ![Screenshot_20240621-165232_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/07200201-636e-4d52-879d-08f8ea163618)
 ![Screenshot_20240621-165238_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/76411304-0823-48af-ad34-0b05a90a1363)
