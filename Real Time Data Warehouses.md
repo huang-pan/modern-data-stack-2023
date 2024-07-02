@@ -103,7 +103,9 @@
 
 ## ClickHouse
 
-- ClickHouse https://www.youtube.com/watch?v=HRh5setqGCU https://www.youtube.com/watch?v=cwJsjHDLE8I
+- ClickHouse
+	- https://www.youtube.com/watch?v=HRh5setqGCU
+ 	- https://www.youtube.com/watch?v=cwJsjHDLE8I
 	- RT data warehouse
 		- internet scale event data, very fast aggregations, very resource efficient, less expensive
 		- low latency 100 ms, high concurrency
