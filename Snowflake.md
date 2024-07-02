@@ -153,3 +153,15 @@
 ![Screenshot_20240701-172705_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a1e5739b-43b6-43a0-8928-6e0e6f3ae64d)
 ![Screenshot_20240701-172717_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/91b4ec12-f95a-4d28-92a7-a6d3533c543e)
 
+## LLMs in Snowflake
+
+- Snowflake Arctic https://www.youtube.com/watch?v=kelxJkXE3bo
+![Screenshot_20240701-171922_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/80424f75-600c-4d16-8c5e-50cb6eda2d35)
+![Screenshot_20240701-171929_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c45a1076-6d35-4218-b634-572de778f114)
+![Screenshot_20240701-171936_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b2a79752-7425-44f4-aab6-69e1dc155fa2)
+![Screenshot_20240701-171945_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/37dd501d-7be4-42f3-8fe2-aba7fb43b8c3)
+![Screenshot_20240701-171949_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c44737bc-95ee-43f4-a55b-c40ef445553f)
+![Screenshot_20240701-172023_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2889f87b-2faa-445b-8cfb-4699d77df287)
+![Screenshot_20240701-172026_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/77b22e52-bd4c-483d-b192-03e2d8df5bb3)
+![Screenshot_20240701-172033_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d07b6c30-18bb-48dd-a8b0-abd1834917ff)
+
