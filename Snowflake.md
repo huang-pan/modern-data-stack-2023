@@ -155,7 +155,7 @@
 
 ## LLMs in Snowflake
 
-- Snowflake Arctic https://www.youtube.com/watch?v=kelxJkXE3bo
+- Snowflake Arctic LLM Foundational Model https://www.youtube.com/watch?v=kelxJkXE3bo
 ![Screenshot_20240701-171922_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/80424f75-600c-4d16-8c5e-50cb6eda2d35)
 ![Screenshot_20240701-171929_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c45a1076-6d35-4218-b634-572de778f114)
 ![Screenshot_20240701-171936_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b2a79752-7425-44f4-aab6-69e1dc155fa2)
@@ -164,4 +164,13 @@
 ![Screenshot_20240701-172023_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2889f87b-2faa-445b-8cfb-4699d77df287)
 ![Screenshot_20240701-172026_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/77b22e52-bd4c-483d-b192-03e2d8df5bb3)
 ![Screenshot_20240701-172033_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d07b6c30-18bb-48dd-a8b0-abd1834917ff)
-
+- RAG model in Snowflake https://www.youtube.com/watch?v=EClEf0S8zmk
+![Screenshot_20240701-171316_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f8325140-c1da-4cbb-92ad-92c3a2dab28f)
+![Screenshot_20240701-171342_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5dfa7ca5-5519-4961-aec5-7a50f774345f)
+![Screenshot_20240701-171347_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4dc5d36f-6a8b-4ecc-8e3e-313fb9e8b2ec)
+![Screenshot_20240701-171350_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e1c99616-61dc-4553-870f-442bf0b2cf8b)
+![Screenshot_20240701-171403_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/60c49163-d91f-4ebf-aa80-f5d097667bbf)
+![Screenshot_20240701-171406_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a742a4b2-d0f4-46a9-8f75-140c3c2fbf44)
+![Screenshot_20240701-171410_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c9a7bf5b-d556-45e1-a3b2-d9c7d0ade7e2)
+![Screenshot_20240701-171418_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0b37e551-951f-4e9d-8f7d-eb951c41631d)
+![Screenshot_20240701-171434_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dc98c9bb-2262-472e-88c5-ab27c3912173)
