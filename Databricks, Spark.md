@@ -38,6 +38,14 @@
 					- redo partition, z order
 				- spark 3+: Adaptive Query Execution: monitors ANALYZE TABLE statistics, changes query plan during runtime
 				- add salt to skewed columns
+    					- https://www.youtube.com/watch?v=ufaQGQGeK3k
+					- https://www.youtube.com/watch?v=zRtJ7dZ5eP4
+![Screenshot_20240701-174055_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8363f8eb-6eaf-4ee7-ab6f-7db1cb424fad)
+![Screenshot_20240701-174104_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/bf43172d-9004-4bce-b6bc-e6c5e0f3f264)
+![Screenshot_20240701-174113_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b9e8b88b-fd35-4751-926d-08cc3631113c)
+![Screenshot_20240701-174128_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d084efa7-b558-41e1-835f-36b5205e9d6b)
+![Screenshot_20240701-174149_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9fc9fdb0-580f-4813-b32f-7cc1ba03a54e)
+![Screenshot_20240701-174222_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b76954ba-a4b6-433c-9b47-1ba350295f6a)
 			- cluster instance types:
 				- memory: for lots of shuffles during execution
 				- compute: structured streaming
