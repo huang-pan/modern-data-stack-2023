@@ -88,7 +88,8 @@
 - Vendors supporting Iceberg https://iceberg.apache.org/vendors/
 	- CelerData, ClickHouse, Cloudera, Dremio, Iomete, ****PuppyGraph****, Snowflake, Starburst, Tabular, ****Upsolver****
 
-### Apache Iceberg Overview (Jan 2024 Edition) - Architecture, Ecosystem, and more! https://www.youtube.com/watch?v=stJLaIZRcJs
+### Apache Iceberg Overview (Jan 2024 Edition) - Architecture, Ecosystem, and more!
+- https://www.youtube.com/watch?v=stJLaIZRcJs
 ![Screenshot_20240621-165232_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/07200201-636e-4d52-879d-08f8ea163618)
 ![Screenshot_20240621-165238_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/76411304-0823-48af-ad34-0b05a90a1363)
 ![Screenshot_20240621-165241_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/98a7d94e-6071-427b-accb-cb54507e34e9)
@@ -121,3 +122,14 @@
 ![Screenshot_20240621-170005_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cc9b1d33-76a3-449e-b2fb-1894d05261fc)
 
 ### Iceberg table optimizations
+- https://www.youtube.com/live/rLs4bjtXSrg
+![Screenshot_20240701-164726_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0d223a7d-d15b-40db-a7d6-116cc28090f1)
+![Screenshot_20240701-164729_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/93796673-08da-4607-9d07-e1f640487a43)
+![Screenshot_20240701-164750_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c37aaafd-b9bd-4b1e-88b6-cf1300a8e673)
+![Screenshot_20240701-164756_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/46fd4827-911a-4b64-b5ea-1ceb9150db8a)
+![Screenshot_20240701-164805_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1a204a28-f496-470f-9160-649554c28d56)
+![Screenshot_20240701-164938_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1bee0e68-654d-47df-ab13-a08654c15c3f)
+![Screenshot_20240701-164944_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3ea7bdfc-92b3-4595-a28a-e7bb733afa9f)
+![Screenshot_20240701-164948_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/78deac82-c20f-43ad-a537-b6559e8982bb)
+![Screenshot_20240701-164951_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/18d1dbef-719c-4aa6-a349-7b8157e0fd82)
+![Screenshot_20240701-165001_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/23d4a2bb-d4eb-4bbd-9024-5091c742d3a5)
