@@ -21,3 +21,8 @@
 ![Screenshot_20240701-164331_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9e88e36e-0613-4cf7-9d1a-5b4442bb6a88)
 ![Screenshot_20240701-164342_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/093f21a1-a03c-464a-96c3-d10ce640c88c)
 ![Screenshot_20240701-164348_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c5949376-251e-43a2-abcc-ce02de782adc)
+
+## Data Version Control
+
+- https://www.youtube.com/watch?v=NMcKkIEvpHA
+![Screenshot_20240701-192020_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/21d92f66-530e-43d5-81b7-a9e343eff0ef)
