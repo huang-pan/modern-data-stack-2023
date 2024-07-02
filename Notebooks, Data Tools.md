@@ -9,6 +9,11 @@
 - Noteable
     - [https://www.linkedin.com/company/noteable\-io/people/](https://www.linkedin.com/company/noteable-io/people/) 27 people
 
+## Data Version Control
+
+- https://www.youtube.com/watch?v=NMcKkIEvpHA
+![Screenshot_20240701-192020_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/21d92f66-530e-43d5-81b7-a9e343eff0ef)
+
 ## Latest Data Tools
 
 - Cool channel doing demos of the latest data tools: [https://www.youtube.com/@demohub/videos](https://www.youtube.com/@demohub/videos)
