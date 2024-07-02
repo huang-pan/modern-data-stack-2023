@@ -1,4 +1,6 @@
-# Udemy FastAPI
+# FastAPI
+
+## Udemy FastAPI course
 
 [https://www.udemy.com/course/completefastapi/](https://www.udemy.com/course/completefastapi/)
 
@@ -377,7 +379,24 @@
             - redis streams: use to communicate between two microservices as a background task
                 - save info to redis, accessible by both microservices
 
-# API Testing
+## FastAPI ecosystem libraries
+
+- https://www.youtube.com/watch?v=07QqFYILP4w
+![Screenshot_20240701-173101_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/662df27d-a2c0-4442-946c-2c1fdbf24380)
+![Screenshot_20240701-173206_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5127598b-c6fc-4ee7-98ac-4d7860b03182)
+![Screenshot_20240701-173343_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/17ffd4f9-455d-45a2-9668-00ed18f1c2fe)
+![Screenshot_20240701-173442_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/bbd5058f-14ca-46d8-b048-ac1ba0e818fb)
+![Screenshot_20240701-173508_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b11bb197-7ae6-40fe-b386-0f504adee598)
+![Screenshot_20240701-173516_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6de641c3-8c7b-4e1f-bb16-71e7f8ca1143)
+![Screenshot_20240701-173543_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/326c9707-f1f7-4c30-b9cf-4819ad1e1fb1)
+![Screenshot_20240701-173555_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5f81f517-f250-47bf-8bd3-d3dca8baec07)
+![Screenshot_20240701-173634_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/43943605-0444-43b5-acb3-1e20d9710652)
+![Screenshot_20240701-173721_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2111d55c-b911-45bf-803f-c75d106f4ab9)
+![Screenshot_20240701-173729_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a0885845-b493-4f4c-b084-4db19c68e13f)
+![Screenshot_20240701-173748_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9ae14c18-d964-4b12-b1fe-ab8ddf840613)
+![Screenshot_20240701-173833_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/54dbf9e4-5f91-4a93-8a21-8f71c435b670)
+
+## API Testing
 ![apitesting](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/33cbb4f9-64ab-4fea-b154-f0baa84b012a)
 - Smoke Testing: This is done after API development is complete. Simply validate if the APIs are working and nothing breaks.
 - Functional Testing: This creates a test plan based on the functional requirements and compares the results with the expected results.
@@ -389,7 +408,7 @@
 - UI Testing: This tests the UI interactions with the APIs to make sure the data can be displayed properly.
 - Fuzz Testing: This injects invalid or unexpected input data into the API and tries to crash the API. In this way, it identifies the API vulnerabilities.
 
-# Top 7 Ways to 10x Your API Performance
+## Top 7 Ways to 10x Your API Performance
 - https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7144366633526988800-4cGQ/
 	- Result Pagination: This method is used to optimize large result sets by streaming them back to the client, enhancing service responsiveness and user experience.
  	- Asynchronous Logging: This approach involves sending logs to a lock-free buffer and returning immediately, rather than dealing with the disk on every call. Logs are periodically flushed to the disk, significantly reducing I/O overhead.
