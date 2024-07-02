@@ -87,7 +87,8 @@
 - Polars is a pandas replacement: https://www.confessionsofadataguy.com/replacing-pandas-with-polars-a-practical-guide/
 - Vendors supporting Iceberg https://iceberg.apache.org/vendors/
 	- CelerData, ClickHouse, Cloudera, Dremio, Iomete, ****PuppyGraph****, Snowflake, Starburst, Tabular, ****Upsolver****
-- Apache Iceberg Overview (Jan 2024 Edition) - Architecture, Ecosystem, and more! https://www.youtube.com/watch?v=stJLaIZRcJs
+
+### Apache Iceberg Overview (Jan 2024 Edition) - Architecture, Ecosystem, and more! https://www.youtube.com/watch?v=stJLaIZRcJs
 ![Screenshot_20240621-165232_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/07200201-636e-4d52-879d-08f8ea163618)
 ![Screenshot_20240621-165238_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/76411304-0823-48af-ad34-0b05a90a1363)
 ![Screenshot_20240621-165241_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/98a7d94e-6071-427b-accb-cb54507e34e9)
@@ -118,3 +119,5 @@
 ![Screenshot_20240621-165836_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/86fa5220-0383-49a3-ad48-a196477d7847)
 ![Screenshot_20240621-165839_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ef44fb48-ab49-425e-b437-a0c6d36d0784)
 ![Screenshot_20240621-170005_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cc9b1d33-76a3-449e-b2fb-1894d05261fc)
+
+### Iceberg table optimizations
