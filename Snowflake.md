@@ -128,3 +128,5 @@
 	- ****Snowflake ML has a model registry and feature store****
 - Snowflake 2024
 	- [Snowflake 2024.pdf](https://github.com/user-attachments/files/15842303/Snowflake.2024.pdf)
+- Snowflake Connector for Kafka
+	- https://www.youtube.com/watch?v=ufUj5yP_tEQ
