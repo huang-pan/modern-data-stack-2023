@@ -165,6 +165,7 @@
 ![Screenshot_20240701-172026_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/77b22e52-bd4c-483d-b192-03e2d8df5bb3)
 ![Screenshot_20240701-172033_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d07b6c30-18bb-48dd-a8b0-abd1834917ff)
 - RAG model in Snowflake https://www.youtube.com/watch?v=EClEf0S8zmk
+	- ****Skyflow manages PII in Snowflake****
 ![Screenshot_20240701-171316_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f8325140-c1da-4cbb-92ad-92c3a2dab28f)
 ![Screenshot_20240701-171342_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5dfa7ca5-5519-4961-aec5-7a50f774345f)
 ![Screenshot_20240701-171347_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4dc5d36f-6a8b-4ecc-8e3e-313fb9e8b2ec)
