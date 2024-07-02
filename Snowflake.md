@@ -124,9 +124,32 @@
 	- https://youtube.com/live/IOuXREaJj5Q?si=cwJJ3RqIbxqUHBDK
  	- tinybird kafka ingest  https://www.youtube.com/watch?v=ia_BN9AU-do
 - data.world Snowflake native Data Catalog https://youtu.be/LcOel1im0tI?si=4KFtHDJBVh8KY4bz
-- https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
-	- ****Snowflake ML has a model registry and feature store****
 - Snowflake 2024
 	- [Snowflake 2024.pdf](https://github.com/user-attachments/files/15842303/Snowflake.2024.pdf)
 - Snowflake Connector for Kafka
 	- https://www.youtube.com/watch?v=ufUj5yP_tEQ
+
+## MLOps in Snowflake
+
+- https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
+	- ****Snowflake ML has a model registry and feature store****
+	- https://www.youtube.com/watch?v=hsnA8CiZNyY
+![Screenshot_20240701-172316_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/55a635c1-68d7-466c-a265-df9007254b3a)
+![Screenshot_20240701-172327_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3825ecae-5a5c-4da3-8ed7-59ef6e0f5810)
+![Screenshot_20240701-172335_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/59e3b9e6-be76-41bb-ae55-a3f165dca2a2)
+![Screenshot_20240701-172343_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/416b1e21-50f9-4289-8b0e-f507c623dab5)
+![Screenshot_20240701-172404_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/07f099dd-e8b8-4923-9c1e-91512c6535ac)
+![Screenshot_20240701-172425_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a5212f48-3c59-426b-a246-38b160a8b9e8)
+![Screenshot_20240701-172427_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/97cce32a-2d7b-4f6c-b6af-a15621be1343)
+![Screenshot_20240701-172504_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d1bd14a9-8b95-4ee6-9c6d-2acf2788dd86)
+![Screenshot_20240701-172515_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6bbe1c22-9241-48ec-836e-883fee7bd581)
+![Screenshot_20240701-172520_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cfafcaf1-b8c3-47bc-a548-0be3809dc433)
+![Screenshot_20240701-172530_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9c0d8d3e-e1ad-4f7a-9add-bb5bfb712519)
+![Screenshot_20240701-172535_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c85e4280-e128-4253-8d85-5c64aa0b456b)
+![Screenshot_20240701-172544_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8e8461cd-308e-40c3-8cbd-3535bc06cca4)
+![Screenshot_20240701-172606_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/08d1f54f-5da7-468a-bb32-fb6ff1cc80ec)
+![Screenshot_20240701-172647_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e1d60062-becd-431d-adca-f45299d96d51)
+![Screenshot_20240701-172655_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b60b7843-6c27-4069-bd2d-9c506275f4dd)
+![Screenshot_20240701-172705_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a1e5739b-43b6-43a0-8928-6e0e6f3ae64d)
+![Screenshot_20240701-172717_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/91b4ec12-f95a-4d28-92a7-a6d3533c543e)
+
