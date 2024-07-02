@@ -4,7 +4,8 @@
 
 ## Decodable
 
-- https://www.decodable.co/ Managed alternative to Flink, connects to Kafka, etc, does streaming ETL
+- https://www.decodable.co/
+	- Managed alternative to Flink, connects to Kafka, etc, does streaming ETL
 	- example connect to coinbase API https://www.youtube.com/live/77l0bzWlYPM
 - Snowplow
 	- Customer data augmentation in real time (structured behavioral data)
