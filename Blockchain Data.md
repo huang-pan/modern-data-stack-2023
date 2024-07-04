@@ -1,30 +1,88 @@
 # Blockchain Data
 
-SubQuery
+## Real Time blockchain data
+
+- https://www.meetup.com/streaming-stories/events/297191788
+- https://www.youtube.com/watch?v=LftHdHUVk6s 
+- Rising Wave, built on rust
+	- Yingjun Wu, Founder and CEO
+	- 
+- Goldsky https://goldsky.com/
+	- Yaroslav Tkachenko
+	- crypto data, live streamed
+	- flink, red panda, clickhouse
+	- used by OP labs
+- alchemy https://www.alchemy.com/ 
+	- Odin Wang
+	- web3 infrastructure
+	- read / write to iceberg using flink
+	- watch for node version upgrades for data quality
+	- crypto node providers keep costs low: 1 GB ethernet
+- superchain network https://www.superchain.network/ 
+	- James Corbett
+	- RT blockchain data, decentralized
+	- for on chain analytics, trading systems
+	- < 10 ms
+	- buiding decentralized streaming system
+	- connet output to kafka for customers
+	- SQL interface, not streaming
+	- data fusion, polars, arrow, not streaming
+	- rising wave: streaming SQL
+	- 
+- RT data
+	- < 10 seconds
+	- not trading, IoT
+	- block created every 12 seconds
+	- spark not the best for streaming
+	- stateful streaming hard to manage / do
+		- long running system
+		- how to do watermarks with blokchain data? use block number
+			- flink: watermark is timestamp
+	- batch job failure
+		- recovery takes some time
+	- stream job failure
+		- recovery is faster
+	- dynamic scaling
+		- flink dynamic scaling not that great
+	- bull run spiky workloads, Binance smart chain high TPS stopped
+	- spark, flink, kafka can absorb spiky blockchain traffic
+- red panda vs apache kafka
+	- red panda c++, uses kakfa api protocol, everything works combatibility, cheaper than kafka
+	- flink
+	- cloud offering better for smaller teams
+- flink
+	- best features overall
+	- java streaming apps
+- RT OLAP
+	- microbatching
+	- mostly SQL based
+	- 
+
+### SubQuery
 
 - Open source blockchain indexer https://www.youtube.com/watch?v=7YGR6pBJ0wI 
 ![thumbnail (1)](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/56d66a50-a1aa-495d-997e-673d862d6fe5)
 
-HyperIndex / HyperSync
+### HyperIndex / HyperSync
 - Modern Blockchain Indexing: Syncing Millions Of Events In Seconds https://www.youtube.com/watch?v=ihXPtsLmbuY
 - ![Screenshot_20240611-172718_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8076d865-713a-4436-bd26-eefd15f9db7b)
 - ![Screenshot_20240611-172642_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/88b2b0de-1314-4f62-ad3d-05ef736a5e79)
 - ![Screenshot_20240611-172548_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1f61c013-6a1e-4f7b-a3b3-ac29a47932cc)
 - ![Screenshot_20240611-172445_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0d59d71d-4ffe-4faf-adfd-7f3018ea7b97)
 
-Decentralized Storage
+### Decentralized Storage
 - https://www.youtube.com/watch?v=S3wkcIP7mEk 2024
 - ![Screenshot_20240611-173226_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9596525e-aaae-4fd3-99b0-5182c532fe33)
 
-Decentralized Machine Learning
+### Decentralized Machine Learning
 - https://www.youtube.com/watch?v=SyAdBo6vRAA 2024 flock.io decentralized training
 - ![Screenshot_20240611-182845_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0a38d1eb-1b42-4ec5-a0b8-caa4058ffd96)
 
-Shadow
+### Shadow
 - https://blog.shadow.xyz/how-shadow-works/
 - Shadow unlocks custom onchain data that you can pull into your subgraph or database for enhanced indexing and analytics, with just a few lines of code.
 
-Notes
+## Notes
 - European DiD https://www.youtube.com/watch?v=ynNOCK61Lzw 
 - 
 - See blockchain university notes and lectures
