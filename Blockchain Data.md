@@ -3,7 +3,7 @@
 ## Real Time blockchain data
 
 - https://www.meetup.com/streaming-stories/events/297191788
-- https://www.youtube.com/watch?v=LftHdHUVk6s 
+- Crypto Fintech meets Real Time data https://www.youtube.com/watch?v=LftHdHUVk6s 
 - Rising Wave, built on rust
 	- Yingjun Wu, Founder and CEO
 	- 
