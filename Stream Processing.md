@@ -12,7 +12,8 @@
 ## Streaming system design
 - https://www.linkedin.com/posts/nagarajulu_systemdesign-probablisticdatastructures-performace-activity-7096705093797875712-E7bv/
     - filter out streaming inputs
-- Popular streaming technologies
+
+### Popular streaming technologies
 	- https://www.youtube.com/watch?v=2zEYG2p0TRo
 	- https://www.linkedin.com/pulse/spark-streaming-vs-flink-storm-kafka-streams-samza-choose-prakash
  	- https://blog.scottlogic.com/2018/07/06/comparing-streaming-frameworks-pt1.html
@@ -39,7 +40,8 @@
 		- column based: Parquet, ORC, Delta Live Tables, Iceberg
         - https://blog.det.life/choosing-the-right-big-data-file-format-avro-vs-parquet-vs-orc-c868ffbe5a4e
 	- https://streamingdata.substack.com/p/data-platforms-in-2030
-- Spark vs Flink
+
+### Spark vs Flink
 ![Screenshot_20230830-203252_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7ccebc36-fd78-4159-8de5-f8bc2f76890e)
 ![Screenshot_20230830-204839_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4d92304e-ac6f-495f-821a-629cfd45f379)
 ![Screenshot_20230830-203604_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/561c3812-8edb-4fe3-94c2-e1ba64d06b09)
@@ -82,6 +84,27 @@
 	- Flink join postgres and kafka topic too complicated, requires pairs programming analyst and data engineer
 <img width="1792" alt="Screenshot 2024-06-05 at 8 26 14 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/532bb0b1-6d56-4f98-8887-143e2cae951c">
 - Flink used a lot more in China https://www.youtube.com/watch?v=ZsWa6XiBc-U&t=3840s
+- Flink + Hudi https://www.youtube.com/watch?v=88Gwp_d4GB4
+![Screenshot_20240628-152600_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d7c225ea-a73e-44c9-a88d-08891879aa7b)
+![Screenshot_20240628-152650_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3de6303f-e44b-4592-9c81-75969537dfd1)
+![Screenshot_20240628-152706_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a15a909b-5710-4a53-9f58-b4cacf34b302)
+![Screenshot_20240628-152708_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/72ede854-e116-43b5-905d-4ed30f524a32)
+![Screenshot_20240628-152759_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3815a8ee-6ac6-405f-892f-b2d007144046)
+![Screenshot_20240628-152803_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ef2e4291-e28b-4d9a-9768-c4e35800ce8e)
+![Screenshot_20240628-153029_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7d924252-72e3-43b7-a8c9-ac5fb49195be)
+![Screenshot_20240628-153033_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7f8ffc56-eaaa-4705-833a-521d42d78463)
+![Screenshot_20240628-153054_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3d8cc05a-786a-4608-bde6-fee400c0eb6b)
+![Screenshot_20240628-153102_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/72d97eff-c745-4dd1-a0ee-b6ad87083871)
+![Screenshot_20240628-153106_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f386b1eb-7602-47ef-856c-856098e280ff)
+![Screenshot_20240628-153216_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a5ef4c6b-7cd5-4ee9-a0a8-be499892bda2)
+![Screenshot_20240628-153224_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d28bd0c2-0167-441e-8070-0b18056a6244)
+![Screenshot_20240628-153240_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/49e467eb-d034-4203-b790-65a4658391a3)
+![Screenshot_20240628-153415_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1f517070-03ba-46b1-9c69-820bc8024de1)
+![Screenshot_20240628-153425_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5f218102-2ba4-439b-9f19-2213402cdcc8)
+![Screenshot_20240628-153430_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9e28532f-fc47-4ae8-86dd-604e998d750a)
+![Screenshot_20240628-153450_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0daa886f-e738-4750-9d8a-efdd49adc559)
+![Screenshot_20240628-153456_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ee0aef13-9d44-4235-a8a9-ff8eb2548f93)
+![Screenshot_20240628-152722_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ce985d37-3374-4aaf-a998-7547c9d14a6a)
 
 ## Bytewax
 - Apache Beam
