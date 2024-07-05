@@ -94,6 +94,10 @@
 	- Performance tests: Assesses the resource utilization and scalability of the pipeline. This is crucial for high-volume data pipelines to meet the required SLAs.
 	- End-to-end tests: Test the data pipeline as a whole, from the source to the target or output. This could be categorized as “black box” testing because there is no need to know the internal structure of the pipeline, but only the expected output given the input.
  	- pytest (mock tests, fixtures), just like at Juvo
+- Eppo
+	- https://www.geteppo.com/
+	- End to end experimentation platform for A/B testing, integrates with MDS
+	- [Building a Modern Experimentation Stack (Eppo).pdf](https://github.com/user-attachments/files/15825712/Building.a.Modern.Experimentation.Stack.Eppo.pdf)
 
 ### MLOps in Enterprise (older, cludgy solution)
 https://www.youtube.com/watch?v=iENEd59Rrqs
@@ -134,10 +138,6 @@ https://www.youtube.com/watch?v=AdY7xyj7a28
 <img width="1792" alt="Screenshot 2024-06-04 at 11 28 22 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7aa72e3d-bcd2-46fe-ac16-662c3f6cf5a3">
 
 
-Eppo
-- https://www.geteppo.com/
-- End to end experimentation platform for A/B testing, integrates with MDS
-- [Building a Modern Experimentation Stack (Eppo).pdf](https://github.com/user-attachments/files/15825712/Building.a.Modern.Experimentation.Stack.Eppo.pdf)
 
 
 
