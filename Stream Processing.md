@@ -131,3 +131,14 @@
 ![Screenshot_20240621-164502_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a8124b78-3695-4b88-b40f-71009c8822a7)
 ![Screenshot_20240621-164514_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a493579a-6e6d-490c-8422-b5f2c77c2d37)
 ![Screenshot_20240621-164529_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2a355ced-39e3-4b7c-b812-78b853db3e51)
+
+## Quix
+- Quix python streaming dataframes https://www.youtube.com/live/cjhBCLRa48Q
+![Screenshot_20240628-165536_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d6673edc-0abf-4499-9296-e1350942db96)
+![Screenshot_20240628-165548_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/228aae5b-b049-42f4-bb57-c8d9cd3e995f)
+![Screenshot_20240628-165650_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2c041679-61dd-4fbb-82c9-1cf6d7fabf18)
+![Screenshot_20240628-165658_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ec5e3756-ad63-4ce8-8084-b237eed81413)
+![Screenshot_20240628-165807_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2b4627bd-38e1-4374-b687-fab2d775e5d1)
+![Screenshot_20240628-165910_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/92a0fb7b-9bbe-4c12-bd7b-8a12453ffde8)
+![Screenshot_20240628-165915_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8ed2172d-901f-40da-9086-fa4fde4b611d)
+![Screenshot_20240628-165928_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8633ebcb-77d0-4cbc-9cf4-78cff94c744f)
