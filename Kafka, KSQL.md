@@ -425,6 +425,7 @@
 
 ## Redpanda
 
+- lower cost than kafka, can bring up on laptop
 - Redpanda tech details https://www.youtube.com/watch?v=yi0c0o3tFfc
 	- Red panda easier better version of kafka, lower cost
 - https://www.youtube.com/watch?v=F7ozakgIGSs
@@ -432,6 +433,7 @@
 
 ## Pulsar
 
+- more scalable than Kafka
 - Apache Pulsar https://pulsar.apache.org/ More scalable than Kafka
 	- https://www.youtube.com/watch?v=-uwbMvJ_yro
 - Pulsar tech details https://www.youtube.com/watch?v=4OHUTJDlnag
