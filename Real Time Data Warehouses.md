@@ -1,5 +1,18 @@
 # Real Time Data Warehouses
 
+## RocksDB / Rockset
+- Rockset is dead 2024, bought buy OpenAI, not supporting services anymore
+- Rockset replicates AWS DynamoDB tables https://www.youtube.com/watch?v=JGIzdFHZVXs
+	- Rockset search and analytics DB https://www.youtube.com/watch?v=xGaUJTHuehQ
+ 	- Essentially makes a low latency copy of data source using 
+		- converged indicies: row based index, column based index, inverted (document) index
+- Rockset product overview https://www.youtube.com/watch?v=4nEQpISidw4
+![Screenshot_20240620-104355_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0baab291-2d40-4db4-9efc-8ed3b2820df8)
+- Rockset architecture https://www.youtube.com/watch?v=msW8nh5TTwQ
+![Screenshot_20240620-115528_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8cd2eb60-95ca-4e0d-950d-0bd92ec6f27d)
+![Screenshot_20240620-115550_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4cb73583-4b99-475a-9efe-c48a65875721)
+- Snowflake export to S3 import to Rockset https://www.youtube.com/watch?v=siAqYzlcEiU
+
 ## Pinot vs Druid vs ClickHouse
 - Real Time OLAP data warehouses by Pinot / StarTree https://www.youtube.com/watch?v=rJvDQSjmZCg
 	- only Pinot supports Delta Lake / Snowflake / BigQuery as a data source
@@ -48,6 +61,17 @@
 ![Screenshot_20240621-162709_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9fdccf86-b106-4dd8-8170-6f158ffda831)
 ![Screenshot_20240621-162715_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/216e52c7-67d6-4f87-bdc4-a27c4b01098d)
 ![Screenshot_20240621-162727_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8eeecc88-70d5-4602-98d6-3456ac8cf1bd)
+
+## Druid / Imply
+- Druid older technology trying to modernize https://www.youtube.com/watch?v=4qP_z8n8in0
+![Screenshot_20240620-171956_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/71cf93e8-739b-4174-95bc-dced43b3a9d7)
+![Screenshot_20240620-171959_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/96560803-433d-4ae7-b84b-79fc60e629fa)
+- Druid still behind? https://www.youtube.com/watch?v=wgJaB_PuHO4
+![Screenshot_20240620-172640_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f9fdf6f9-c52c-49ce-96ab-4e12d746a737)
+![Screenshot_20240620-172748_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b17ce331-2bf3-4410-8210-d42c5895fa17)
+![Screenshot_20240620-172802_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8e4202ff-0842-491b-b7ba-212ee5e06692)
+![Screenshot_20240620-172822_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dc153468-9aa2-4463-9ea2-7d148a60ac6e)
+![Screenshot_20240620-172828_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/591fac46-6e5f-477c-b9f3-5915dd4efa3b)
 
 ## Pinot / StarTree
 - Intro to Pinot https://www.youtube.com/live/AEuWx7yX6xw
@@ -123,17 +147,6 @@
 ![Screenshot_20240621-160455_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3c095ba3-3f58-41ea-be16-7148f12bb4db)
 ![Screenshot_20240621-160515_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/43c9df67-a599-414b-ba12-9abb48ed3be0)
 
-## Druid / Imply
-- Druid older technology trying to modernize https://www.youtube.com/watch?v=4qP_z8n8in0
-![Screenshot_20240620-171956_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/71cf93e8-739b-4174-95bc-dced43b3a9d7)
-![Screenshot_20240620-171959_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/96560803-433d-4ae7-b84b-79fc60e629fa)
-- Druid still behind? https://www.youtube.com/watch?v=wgJaB_PuHO4
-![Screenshot_20240620-172640_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f9fdf6f9-c52c-49ce-96ab-4e12d746a737)
-![Screenshot_20240620-172748_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b17ce331-2bf3-4410-8210-d42c5895fa17)
-![Screenshot_20240620-172802_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8e4202ff-0842-491b-b7ba-212ee5e06692)
-![Screenshot_20240620-172822_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dc153468-9aa2-4463-9ea2-7d148a60ac6e)
-![Screenshot_20240620-172828_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/591fac46-6e5f-477c-b9f3-5915dd4efa3b)
-
 ## ClickHouse
 - ClickHouse
 	- https://www.youtube.com/watch?v=HRh5setqGCU
@@ -166,19 +179,6 @@
 ![Screenshot_20240620-155504_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/00ea382d-1179-4e97-87ab-300d8a414740)
 ![Screenshot_20240620-155520_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a20840f0-5c45-4b3d-9e14-b124e968a4d4)
 ![Screenshot_20240620-155523_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/278a91f6-cb24-4a31-bee5-03cf48ccc975)
-
-## RocksDB / Rockset
-- Rockset is dead 2024, bought buy OpenAI, not supporting services anymore
-- Rockset replicates AWS DynamoDB tables https://www.youtube.com/watch?v=JGIzdFHZVXs
-	- Rockset search and analytics DB https://www.youtube.com/watch?v=xGaUJTHuehQ
- 	- Essentially makes a low latency copy of data source using 
-		- converged indicies: row based index, column based index, inverted (document) index
-- Rockset product overview https://www.youtube.com/watch?v=4nEQpISidw4
-![Screenshot_20240620-104355_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0baab291-2d40-4db4-9efc-8ed3b2820df8)
-- Rockset architecture https://www.youtube.com/watch?v=msW8nh5TTwQ
-![Screenshot_20240620-115528_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8cd2eb60-95ca-4e0d-950d-0bd92ec6f27d)
-![Screenshot_20240620-115550_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4cb73583-4b99-475a-9efe-c48a65875721)
-- Snowflake export to S3 import to Rockset https://www.youtube.com/watch?v=siAqYzlcEiU
 
 ## Firebolt
 - Firebolt is a modified ClickHouse https://www.youtube.com/watch?v=9rW9uEJ15tU
