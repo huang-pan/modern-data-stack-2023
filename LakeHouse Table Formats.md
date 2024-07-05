@@ -1,7 +1,6 @@
 # LakeHouse Table Formats
 
 ## Delta Lake Uniform: Iceberg, Delta Lake, Hudi
-
 - Apache XTable: Interoperability with Hudi, Iceberg, and Delta Tables https://www.youtube.com/watch?v=8IukpmyGDB8
 	- works with Spark, AWS glue catalog
 - Delta Lake Uniform: Databricks bought out Tabular (Iceberg) in 2024, unifying Delta Tables, Iceberg, Hudi
@@ -32,9 +31,9 @@
 ![Screenshot_20240621-164859_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cc01a364-835a-4b8b-ac3d-605979aba496)
 ![Screenshot_20240621-164909_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/93e58a8e-6b52-4303-be82-3f5ecf3c55be)
 ![Screenshot_20240621-164914_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/efda7d91-3958-4b92-b937-842d9ceff205)
+![Screenshot_20240703-183350_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8bf43bfe-6622-4d39-ab90-ffc64c4d3ca9)
 
 ## Arrow
-
 - https://www.linkedin.com/posts/jorritsandbrink_dataengineering-softwareengineering-activity-7210043267881549824-7dv-/
 	- Parquet and Arrow are complementary. Both can be considered "the standard" in their domain.
 		- Parquet is an on-disk format.
@@ -56,7 +55,7 @@
   	- ⁴ Arrow does support dictionary encoding.
 
 ## Delta Tables / Databricks
-
+![Screenshot_20240703-183342_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8fad028a-4ecf-4516-a4d3-015bcdef60d7)
 - Delta Live Tables https://docs.databricks.com/en/delta-live-tables/tutorial-sql.html 
 	- Delta Live streaming tables, delta live tables (batch, aggregation)
 	- Delta tables have checkpoints, including streaming tables
@@ -68,9 +67,10 @@
      		- If you need to store data long term and use it as part of a data model then you should create a table, however if you want to join multiple tables and query this infrequently, as part of an analysis for example, then a materialized view would be the better choice.
 
 ## Apache Hudi
+![Screenshot_20240703-183355_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8d4e34a0-9f11-49c2-b5c4-9dc0415b428f)
 
 ## Apache Iceberg / Tabular
-
+![Screenshot_20240703-183402_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/616293c2-7a2c-4180-ad54-f461f859ab14)
 - Also see Apache Iceberg: https://www.linkedin.com/posts/sesha-reddy-pattem-543aa311b_apacheiceberg-datamanagementbrilliance-metadatamastery-activity-7100064046502027266-FsDs/
 	- Iceberg 101: https://tabular.io/guides-and-papers/
 	- Metadata: Metadata in Iceberg comes in three forms — Metadata Files, Manifest Lists, and Manifest Files. Metadata Files store the high-level information about the dataset. Manifest Lists index all the manifest files and keep track of their changes. Manifest Files maintain the actual data files' metadata, enhancing query performance by pruning unnecessary files.
