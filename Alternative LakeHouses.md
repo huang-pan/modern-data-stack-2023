@@ -95,7 +95,7 @@
 ## StarRocks / CelerData
 - StarRocks / CelerData fastest RT LakeHouse query engine: Iceberg, etc.
 - Trino vs StarRocks https://www.youtube.com/watch?v=tbpHMHU3iYs
-https://raw.githubusercontent.com/huang-pan/modern-data-stack-2023/main/Screenshot_20240701-092007_YouTube.jpg
+(https://raw.githubusercontent.com/huang-pan/modern-data-stack-2023/main/Screenshot_20240701-092007_YouTube.jpg)
 - Kafka -> Flink -> StarRocks https://www.youtube.com/watch?v=xV3-J3GMSns
 ![Screenshot_20240621-163440_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d59faa8b-3ff2-4a1d-a992-1e821ab75ddd)
 ![Screenshot_20240621-163448_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f6fb2e68-cb28-4fbc-951f-9f17870cbba7)
