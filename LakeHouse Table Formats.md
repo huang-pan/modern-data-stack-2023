@@ -34,6 +34,8 @@
 ![Screenshot_20240703-183350_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8bf43bfe-6622-4d39-ab90-ffc64c4d3ca9)
 
 ## Arrow
+- In memory columnar data store (serialized, deserialized) https://www.youtube.com/watch?v=YhF8YR0OEFk
+
 - https://www.linkedin.com/posts/jorritsandbrink_dataengineering-softwareengineering-activity-7210043267881549824-7dv-/
 	- Parquet and Arrow are complementary. Both can be considered "the standard" in their domain.
 		- Parquet is an on-disk format.
