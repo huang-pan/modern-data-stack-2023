@@ -1,6 +1,7 @@
 # Databricks, Udemy Spark
 
 ****NOTE****: For Databricks on Azure: https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure%20Data%2C%20ML%20Engineer.md
+Also see MLOps on Azure Databricks section: https://github.com/huang-pan/modern-data-stack-2023/blob/main/MLOps.md
 
 ## Udemy Spark
 - [https://www.udemy.com/course/taming\-big\-data\-with\-apache\-spark\-hands\-on/](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
