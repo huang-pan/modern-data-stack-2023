@@ -2,8 +2,8 @@
 
 ****NOTE****: For Databricks on Azure: https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure%20Data%2C%20ML%20Engineer.md
 
-[https://www.udemy.com/course/taming\-big\-data\-with\-apache\-spark\-hands\-on/](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
-
+## Udemy Spark
+- [https://www.udemy.com/course/taming\-big\-data\-with\-apache\-spark\-hands\-on/](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
 - Course completion certificate: [https://www.udemy.com/certificate/UC\-c069b4b8\-3a68\-46e9\-a591\-f8c1c5a72b50/](https://www.udemy.com/certificate/UC-c069b4b8-3a68-46e9-a591-f8c1c5a72b50/) 
 - Summary:
     - This is a refresher course on Spark for me and added to my existing knowledge of Spark. 
@@ -786,7 +786,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- case studies: Rivian, Akamai, Grammarly, Honeywell, Wood Mackenzie, AT&T
 - https://blog.dataengineer.io/p/how-to-save-millions-by-optimizing  **no shuffles** group by join bucketing
 
-***Medallion architecture best practices***
+## Medallion architecture best practices
 - https://youtube.com/live/QimxOUwHdgo?si=r00ucK2VSTE93QMC 
 	- Scd type 2 merges not optimal in delta lake; data vault append / insert only architecture better for delta lake 
 	- DLT insert only incremental tables best for iot
@@ -797,7 +797,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- How We Performed ETL on One Billion Records For Under $1 With Delta Live Tables
 	- TPC-DI benchmark
 
-***Databricks & Apache Spark Performance Tuning***
+## Databricks & Apache Spark Performance Tuning
 - https://www.youtube.com/watch?v=hLOpfxpgc70
 - ![Screenshot_20240611-215434_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/48052837-60da-47be-b060-567d3a38d11d)
 - ![Screenshot_20240611-215149_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/723b5d2f-0b5c-4565-b0e4-e4e8a357aecb)
@@ -805,7 +805,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - ![Screenshot_20240611-214802_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/15522cf1-0ac7-4d44-9377-fd061667908e)
 - ![Screenshot_20240611-214626_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/64ec829e-c1d9-4e53-af54-4a08f86b0c86)
 
-***Databricks Summit 2024***
+## Databricks Summit 2024
 - https://seattledataguy.substack.com/p/developing-production-databricks
 	- Developing Production Databricks Pipelines
 - https://www.youtube.com/watch?v=HHzvWh9sJuE 
@@ -814,3 +814,23 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - LLM search on data
 - ![Screenshot_20240613-115139_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/75c6ac9b-295d-46a2-80b9-25e823ea9651)
 - Spark 4.0 https://www.databricks.com/dataaisummit/session/whats-next-upcoming-apache-spark-40  
+
+## Databricks Photon
+- next gen Spark SQL compute engine completely rewritten in C++
+- https://www.youtube.com/watch?v=PwnUf6_0H0k
+![Screenshot_20240703-183012_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7e1aa915-0830-46fb-8d81-f584af7d67b9)
+![Screenshot_20240703-183022_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a36fd9de-274d-487a-9bdd-6f8730d7a411)
+![Screenshot_20240703-183039_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cbe37f27-9ec8-458b-bb9f-4835077fd55d)
+![Screenshot_20240703-183042_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/24fbf352-761e-4fc6-a51f-6b3fba7cf9dc)
+![Screenshot_20240703-183124_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/11a56a83-ce77-417b-b52d-7e53b69b4701)
+![Screenshot_20240703-183131_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ebac7bce-fee7-4d0d-8345-99d9017afd78)
+![Screenshot_20240703-183144_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/32b3bc4a-07ce-42ee-841e-79bf49a70fc9)
+![Screenshot_20240703-183151_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c6a157f2-0cfd-412a-9c98-099f7ab8275f)
+![Screenshot_20240703-183208_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b46d07a4-6de6-4880-93bf-9c338bd9c864)
+![Screenshot_20240703-183212_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b34f75e2-fcb6-48f5-95b2-11457f1431e9)
+![Screenshot_20240703-183216_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3652f61b-58d0-4334-b034-7630e73ba763)
+![Screenshot_20240703-183237_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c9024a9b-ec32-45b0-9002-66e321e1e039)
+![Screenshot_20240703-183247_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/10a9c2a0-e2b5-4e5a-a2b4-58c87bfa6fc1)
+![Screenshot_20240703-183252_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0654e9d7-706e-427e-afce-ee40a9d35563)
+![Screenshot_20240703-183318_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3e09f1d7-08eb-48a6-a529-a0f4c1fcaf49)
+![Screenshot_20240703-183328_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a2415eb5-d39e-42af-aa72-7c0728202a33)
