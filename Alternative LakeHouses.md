@@ -53,7 +53,6 @@
 ![Screenshot_20240621-171143_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d78199e3-1b26-497e-85f4-0cfd5dcec3ba)
 
 ## Apache Doris / VeloDB
-
 - Apache Doris is an open source, real time data LakeHouse https://doris.apache.org/
 	- https://www.velodb.io/ is the commercial version of Doris
  	- https://www.linkedin.com/company/velodb/people/ they are in China
@@ -94,8 +93,9 @@
 ![Screenshot_20240622-081530_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a50426bb-a0a7-4608-b9f9-96edcd7ec65c)
 
 ## StarRocks / CelerData
-
 - StarRocks / CelerData fastest RT LakeHouse query engine: Iceberg, etc.
+- Trino vs StarRocks https://www.youtube.com/watch?v=tbpHMHU3iYs
+
 - Kafka -> Flink -> StarRocks https://www.youtube.com/watch?v=xV3-J3GMSns
 ![Screenshot_20240621-163440_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d59faa8b-3ff2-4a1d-a992-1e821ab75ddd)
 ![Screenshot_20240621-163448_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f6fb2e68-cb28-4fbc-951f-9f17870cbba7)
