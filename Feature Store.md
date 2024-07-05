@@ -6,6 +6,8 @@
 - Pulsar has retention layer: separates out historical part and puts it in S3, see https://www.youtube.com/watch?v=ZsWa6XiBc-U&t=170s
   - Confluent has retention layer, OSS Kafka does not
   - Kafka won event bus battle; Pulsar features are being pulled into Kafka
+- batch features (OLAP / Databricks / Snowflake) + streaming features (Flink / RisingWave / Quix) like most popular DEXes used last 30 min (streaming analytics)
+- offline / training feature store + online / inference feature store
 - Most popular offline + online feature stores
   1. Databricks + redis
   2. Snowflake + redis
