@@ -1,6 +1,6 @@
-## MLOps
+# MLOps
 
-### General Notes
+## General Notes
 - Building ML Platform [https://neptune.ai/blog/ml\-platform\-guide](https://neptune.ai/blog/ml-platform-guide) 
     - [https://neptune.ai/blog/mlops\-architecture\-guide](https://neptune.ai/blog/mlops-architecture-guide) 
         - event based training architecture \(push based\)
@@ -99,7 +99,23 @@
 	- End to end experimentation platform for A/B testing, integrates with MDS
 	- [Building a Modern Experimentation Stack (Eppo).pdf](https://github.com/user-attachments/files/15825712/Building.a.Modern.Experimentation.Stack.Eppo.pdf)
 
-### MLOps in Enterprise (older, cludgy solution)
+## MLOps on Azure Databricks
+- https://www.youtube.com/watch?v=qg7rTM8qVoM
+![Screenshot_20240703-064957_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6b804fb5-5834-465b-b35c-4050be5e2997)
+![Screenshot_20240703-065014_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fd8315ff-4f14-4b00-8460-b4ee486193c7)
+![Screenshot_20240703-065047_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e0b181d8-4bb9-45e7-b201-fd0c9e3cb693)
+![Screenshot_20240703-065109_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e9e82946-ed3e-4e50-8e62-88bc64ba0fca)
+![Screenshot_20240703-065124_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ac106d27-e5de-4911-a626-4d71ea46a643)
+![Screenshot_20240703-065218_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/015e7e80-461a-4e5e-a1e0-8383ded1e24e)
+![Screenshot_20240703-065221_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ac459b1c-d68f-4a1e-b772-0897b5555f23)
+![Screenshot_20240703-065301_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0d90b787-e356-43ac-9f42-d1a6a2590572)
+![Screenshot_20240703-065309_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/11243e68-8c97-4a01-8380-52dbc80979d9)
+![Screenshot_20240703-065338_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2f1539fc-c7e3-48f7-941e-65957005f414)
+![Screenshot_20240703-065426_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/02e8ce51-d7f7-44be-a60b-5c29c2a2ed29)
+![Screenshot_20240703-065432_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c4d5cb49-d12d-4b03-aa94-612bed929675)
+
+
+## MLOps in Enterprise (older, cludgy solution)
 https://www.youtube.com/watch?v=iENEd59Rrqs
 <img width="1792" alt="Screenshot 2024-06-04 at 10 13 40 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/387b29b7-d7cf-445d-b118-52426d40fd6c">
 <img width="1792" alt="Screenshot 2024-06-04 at 10 33 56 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e17d910b-1489-4736-9a45-7a00a88dd7bc">
