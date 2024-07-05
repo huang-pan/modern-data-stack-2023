@@ -35,7 +35,32 @@
 
 ## Arrow
 - In memory columnar data store (serialized, deserialized) https://www.youtube.com/watch?v=YhF8YR0OEFk
-
+![Screenshot_20240703-175329_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b23f5828-5de9-41ea-8299-a86e8a42d609)
+![Screenshot_20240703-175355_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0482f47d-2c22-4512-b928-b564cc3ef842)
+![Screenshot_20240703-175404_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4a74dea4-ba39-47e2-a889-0d96c5fc8562)
+![Screenshot_20240703-175414_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cfda9c3d-19fb-494c-a5d8-30e62b20113b)
+![Screenshot_20240703-175442_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9d271cb7-d25e-4909-ba4d-db9b4c905ca6)
+![Screenshot_20240703-175506_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fdfc33fa-2301-488a-9e91-160b73af759b)
+![Screenshot_20240703-175512_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/687513e0-c209-450e-a4f8-b3f5df9c82e0)
+![Screenshot_20240703-175516_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2a3b3542-c60a-4435-b6b1-c0142f27fddf)
+![Screenshot_20240703-175522_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0cf7824f-d214-4edd-854b-e47c4d874e2d)
+![Screenshot_20240703-175525_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/17cf8f2e-36ae-4cbd-a204-3ff04d4902cb)
+![Screenshot_20240703-175530_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/974622b6-e836-4c1e-86d0-b0a549b20ac7)
+![Screenshot_20240703-175537_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dac2def8-ebae-41c7-b4dd-8042d468936e)
+![Screenshot_20240703-175541_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3f8b0982-5f4c-4e90-8296-2509eb73e107)
+![Screenshot_20240703-175546_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/70ebf2d0-ff26-405d-b80f-ebb7502758f1)
+![Screenshot_20240703-175550_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0ba71a3a-a18d-407f-b0a6-989be22aa857)
+![Screenshot_20240703-175553_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d79a835a-5738-454b-9c81-43e0b73d6fbd)
+![Screenshot_20240703-175556_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/99f77b75-f3cf-47a8-979d-3437e085252f)
+![Screenshot_20240703-175604_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/717d4359-5b46-4225-af69-b055f7d9db9f)
+![Screenshot_20240703-175608_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/82fdb3cf-0982-4a67-a770-bfd09bcc6da0)
+![Screenshot_20240703-175611_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/82268a6d-67f1-41f5-b733-255c360a23f5)
+![Screenshot_20240703-175615_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e21db4f8-77d9-4035-a962-233dfd17fe5f)
+![Screenshot_20240703-175618_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/bd80237b-27c2-400e-b739-860ad5cc98bf)
+![Screenshot_20240703-175629_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/26fa4f8b-01e4-40ae-bc6d-7bc3a561dbd7)
+![Screenshot_20240703-175637_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/220c9d6e-939d-44c7-8811-8f3cfebb8c49)
+![Screenshot_20240703-175642_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/726ae9f3-4bde-465b-977c-ffb6f45b4dec)
+![Screenshot_20240703-175654_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/290e446e-b13b-4f48-a603-628a34b26527)
 - https://www.linkedin.com/posts/jorritsandbrink_dataengineering-softwareengineering-activity-7210043267881549824-7dv-/
 	- Parquet and Arrow are complementary. Both can be considered "the standard" in their domain.
 		- Parquet is an on-disk format.
