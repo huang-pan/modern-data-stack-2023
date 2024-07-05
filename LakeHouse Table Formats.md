@@ -95,6 +95,31 @@
 
 ## Apache Hudi
 ![Screenshot_20240703-183355_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8d4e34a0-9f11-49c2-b5c4-9dc0415b428f)
+- Intro to Hudi https://www.youtube.com/watch?v=TvXFVkcZUlU
+![Screenshot_20240703-054259_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b2e23d5d-8674-4bb6-9439-c19b43d7763b)
+![Screenshot_20240703-054313_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4483ca46-8895-40c6-bc3f-a8428543e666)
+![Screenshot_20240703-054320_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/86fba8a4-d724-414a-81df-08a80529735e)
+![Screenshot_20240703-054326_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e7011717-c7d4-4f57-90aa-44e806fbf84c)
+![Screenshot_20240703-054334_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1b821695-b593-4135-bad6-d24f1ead5a91)
+![Screenshot_20240703-054353_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a058dc90-0256-4b21-b67b-853d7cbb7ab1)
+![Screenshot_20240703-054357_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2e3b8982-8af9-4c6e-97d9-1d713bf781a0)
+![Screenshot_20240703-054400_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4e6f49fc-c9a6-477d-97c9-034ba0e06d5d)
+![Screenshot_20240703-054406_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/835eee51-7af6-4eca-8d9a-901290958c7a)
+![Screenshot_20240703-054411_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a2792fc6-6875-4b63-9d15-1e623df11c94)
+![Screenshot_20240703-054430_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2126c994-463a-49be-8f89-1484afe99447)
+![Screenshot_20240703-054434_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1bd0d291-16c2-4860-a161-34442ccb17db)
+![Screenshot_20240703-054500_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4e6620e6-09c5-4efb-8b39-e13a751cf553)
+![Screenshot_20240703-054517_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c19057c9-d12d-4044-b3d1-98f037a3d82b)
+![Screenshot_20240703-054526_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d4aae68a-eb17-4944-b799-361c6ce32602)
+![Screenshot_20240703-054538_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8df56396-bf1d-4d04-8f95-4e506fe63ffb)
+![Screenshot_20240703-054546_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/74d4ea61-d26b-4d8a-b0fb-2f03291cc23e)
+![Screenshot_20240703-054554_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/28d0d4d8-f00d-46e6-bb8f-5e0c03924384)
+![Screenshot_20240703-054606_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fb03cd48-4a7e-477e-9a58-02fbdd5159a5)
+![Screenshot_20240703-054620_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1fbc2c42-4192-4ba0-b682-20a493a9a5bb)
+![Screenshot_20240703-054624_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6544f2b5-4469-47af-9f78-71b123c87eff)
+![Screenshot_20240703-054627_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8ff887d4-082a-4f56-b864-1fd345bf8cb3)
+![Screenshot_20240703-054634_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/49bec689-a56f-4ade-bc57-958f4d0352ff)
+![Screenshot_20240703-054637_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/27b7ef33-388f-4564-b220-f801f727f7e4)
 
 ## Apache Iceberg / Tabular
 ![Screenshot_20240703-183402_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/616293c2-7a2c-4180-ad54-f461f859ab14)
