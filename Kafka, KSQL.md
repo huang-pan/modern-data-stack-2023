@@ -433,9 +433,10 @@
 
 ## Pulsar
 
-- more scalable than Kafka
+- more scalable than Kafka, but Kafka has won the marketshare battle -> pulsar features are being added to Kafka
 - Apache Pulsar https://pulsar.apache.org/ More scalable than Kafka
 	- https://www.youtube.com/watch?v=-uwbMvJ_yro
 - Pulsar tech details https://www.youtube.com/watch?v=4OHUTJDlnag
 - Pulsar has retention layer: separates out historical part and puts it in S3, see https://www.youtube.com/watch?v=ZsWa6XiBc-U&t=170s
 	- Confluent has retention layer, OSS Kafka does not
+	- but Kafka has won the marketshare battle -> pulsar features are being added to Kafka
