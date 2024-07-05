@@ -95,6 +95,13 @@
 
 ## Apache Hudi
 ![Screenshot_20240703-183355_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8d4e34a0-9f11-49c2-b5c4-9dc0415b428f)
+- Intro to Hudi basic https://www.youtube.com/watch?v=-Wp7itPDtgo
+![Screenshot_20240628-150304_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/97c37c79-4cd2-4435-9169-7bf3a06987e5)
+![Screenshot_20240628-150328_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1111f631-0635-41f7-9856-03c93470f146)
+![Screenshot_20240628-150345_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cf04a4f6-f2d2-4a68-824a-c6e72ac48e2f)
+![Screenshot_20240628-150405_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1aff8052-5fe9-4a76-82c2-c26bfb89910c)
+![Screenshot_20240628-150433_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d1b6e6cd-fa8e-432f-b5dc-fcecc43d0e72)
+![Screenshot_20240628-150444_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2eaadc5d-e62d-4eff-85f3-436240bdc921)
 - Intro to Hudi https://www.youtube.com/watch?v=TvXFVkcZUlU
 ![Screenshot_20240703-054259_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b2e23d5d-8674-4bb6-9439-c19b43d7763b)
 ![Screenshot_20240703-054313_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4483ca46-8895-40c6-bc3f-a8428543e666)
