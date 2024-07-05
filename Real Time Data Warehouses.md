@@ -198,6 +198,21 @@
 ![Screenshot_20240620-161434_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ed1c63ae-02d7-4a19-b956-ad3da2026de2)
 
 ## Materialize
+- Intro to Materialize https://www.youtube.com/watch?v=Ahu8C-oh7A4
+![Screenshot_20240703-060931_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/81f55692-fcd0-4a5f-8731-92d21edc4c89)
+![Screenshot_20240703-060946_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3d8cf225-f1a7-424e-84ae-0d8d5492de7c)
+![Screenshot_20240703-060955_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/bd8666d1-c154-4af4-9de1-64ee2c40a019)
+![Screenshot_20240703-061010_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1eeb4318-fe76-47d7-9473-954730d9b242)
+![Screenshot_20240703-061018_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f812aee3-aa01-41bc-8f62-488d7e351e57)
+![Screenshot_20240703-061023_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c4acd98a-f759-4167-8de6-7285063a5bde)
+![Screenshot_20240703-061029_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/efcd8210-6496-4fff-9179-267408418f4f)
+![Screenshot_20240703-061036_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b9ad9991-26a7-4000-9ff9-00baf052a846)
+![Screenshot_20240703-061051_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e97d5799-62bd-4d7a-99c2-5c0e067a0485)
+![Screenshot_20240703-061059_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8ac853de-f975-4745-a3f3-75f24b5521dc)
+![Screenshot_20240703-061109_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/53559f39-a0a7-4537-a3c8-210a744484e2)
+![Screenshot_20240703-061126_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/caeea8ff-cc9a-4b51-a228-8b99e2be60f0)
+![Screenshot_20240703-061137_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6df0f801-8ec3-46f9-bc5c-2641f65d4549)
+![Screenshot_20240703-061148_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f30cdbdd-dbc6-4715-8978-2a35accb4f2e)
 
 ## Tiny Bird + Snowflake
 - Tiny Bird is a serverless ClickHouse
