@@ -50,6 +50,16 @@
 ![Screenshot_20240621-162727_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8eeecc88-70d5-4602-98d6-3456ac8cf1bd)
 
 ## Pinot / StarTree
+- Intro to Pinot https://www.youtube.com/live/AEuWx7yX6xw
+![Screenshot_20240701-145423_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8c2370d0-e712-4242-ba9e-aad608468000)
+![Screenshot_20240701-145444_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f715b92d-b81b-40eb-af5b-f804b6aec181)
+![Screenshot_20240701-145449_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/bd8faf97-2825-4042-a2ba-394290609473)
+![Screenshot_20240701-145452_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b95d7947-b7c9-463b-afa3-49db746ea5de)
+![Screenshot_20240701-145457_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8626dcc6-0995-422c-8dc0-e3807759ce47)
+![Screenshot_20240701-145510_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ab1e4a0f-a833-4c63-b38b-17e656c50e76)
+![Screenshot_20240701-145520_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/229b0605-5491-4000-afd4-c79999c4551b)
+![Screenshot_20240701-145535_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dcdbcbaa-61fc-47e1-80f9-55672b92cd83)
+![Screenshot_20240701-145547_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/719666d8-4f0a-4e89-95a2-35394cdbec87)
 - Apache Pinot / StarTree https://www.youtube.com/watch?v=F8Q_pGIH9yY
 ![Screenshot_20240621-154808_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9f6455ba-3cc2-43e7-83b1-2df50b8cd8fb)
 ![Screenshot_20240621-154846_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/41e06c92-dd6e-4c9a-8766-625afb81f6f9)
