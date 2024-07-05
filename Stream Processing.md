@@ -85,7 +85,8 @@
 <img width="1792" alt="Screenshot 2024-06-05 at 8 26 14 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/532bb0b1-6d56-4f98-8887-143e2cae951c">
 - Flink used a lot more in China https://www.youtube.com/watch?v=ZsWa6XiBc-U&t=3840s
 
-### Flink + Hudi https://www.youtube.com/watch?v=88Gwp_d4GB4
+### Flink + Hudi
+- https://www.youtube.com/watch?v=88Gwp_d4GB4
 ![Screenshot_20240628-152600_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d7c225ea-a73e-44c9-a88d-08891879aa7b)
 ![Screenshot_20240628-152650_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3de6303f-e44b-4592-9c81-75969537dfd1)
 ![Screenshot_20240628-152706_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a15a909b-5710-4a53-9f58-b4cacf34b302)
