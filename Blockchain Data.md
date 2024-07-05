@@ -1,12 +1,10 @@
 # Blockchain Data
 
 ## Real Time blockchain data
-
 - https://www.meetup.com/streaming-stories/events/297191788
 - Crypto Fintech meets Real Time data https://www.youtube.com/watch?v=LftHdHUVk6s 
 - Rising Wave, built on rust
 	- Yingjun Wu, Founder and CEO
-	- 
 - Goldsky https://goldsky.com/
 	- Yaroslav Tkachenko
 	- crypto data, live streamed
@@ -28,7 +26,6 @@
 	- SQL interface, not streaming
 	- data fusion, polars, arrow, not streaming
 	- rising wave: streaming SQL
-	- 
 - RT data
 	- < 10 seconds
 	- not trading, IoT
@@ -56,10 +53,10 @@
 - RT OLAP
 	- microbatching
 	- mostly SQL based
-	- 
+
+## Blockchain Indexers
 
 ### SubQuery
-
 - Open source blockchain indexer https://www.youtube.com/watch?v=7YGR6pBJ0wI 
 ![thumbnail (1)](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/56d66a50-a1aa-495d-997e-673d862d6fe5)
 
@@ -69,6 +66,18 @@
 - ![Screenshot_20240611-172642_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/88b2b0de-1314-4f62-ad3d-05ef736a5e79)
 - ![Screenshot_20240611-172548_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1f61c013-6a1e-4f7b-a3b3-ac29a47932cc)
 - ![Screenshot_20240611-172445_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0d59d71d-4ffe-4faf-adfd-7f3018ea7b97)
+
+### The Indexing Company
+- https://www.youtube.com/watch?v=slFvVOAzgw8
+- https://www.indexing.co/
+	- https://console.indexing.co/features
+	- they use TimescaleDB
+- https://www.linkedin.com/company/indexing-co/people/ 7 people
+![Screenshot_20240627-130646_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c4d81fca-adbe-44b1-9abe-4991a4617999)
+![Screenshot_20240627-130709_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f7c2adfd-520c-4d6e-939c-3256a3a29088)
+![Screenshot_20240627-130720_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/849a39a6-1fe9-41c0-9f10-be959b3adabb)
+
+## Misc blockchain
 
 ### Decentralized Storage
 - https://www.youtube.com/watch?v=S3wkcIP7mEk 2024
@@ -198,4 +207,3 @@
 		- DeFi Score API — Query DeFi Score and associated risk metrics on all the DeFi Lending Protocols. Used for display in your wallet/dapp, research, or media content. Read the documentation here
 - Smart contract analyzer
 	- ETH https://medium.com/google-cloud/analysing-1-2m-mainnet-contracts-in-20-seconds-using-eveem-and-bigquery-f69b6d66c7b2
-
