@@ -4,8 +4,8 @@
 
 ## Message Bus vs Real Time Stream Processing vs RT OLAP
 - https://blog.dataengineer.io/p/how-to-choose-between-batch-micro
-- 10% data engineers know RT
-- RT SP / OLAP requires DE to be on-call
+	- 10% data engineers know RT
+	- RT SP / OLAP requires DE to be on-call
 - https://betterprogramming.pub/start-your-stream-processing-journey-with-just-4-lines-of-code-5863573268b9
 <img width="1920" alt="Screenshot 2024-06-07 at 2 04 28 PM (2)" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e645e520-6c01-4510-afbf-e2bb43676d9a">
 <img width="1792" alt="Screenshot 2024-06-05 at 11 04 46 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/08a17246-daf2-47ea-8ba3-8ad679b5aa8b">
