@@ -1,7 +1,6 @@
 # Kubernetes
 
 ## Kubernetes tutorial
-
 - https://blog.bytebytego.com/p/kubernetes-when-and-how-to-apply
 - Refresher lecture, just the basics
 	- [https://www.youtube.com/watch?v=X48VuDVv0do](https://www.youtube.com/watch?v=X48VuDVv0do)
