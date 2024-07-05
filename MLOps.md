@@ -114,7 +114,6 @@
 ![Screenshot_20240703-065426_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/02e8ce51-d7f7-44be-a60b-5c29c2a2ed29)
 ![Screenshot_20240703-065432_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c4d5cb49-d12d-4b03-aa94-612bed929675)
 
-
 ## MLOps in Enterprise (older, cludgy solution)
 https://www.youtube.com/watch?v=iENEd59Rrqs
 <img width="1792" alt="Screenshot 2024-06-04 at 10 13 40 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/387b29b7-d7cf-445d-b118-52426d40fd6c">
