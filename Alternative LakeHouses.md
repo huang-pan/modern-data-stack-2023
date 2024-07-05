@@ -94,6 +94,17 @@
 
 ## StarRocks / CelerData
 - StarRocks / CelerData fastest RT LakeHouse query engine: Iceberg, etc.
+- Intro to StarRocks basic https://www.youtube.com/watch?v=-Wp7itPDtgo
+![Screenshot_20240628-150535_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f2f52572-40f7-4bb4-9701-e09cc3e98673)
+![Screenshot_20240628-150547_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/385a2ccd-b064-46e9-b2f3-fbf32403c517)
+![Screenshot_20240628-150607_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c8ff405d-3a78-4723-9617-4d30953c9c52)
+![Screenshot_20240628-150627_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/54e997bf-5045-4071-8296-64413b92691e)
+![Screenshot_20240628-150646_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fcbff287-ebc1-49cd-afb1-3aa317aa161a)
+![Screenshot_20240628-150659_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/40e334bb-d927-4ff1-878f-3895e7ba55e6)
+![Screenshot_20240628-150707_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5fd29843-ad32-40bc-9572-9bd3dbb5a616)
+![Screenshot_20240628-150715_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c9b53ca6-d8b6-40dc-91fb-fceac3edf225)
+![Screenshot_20240628-150726_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/bb3b2f7a-caa4-4de0-9bdd-2d6431a9f10d)
+![Screenshot_20240628-150800_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/257e4907-546a-4a0b-9205-7920805aaac7)
 - Trino vs StarRocks https://www.youtube.com/watch?v=tbpHMHU3iYs
 ![Screenshot_20240701-092007_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/000d8e71-1038-4069-8126-a2c4b2771ac8)
 - Kafka -> Flink -> StarRocks https://www.youtube.com/watch?v=xV3-J3GMSns
