@@ -1,7 +1,6 @@
 # Real Time Data Warehouses
 
 ## Pinot vs Druid vs ClickHouse
-
 - Real Time OLAP data warehouses by Pinot / StarTree https://www.youtube.com/watch?v=rJvDQSjmZCg
 	- only Pinot supports Delta Lake / Snowflake / BigQuery as a data source
  	- Pinot supports a lot more index types
@@ -51,7 +50,6 @@
 ![Screenshot_20240621-162727_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8eeecc88-70d5-4602-98d6-3456ac8cf1bd)
 
 ## Pinot / StarTree
-
 - Apache Pinot / StarTree https://www.youtube.com/watch?v=F8Q_pGIH9yY
 ![Screenshot_20240621-154808_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9f6455ba-3cc2-43e7-83b1-2df50b8cd8fb)
 ![Screenshot_20240621-154846_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/41e06c92-dd6e-4c9a-8766-625afb81f6f9)
@@ -90,7 +88,6 @@
 ![Screenshot_20240621-160515_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/43c9df67-a599-414b-ba12-9abb48ed3be0)
 
 ## Druid / Imply
-
 - Druid older technology trying to modernize https://www.youtube.com/watch?v=4qP_z8n8in0
 ![Screenshot_20240620-171956_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/71cf93e8-739b-4174-95bc-dced43b3a9d7)
 ![Screenshot_20240620-171959_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/96560803-433d-4ae7-b84b-79fc60e629fa)
@@ -102,7 +99,6 @@
 ![Screenshot_20240620-172828_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/591fac46-6e5f-477c-b9f3-5915dd4efa3b)
 
 ## ClickHouse
-
 - ClickHouse
 	- https://www.youtube.com/watch?v=HRh5setqGCU
  	- https://www.youtube.com/watch?v=cwJsjHDLE8I
@@ -136,7 +132,7 @@
 ![Screenshot_20240620-155523_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/278a91f6-cb24-4a31-bee5-03cf48ccc975)
 
 ## RocksDB / Rockset
-
+- Rockset is dead 2024, bought buy OpenAI, not supporting services anymore
 - Rockset replicates AWS DynamoDB tables https://www.youtube.com/watch?v=JGIzdFHZVXs
 	- Rockset search and analytics DB https://www.youtube.com/watch?v=xGaUJTHuehQ
  	- Essentially makes a low latency copy of data source using 
@@ -149,7 +145,24 @@
 - Snowflake export to S3 import to Rockset https://www.youtube.com/watch?v=siAqYzlcEiU
 
 ## Firebolt
-
+- Firebolt is a modified ClickHouse https://www.youtube.com/watch?v=9rW9uEJ15tU
+![Screenshot_20240703-180051_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ee42df08-8ecf-4568-9b84-3cb29c9be67a)
+![Screenshot_20240703-180109_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cd511669-cec3-499b-b128-116ad0708ff3)
+![Screenshot_20240703-180121_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3e4db3b8-940a-4e09-a49c-5e8769bd631c)
+![Screenshot_20240703-180131_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e8b0ce44-d4f2-4619-9837-7f5410db4292)
+![Screenshot_20240703-180146_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ae7b8d72-a28d-48d8-b34d-a3777295297d)
+![Screenshot_20240703-180149_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1fd7b3d0-5778-4e48-90be-595b4e082716)
+![Screenshot_20240703-180155_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b49f1236-e27e-4cc0-a20b-c847899e9475)
+![Screenshot_20240703-180228_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/749a8001-473e-4ed0-9ea1-a50e852970f6)
+![Screenshot_20240703-180242_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2fe2ed46-b5ff-4069-8d02-22d68c6b09b4)
+![Screenshot_20240703-180251_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/821ee14d-a4b5-4375-b1f5-17f46350be38)
+![Screenshot_20240703-180302_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/85b614e1-84f1-4325-92f0-e272054b02d7)
+![Screenshot_20240703-180309_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/df8878a8-d7b3-4c92-badb-9255ad995d2e)
+![Screenshot_20240703-180317_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/961168b9-919c-44a3-8070-bd65a52b6c94)
+![Screenshot_20240703-180336_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/bfad1afe-81ec-4f81-9a1e-14a18dae760c)
+![Screenshot_20240703-180350_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7a0e9708-c117-4d01-b7ea-71cc94456295)
+![Screenshot_20240703-180356_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8837a7be-379b-43cf-bec2-ee6582173953)
+![Screenshot_20240703-180406_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/727c27fc-eb0b-4f73-b2d4-40a9586458b8)
 - Firebolt fastest RT cloud data warehouse https://www.youtube.com/watch?v=K0g4GUY7PMI
 	- faster, cheaper than Snowflake
 ![Screenshot_20240620-161328_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/fbb56250-63ea-48aa-b449-d13ae8343f98)
@@ -161,4 +174,4 @@
 ## Materialize
 
 ## Tiny Bird + Snowflake
-
+- Tiny Bird is a serverless ClickHouse
