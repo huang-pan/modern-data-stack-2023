@@ -435,3 +435,4 @@
 - Apache Pulsar https://pulsar.apache.org/ More scalable than Kafka
 	- https://www.youtube.com/watch?v=-uwbMvJ_yro
 - Pulsar tech details https://www.youtube.com/watch?v=4OHUTJDlnag
+- Pulsar separates out historical part and puts it in S3, see https://www.youtube.com/watch?v=ZsWa6XiBc-U&t=170s
