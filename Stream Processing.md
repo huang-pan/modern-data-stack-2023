@@ -133,7 +133,7 @@
 ![Screenshot_20240621-164529_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2a355ced-39e3-4b7c-b812-78b853db3e51)
 
 ## Quix
-- Quix python streaming dataframes https://www.youtube.com/live/cjhBCLRa48Q
+- https://quix.io/ python streaming dataframes https://www.youtube.com/live/cjhBCLRa48Q
 ![Screenshot_20240628-165536_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d6673edc-0abf-4499-9296-e1350942db96)
 ![Screenshot_20240628-165548_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/228aae5b-b049-42f4-bb57-c8d9cd3e995f)
 ![Screenshot_20240628-165650_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2c041679-61dd-4fbb-82c9-1cf6d7fabf18)
