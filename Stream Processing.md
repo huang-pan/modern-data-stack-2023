@@ -6,6 +6,7 @@
 	- RT SP / OLAP requires DE to be on-call
 - https://betterprogramming.pub/start-your-stream-processing-journey-with-just-4-lines-of-code-5863573268b9
 <img width="1920" alt="Screenshot 2024-06-07 at 2 04 28 PM (2)" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e645e520-6c01-4510-afbf-e2bb43676d9a">
+
 - Stream processing, serving layers https://www.youtube.com/watch?v=QVtJ7nGRZys
 ![Screenshot_20240620-163745_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/193176c3-3a67-4015-8440-677b9e7605a1)
 ![Screenshot_20240620-163751_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f7b966d1-5072-4f51-9f85-1af35c33363a)
