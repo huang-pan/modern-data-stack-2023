@@ -99,6 +99,7 @@ https://betterprogramming.pub/start-your-stream-processing-journey-with-just-4-l
 	- Flink older tech
 	- Flink join postgres and kafka topic too complicated, requires pairs programming analyst and data engineer
 <img width="1792" alt="Screenshot 2024-06-05 at 8 26 14 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/532bb0b1-6d56-4f98-8887-143e2cae951c">
+- Flink used a lot more in China https://www.youtube.com/watch?v=ZsWa6XiBc-U&t=3840s
 
 ## Bytewax
 
