@@ -14,32 +14,32 @@
     - filter out streaming inputs
 
 ### Popular streaming technologies
-	- https://www.youtube.com/watch?v=2zEYG2p0TRo
-	- https://www.linkedin.com/pulse/spark-streaming-vs-flink-storm-kafka-streams-samza-choose-prakash
- 	- https://blog.scottlogic.com/2018/07/06/comparing-streaming-frameworks-pt1.html
-  	- https://www.youtube.com/watch?v=K-NYuwzpvEM
-	- Flink
-		- Flink real stream processing framework, lower latency, less throughput than Spark streaming, Java based
-		- does both streaming and batch
-		- but kinesis data analytics is based on Flink and is SQL based (streaming analytics)
-		- https://tech.dream11.in/blog/navigating-the-streamverse-a-technical-odyssey-into-advanced-stream-processing-at-dream11 
-	- Spark Streaming (streaming ETL, streaming analytics)
- 		- https://youtu.be/qlJmjkgHZ88?si=pJ2KTB6NJiUExSzP
+- https://www.youtube.com/watch?v=2zEYG2p0TRo
+- https://www.linkedin.com/pulse/spark-streaming-vs-flink-storm-kafka-streams-samza-choose-prakash
+- https://blog.scottlogic.com/2018/07/06/comparing-streaming-frameworks-pt1.html
+- https://www.youtube.com/watch?v=K-NYuwzpvEM
+- Flink
+	- Flink real stream processing framework, lower latency, less throughput than Spark streaming, Java based
+	- does both streaming and batch
+	- but kinesis data analytics is based on Flink and is SQL based (streaming analytics)
+	- https://tech.dream11.in/blog/navigating-the-streamverse-a-technical-odyssey-into-advanced-stream-processing-at-dream11 
+- Spark Streaming (streaming ETL, streaming analytics)
+	- https://youtu.be/qlJmjkgHZ88?si=pJ2KTB6NJiUExSzP
 ![streaming](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/47fa425d-04f7-445c-839e-1f00a4c0edf3)
-	- Kafka (message bus)
-		- Ksqldb: SQL on kafka streams (streaming ETL, streaming analytics)
-		- Faust: python on kafka streams (streaming ETL, streaming analytics)
-		- lower cost: redpanda.com
-		- more scalable: Pulsar
-	- Storm
-		- lowest latency, but low level primitives (map reduce), no higher level abstractions
-	- Trident
-		- higher level abstractions on Storm
-	- Protobuf: high performance serialized data
-	- Avro: row based storage format
-		- column based: Parquet, ORC, Delta Live Tables, Iceberg
-        - https://blog.det.life/choosing-the-right-big-data-file-format-avro-vs-parquet-vs-orc-c868ffbe5a4e
-	- https://streamingdata.substack.com/p/data-platforms-in-2030
+- Kafka (message bus)
+	- Ksqldb: SQL on kafka streams (streaming ETL, streaming analytics)
+	- Faust: python on kafka streams (streaming ETL, streaming analytics)
+	- lower cost: redpanda.com
+	- more scalable: Pulsar
+- Storm
+	- lowest latency, but low level primitives (map reduce), no higher level abstractions
+- Trident
+	- higher level abstractions on Storm
+- Protobuf: high performance serialized data
+- Avro: row based storage format
+	- column based: Parquet, ORC, Delta Live Tables, Iceberg
+- https://blog.det.life/choosing-the-right-big-data-file-format-avro-vs-parquet-vs-orc-c868ffbe5a4e
+- https://streamingdata.substack.com/p/data-platforms-in-2030
 
 ### Spark vs Flink
 ![Screenshot_20230830-203252_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7ccebc36-fd78-4159-8de5-f8bc2f76890e)
