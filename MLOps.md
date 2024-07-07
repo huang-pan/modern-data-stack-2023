@@ -103,7 +103,7 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 
 ## MLOps for different company stages
 - https://www.youtube.com/watch?v=YvjqScBwjPs
-	- Biggest MLOps challenges: 1. cleaned, versioned data 2. deploying 3. monitoring
+	- ****Biggest MLOps challenges****: 1. cleaned, versioned data 2. deploying 3. monitoring
 ![Screenshot_20240705-212727_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/eb678c09-af0d-49b9-b43d-f42c17d61f83)
 ![Screenshot_20240705-212701_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c23446e3-20e2-4882-a629-1a5c9a3e8acd)
 ![Screenshot_20240705-213119_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/af03a47b-a12f-48f4-9981-87b8ef37e546)
