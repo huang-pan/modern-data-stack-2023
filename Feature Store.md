@@ -4,6 +4,7 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 
 ## MLOps MVP: Feature Store + Model Registry
 - Minimal / MVP MLOPs https://www.youtube.com/watch?v=nQR3fz1KD3g
+<img width="1792" alt="Screenshot 2024-06-04 at 10 13 40 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/387b29b7-d7cf-445d-b118-52426d40fd6c">
 ![Screenshot_20240707-084619_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4e10bfd1-a979-49b5-8efa-f8d75f6829bb)
 ![Screenshot_20240707-084628_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/03d18282-9047-4748-899a-00b227a67ad2)
 ![Screenshot_20240707-084646_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0f469c04-cea1-4095-8c9a-90cc0834a48d)
