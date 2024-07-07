@@ -101,6 +101,21 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 	- End to end experimentation platform for A/B testing, integrates with MDS
 	- [Building a Modern Experimentation Stack (Eppo).pdf](https://github.com/user-attachments/files/15825712/Building.a.Modern.Experimentation.Stack.Eppo.pdf)
 
+## MLOps for different company stages
+- https://www.youtube.com/watch?v=YvjqScBwjPs
+![Screenshot_20240705-212701_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c23446e3-20e2-4882-a629-1a5c9a3e8acd)
+![Screenshot_20240705-212727_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/eb678c09-af0d-49b9-b43d-f42c17d61f83)
+![Screenshot_20240705-213119_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/af03a47b-a12f-48f4-9981-87b8ef37e546)
+![Screenshot_20240705-213234_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e64ad30a-b54c-4b62-afa2-5c31e96e8f71)
+![Screenshot_20240705-213251_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2dad74ca-8c4f-4e16-9604-ab3e00e6d7b6)
+![Screenshot_20240705-213327_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b3b7a76b-59e2-4bd0-b8e6-183b211eb0fc)
+![Screenshot_20240705-213340_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/159bddfc-e4a9-4d72-affb-d0f813d81995)
+![Screenshot_20240705-213406_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6cfd9813-5f9e-4370-98f4-633bf22ed180)
+![Screenshot_20240705-213423_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c758a28a-442a-4dc9-bf3c-3759375b1c31)
+![Screenshot_20240705-213438_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2ced95b7-561e-4dfe-8df2-01307abddaaf)
+![Screenshot_20240706-082059_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8e4937de-e641-4703-b547-203d35610ed5)
+
+
 ## MLOps on Azure Databricks
 - https://www.youtube.com/watch?v=qg7rTM8qVoM
 ![Screenshot_20240703-064957_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6b804fb5-5834-465b-b35c-4050be5e2997)
