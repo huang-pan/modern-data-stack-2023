@@ -1,5 +1,7 @@
 # Feature Store
 
+See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/MLOps.md
+
 ## FeatureForm
 
 - https://www.youtube.com/watch?v=ZsWa6XiBc-U
