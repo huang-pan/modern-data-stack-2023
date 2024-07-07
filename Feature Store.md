@@ -2,8 +2,30 @@
 
 See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/MLOps.md
 
-## FeatureForm
+## MLOps MVP: Feature Store + Model Registry
+- Minimal / MVP MLOPs https://www.youtube.com/watch?v=nQR3fz1KD3g
+![Screenshot_20240707-084619_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4e10bfd1-a979-49b5-8efa-f8d75f6829bb)
+![Screenshot_20240707-084628_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/03d18282-9047-4748-899a-00b227a67ad2)
+![Screenshot_20240707-084646_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0f469c04-cea1-4095-8c9a-90cc0834a48d)
+![Screenshot_20240707-084650_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a73816dd-8d23-4d2f-9e8d-c8ea0b870fc0)
+![Screenshot_20240707-084700_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5a9b2dc4-4e86-4f22-b4df-e9be3efc2cc2)
+![Screenshot_20240707-084716_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cfd541cf-96c3-47dd-ab41-4d191d230753)
+![Screenshot_20240707-084738_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9bb1ba2c-318c-4095-8466-68dd1dc20aa8)
+![Screenshot_20240707-084749_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/83df0400-a9e2-4d1b-b658-febd6600e5a2)
+![Screenshot_20240707-084814_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/77894788-6689-44e2-af9f-5cbba51dc0ee)
+![Screenshot_20240707-084902_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/413141c2-d985-45c0-b738-87514712d192)
+![Screenshot_20240707-084912_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cc9cd045-0e79-41e0-adc7-f3db6e2bdffd)
+![Screenshot_20240707-084920_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/47adfb54-7a41-4069-af38-18906d6ed891)
+![Screenshot_20240707-084931_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2588cc5a-1536-4fa4-949e-0ff71ab87434)
+![Screenshot_20240707-084936_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8bed6a9a-c817-4a0c-bca2-9b8abe41ba51)
+![Screenshot_20240707-084940_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/463b0af1-d5e9-45f3-afe1-e55c5316f36b)
+![Screenshot_20240707-084949_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/71c71ebe-1b4f-4dc7-938a-2df239733194)
+![Screenshot_20240707-084955_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/faacaeb3-28d4-4f93-83a0-db75e9f735a2)
+![Screenshot_20240707-085027_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e16861b3-5af1-4559-9740-8b18ecf0c224)
+![Screenshot_20240707-085033_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9d0a0546-bf83-46ef-8b97-7753a6d2da09)
+![Screenshot_20240707-085121_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e5018d30-d844-4f11-b5a9-4a39e17aa66e)
 
+## FeatureForm
 - https://www.youtube.com/watch?v=ZsWa6XiBc-U
 - Pulsar has retention layer: separates out historical part and puts it in S3, see https://www.youtube.com/watch?v=ZsWa6XiBc-U&t=170s
   - Confluent has retention layer, OSS Kafka does not
