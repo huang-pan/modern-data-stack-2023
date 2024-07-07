@@ -1,6 +1,9 @@
 # Remote Work
 
 ## Guides for Remote Work
+- [How We Do Remote Work at Warp](https://warpdev.notion.site/How-We-Do-Remote-Work-at-Warp-061d8e4f94164d8c9d89cc720d2f2fac)
+- [How We Communicate at Warp](https://warpdev.notion.site/How-We-Communicate-at-Warp-062f77e4acd14b7e83864e2bdfa55d4d)
+- [GitLab remote work playbook](https://drive.google.com/file/d/11-cWEAPY59FoxBIEnEikZbF799CmxH8g/view)
 
 ## Effectively communicating in Remote Work
 - https://www.youtube.com/watch?v=_cp2o1MSDRE
