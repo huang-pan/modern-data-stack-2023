@@ -1,6 +1,6 @@
 # MLOps
 
-See https://github.com/huang-pan/modern-data-stack-2023/blob/main/Feature%20Store.md
+See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/Feature%20Store.md
 
 ## General Notes
 - Building ML Platform [https://neptune.ai/blog/ml\-platform\-guide](https://neptune.ai/blog/ml-platform-guide) 
