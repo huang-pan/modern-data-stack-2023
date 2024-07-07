@@ -1,7 +1,6 @@
 # Orchestration Tools
 
 ## Dagster
-
 - Dagster
     - Type\-checked, **composable** pipeline definitions
         - declarative \(Airflow imperative\)
@@ -73,7 +72,6 @@
         - uses pytest
 
 ## Airflow vs. Dagster vs. Prefect
-
 - https://dataengineeringcentral.substack.com/p/the-truth-about-prefect-mage-and
 	- Prefect: meh
  	- Mage: made with dev experience in mind
@@ -127,7 +125,6 @@
         - [https://medium.com/@haythemtellili/ml\-workflow\-orchestration\-ddc8165c26c0](https://medium.com/@haythemtellili/ml-workflow-orchestration-ddc8165c26c0) 
 
 ## Airflow 2\+:
-
 - Airflow Architecture
 	- https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/overview.html 
 		- Astronomer Airflow 2 deploy modes: celery (fast execution), KubernetesPod (slower, scalable, isolation)
@@ -252,6 +249,11 @@
         - spark submit shell \(wrapper\): custom Spark jobs at run time
     - Airflow S3 File sensor: https://medium.com/@satadru1998/mastering-data-workflow-precision-and-control-with-airflows-s3-file-sensor-6869d60f099d
 - Jenkins: get up and running on localhost:9090
+
+### Managed Airflow option
+- https://www.youtube.com/live/AI7o_2aBWZs
+- Why use a managed service: self-hosting takes up too much DE time
+- Why astronomer is the best: dev / stg / prod clusters, they are number 1 contributor to OSS Airflow, their managed Airflow is always up to date with latest version of OSS Airflow
 
 ## Mage
 - https://youtube.com/live/JKALtxziBG0?si=o3lTVcVFt70LcpLK 
