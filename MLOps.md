@@ -101,6 +101,14 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 	- End to end experimentation platform for A/B testing, integrates with MDS
 	- [Building a Modern Experimentation Stack (Eppo).pdf](https://github.com/user-attachments/files/15825712/Building.a.Modern.Experimentation.Stack.Eppo.pdf)
 
+## MLOps 101
+- https://www.youtube.com/watch?v=IYySKhioMTM
+![Screenshot_20240618-170606_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e3c5844b-2ab8-406e-9961-fefd7cd0ebfb)
+![Screenshot_20240618-170731_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f7d66f7e-d57f-4d7c-81f0-bc5383f465fc)
+![Screenshot_20240618-170819_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cbc8b5d5-e8ed-4ba9-9f5e-75d1dbac65c4)
+![Screenshot_20240618-170842_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5e2b375c-4a4e-4aa5-8e64-d40bd4240f62)
+![Screenshot_20240618-170905_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/013bb6dd-ecee-47ae-92fe-d6274d73b3c9)
+
 ## MLOps for different company stages
 - https://www.youtube.com/watch?v=YvjqScBwjPs
 	- ****Biggest MLOps challenges****: 1. cleaned, versioned data 2. deploying 3. monitoring
