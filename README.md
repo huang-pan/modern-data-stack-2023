@@ -5,6 +5,7 @@ Huang Pan's data architecture and engineering learning path for 2023.
 I updated / refreshed my data engineering skill set in 2023. This consisted of two parts:
 
 1. Research all the up to date tools in the [Modern Data Stack in 2023](https://medium.com/@huangpan/modern-data-stack-2023-ab3364b9281d)
+![Unified Data Infrastructure](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/547c12f5-e40f-4d44-81bf-aaa2100a03c4)
 
 2. Take courses to refresh / update my data engineering skills:
 	- [DBT / Data Warehousing](https://github.com/huang-pan/modern-data-stack-2023/blob/main/Data%20Warehouse%2C%20DBT.md)
