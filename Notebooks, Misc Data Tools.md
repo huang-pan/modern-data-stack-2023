@@ -6,7 +6,7 @@
     - [https://www.linkedin.com/company/hex\-technologies/people/](https://www.linkedin.com/company/hex-technologies/people/) 91 people
 - Deepnote
     - [https://www.linkedin.com/company/deepnote/people/](https://www.linkedin.com/company/deepnote/people/) 36 people
-- Noteable
+- Noteable: shut down 2024
     - [https://www.linkedin.com/company/noteable\-io/people/](https://www.linkedin.com/company/noteable-io/people/) 27 people
 
 ## ETL / reverse ETL tools
