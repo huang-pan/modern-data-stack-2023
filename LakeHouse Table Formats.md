@@ -3,6 +3,8 @@
 ## Delta Lake Uniform: Iceberg, Delta Lake, Hudi
 - Apache XTable: Interoperability with Hudi, Iceberg, and Delta Tables https://www.youtube.com/watch?v=8IukpmyGDB8
 	- works with Spark, AWS glue catalog
+	- Apache XTable™ is a standalone github project that provides a neutral space for all the lakehouse table formats to constructively collaborate together.
+	- Delta Lake Uniform is a one-directional conversion from Delta Lake to Apache Hudi or Apache Iceberg
 - Delta Lake Uniform: Databricks bought out Tabular (Iceberg) in 2024, unifying Delta Tables, Iceberg, Hudi
 ![Screenshot_20240618-103517_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2616d198-3abf-47f3-90d1-69ee570c66a0)
 - Data Lake Table formats: https://youtube.com/live/mXitwotQaAU?feature=share
