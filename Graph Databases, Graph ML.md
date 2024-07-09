@@ -6,3 +6,6 @@
 
 ## Quine
 - Streaming graph DB https://www.youtube.com/watch?v=JzN_p3SMRH8
+
+## GNN
+- https://doordash.engineering/2024/06/25/doordash-customize-notifications-how-gnn-work/
