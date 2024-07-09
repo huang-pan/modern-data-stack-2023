@@ -131,6 +131,16 @@
 
 ## Snowflake Hybrid Tables
 - like having postgres within Snowflake for low latency OLTP applications https://www.youtube.com/watch?v=GH7ZdiR9QG0
+- Snowflake Hybrid Tables under the hood https://www.youtube.com/watch?v=tQsf-Nnx-RM
+![Screenshot_20240701-112619_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/07aa10fd-3c98-4464-862c-cad776762144)
+![Screenshot_20240701-112645_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/551e0dbe-6373-497a-bc60-a70a6e38000d)
+![Screenshot_20240701-112711_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/38c80ef1-88f5-49be-8d50-481ac82e6f23)
+![Screenshot_20240701-112737_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/25b0b86f-3492-423a-9407-dc8b5d52da55)
+![Screenshot_20240701-112816_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3dcefe0d-5a2f-49c2-b0cb-3f0a53c8e989)
+![Screenshot_20240701-112823_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5e091661-67ed-4b3f-b53f-5f2897126675)
+![Screenshot_20240701-112857_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/54872cc5-f36a-45d1-885c-98bd4370917e)
+![Screenshot_20240701-112909_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0f4c1cdd-34eb-4f1c-a823-ad7122f1f08b)
+![Screenshot_20240701-112917_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/945ccc03-dc9c-4054-8bbb-a7a45a94cd5f)
 
 ## MLOps in Snowflake
 - https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
