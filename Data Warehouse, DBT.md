@@ -73,9 +73,11 @@
                     - raw vault: hub, link, satellite
                     - business vault: Business Vault is an optional tier in the Data Vault where the business can define common business entities, calculations, and logic.
                     - marts
-                - dbtvault: Data Vault 2.0 using dbt \+ Snowflake 
+                - dbtvault / AutomateDV: Data Vault 2.0 using dbt \+ Snowflake 
                     - [https://youtu.be/bi3x9f5lxp0](https://youtu.be/bi3x9f5lxp0)
                     - [https://youtu.be/FrdEROEUvVI](https://youtu.be/FrdEROEUvVI)
+                    - https://www.youtube.com/watch?v=fDCxGM6Sh8M
+                    - https://www.youtube.com/watch?v=qqnnsy393Ro
             - One Big Table: for modern column store data warehouses
                 - reporting driven
                     - data optimized for modern column store data warehouse \(storage cheap\)
