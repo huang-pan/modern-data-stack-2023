@@ -26,6 +26,11 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240707-085027_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e16861b3-5af1-4559-9740-8b18ecf0c224)
 ![Screenshot_20240707-085033_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9d0a0546-bf83-46ef-8b97-7753a6d2da09)
 ![Screenshot_20240707-085121_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e5018d30-d844-4f11-b5a9-4a39e17aa66e)
+- Batch / Real Time ML 101 https://www.youtube.com/watch?v=s20w8nKCK2o
+![Screenshot_20240709-071942_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/bdf8e60e-39e5-4b23-8746-a4754543db95)
+![Screenshot_20240709-071954_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7f1ba75b-210a-402e-a116-5b216014bd95)
+![Screenshot_20240709-072234_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b2bab92c-87ef-4e03-9e25-e480f942a664)
+![Screenshot_20240709-072329_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/787290b8-248c-4a9e-89b4-f40c9924e9bc)
 
 ## FeatureForm
 - https://www.youtube.com/watch?v=ZsWa6XiBc-U
