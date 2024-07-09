@@ -836,3 +836,6 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 ![Screenshot_20240703-183252_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0654e9d7-706e-427e-afce-ee40a9d35563)
 ![Screenshot_20240703-183318_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3e09f1d7-08eb-48a6-a529-a0f4c1fcaf49)
 ![Screenshot_20240703-183328_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a2415eb5-d39e-42af-aa72-7c0728202a33)
+
+## Databricks Cost Savings
+- Great video on cost savings in Databricks https://www.youtube.com/watch?v=Qp7QOrI8T5A
