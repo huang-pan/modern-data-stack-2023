@@ -1,9 +1,7 @@
 # FastAPI
 
 ## Udemy FastAPI course
-
 [https://www.udemy.com/course/completefastapi/](https://www.udemy.com/course/completefastapi/)
-
 - Course completion certificate: [https://www.udemy.com/certificate/UC\-f91bde24\-2803\-4e24\-beba\-7e2f3963c9d6/](https://www.udemy.com/certificate/UC-f91bde24-2803-4e24-beba-7e2f3963c9d6/) 
 - Summary:
     - FastAPI is one of the fastest python API frameworks available, on par with NodeJS and Go.
@@ -379,8 +377,11 @@
             - redis streams: use to communicate between two microservices as a background task
                 - save info to redis, accessible by both microservices
 
-## FastAPI ecosystem libraries
+## Another FastAPI course
+- https://www.youtube.com/watch?v=rkPIftzu1pQ
+![Screenshot_20240703-183925_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b94cd3cc-2018-4f05-a56f-f78a6bca2eb9)
 
+## FastAPI ecosystem libraries
 - https://www.youtube.com/watch?v=07QqFYILP4w
 ![Screenshot_20240701-173101_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/662df27d-a2c0-4442-946c-2c1fdbf24380)
 ![Screenshot_20240701-173206_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5127598b-c6fc-4ee7-98ac-4d7860b03182)
@@ -431,7 +432,6 @@
 	- 5. As much as possible, do the most computation on the database layer. There's a huge difference between doing the computation at application layer vs doing it at database layer.
 
 ## Scalable AWS API
-
 - https://www.linkedin.com/posts/semaan_great-visualization-of-resilient-3-tier-architecture-activity-7211712558402060289-VNOi/
 	- 𝗡𝗲𝘁𝘄𝗼𝗿𝗸: VPC, Subnets, Route tables
 	- 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆: Security groups, NACLs
