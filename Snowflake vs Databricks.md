@@ -11,3 +11,6 @@
 6. The Databricks platform is powerful, but also takes some additional knowledge to get started vs. a data warehouse. Warehouses work out of the box with nothing more than SQL and some setup configuration. Databricks has more concepts to learn, but once you learn them, the platform is extremely powerful.
 7. Azure is a lot more common in the Databricks client base.
 8. As much as I hear about a war between Snowflake vs. Databricks, I think we're still in the early stages. Both companies are trying to enter the other company's space from a technology perspective. But we're not there yet. They are each currently well positioned in different parts of the market, and their clients are using them in different ways.
+- Snowflake vs Databricks Deep Dive https://www.youtube.com/watch?v=U1DgEbK6glw
+![Screenshot_20240627-131430_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2d079021-e914-4274-a53c-cea0862c9b91)
+![Screenshot_20240627-131454_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5b4607fc-4210-426f-bf7c-8be619f4d192)
