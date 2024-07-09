@@ -141,6 +141,26 @@
 ![Screenshot_20240701-112857_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/54872cc5-f36a-45d1-885c-98bd4370917e)
 ![Screenshot_20240701-112909_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0f4c1cdd-34eb-4f1c-a823-ad7122f1f08b)
 ![Screenshot_20240701-112917_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/945ccc03-dc9c-4054-8bbb-a7a45a94cd5f)
+- Hybrid Tables in production https://www.youtube.com/watch?v=uoHOxIPHvmg
+![Screenshot_20240701-110509_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/51b7648a-0a08-451b-bea9-335b2909a8a8)
+![Screenshot_20240701-110516_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7979d7fe-dbf9-4cff-9b2d-8708ea3390e3)
+![Screenshot_20240701-111845_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c8410026-e9cb-44b6-b5a0-da2dd4287987)
+![Screenshot_20240701-111849_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7e05458a-91cc-4a0b-992f-99fc6e25152d)
+![Screenshot_20240701-111900_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cc29aebf-be68-4d5a-8f9c-a7625a0150ec)
+![Screenshot_20240701-111915_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4ca6b337-d3b1-4274-bd90-6f7542ef2a56)
+![Screenshot_20240701-111932_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/045e5823-86f0-4f58-b21d-f990aa36daae)
+![Screenshot_20240701-111945_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e26beb92-b22f-4e1d-b70a-766c85fb16d4)
+![Screenshot_20240701-112007_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0c4fe01d-bb5a-4666-a74c-dc5c596c6a39)
+![Screenshot_20240701-112011_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1ed51e02-228d-4953-ad63-4094bfb1b276)
+![Screenshot_20240701-112018_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1c3c7b0c-61cb-4bcc-b557-0328f4ae0ab1)
+![Screenshot_20240701-112030_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8578742f-ffc2-4987-a83c-39b6773e32fe)
+![Screenshot_20240701-112038_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f597c1e8-f717-4f5a-bdec-d32fee1c2e59)
+![Screenshot_20240701-112052_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/41a65f94-6e9a-4cd8-a617-a71882edb301)
+![Screenshot_20240701-112106_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e485d34b-40ca-4bc3-a476-ac4fd04f06a3)
+![Screenshot_20240701-112124_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/440912d1-76a4-4340-b243-841920078809)
+![Screenshot_20240701-112129_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6942fb59-8172-48dc-93e0-24863e6819da)
+![Screenshot_20240701-112155_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e1b5c315-86b9-40ad-8fc3-8e129c80a461)
+![Screenshot_20240701-104713_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c62bd118-ffab-444e-af59-afc253b69e5b)
 
 ## MLOps in Snowflake
 - https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
