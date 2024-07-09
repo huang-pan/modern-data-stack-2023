@@ -469,6 +469,8 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- DLT Serverless https://docs.databricks.com/serverless-compute/index.html
 		- Photon underneath - fast https://www.databricks.com/product/photon
   		- Databricks medium SQL serverless warehouses best bang for your buck: https://towardsdatascience.com/5-lessons-learned-from-testing-databricks-sql-serverless-dbt-1d85bc861358
+		- Databricks serverless not that good (not linear cost/performance with compute size), not as good as Snowflake warehouses
+  			- https://medium.com/sync-computing/top-9-lessons-learned-about-databricks-jobs-serverless-41a43e99ded5
 	- ST ingest into Bronze --> materialized view in Silver
 	- DLT pipelines: code, target, configuration; auto manage lifecycle, dependency, isolation (dev/stg/prod) - for CI / CD
 		- create dynamic pipelines in python
@@ -615,6 +617,8 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 			- configure stream: format kinesis, streamname, region, aws access key, aws secret key
 		- Data lineage in Databricks UI
   	- Databricks ****medium SQL serverless warehouses**** best bang for your buck: https://towardsdatascience.com/5-lessons-learned-from-testing-databricks-sql-serverless-dbt-1d85bc861358
+	- Databricks serverless not that good (not linear cost/performance with compute size), not as good as Snowflake warehouses
+		- https://medium.com/sync-computing/top-9-lessons-learned-about-databricks-jobs-serverless-41a43e99ded5
 - photon: next gen spark, accelerates SQL queries 2x
 - databricks optimizations
 	- https://www.databricks.com/discover/pages/optimize-data-workloads-guide
@@ -812,6 +816,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- Developing Production Databricks Pipelines
 - https://www.youtube.com/watch?v=HHzvWh9sJuE 
 - truly serverless compute
+
 - LLM dev integration in Databrick dev env
 - LLM search on data
 - ![Screenshot_20240613-115139_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/75c6ac9b-295d-46a2-80b9-25e823ea9651)
