@@ -160,7 +160,6 @@
 ![Screenshot_20240701-112124_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/440912d1-76a4-4340-b243-841920078809)
 ![Screenshot_20240701-112129_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6942fb59-8172-48dc-93e0-24863e6819da)
 ![Screenshot_20240701-112155_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e1b5c315-86b9-40ad-8fc3-8e129c80a461)
-![Screenshot_20240701-104713_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c62bd118-ffab-444e-af59-afc253b69e5b)
 
 ## MLOps in Snowflake
 - https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
