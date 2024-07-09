@@ -107,7 +107,8 @@
 - Level Up Your Spark Pipelines With Hex And Snowpark
 	- https://youtube.com/watch?v=8IGP72KxTBw&si=Sw0hl_YUFY9hawra
  	- pyspark to snowpark
-		- https://youtube.com/watch?v=M7uAWoPKMsg&si=-wqneWvcng5MY4Cn 
+		- https://youtube.com/watch?v=M7uAWoPKMsg&si=-wqneWvcng5MY4Cn
+		- snowpark not as advanced as spark (which is open source and Databricks bread and butter) https://www.youtube.com/watch?v=5dwYg2kuZ0A
 - Building a Comprehensive Data Science Platform on Snowflake at Regions Bank
 	- https://youtube.com/watch?v=z2zdIzfuNQo&si=Bnq4gAlJw-YqgRmb
 - Fast, Easy, And Secure AI/ML Development And Deployment In Snowflake
