@@ -481,6 +481,8 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
     		- Apache Hudi: event based table format, for events
       		- Delta Tables: periodic log checkpoints
 - AutoLoader
+	- https://www.linkedin.com/posts/vishalwaghmode_whatsthedata-dataengineering-databricks-activity-7215006513365454848-A1qv/
+		- Don't use COPY INTO, use Databricks AutoLoader (or Delta Live Tables?)
 	- https://youtube.com/watch?v=2F6mBvLoavs&feature=share
 		- auto detect and add files in S3 directory, auto infer schemas, auto error processing
 	- https://youtube.com/watch?v=VUt4sKBelPo&feature=share
