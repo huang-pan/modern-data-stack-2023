@@ -1,7 +1,6 @@
 # Snowflake
 
 ## Snowflake
-
 - https://medium.com/@noah.goodrich/snowflake-vs-databricks-revisited-edd8201b5799
 	- Snowflake cheaper for orgs than Databricks https://squadrondata.com/databricks-vs-snowflake-org-impact-analysis/
 	- https://www.fujitsu.com/au/imagesgig5/A%20Practitioners%20Guide%20to%20Databricks%20vs%20Snowflake.pdf
@@ -130,8 +129,10 @@
 - Snowflake Connector for Kafka
 	- https://www.youtube.com/watch?v=ufUj5yP_tEQ
 
-## MLOps in Snowflake
+## Snowflake Hybrid Tables
+- like having postgres within Snowflake for low latency OLTP applications https://www.youtube.com/watch?v=GH7ZdiR9QG0
 
+## MLOps in Snowflake
 - https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
 	- ****Snowflake ML has a model registry and feature store****
 	- https://www.youtube.com/watch?v=hsnA8CiZNyY
@@ -155,7 +156,6 @@
 ![Screenshot_20240701-172717_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/91b4ec12-f95a-4d28-92a7-a6d3533c543e)
 
 ## LLMs in Snowflake
-
 - Snowflake Arctic LLM Foundational Model https://www.youtube.com/watch?v=kelxJkXE3bo
 ![Screenshot_20240701-171922_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/80424f75-600c-4d16-8c5e-50cb6eda2d35)
 ![Screenshot_20240701-171929_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c45a1076-6d35-4218-b634-572de778f114)
