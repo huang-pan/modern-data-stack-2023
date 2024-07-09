@@ -1,4 +1,4 @@
-# Snowflake
+# Graph Databases, Graph ML
 
 ## Neo4j
 - https://neo4j.com/developer/graph-data-science/graph-algorithms/
