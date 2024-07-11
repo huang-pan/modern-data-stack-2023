@@ -50,6 +50,8 @@
 ![Screenshot_20240710-072640_YouTube](https://github.com/user-attachments/assets/eac86685-a57e-40f3-bf77-5e5757795cc7)
 ![Screenshot_20240710-072653_YouTube](https://github.com/user-attachments/assets/bee0a8ea-3cfd-4d59-8b31-45907723ad87)
 ![Screenshot_20240710-072702_YouTube](https://github.com/user-attachments/assets/fe2a039b-f00c-4bfd-88c7-8dc69605f96e)
+- Data Driven Culture https://www.youtube.com/watch?v=KwU3GJMAgkY
+![Screenshot_20240703-062029_YouTube](https://github.com/user-attachments/assets/e56e057e-bce4-4a1f-b200-d617435b2dd7)
 
 ## Data Product
 - https://moderndata101.substack.com/p/how-to-build-data-products-design
