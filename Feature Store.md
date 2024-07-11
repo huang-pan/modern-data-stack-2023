@@ -37,6 +37,20 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240709-072234_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b2bab92c-87ef-4e03-9e25-e480f942a664)
 ![Screenshot_20240709-072329_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/787290b8-248c-4a9e-89b4-f40c9924e9bc)
 
+### Real Time Machine Learning with Hopsworks
+- https://www.youtube.com/watch?v=WFnZjAOo1Oo
+![Screenshot_20240711-065522_YouTube](https://github.com/user-attachments/assets/4d34e800-e9d5-4dbd-a2df-435d10b94f7f)
+![Screenshot_20240711-065625_YouTube](https://github.com/user-attachments/assets/ac0a4404-d0c2-4a05-b1df-dcda667e151c)
+![Screenshot_20240711-065651_YouTube](https://github.com/user-attachments/assets/d69db16a-51bc-491c-9049-072f74e7b730)
+![Screenshot_20240711-065716_YouTube](https://github.com/user-attachments/assets/8018255f-6286-449b-86c7-83f6f42dbe44)
+![Screenshot_20240711-065731_YouTube](https://github.com/user-attachments/assets/3df66338-b1fd-47ea-9dd8-8f324db5d7e6)
+![Screenshot_20240711-065753_YouTube](https://github.com/user-attachments/assets/7994d0da-5990-47c1-99bc-92c3dd6c7fcb)
+![Screenshot_20240711-065757_YouTube](https://github.com/user-attachments/assets/613be9c5-473e-40f4-b9de-9b7ac00f073d)
+![Screenshot_20240711-065807_YouTube](https://github.com/user-attachments/assets/0715cfaf-0ef1-42d2-abce-f2c6808c467f)
+![Screenshot_20240711-065837_YouTube](https://github.com/user-attachments/assets/2989c617-62a6-4c41-b593-5d94317bdde5)
+![Screenshot_20240711-065854_YouTube](https://github.com/user-attachments/assets/435e3c43-3f84-47d4-b5aa-9e60ca8bd868)
+![Screenshot_20240711-065914_YouTube](https://github.com/user-attachments/assets/0116ddd4-2bb8-4a6d-9996-33362ae5ea3b)
+
 ### Hopsworks online / Real Time Feature Store
 - https://www.youtube.com/watch?v=Ba6jeMUQG5Q
 ![Screenshot_20240711-070306_YouTube](https://github.com/user-attachments/assets/ddd9a854-f2ef-4455-a1cb-93bd0fcc1346)
