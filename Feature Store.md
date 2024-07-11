@@ -54,7 +54,6 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240703-182254_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7a9acf89-94dc-4b3e-a0d3-f6f2b1d10a23)
 ![Screenshot_20240703-182303_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b527b1ab-5d39-4f9e-ad2f-e351c481b721)
 ![Screenshot_20240703-182309_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/478fb190-bf81-46a2-8ccc-820fd40415f5)
-![Screenshot_20240703-182326_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3da95fd7-e7b9-406c-821b-654fb78f4385)
 ![Screenshot_20240703-182332_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c8d2e88e-0776-4e3f-a88c-65c55df464f1)
 ![Screenshot_20240703-182401_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9271d6c2-2eb7-4360-a9e2-54ad6982e0bc)
 ![Screenshot_20240703-182403_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/bd109228-ae75-4e6a-9b76-574670374511)
