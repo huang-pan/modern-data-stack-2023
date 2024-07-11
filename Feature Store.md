@@ -60,6 +60,16 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240711-070424_YouTube](https://github.com/user-attachments/assets/3da6bfd7-01e4-4154-b9d4-3d3a55470435)
 ![Screenshot_20240711-070434_YouTube](https://github.com/user-attachments/assets/fdbf1de4-1f29-4dc5-8781-e34bb4246c4a)
 
+### Hopsworks batch features
+- Leverage Snowflake with Real Time Feature Store https://www.youtube.com/watch?v=PaWkikWPNuI
+![Screenshot_20240711-064940_YouTube](https://github.com/user-attachments/assets/16c96e87-5237-42c6-a68d-0d9faab5ee97)
+![Screenshot_20240711-064955_YouTube](https://github.com/user-attachments/assets/03c61eb5-7b74-4219-b7ef-e2a5bc1f833b)
+![Screenshot_20240711-065209_YouTube](https://github.com/user-attachments/assets/0cca5a3f-34c5-48a7-9ea0-f5a3ccaa31d4)
+![Screenshot_20240711-065216_YouTube](https://github.com/user-attachments/assets/8e25402b-7d45-47f1-9e79-41c99df095ca)
+![Screenshot_20240711-065223_YouTube](https://github.com/user-attachments/assets/dd7e258d-431f-487d-b4ad-e7b072bd1295)
+![Screenshot_20240711-065240_YouTube](https://github.com/user-attachments/assets/124505d3-471b-45ac-9b6c-7b95c2253892)
+![Screenshot_20240711-065252_YouTube](https://github.com/user-attachments/assets/35aa4eae-c1ae-4443-b707-22c9621fd66d)
+
 ## FeatureForm
 - https://www.youtube.com/watch?v=ZsWa6XiBc-U
 - Pulsar has retention layer: separates out historical part and puts it in S3, see https://www.youtube.com/watch?v=ZsWa6XiBc-U&t=170s
