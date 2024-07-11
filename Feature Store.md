@@ -52,6 +52,12 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240711-065914_YouTube](https://github.com/user-attachments/assets/0116ddd4-2bb8-4a6d-9996-33362ae5ea3b)
 
 ### Hopsworks online / Real Time Feature Store
+- Streaming Feature Pipelines in Hopsworks; Making Data Available in Real-time https://www.youtube.com/watch?v=_1gMZjacPiw
+  - Example Real time Streaming feature 
+    - Streaming analytics, 10 minute window
+    - Spark Streaming, beam, flink; Rising wave, quix
+  - Real time feature store, most recent 10 minute data
+    - Same 10 minutes gets appended to offline feature store
 - https://www.youtube.com/watch?v=Ba6jeMUQG5Q
 ![Screenshot_20240711-070306_YouTube](https://github.com/user-attachments/assets/ddd9a854-f2ef-4455-a1cb-93bd0fcc1346)
 ![Screenshot_20240711-070316_YouTube](https://github.com/user-attachments/assets/35820fb2-bee7-4d50-8a65-6a946da391d6)
