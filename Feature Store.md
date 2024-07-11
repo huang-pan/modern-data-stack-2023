@@ -105,3 +105,24 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240705-090456_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f38a89bd-b8ed-4e12-94ea-d0ebff66c7fb)
 ![Screenshot_20240703-182521_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6dd7e4a5-b143-48ce-8301-a6fdcbd3f6ed)
 ![Screenshot_20240705-090430_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6349a469-4e13-47d6-9677-b0b904a5d33d)
+
+### Serving Batch, Streaming & Real-Time Features with Featureform
+- https://www.youtube.com/live/_PWpt_i5uSs
+- Batch Model vs Interactive Model; Batch / Streaming / On Demand Features
+![Screenshot_20240711-063927_YouTube](https://github.com/user-attachments/assets/2a587a8a-fd08-4e63-8b1b-0ec57987a275)
+![Screenshot_20240711-063950_YouTube](https://github.com/user-attachments/assets/c8f391a6-94d3-463c-a6a6-3bd435621123)
+![Screenshot_20240711-064002_YouTube](https://github.com/user-attachments/assets/c9bf8609-7026-4470-bf6d-af5d6c596cea)
+![Screenshot_20240711-064018_YouTube](https://github.com/user-attachments/assets/6842a62a-9294-4b6c-99be-00d86c488c2f)
+![Screenshot_20240711-064039_YouTube](https://github.com/user-attachments/assets/fd205d2c-171e-40e9-b63d-5450c56ce198)
+![Screenshot_20240711-064052_YouTube](https://github.com/user-attachments/assets/a492d92f-f035-49eb-ab1c-410196a0fb8a)
+![Screenshot_20240711-064105_YouTube](https://github.com/user-attachments/assets/2dc92c0c-fdb8-4fed-ac7d-798696446fa3)
+![Screenshot_20240711-064116_YouTube](https://github.com/user-attachments/assets/b228e5d5-ceb8-4974-b690-66cc84db246c)
+![Screenshot_20240711-064154_YouTube](https://github.com/user-attachments/assets/122f8a77-4800-4a11-bf42-dbd450a908b8)
+![Screenshot_20240711-064240_YouTube](https://github.com/user-attachments/assets/ca0acb28-3462-452d-aecd-52ce4d02f80c)
+![Screenshot_20240711-064312_YouTube](https://github.com/user-attachments/assets/620075cb-2f4c-4dd8-94e2-47bade8aad1c)
+![Screenshot_20240711-064329_YouTube](https://github.com/user-attachments/assets/e0d24cb9-8891-486a-ac28-a40ac36b55e4)
+![Screenshot_20240711-064336_YouTube](https://github.com/user-attachments/assets/3309a752-bd3b-47e1-ab1f-2896e3d74de1)
+![Screenshot_20240711-064340_YouTube](https://github.com/user-attachments/assets/b0336dd6-c78c-4472-90d7-6dc347ed022b)
+![Screenshot_20240711-064414_YouTube](https://github.com/user-attachments/assets/acba1840-04bb-4eb7-89ab-aca372b8ed67)
+![Screenshot_20240711-064421_YouTube](https://github.com/user-attachments/assets/d14c088d-7213-4b91-af5c-5cf3f4ebdda0)
+![Screenshot_20240711-064436_YouTube](https://github.com/user-attachments/assets/c030268b-6bdd-4911-9001-625bfb8d86d3)
