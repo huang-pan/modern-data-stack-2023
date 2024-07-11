@@ -32,6 +32,13 @@
 9. Always ask yourself: 'If we did this in a spreadsheet would we really be THAT much worse off?' You'll find that if you let business users keep low value stuff in spreadsheets, the ROI of your team will skyrocket
 10. Create two paths for data asset development. First, a production path that has a rigorous QA process and ensures production data assets can be trusted. Second, an ad hoc path that allows for faster iteration and allows teams to innovate quickly without having to wait in a long production development backlog
 
+### Solid Data Engineering Foundations make Data Teams successful
+- https://www.linkedin.com/pulse/data-science-hierarchy-needs-emmanuel-ogungbemi-phd/
+![1649947427479](https://github.com/user-attachments/assets/13cd7f76-1e24-465c-a529-168acbd1a9d8)
+- Foundations of Data Teams https://www.youtube.com/watch?v=rsxNvLs3yKo
+![Screenshot_20240710-072131_YouTube](https://github.com/user-attachments/assets/61a797ca-4a24-4caa-979f-11d4151bd203)
+![Screenshot_20240710-072146_YouTube](https://github.com/user-attachments/assets/586fd3bc-a7bd-4336-a9c8-7ed2e3560f19)
+
 ## Data Product
 - https://moderndata101.substack.com/p/how-to-build-data-products-design
 - https://moderndata101.substack.com/p/how-to-build-data-products-build
