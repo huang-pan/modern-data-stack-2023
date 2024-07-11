@@ -37,6 +37,15 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240709-072234_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b2bab92c-87ef-4e03-9e25-e480f942a664)
 ![Screenshot_20240709-072329_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/787290b8-248c-4a9e-89b4-f40c9924e9bc)
 
+### Hopsworks online / Real Time Feature Store
+- https://www.youtube.com/watch?v=Ba6jeMUQG5Q
+![Screenshot_20240711-070306_YouTube](https://github.com/user-attachments/assets/ddd9a854-f2ef-4455-a1cb-93bd0fcc1346)
+![Screenshot_20240711-070316_YouTube](https://github.com/user-attachments/assets/35820fb2-bee7-4d50-8a65-6a946da391d6)
+![Screenshot_20240711-070322_YouTube](https://github.com/user-attachments/assets/c94d10b3-4fdd-4cc8-9828-34c6ff51ef7b)
+![Screenshot_20240711-070345_YouTube](https://github.com/user-attachments/assets/019f4e3b-1a32-416e-a769-543e76d01ed5)
+![Screenshot_20240711-070424_YouTube](https://github.com/user-attachments/assets/3da6bfd7-01e4-4154-b9d4-3d3a55470435)
+![Screenshot_20240711-070434_YouTube](https://github.com/user-attachments/assets/fdbf1de4-1f29-4dc5-8781-e34bb4246c4a)
+
 ## FeatureForm
 - https://www.youtube.com/watch?v=ZsWa6XiBc-U
 - Pulsar has retention layer: separates out historical part and puts it in S3, see https://www.youtube.com/watch?v=ZsWa6XiBc-U&t=170s
