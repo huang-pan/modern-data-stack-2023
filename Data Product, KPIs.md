@@ -38,6 +38,18 @@
 - Foundations of Data Teams https://www.youtube.com/watch?v=rsxNvLs3yKo
 ![Screenshot_20240710-072131_YouTube](https://github.com/user-attachments/assets/61a797ca-4a24-4caa-979f-11d4151bd203)
 ![Screenshot_20240710-072146_YouTube](https://github.com/user-attachments/assets/586fd3bc-a7bd-4336-a9c8-7ed2e3560f19)
+- Creating a Data Engineering Culture to Maximize Data ROI https://www.youtube.com/watch?v=NBcfKx7vMLw
+![Screenshot_20240710-072317_YouTube](https://github.com/user-attachments/assets/bb458f24-311e-481f-9207-318b567f1a52)
+![Screenshot_20240710-072435_YouTube](https://github.com/user-attachments/assets/2f67bf4e-248f-4503-8166-bf5f548f74eb)
+![Screenshot_20240710-072451_YouTube](https://github.com/user-attachments/assets/991c3498-d062-485e-9889-a27781aea77d)
+![Screenshot_20240710-072509_YouTube](https://github.com/user-attachments/assets/0ae51a0a-a54c-40f6-bb15-a707207bba49)
+![Screenshot_20240710-072525_YouTube](https://github.com/user-attachments/assets/9a5e8896-cb6f-4fd8-afcd-00a9f2e9b9d8)
+![Screenshot_20240710-072540_YouTube](https://github.com/user-attachments/assets/b8b56c86-a3f8-4d6b-a2ee-bf7d49cc0347)
+![Screenshot_20240710-072550_YouTube](https://github.com/user-attachments/assets/d5c0bcaa-8426-4a43-bfff-6a568351b447)
+![Screenshot_20240710-072618_YouTube](https://github.com/user-attachments/assets/79bda5b6-fae7-466f-901e-b8ca14c5f8d5)
+![Screenshot_20240710-072640_YouTube](https://github.com/user-attachments/assets/eac86685-a57e-40f3-bf77-5e5757795cc7)
+![Screenshot_20240710-072653_YouTube](https://github.com/user-attachments/assets/bee0a8ea-3cfd-4d59-8b31-45907723ad87)
+![Screenshot_20240710-072702_YouTube](https://github.com/user-attachments/assets/fe2a039b-f00c-4bfd-88c7-8dc69605f96e)
 
 ## Data Product
 - https://moderndata101.substack.com/p/how-to-build-data-products-design
