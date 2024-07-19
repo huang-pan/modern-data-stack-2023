@@ -21,7 +21,9 @@ I updated / refreshed my data engineering skill set in 2023. This consisted of t
 
 The courses above are all up to date for 2023. I took the courses above just to fill in any gaps in my background knowledge and refresh my skill set. I would say that generally, the courses are like tutorial / introductory courses. They have given me enough background knowledge on where to start for any of my future projects. I will go into more depth and really understand the technologies when I work on the actual projects. This is not a problem for me as I'm an experienced data engineer. I've already worked with many tools of the Modern Data Stack already and have learned how to use many technologies on the job in the past. Picking up and applying new technologies is one of my main strengths.
 
-For future research on the latest data tooling: see CMU Advanced Database Systems https://www.youtube.com/@CMUDatabaseGroup/playlists
+For future research on the latest data tooling:
+- see CMU Advanced Database Systems https://www.youtube.com/@CMUDatabaseGroup/playlists
+- https://github.com/andresvourakis/data-scientist-handbook
 
 ## DBT / Data Warehousing
 #### Courses taken
