@@ -1,6 +1,7 @@
 # Feature Store
 
 See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/MLOps.md
+
 ****Feature Engineering Encyclopedia****: https://feaz-book.com
 
 ## MLOps MVP: Feature Store + Model Registry
