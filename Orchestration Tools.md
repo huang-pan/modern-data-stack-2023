@@ -14,7 +14,7 @@
         - great for CI / CD, local dev / test
     - dbt model pipeline auto materialization upon one upstream model change
     	- https://youtube.com/watch?v=2yuyIl31ypM&si=hDBFgNc0NnVhTmQX
-    - great integration with dbt: https://discord.com/blog/how-discord-uses-open-source-tools-for-scalable-data-orchestration-transformation
+    - ****great integration with dbt****: https://discord.com/blog/how-discord-uses-open-source-tools-for-scalable-data-orchestration-transformation
 - tutorials
     - [https://dagster.io/blog/dagster\-crash\-course\-oct\-2022](https://dagster.io/blog/dagster-crash-course-oct-2022) 
     - [https://www.youtube.com/watch?v=L5kTxCM\-tOk](https://www.youtube.com/watch?v=L5kTxCM-tOk)
