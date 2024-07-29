@@ -821,7 +821,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - truly serverless compute
 
 - LLM dev integration in Databrick dev env
-- LLM search on data
+- LLM search on data: Databricks Genie: https://www.youtube.com/watch?v=uKLscjh__Yc
 - ![Screenshot_20240613-115139_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/75c6ac9b-295d-46a2-80b9-25e823ea9651)
 - Spark 4.0 https://www.databricks.com/dataaisummit/session/whats-next-upcoming-apache-spark-40  
 
