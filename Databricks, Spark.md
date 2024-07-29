@@ -1,6 +1,7 @@
 # Databricks, Udemy Spark
 
 ****NOTE****: 
+- Guide for developing on Databricks: https://blog.det.life/a-practitioners-guide-to-developing-data-engineering-solutions-with-databricks-1db5134ad831
 - For Databricks on Azure: https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure%20Data%2C%20ML%20Engineer.md
 - Also see MLOps on Azure Databricks section: https://github.com/huang-pan/modern-data-stack-2023/blob/main/MLOps.md
 
