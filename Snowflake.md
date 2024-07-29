@@ -92,7 +92,9 @@
    	- Understand, Control, And Optimize Spend In Snowflake More Effectively
 		- https://youtube.com/watch?v=Dwf11NxNqbw&si=9QTlHnx6ZEkAE-Wr
    	- Reduce Costs With Snowpipe Streaming And Dynamic Tables
-		- https://youtube.com/watch?v=y67bH9ss07Y&si=RYzbsnPGqtWt2mAU 
+		- https://youtube.com/watch?v=y67bH9ss07Y&si=RYzbsnPGqtWt2mAU
+   	- Snowflake AI cost usage
+   		- https://www.linkedin.com/posts/ian-whitestone_i-was-just-asking-our-snowflake-sales-engineer-activity-7220172262249746435-_hDq/ 
 - Data Lineage
 	- https://www.phdata.io/blog/ultimate-guide-to-data-lineage-directly-in-snowflake/
  	- https://www.metaplane.dev/blog/the-definitive-guide-to-snowflake-data-lineage
