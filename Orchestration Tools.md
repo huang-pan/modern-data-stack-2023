@@ -255,6 +255,7 @@
 - https://www.youtube.com/live/AI7o_2aBWZs
 - Why use a managed service: self-hosting takes up too much DE time
 - Why astronomer is the best: dev / stg / prod clusters, they are number 1 contributor to OSS Airflow, their managed Airflow is always up to date with latest version of OSS Airflow
+- Databand monitor data pipelines https://www.youtube.com/watch?v=xWwG8gka1Eg
 - 4 Biggest Airflow Problems https://www.youtube.com/watch?v=b9bMNEh8bes
 ![Screenshot_20240713-182254_YouTube](https://github.com/user-attachments/assets/0c67dd2d-b7ba-409e-becc-4021572f145c)
 
