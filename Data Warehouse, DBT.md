@@ -444,7 +444,8 @@ dbt bought Metricflow, dbt Core v1.6+
         - entities: ID
 	    - dimensions: columns you aggregate / group by
 	    - measures: columns you sum / avg, etc.
-- https://www.getdbt.com/blog/dbt-semantic-layer-whats-next/ 
+- https://www.getdbt.com/blog/dbt-semantic-layer-whats-next/
+	- ****How to build dbt semantic layer**** https://docs.getdbt.com/blog/semantic-layer-in-pieces
 - https://github.com/dbt-labs/metricflow
 - https://github.com/dbt-labs/jaffle-sl-template
 - https://news.kpiinstitute.org/key-performance-indicators-infographic/
