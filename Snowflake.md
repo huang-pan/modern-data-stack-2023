@@ -75,11 +75,11 @@
 		- optimize queries
 			- OBT, but only select needed columns in queries
 				- use LIMIT in queries
-	- https://medium.com/@gupta.sahil.201191/snowflake-performance-optimization-techniques-9d135e07ef37
+		- https://articles.analytics.today/boost-your-snowflake-query-performance-with-these-10-tips
+		- https://articles.analytics.today/snowflake-cluster-keys-and-micro-partition-elimination-best-practices
+		- https://articles.analytics.today/best-practices-for-reducing-snowflake-costs-top-10-strategies 
+		- https://medium.com/@gupta.sahil.201191/snowflake-performance-optimization-techniques-9d135e07ef37
  	- dbt runs use up a lot of snowflake compute; consider SQLmesh instead
-	- https://articles.analytics.today/boost-your-snowflake-query-performance-with-these-10-tips
-	- https://articles.analytics.today/snowflake-cluster-keys-and-micro-partition-elimination-best-practices
-	- https://articles.analytics.today/best-practices-for-reducing-snowflake-costs-top-10-strategies
 - RBAC
 	- https://hevodata.com/learn/snowflake-roles/#3
 		- orgadmin, accountadmin, securityadmin, sysadmin, etc.
