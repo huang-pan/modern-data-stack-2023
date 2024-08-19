@@ -124,6 +124,30 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 ![Screenshot_20240706-082059_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8e4937de-e641-4703-b547-203d35610ed5)
 ![Screenshot_20240705-213438_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2ced95b7-561e-4dfe-8df2-01307abddaaf)
 
+## Weights and Biases
+- https://www.youtube.com/watch?v=tHAFujRhZLA
+![Screenshot_20240801-101245_YouTube](https://github.com/user-attachments/assets/cf923837-ed5b-4777-a937-c00229ab13fe)
+- https://www.youtube.com/watch?v=ZWMRIkAhcRw
+![Screenshot_20240801-100837_YouTube](https://github.com/user-attachments/assets/327dcd05-6d34-4857-a89f-91cd502c18d6)
+![Screenshot_20240801-101032_YouTube](https://github.com/user-attachments/assets/3db8b470-ce9f-49d5-98fa-c92b84deed86)
+- https://www.youtube.com/watch?v=RGLh4IdaOT4  demo of W&B
+![Screenshot_20240801-133146_YouTube](https://github.com/user-attachments/assets/d198f8ab-c4a3-4a57-8848-86e059eb4f38)
+![Screenshot_20240801-133155_YouTube](https://github.com/user-attachments/assets/a9470cff-6050-4d87-bba3-e9a93a651204)
+![Screenshot_20240801-133200_YouTube](https://github.com/user-attachments/assets/b3be2613-0339-4708-89e6-d58f741cd0d2)
+![Screenshot_20240801-133209_YouTube](https://github.com/user-attachments/assets/719b5854-99ac-4f11-9d2e-7a7d0050dfe1)
+![Screenshot_20240801-133210_YouTube](https://github.com/user-attachments/assets/06a5624e-2e73-48be-872d-a6a54c75a68e)
+![Screenshot_20240801-133346_YouTube](https://github.com/user-attachments/assets/0910a3aa-2d2a-404f-8b9d-9d9dc1d31c99)
+![Screenshot_20240801-133501_YouTube](https://github.com/user-attachments/assets/ac94c64e-4e5c-4444-a2ad-ff0aa262927b)
+![Screenshot_20240801-133509_YouTube](https://github.com/user-attachments/assets/7fadbadf-7b23-46af-a982-4969d0053cc9)
+![Screenshot_20240801-133524_YouTube](https://github.com/user-attachments/assets/f5c27c95-25d2-4f8c-9f0a-653fdfa01176)
+![Screenshot_20240801-133542_YouTube](https://github.com/user-attachments/assets/7a327c40-19e2-4749-b8fb-ece8f821d78b)
+![Screenshot_20240801-133548_YouTube](https://github.com/user-attachments/assets/21e3fec2-33b2-464d-8eb9-6f15d1c2549d)
+![Screenshot_20240801-133556_YouTube](https://github.com/user-attachments/assets/d3c33016-acdc-4a48-ba1a-2df9631d3cd6)
+![Screenshot_20240801-133600_YouTube](https://github.com/user-attachments/assets/b418091e-4c46-4d3f-a6fa-05dd3298f871)
+![Screenshot_20240801-133610_YouTube](https://github.com/user-attachments/assets/f20813d2-e476-41f9-8d27-0b2d22303b30)
+![Screenshot_20240801-133622_YouTube](https://github.com/user-attachments/assets/c6648a1c-9aa5-47b5-8e3d-f1287d291a3b)
+![Screenshot_20240801-133712_YouTube](https://github.com/user-attachments/assets/886195f3-6306-4c13-8ee5-4258bbbee0f5)
+
 ## MLOps on Azure Databricks
 - https://www.youtube.com/watch?v=qg7rTM8qVoM
 ![Screenshot_20240703-064957_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6b804fb5-5834-465b-b35c-4050be5e2997)
