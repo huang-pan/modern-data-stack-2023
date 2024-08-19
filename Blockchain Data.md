@@ -83,6 +83,21 @@
 - https://www.youtube.com/watch?v=S3wkcIP7mEk 2024
 - ![Screenshot_20240611-173226_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9596525e-aaae-4fd3-99b0-5182c532fe33)
 
+### Oasis Labs
+- https://www.oasislabs.com/
+	- PrivateSQL: A Privacy Layer for Data Collaboration and Analytics
+- https://www.youtube.com/watch?v=j8VQxfB1qXI
+![Screenshot_20240802-163828_YouTube](https://github.com/user-attachments/assets/7bc78dfc-20c2-4b06-a8c0-6562b27c1eb5)
+![Screenshot_20240802-163841_YouTube](https://github.com/user-attachments/assets/ff0461d6-d2a7-41d7-80d3-9df28004d839)
+![Screenshot_20240802-163901_YouTube](https://github.com/user-attachments/assets/59c73705-1448-4662-98dd-e5f124b5bbc7)
+![Screenshot_20240802-163904_YouTube](https://github.com/user-attachments/assets/0bd04e17-c78e-4c7d-bb06-8f4cceb7ab48)
+![Screenshot_20240802-163930_YouTube](https://github.com/user-attachments/assets/4ac2163d-af1e-4981-b10d-91b4835130d0)
+![Screenshot_20240802-163933_YouTube](https://github.com/user-attachments/assets/66163b87-29a7-4348-8599-00932396d85d)
+![Screenshot_20240802-163937_YouTube](https://github.com/user-attachments/assets/5bd78255-d115-47bb-81b5-8d22aeb21cd3)
+![Screenshot_20240802-163944_YouTube](https://github.com/user-attachments/assets/f37b94ea-9704-4961-842a-6fe14e8699b8)
+![Screenshot_20240802-164016_YouTube](https://github.com/user-attachments/assets/f2e32890-016d-4d10-8acd-5e05cd6b3cb7)
+![Screenshot_20240802-164022_YouTube](https://github.com/user-attachments/assets/24875237-b6bd-43eb-8cb0-76f4bd5f9632)
+
 ### Decentralized Machine Learning
 - https://www.youtube.com/watch?v=SyAdBo6vRAA 2024 flock.io decentralized training
 - ![Screenshot_20240611-182845_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0a38d1eb-1b42-4ec5-a0b8-caa4058ffd96)
