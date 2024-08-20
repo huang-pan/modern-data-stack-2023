@@ -88,6 +88,7 @@
 	- PrivateSQL: A Privacy Layer for Data Collaboration and Analytics
 	- Dawn Song is the founder of Oasis Labs and a professor in the Department of Electrical Engineering and Computer Science at the University of California at Berkeley.
 	- Oasis Labs, which raised $45million from investors that include a16z crypto, Binance Labs, DCVC, Electric Capital, and Pantera in 2018
+	- https://www.youtube.com/@OasisFoundation/videos lots going on at Oasis Labs
 - https://www.youtube.com/watch?v=j8VQxfB1qXI
 ![Screenshot_20240802-163828_YouTube](https://github.com/user-attachments/assets/7bc78dfc-20c2-4b06-a8c0-6562b27c1eb5)
 ![Screenshot_20240802-163841_YouTube](https://github.com/user-attachments/assets/ff0461d6-d2a7-41d7-80d3-9df28004d839)
