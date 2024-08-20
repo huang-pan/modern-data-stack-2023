@@ -90,6 +90,8 @@
 	- Oasis Labs, which raised $45million from investors that include a16z crypto, Binance Labs, DCVC, Electric Capital, and Pantera in 2018
 	- https://www.youtube.com/@OasisFoundation/videos lots going on at Oasis Labs
 - https://www.youtube.com/watch?v=j8VQxfB1qXI
+![Screenshot_20240819-201756_YouTube](https://github.com/user-attachments/assets/5648d833-5740-4f2e-a96e-b5d2f5b9146e)
+![Screenshot_20240819-201803_YouTube](https://github.com/user-attachments/assets/198fb0e5-2166-4b47-8a89-829381fb9fd2)
 ![Screenshot_20240802-163828_YouTube](https://github.com/user-attachments/assets/7bc78dfc-20c2-4b06-a8c0-6562b27c1eb5)
 ![Screenshot_20240802-163841_YouTube](https://github.com/user-attachments/assets/ff0461d6-d2a7-41d7-80d3-9df28004d839)
 ![Screenshot_20240802-163901_YouTube](https://github.com/user-attachments/assets/59c73705-1448-4662-98dd-e5f124b5bbc7)
