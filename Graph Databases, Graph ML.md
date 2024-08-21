@@ -1,8 +1,16 @@
 # Graph Databases, Graph ML
 
 ## Kuzu DB
+- Intro to Kuzu DB https://www.youtube.com/watch?v=E1UXELFOiSA
+  - Kuzu db column store, single node, embedded graphdb like duckdb embedded olap data warehouse, read optimized 
+  - Neo4j row store, general purpose graphdb, write optimized 
+  - Snowflake export to Parquet / iceberg -> kuzudb -> good integration with GNN / pytorch, etc. 
 - What a graph DB does better than regular databases and data warehouses
-  - https://www.youtube.com/watch?v=6lJG-0BYQoA
+  - Graphdb optimized for joins on edges
+  - Recursive joins
+  - Large number of edges joins
+  - Query on both schema and data
+- https://www.youtube.com/watch?v=6lJG-0BYQoA
 ![Screenshot_20240818-171947_YouTube](https://github.com/user-attachments/assets/d0b7edcd-3218-47d5-90b0-08eb35c1ea22)
 ![Screenshot_20240818-171459_YouTube](https://github.com/user-attachments/assets/56674f0b-80f7-476d-88ab-3e37660c1ce0)
 ![Screenshot_20240818-171513_YouTube](https://github.com/user-attachments/assets/6468857e-d9a0-4b2a-a63d-667ec0f9ebb5)
