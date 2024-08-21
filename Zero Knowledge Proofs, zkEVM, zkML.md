@@ -1,4 +1,4 @@
-# Zero Knowledge Proofs
+# Zero Knowledge Proofs, zkEVM, zkML
 
 ## ZKP basics
 - Great explanation of ZKPs https://www.youtube.com/live/kD8zbwWGYZE
