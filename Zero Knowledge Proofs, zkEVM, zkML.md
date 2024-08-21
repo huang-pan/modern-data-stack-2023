@@ -22,6 +22,7 @@
 ## zkEVM
 - zkML
   - https://worldcoin.org/blog/engineering/intro-to-zkml
+- ZKP application areas https://arxiv.org/pdf/2408.00243
 - Hardware coprocessors
   - https://modularmedia.substack.com/p/coprocessors-the-right-hand-of-blockchains
 - Great explanation of zkEVMs https://www.youtube.com/watch?v=HUiyaMNxyY8
