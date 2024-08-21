@@ -20,6 +20,10 @@
 ![Screenshot_20240624-170258_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5d9692d9-9f53-4b91-bcc3-1f603e38c6ba)
 
 ## zkEVM
+- zkML
+  - https://worldcoin.org/blog/engineering/intro-to-zkml
+- Hardware coprocessors
+  - https://modularmedia.substack.com/p/coprocessors-the-right-hand-of-blockchains
 - Great explanation of zkEVMs https://www.youtube.com/watch?v=HUiyaMNxyY8
 ![Screenshot_20240629-191133_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3405eb02-808f-4b0e-b839-0496b658f94b)
 ![Screenshot_20240629-191153_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7a0fa603-9dd8-40e5-842c-1fc24d2cc07d)
