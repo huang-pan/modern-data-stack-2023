@@ -3,6 +3,7 @@
 ## Kuzu DB
 - What a graph DB does better than regular databases and data warehouses
   - https://www.youtube.com/watch?v=6lJG-0BYQoA
+![Screenshot_20240818-171947_YouTube](https://github.com/user-attachments/assets/d0b7edcd-3218-47d5-90b0-08eb35c1ea22)
 ![Screenshot_20240818-171459_YouTube](https://github.com/user-attachments/assets/56674f0b-80f7-476d-88ab-3e37660c1ce0)
 ![Screenshot_20240818-171513_YouTube](https://github.com/user-attachments/assets/6468857e-d9a0-4b2a-a63d-667ec0f9ebb5)
 ![Screenshot_20240818-171527_YouTube](https://github.com/user-attachments/assets/040783e3-b840-4426-ba44-41afc878eb57)
@@ -13,7 +14,6 @@
 ![Screenshot_20240818-171654_YouTube](https://github.com/user-attachments/assets/2891716d-eca8-4f28-9207-89040c924a63)
 ![Screenshot_20240818-171821_YouTube](https://github.com/user-attachments/assets/080be8e0-cf32-4cca-8ef8-2f1fd3348b68)
 ![Screenshot_20240818-171928_YouTube](https://github.com/user-attachments/assets/b24655eb-8945-4af0-a1be-6cc65b2415a6)
-![Screenshot_20240818-171947_YouTube](https://github.com/user-attachments/assets/d0b7edcd-3218-47d5-90b0-08eb35c1ea22)
 
 ## Neo4j
 - https://neo4j.com/developer/graph-data-science/graph-algorithms/
