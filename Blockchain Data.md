@@ -77,11 +77,25 @@
 ![Screenshot_20240627-130709_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f7c2adfd-520c-4d6e-939c-3256a3a29088)
 ![Screenshot_20240627-130720_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/849a39a6-1fe9-41c0-9f10-be959b3adabb)
 
-## Misc blockchain
+## Blockchain AI
+
+### Blockchain and AI
+- JPMorgan thought leadership https://www.youtube.com/watch?v=F5GzAkn_nJc
+![Screenshot_20240824-205635_YouTube](https://github.com/user-attachments/assets/446c2338-0975-4f39-9a24-52f3667e7c49)
+![Screenshot_20240824-205647_YouTube](https://github.com/user-attachments/assets/40bc59ca-dbe7-4fb3-ab50-f62b4837bba6)
+![Screenshot_20240824-205710_YouTube](https://github.com/user-attachments/assets/bc6da6ae-f81f-4666-a6c9-e22303e647c8)
+![Screenshot_20240824-205724_YouTube](https://github.com/user-attachments/assets/841cf0c0-5129-43db-a27b-160df4b38912)
+![Screenshot_20240824-205732_YouTube](https://github.com/user-attachments/assets/6b47d487-e400-4ffa-b14a-97c2592d6bec)
+![Screenshot_20240824-205753_YouTube](https://github.com/user-attachments/assets/3aa548de-09df-4490-99c1-47ecc5741745)
+![Screenshot_20240824-205801_YouTube](https://github.com/user-attachments/assets/ab2c0980-7236-4e13-94eb-1b6c69a37d5a)
 
 ### Decentralized Storage
 - https://www.youtube.com/watch?v=S3wkcIP7mEk 2024
 - ![Screenshot_20240611-173226_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9596525e-aaae-4fd3-99b0-5182c532fe33)
+
+### Decentralized Machine Learning
+- https://www.youtube.com/watch?v=SyAdBo6vRAA 2024 flock.io decentralized training
+- ![Screenshot_20240611-182845_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0a38d1eb-1b42-4ec5-a0b8-caa4058ffd96)
 
 ### Oasis Labs
 - https://www.oasislabs.com/
@@ -102,10 +116,6 @@
 ![Screenshot_20240802-163944_YouTube](https://github.com/user-attachments/assets/f37b94ea-9704-4961-842a-6fe14e8699b8)
 ![Screenshot_20240802-164016_YouTube](https://github.com/user-attachments/assets/f2e32890-016d-4d10-8acd-5e05cd6b3cb7)
 ![Screenshot_20240802-164022_YouTube](https://github.com/user-attachments/assets/24875237-b6bd-43eb-8cb0-76f4bd5f9632)
-
-### Decentralized Machine Learning
-- https://www.youtube.com/watch?v=SyAdBo6vRAA 2024 flock.io decentralized training
-- ![Screenshot_20240611-182845_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0a38d1eb-1b42-4ec5-a0b8-caa4058ffd96)
 
 ### Shadow
 - https://blog.shadow.xyz/how-shadow-works/
