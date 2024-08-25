@@ -81,6 +81,7 @@
 
 ### Blockchain and AI
 - JPMorgan thought leadership https://www.youtube.com/watch?v=F5GzAkn_nJc
+- Dfinity https://www.youtube.com/watch?v=MzvsST3rzjc
 ![Screenshot_20240824-205635_YouTube](https://github.com/user-attachments/assets/446c2338-0975-4f39-9a24-52f3667e7c49)
 ![Screenshot_20240824-205647_YouTube](https://github.com/user-attachments/assets/40bc59ca-dbe7-4fb3-ab50-f62b4837bba6)
 ![Screenshot_20240824-205710_YouTube](https://github.com/user-attachments/assets/bc6da6ae-f81f-4666-a6c9-e22303e647c8)
