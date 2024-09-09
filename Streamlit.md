@@ -8,7 +8,7 @@
 - [https://www.youtube.com/live/YzvMpvXyUfs?feature=share](https://www.youtube.com/live/YzvMpvXyUfs?feature=share) 
 - [https://youtu.be/\_wq1NbDCkL8](https://youtu.be/_wq1NbDCkL8)
 - Streamlit not React: https://www.youtube.com/watch?v=WTfWgYsIspE
-- Streamlit in more detail https://www.youtube.com/watch?v=PmJnIe9Apc4
+- Streamlit in more detail [https://www.youtube.com/watch?v=PmJnIe9Apc4](https://www.youtube.com/watch?v=PmJnIe9Apc4&t=3360s)
 ![Screenshot_20240621-161538_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dbb1fbb6-2436-4611-8861-7ed059042ed7)
 ![Screenshot_20240621-161544_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9bad2cd3-e159-4e46-aa39-107da0aa9a24)
 ![Screenshot_20240621-161556_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1dc02877-22a3-4849-b59c-f8a3580ab3b2)
