@@ -114,6 +114,13 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240703-182521_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6dd7e4a5-b143-48ce-8301-a6fdcbd3f6ed)
 ![Screenshot_20240705-090430_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6349a469-4e13-47d6-9677-b0b904a5d33d)
 
+### Featureform vs Feast
+- https://www.youtube.com/live/cL9BZMF488M
+![Screenshot_20240713-170722_YouTube](https://github.com/user-attachments/assets/15c4867e-afc0-4481-b2f5-efe16168b262)
+![Screenshot_20240713-170837_YouTube](https://github.com/user-attachments/assets/ab928486-2758-491e-b9bc-bfe5614ed6c6)
+![Screenshot_20240713-170841_YouTube](https://github.com/user-attachments/assets/29c7d5a3-1ef7-4f53-9886-d4016c7f4465)
+![Screenshot_20240713-170951_YouTube](https://github.com/user-attachments/assets/f1a0448e-4641-4dc6-a763-6e7d8edc2c89)
+
 ### Serving Batch, Streaming & Real-Time Features with Featureform
 - https://www.youtube.com/live/_PWpt_i5uSs
 - Batch Model vs Interactive Model; Batch / Streaming / On Demand Features
