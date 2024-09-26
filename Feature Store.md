@@ -79,6 +79,7 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240711-065252_YouTube](https://github.com/user-attachments/assets/35aa4eae-c1ae-4443-b707-22c9621fd66d)
 
 ## FeatureForm
+- https://www.featureform.com/post/feature-stores-explained-the-three-common-architectures
 - https://www.youtube.com/watch?v=ZsWa6XiBc-U
 - Pulsar has retention layer: separates out historical part and puts it in S3, see https://www.youtube.com/watch?v=ZsWa6XiBc-U&t=170s
   - Confluent has retention layer, OSS Kafka does not
