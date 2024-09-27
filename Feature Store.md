@@ -7,7 +7,6 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ## MLOps MVP: Feature Store + Model Registry
 - Minimal / MVP MLOPs hopsworks.ai https://www.youtube.com/watch?v=nQR3fz1KD3g
 <img width="1792" alt="Screenshot 2024-06-04 at 10 13 40 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/387b29b7-d7cf-445d-b118-52426d40fd6c">
-
 ![Screenshot_20240707-084619_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/4e10bfd1-a979-49b5-8efa-f8d75f6829bb)
 ![Screenshot_20240707-084628_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/03d18282-9047-4748-899a-00b227a67ad2)
 ![Screenshot_20240707-084646_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0f469c04-cea1-4095-8c9a-90cc0834a48d)
@@ -28,6 +27,26 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240707-085027_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e16861b3-5af1-4559-9740-8b18ecf0c224)
 ![Screenshot_20240707-085033_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9d0a0546-bf83-46ef-8b97-7753a6d2da09)
 ![Screenshot_20240707-085121_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e5018d30-d844-4f11-b5a9-4a39e17aa66e)
+- https://www.youtube.com/watch?v=qXkYjgBFMDI
+![Screenshot_20240712-065314_YouTube](https://github.com/user-attachments/assets/6e950901-b917-415b-b302-8efff67b6d56)
+![Screenshot_20240712-065337_YouTube](https://github.com/user-attachments/assets/ab96351e-f104-4c3d-9a80-0836a95fb48a)
+![Screenshot_20240712-065341_YouTube](https://github.com/user-attachments/assets/762ced6c-791d-47fc-8403-278edaaaa20d)
+![Screenshot_20240712-065352_YouTube](https://github.com/user-attachments/assets/7b779af8-c682-4e77-97d1-fb9d4aae465a)
+![Screenshot_20240712-065400_YouTube](https://github.com/user-attachments/assets/66b72bc5-2b9a-4512-991a-8a7f0b11bb12)
+![Screenshot_20240712-065426_YouTube](https://github.com/user-attachments/assets/56161cc8-cf16-4a86-bb01-e1ed8ec2c63c)
+![Screenshot_20240712-065443_YouTube](https://github.com/user-attachments/assets/c577c735-16fe-42cd-873b-19ca8bb49ce0)
+![Screenshot_20240712-065515_YouTube](https://github.com/user-attachments/assets/1491c9ad-5d96-45c7-a30d-2c91e91253e0)
+![Screenshot_20240712-065530_YouTube](https://github.com/user-attachments/assets/3b971758-8ee7-4eb2-a7a1-3a099d55cf84)
+![Screenshot_20240712-065542_YouTube](https://github.com/user-attachments/assets/1343e6c0-52a5-4f49-b671-af8873bdf194)
+![Screenshot_20240712-065559_YouTube](https://github.com/user-attachments/assets/a77bab9f-7707-46b2-ab01-2e442f4394ef)
+![Screenshot_20240712-065720_YouTube](https://github.com/user-attachments/assets/312d72c3-eb54-4a06-a226-70fe4b829813)
+![Screenshot_20240712-065737_YouTube](https://github.com/user-attachments/assets/08f7d1ae-0750-4731-be0a-1052f14ec672)
+![Screenshot_20240712-065749_YouTube](https://github.com/user-attachments/assets/2d4f657e-b6a4-48e5-ad68-caf82806050f)
+![Screenshot_20240712-065806_YouTube](https://github.com/user-attachments/assets/23bb5392-1fd0-488b-b5d9-35feb29f905d)
+![Screenshot_20240712-065813_YouTube](https://github.com/user-attachments/assets/65c134b6-a9c9-4e8e-b185-0fc4487b9ba5)
+![Screenshot_20240712-065821_YouTube](https://github.com/user-attachments/assets/4baae60b-0031-45f7-9866-dbf924133866)
+![Screenshot_20240712-065826_YouTube](https://github.com/user-attachments/assets/016713b8-98da-4343-8260-f9f35a50a760)
+![Screenshot_20240712-065836_YouTube](https://github.com/user-attachments/assets/83048bb2-2cfe-4b75-9a5a-9d9da9c70577)
 
 ### www.hopsworks.ai 101
 - Batch / Real Time ML 101 https://www.youtube.com/watch?v=s20w8nKCK2o
