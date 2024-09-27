@@ -201,11 +201,32 @@ https://www.youtube.com/watch?v=AdY7xyj7a28
 <img width="1792" alt="Screenshot 2024-06-04 at 11 27 57 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0e5fa005-4f21-45c4-9a96-6f57a8f5b9e1">
 <img width="1792" alt="Screenshot 2024-06-04 at 11 28 22 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7aa72e3d-bcd2-46fe-ac16-662c3f6cf5a3">
 
+## MLOps with Hopsworks Feature Store
+- https://www.youtube.com/watch?v=vADvw4-XOlU
 
-
-
-
-
-
-
-
+![Screenshot_20240711-185225_YouTube](https://github.com/user-attachments/assets/208c490f-61f7-487b-a137-369d815ebbc8)
+![Screenshot_20240711-185235_YouTube](https://github.com/user-attachments/assets/1400b1c0-a751-49a1-a73c-df328b775b42)
+![Screenshot_20240711-185245_YouTube](https://github.com/user-attachments/assets/213c0eda-296b-4ede-82c2-7a7ad24cb36e)
+![Screenshot_20240711-185256_YouTube](https://github.com/user-attachments/assets/1728c568-d52c-4824-8cd8-788f574c4b87)
+![Screenshot_20240711-185305_YouTube](https://github.com/user-attachments/assets/a7af78af-54f6-4a3a-a269-8bc735d8bc63)
+![Screenshot_20240711-185320_YouTube](https://github.com/user-attachments/assets/bee7b096-2bb0-4bad-bb17-b226c520a072)
+![Screenshot_20240711-185335_YouTube](https://github.com/user-attachments/assets/5ca71e67-6e7c-47d9-9bc4-053f3737c60f)
+![Screenshot_20240711-185349_YouTube](https://github.com/user-attachments/assets/8d724234-4c9b-4b2a-b421-ae4e83b81a9b)
+![Screenshot_20240711-185353_YouTube](https://github.com/user-attachments/assets/7bfc91b3-2b7c-454e-b99c-992fcaf27241)
+![Screenshot_20240711-185402_YouTube](https://github.com/user-attachments/assets/65658d16-292b-46a7-b3a6-b2ab03d6aa7c)
+![Screenshot_20240711-185416_YouTube](https://github.com/user-attachments/assets/2cd8b781-cd05-491d-b7fd-b4565bbb982c)
+![Screenshot_20240711-185422_YouTube](https://github.com/user-attachments/assets/36e0a9cf-313d-4d53-9a72-380890efe19d)
+![Screenshot_20240711-185427_YouTube](https://github.com/user-attachments/assets/f88249dc-9678-4600-9379-cb461c866678)
+![Screenshot_20240711-185432_YouTube](https://github.com/user-attachments/assets/4b4c0eeb-559d-4982-937d-d2ca098bdea7)
+![Screenshot_20240711-185436_YouTube](https://github.com/user-attachments/assets/7686633b-9ede-4929-88bb-09b2eb1c5582)
+![Screenshot_20240711-185450_YouTube](https://github.com/user-attachments/assets/162aedaf-53b7-42a1-a272-98fe350bdcc2)
+![Screenshot_20240711-185453_YouTube](https://github.com/user-attachments/assets/7d35d5bb-9082-40c1-a97d-f070f2041156)
+![Screenshot_20240711-185503_YouTube](https://github.com/user-attachments/assets/732228f4-c7fc-4aa3-b08d-f56837766211)
+![Screenshot_20240711-185509_YouTube](https://github.com/user-attachments/assets/9197b4f2-cc12-438d-a78a-4c34b46274ce)
+![Screenshot_20240711-185512_YouTube](https://github.com/user-attachments/assets/fa673893-0a15-4a54-a068-ed148aa2821e)
+![Screenshot_20240711-185517_YouTube](https://github.com/user-attachments/assets/3625c04e-18f8-4581-8422-d4e01b1cb83b)
+![Screenshot_20240711-185521_YouTube](https://github.com/user-attachments/assets/71a4db57-bfa2-4224-a75c-f6c167b1c596)
+![Screenshot_20240711-185524_YouTube](https://github.com/user-attachments/assets/5a05711e-733c-4a24-89e5-6aff9179fa90)
+![Screenshot_20240711-185529_YouTube](https://github.com/user-attachments/assets/81ec0b94-32dd-4488-91d0-cac7bdebc88c)
+![Screenshot_20240711-185537_YouTube](https://github.com/user-attachments/assets/be04e928-08e5-481f-87c2-6559fa3566ad)
+![Screenshot_20240711-185544_YouTube](https://github.com/user-attachments/assets/08f05ad9-b2e7-4fc6-ac4a-c8a697ec3b30)
