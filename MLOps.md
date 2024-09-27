@@ -100,6 +100,7 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 	- https://www.geteppo.com/
 	- End to end experimentation platform for A/B testing, integrates with MDS
 	- [Building a Modern Experimentation Stack (Eppo).pdf](https://github.com/user-attachments/files/15825712/Building.a.Modern.Experimentation.Stack.Eppo.pdf)
+- TurboML: real time ML platform https://turboml.com/
 
 ## MLOps 101
 - https://www.youtube.com/watch?v=IYySKhioMTM
