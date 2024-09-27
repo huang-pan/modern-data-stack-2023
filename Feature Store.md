@@ -164,6 +164,15 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240711-064421_YouTube](https://github.com/user-attachments/assets/d14c088d-7213-4b91-af5c-5cf3f4ebdda0)
 ![Screenshot_20240711-064436_YouTube](https://github.com/user-attachments/assets/c030268b-6bdd-4911-9001-625bfb8d86d3)
 
+## Databricks Feature Store
+- https://www.youtube.com/watch?v=UySbya9ceXg
+![Screenshot_20240713-180225_YouTube](https://github.com/user-attachments/assets/a1830ad6-d078-41bc-af51-e151b0edace6)
+![Screenshot_20240713-180305_YouTube](https://github.com/user-attachments/assets/862b9f5c-9bcd-4831-aec2-6c654ef6e15c)
+![Screenshot_20240713-180312_YouTube](https://github.com/user-attachments/assets/d3d77c9b-c22e-4041-a407-fb251fed1ed5)
+![Screenshot_20240713-180333_YouTube](https://github.com/user-attachments/assets/0bfcd3ce-a2f2-4af2-834d-786a622750b4)
+![Screenshot_20240713-180348_YouTube](https://github.com/user-attachments/assets/e2f49f47-b57b-4a05-99df-e803f4ae99cf)
+![Screenshot_20240713-180408_YouTube](https://github.com/user-attachments/assets/26249946-f192-40f8-92ba-27f2f797a94c)
+
 ## Redis
 - https://www.youtube.com/watch?v=F6vwj6bl1Wc
   - Use for real time / mobile events, < 10 ms to 1 second latency
