@@ -142,3 +142,10 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240711-064414_YouTube](https://github.com/user-attachments/assets/acba1840-04bb-4eb7-89ab-aca372b8ed67)
 ![Screenshot_20240711-064421_YouTube](https://github.com/user-attachments/assets/d14c088d-7213-4b91-af5c-5cf3f4ebdda0)
 ![Screenshot_20240711-064436_YouTube](https://github.com/user-attachments/assets/c030268b-6bdd-4911-9001-625bfb8d86d3)
+
+## Redis
+- https://www.youtube.com/watch?v=F6vwj6bl1Wc
+  - Use for real time / mobile events, < 10 ms to 1 second latency
+  - demo redis + feast: https://docs.feast.dev/reference/online-stores/redis
+![Screenshot_20240802-165014_YouTube](https://github.com/user-attachments/assets/d1b11940-13fa-4fe8-aa4b-98bfd611f046)
+<img width="1920" alt="Screenshot 2024-09-27 at 2 55 49 PM (2)" src="https://github.com/user-attachments/assets/d3ac864a-473a-49d5-a3b6-fcd7e5fa66b7">
