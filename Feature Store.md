@@ -173,6 +173,26 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240713-180348_YouTube](https://github.com/user-attachments/assets/e2f49f47-b57b-4a05-99df-e803f4ae99cf)
 ![Screenshot_20240713-180408_YouTube](https://github.com/user-attachments/assets/26249946-f192-40f8-92ba-27f2f797a94c)
 
+## WeChat Real Time / Online Feature Extraction
+- https://www.youtube.com/watch?v=Y4aobnhMXcI
+  - small batches of data: < 1k items per request
+  - latency <50ms
+![Screenshot_20240713-175038_YouTube](https://github.com/user-attachments/assets/367fa6a6-6272-44fb-b52d-b2499c4f2c0d)
+![Screenshot_20240713-175059_YouTube](https://github.com/user-attachments/assets/b7f428f5-1d54-4d42-ada6-3b1c6fcade3e)
+![Screenshot_20240713-175121_YouTube](https://github.com/user-attachments/assets/c11806f3-cfd6-4754-b568-1617d056c79f)
+![Screenshot_20240713-175145_YouTube](https://github.com/user-attachments/assets/5145c686-c398-4926-b2f9-8769ff4394a9)
+![Screenshot_20240713-175153_YouTube](https://github.com/user-attachments/assets/c41679d5-4787-4458-b7cf-9ad99af4354a)
+![Screenshot_20240713-175203_YouTube](https://github.com/user-attachments/assets/a39b7904-ab5c-4f9e-ab6f-8c6733a68cbb)
+![Screenshot_20240713-175213_YouTube](https://github.com/user-attachments/assets/662703cc-fe8d-46cf-9446-38dca72c4d16)
+![Screenshot_20240713-175221_YouTube](https://github.com/user-attachments/assets/0fc42408-9aaa-4f6d-8224-957347a0d28b)
+![Screenshot_20240713-175228_YouTube](https://github.com/user-attachments/assets/1e9cbd33-8f0a-421c-a629-640a455ea8cc)
+![Screenshot_20240713-175233_YouTube](https://github.com/user-attachments/assets/5fc7f1fe-1e87-4549-8d87-c423126a7418)
+![Screenshot_20240713-175238_YouTube](https://github.com/user-attachments/assets/d0eb7db3-bc05-468a-bfc0-49b30ff95055)
+![Screenshot_20240713-175244_YouTube](https://github.com/user-attachments/assets/5d1c2714-45e6-4bb8-ab5a-80bfad439e3b)
+![Screenshot_20240713-175253_YouTube](https://github.com/user-attachments/assets/f6c9768a-d860-404e-97e3-d22fd83aaa18)
+![Screenshot_20240713-175258_YouTube](https://github.com/user-attachments/assets/47f45522-e27f-4a24-a476-c55eb547f7cc)
+![Screenshot_20240713-175303_YouTube](https://github.com/user-attachments/assets/f4c0e465-70bb-46d3-92f1-7febdcf6b3bb)
+
 ## Redis
 - https://www.youtube.com/watch?v=F6vwj6bl1Wc
   - Use for real time / mobile events, < 10 ms to 1 second latency
