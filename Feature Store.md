@@ -98,6 +98,15 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240711-070345_YouTube](https://github.com/user-attachments/assets/019f4e3b-1a32-416e-a769-543e76d01ed5)
 ![Screenshot_20240711-070424_YouTube](https://github.com/user-attachments/assets/3da6bfd7-01e4-4154-b9d4-3d3a55470435)
 ![Screenshot_20240711-070434_YouTube](https://github.com/user-attachments/assets/fdbf1de4-1f29-4dc5-8781-e34bb4246c4a)
+- https://www.youtube.com/watch?v=E53m_uKQDdw
+![Screenshot_20240712-064743_YouTube](https://github.com/user-attachments/assets/c72f10f2-a246-49dd-b26a-a7e7f78d5b49)
+![Screenshot_20240712-064833_YouTube](https://github.com/user-attachments/assets/73a98b94-7471-457c-95d8-9ee8ccef8c3a)
+![Screenshot_20240712-064844_YouTube](https://github.com/user-attachments/assets/0a7060ed-7d9e-4a35-8d5f-7cc8e5e60dbe)
+![Screenshot_20240712-064904_YouTube](https://github.com/user-attachments/assets/8c08a864-6cf1-49be-8e0b-4b4a131a1906)
+![Screenshot_20240712-064916_YouTube](https://github.com/user-attachments/assets/81c5f165-e6be-4a33-b19e-b3532caed873)
+![Screenshot_20240712-064932_YouTube](https://github.com/user-attachments/assets/ed7def0c-4bc3-48aa-a472-be109719aba8)
+![Screenshot_20240712-064958_YouTube](https://github.com/user-attachments/assets/84cb3656-0cb1-4691-a796-90be1b622118)
+![Screenshot_20240712-065011_YouTube](https://github.com/user-attachments/assets/0fb59d36-bc1f-4fe7-b212-28358c918644)
 
 ### Hopsworks batch features
 - Leverage Snowflake with Real Time Feature Store https://www.youtube.com/watch?v=PaWkikWPNuI
