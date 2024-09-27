@@ -78,6 +78,20 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240711-065240_YouTube](https://github.com/user-attachments/assets/124505d3-471b-45ac-9b6c-7b95c2253892)
 ![Screenshot_20240711-065252_YouTube](https://github.com/user-attachments/assets/35aa4eae-c1ae-4443-b707-22c9621fd66d)
 
+### Feature monitoring in Hopsworks
+- https://www.youtube.com/watch?v=xWUAc7t9ghY
+![Screenshot_20240801-100004_YouTube](https://github.com/user-attachments/assets/9934f447-1494-4e09-b187-25445d21f22a)
+![Screenshot_20240801-100033_YouTube](https://github.com/user-attachments/assets/f918cffe-7997-4eeb-90d4-763bf43b56ab)
+![Screenshot_20240801-100128_YouTube](https://github.com/user-attachments/assets/cc425d91-a983-4a00-88d2-0ffd7890c074)
+![Screenshot_20240801-100146_YouTube](https://github.com/user-attachments/assets/1799f773-d712-40f1-ade8-934fd2cbf14e)
+![Screenshot_20240801-100208_YouTube](https://github.com/user-attachments/assets/c0e13ccc-6d4f-4d2a-83f6-ebe0c191941c)
+![Screenshot_20240801-100223_YouTube](https://github.com/user-attachments/assets/fd0a3be6-267c-4809-abf5-48d8aa6d2cd0)
+![Screenshot_20240801-100242_YouTube](https://github.com/user-attachments/assets/2e78463a-3509-49d5-befa-f828aa8c06ff)
+![Screenshot_20240801-100249_YouTube](https://github.com/user-attachments/assets/c3caf462-7d34-4834-aa82-08a0030969d0)
+![Screenshot_20240801-100255_YouTube](https://github.com/user-attachments/assets/ae43d3b8-e074-4022-90bf-0b17cf0cf14e)
+![Screenshot_20240801-100314_YouTube](https://github.com/user-attachments/assets/483d5a4f-a0f1-4bee-a117-4e5eae0e1832)
+![Screenshot_20240801-100317_YouTube](https://github.com/user-attachments/assets/c0f9c925-08ff-454b-be59-d4104024bf10)
+
 ## FeatureForm
 - https://www.featureform.com/post/feature-stores-explained-the-three-common-architectures
 - https://www.youtube.com/watch?v=ZsWa6XiBc-U
