@@ -165,6 +165,7 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240711-064436_YouTube](https://github.com/user-attachments/assets/c030268b-6bdd-4911-9001-625bfb8d86d3)
 
 ## Databricks Feature Store
+- Featureform + Databricks Feature Store: https://www.youtube.com/live/5UhEuVU1dOQ
 - https://www.youtube.com/watch?v=UySbya9ceXg
 ![Screenshot_20240713-180225_YouTube](https://github.com/user-attachments/assets/a1830ad6-d078-41bc-af51-e151b0edace6)
 ![Screenshot_20240713-180305_YouTube](https://github.com/user-attachments/assets/862b9f5c-9bcd-4831-aec2-6c654ef6e15c)
