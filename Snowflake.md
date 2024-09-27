@@ -135,6 +135,7 @@
 	- https://www.youtube.com/watch?v=ufUj5yP_tEQ
 
 ## Snowflake Hybrid Tables
+- https://medium.com/snowflake/introducing-unistore-snowflakes-new-workload-for-transactional-and-analytical-data-daea01e49c61
 - like having postgres within Snowflake for low latency OLTP applications https://www.youtube.com/watch?v=GH7ZdiR9QG0
 - Snowflake Hybrid Tables under the hood https://www.youtube.com/watch?v=tQsf-Nnx-RM
 ![Screenshot_20240701-112619_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/07aa10fd-3c98-4464-862c-cad776762144)
