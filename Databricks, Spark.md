@@ -551,6 +551,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - Databricks and MS Power BI
 	- Power BI MS Copilot integration
 	- https://youtube.com/watch?v=uadUz6jRb8g&feature=share
+- Databricks Feature Store: https://github.com/huang-pan/modern-data-stack-2023/blob/main/Feature%20Store.md#databricks-feature-store
 
 ## Example streaming data architecture using Databricks Delta Live Streaming Tables / Delta Live Tables & Views; or Spark Structured Streaming
 - AWS services such as S3, Lambda, DMS, Athena, SNS, Kinesis, EMR etc.
