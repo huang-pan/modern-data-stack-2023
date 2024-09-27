@@ -58,6 +58,7 @@
         - KQL database: real time database, use KQL to query real time data and push to Power BI
         - [https://learn.microsoft.com/en\-us/fabric/real\-time\-analytics/tutorial\-introduction](https://learn.microsoft.com/en-us/fabric/real-time-analytics/tutorial-introduction) 
         - **Seems to be an easier / more up to date solution than GCP Dataflow or AWS Kinesis Data Analytics**
+- Fabric is behind Databricks https://www.linkedin.com/posts/josuebogran_i-recently-wrote-about-fabric-vs-databricks-ugcPost-7232610689738035200-DKyU/
 - Azure Stream Analytics
     - [https://youtu.be/NbGmyjgY0pU](https://youtu.be/NbGmyjgY0pU) 
     - Looks pretty similar to other streaming solutions; SQL based windows etc.
