@@ -38,6 +38,10 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240709-071954_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7f1ba75b-210a-402e-a116-5b216014bd95)
 ![Screenshot_20240709-072234_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b2bab92c-87ef-4e03-9e25-e480f942a664)
 ![Screenshot_20240709-072329_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/787290b8-248c-4a9e-89b4-f40c9924e9bc)
+- https://www.youtube.com/watch?v=mpQu9BY04gs
+![Screenshot_20240712-070651_YouTube](https://github.com/user-attachments/assets/a96b54b5-a3c8-43e1-ad3e-1a2b8b653b38)
+![Screenshot_20240712-070704_YouTube](https://github.com/user-attachments/assets/cb0c9b9e-41c1-4c02-90f3-8d7ce7506d90)
+![Screenshot_20240712-070820_YouTube](https://github.com/user-attachments/assets/edfa1a7b-5ec0-407f-8e71-c79c8c64591b)
 - https://www.youtube.com/watch?v=kxY42c3xcxI
 ![Screenshot_20240713-175824_YouTube](https://github.com/user-attachments/assets/a4cc0a8b-e84f-440b-baff-b124886868a9)
 ![Screenshot_20240713-175834_YouTube](https://github.com/user-attachments/assets/552e356f-c9e9-4681-a089-53ff78e186a8)
