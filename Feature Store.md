@@ -230,6 +230,24 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240713-175258_YouTube](https://github.com/user-attachments/assets/47f45522-e27f-4a24-a476-c55eb547f7cc)
 ![Screenshot_20240713-175303_YouTube](https://github.com/user-attachments/assets/f4c0e465-70bb-46d3-92f1-7febdcf6b3bb)
 
+## RonDB
+- RonDB is another low latency data store, alternative to redis, ACID https://www.youtube.com/watch?v=GZPTGxYw3Xs
+![Screenshot_20240802-152541_YouTube](https://github.com/user-attachments/assets/01e8b236-a769-4ac2-af7b-0bd592617caf)
+![Screenshot_20240802-152614_YouTube](https://github.com/user-attachments/assets/13be3883-3492-478d-b61d-97188a2be559)
+![Screenshot_20240802-152643_YouTube](https://github.com/user-attachments/assets/b7b5f7c0-8040-4df9-8f06-6f10a0370b91)
+![Screenshot_20240802-152706_YouTube](https://github.com/user-attachments/assets/15c5490f-114c-4605-b948-0e51384cd5a8)
+![Screenshot_20240802-152731_YouTube](https://github.com/user-attachments/assets/71887166-9dc4-4b5e-96ce-97205099551d)
+![Screenshot_20240802-152810_YouTube](https://github.com/user-attachments/assets/88ea593b-9368-4594-9c54-625d63a1caf7)
+![Screenshot_20240802-152844_YouTube](https://github.com/user-attachments/assets/16908231-1059-4648-920a-697b92232505)
+![Screenshot_20240802-152901_YouTube](https://github.com/user-attachments/assets/25560966-9a90-4115-bc94-7ac69041b478)
+![Screenshot_20240802-152913_YouTube](https://github.com/user-attachments/assets/a3073889-9e4d-48b0-99ab-d294f7f09359)
+![Screenshot_20240802-152935_YouTube](https://github.com/user-attachments/assets/4ca0e4c1-f2cd-42c4-a86b-5efbfc57288d)
+![Screenshot_20240802-153011_YouTube](https://github.com/user-attachments/assets/1cbdb576-f93b-42e6-830f-1a0079a54b85)
+![Screenshot_20240802-153030_YouTube](https://github.com/user-attachments/assets/7fe12d90-eb09-49e4-9edc-24a0d2a3e432)
+![Screenshot_20240802-153054_YouTube](https://github.com/user-attachments/assets/bdba7bee-91d3-46a8-ba45-52433f3454fe)
+![Screenshot_20240802-153107_YouTube](https://github.com/user-attachments/assets/f7add85f-6c50-4d7c-b366-ca8103a2b348)
+![Screenshot_20240802-153148_YouTube](https://github.com/user-attachments/assets/a64e2591-0ebf-4b05-8b17-afa00f016acf)
+
 ## Redis
 - https://www.youtube.com/watch?v=F6vwj6bl1Wc
   - Use for real time / mobile events, < 10 ms to 1 second latency
