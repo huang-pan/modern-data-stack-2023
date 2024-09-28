@@ -178,6 +178,11 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 ![Screenshot_20240801-133610_YouTube](https://github.com/user-attachments/assets/f20813d2-e476-41f9-8d27-0b2d22303b30)
 ![Screenshot_20240801-133622_YouTube](https://github.com/user-attachments/assets/c6648a1c-9aa5-47b5-8e3d-f1287d291a3b)
 ![Screenshot_20240801-133712_YouTube](https://github.com/user-attachments/assets/886195f3-6306-4c13-8ee5-4258bbbee0f5)
+- https://www.youtube.com/watch?v=QMQPnAkZFOE CD from W&B model registry
+![Screenshot_20240801-134628_YouTube](https://github.com/user-attachments/assets/e9289fc2-27b3-4129-a784-72dcfa5f5ffc)
+![Screenshot_20240801-134638_YouTube](https://github.com/user-attachments/assets/02061553-a2dc-4a5d-b445-6936ac5de32f)
+![Screenshot_20240801-134709_YouTube](https://github.com/user-attachments/assets/0dd591c3-20d8-4638-8787-2ceaefa8a629)
+![Screenshot_20240801-134729_YouTube](https://github.com/user-attachments/assets/e144586d-3df9-480f-8eca-d3551f058e74)
 
 ## MLOps on Azure Databricks
 - https://www.youtube.com/watch?v=qg7rTM8qVoM
