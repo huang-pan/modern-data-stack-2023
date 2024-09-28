@@ -34,6 +34,9 @@ Some Purposes of Data Contracts:
 
 - https://blog.det.life/mastering-data-quality-10-essential-checks-with-real-world-examples-and-7-best-practices-fa303f2ae42b
 - Data Observability Buyers Guide: https://www.dataengineeringweekly.com/p/evaluating-data-observability-tools
+- The Evolution of DataOps: Insights from DataKitchen's CEO
+  - https://www.youtube.com/watch?v=l2dVhlWQcjQ
+  - Testen data testing, Observability 
 
 ## Technical Debt
 
