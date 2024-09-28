@@ -99,6 +99,9 @@
 		- https://youtube.com/watch?v=y67bH9ss07Y&si=RYzbsnPGqtWt2mAU
    	- Snowflake AI cost usage
    		- https://www.linkedin.com/posts/ian-whitestone_i-was-just-asking-our-snowflake-sales-engineer-activity-7220172262249746435-_hDq/
+	- SurveyMonkey Increases Snowflake Workloads By 475% With Only A 27% Increase In Credit Use https://www.youtube.com/watch?v=4aCj0wk33kg
+ ![Screenshot_20240729-192527_YouTube](https://github.com/user-attachments/assets/46382304-2ee7-49be-af3c-c534e3bd66a0)
+
 	- ***Sundeck*** Snowflake warehouse usage cost optimization https://www.youtube.com/watch?v=jlCEeHHE_G8
 - Data Lineage
 	- https://www.phdata.io/blog/ultimate-guide-to-data-lineage-directly-in-snowflake/
