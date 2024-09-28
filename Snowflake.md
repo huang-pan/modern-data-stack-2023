@@ -171,7 +171,8 @@
 ## MLOps in Snowflake
 - https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
 	- ****Snowflake ML has a model registry and feature store****
-	- https://www.youtube.com/watch?v=hsnA8CiZNyY
+- Transforming Snowflake into an MLOps ‘Feature Factory’ using Iguazio https://www.youtube.com/watch?v=8gUOvGE0xoU
+- https://www.youtube.com/watch?v=hsnA8CiZNyY 
 ![Screenshot_20240701-172316_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/55a635c1-68d7-466c-a265-df9007254b3a)
 ![Screenshot_20240701-172327_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3825ecae-5a5c-4da3-8ed7-59ef6e0f5810)
 ![Screenshot_20240701-172335_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/59e3b9e6-be76-41bb-ae55-a3f165dca2a2)
