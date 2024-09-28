@@ -3,6 +3,7 @@
 See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/MLOps.md
 
 ****Feature Engineering Encyclopedia****: https://feaz-book.com
+<img width="1920" alt="Screenshot 2024-07-12 at 2 35 38 PM (2)" src="https://github.com/user-attachments/assets/981f73a6-e6aa-4ae2-99c5-3d2a28c5f892">
 
 ## MLOps MVP: Feature Store + Model Registry
 - Minimal / MVP MLOPs hopsworks.ai https://www.youtube.com/watch?v=nQR3fz1KD3g
