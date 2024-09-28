@@ -171,6 +171,8 @@
 - https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
 	- ****Snowflake ML has a model registry and feature store****
 	- https://www.youtube.com/watch?v=hsnA8CiZNyY
+<img width="1920" alt="Screenshot 2024-07-12 at 3 21 28 PM (2)" src="https://github.com/user-attachments/assets/61d41cac-cd7f-4a7d-9024-b5d431a5f7c9">
+
 ![Screenshot_20240701-172316_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/55a635c1-68d7-466c-a265-df9007254b3a)
 ![Screenshot_20240701-172327_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/3825ecae-5a5c-4da3-8ed7-59ef6e0f5810)
 ![Screenshot_20240701-172335_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/59e3b9e6-be76-41bb-ae55-a3f165dca2a2)
