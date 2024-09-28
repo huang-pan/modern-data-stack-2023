@@ -238,3 +238,4 @@
 		- DeFi Score API — Query DeFi Score and associated risk metrics on all the DeFi Lending Protocols. Used for display in your wallet/dapp, research, or media content. Read the documentation here
 - Smart contract analyzer
 	- ETH https://medium.com/google-cloud/analysing-1-2m-mainnet-contracts-in-20-seconds-using-eveem-and-bigquery-f69b6d66c7b2
+- Onchain Capital allocation: DAOs, decentralized funds, etc. https://www.youtube.com/watch?v=tP_DXc0SkdQ
