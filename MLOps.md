@@ -204,7 +204,11 @@ https://www.youtube.com/watch?v=AdY7xyj7a28
 
 ## MLOps with Hopsworks Feature Store
 - https://www.youtube.com/watch?v=vADvw4-XOlU
-
+![Screenshot_20240711-185030_YouTube](https://github.com/user-attachments/assets/e5d5a177-8fc2-4759-8266-b34d84c8984e)
+![Screenshot_20240711-185100_YouTube](https://github.com/user-attachments/assets/82f0f2f0-4f62-4843-8b4c-f031602e5225)
+![Screenshot_20240711-185119_YouTube](https://github.com/user-attachments/assets/ba8c3bbf-7261-4103-94bd-2759248a2225)
+![Screenshot_20240711-185133_YouTube](https://github.com/user-attachments/assets/985c9f00-8fbd-4600-80f5-59e38bb2a6bc)
+![Screenshot_20240711-185145_YouTube](https://github.com/user-attachments/assets/b8da9cda-cbea-464d-b606-fdd5ef3f07f2)
 ![Screenshot_20240711-185225_YouTube](https://github.com/user-attachments/assets/208c490f-61f7-487b-a137-369d815ebbc8)
 ![Screenshot_20240711-185235_YouTube](https://github.com/user-attachments/assets/1400b1c0-a751-49a1-a73c-df328b775b42)
 ![Screenshot_20240711-185245_YouTube](https://github.com/user-attachments/assets/213c0eda-296b-4ede-82c2-7a7ad24cb36e)
