@@ -84,7 +84,8 @@
 	- https://hevodata.com/learn/snowflake-roles/#3
 		- orgadmin, accountadmin, securityadmin, sysadmin, etc.
 	- Row Access Policies https://docs.snowflake.com/en/user-guide/security-row-intro 
-	- Dynamic Data Masking down to column level https://docs.snowflake.com/en/user-guide/security-column-ddm-intro 
+	- Dynamic Data Masking down to column level https://docs.snowflake.com/en/user-guide/security-column-ddm-intro
+ 	- ***Permifrost*** https://medium.com/yousign-engineering-product/snowflake-rbac-implementation-with-permifrost-3d30652825ad
 - Warehouse load monitoring, cost controls
 	- https://docs.snowflake.com/en/user-guide/warehouses-load-monitoring
 	- https://docs.snowflake.com/en/guides-overview-cost 
