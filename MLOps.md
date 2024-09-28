@@ -125,6 +125,32 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 ![Screenshot_20240706-082059_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/8e4937de-e641-4703-b547-203d35610ed5)
 ![Screenshot_20240705-213438_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/2ced95b7-561e-4dfe-8df2-01307abddaaf)
 
+## The State of Production ML
+- 2024 https://www.youtube.com/live/AtA2XXo_b5s
+- 2023 https://www.youtube.com/watch?v=iMiFA_rITHI
+![Screenshot_20240729-100531_YouTube](https://github.com/user-attachments/assets/8b250cc7-6f1e-420f-932f-5426a3638071)
+![Screenshot_20240729-100534_YouTube](https://github.com/user-attachments/assets/70c49ef4-ee41-46d4-9e44-c037d0a7b889)
+![Screenshot_20240729-100542_YouTube](https://github.com/user-attachments/assets/b07fed00-8702-4270-80ca-1748f623cc9e)
+![Screenshot_20240729-100552_YouTube](https://github.com/user-attachments/assets/763a672d-e063-4e26-a85c-207bda854812)
+![Screenshot_20240729-100557_YouTube](https://github.com/user-attachments/assets/8df5ac04-7b2a-4f86-a8f4-c58554daadce)
+![Screenshot_20240729-100650_YouTube](https://github.com/user-attachments/assets/87085802-8ce7-4ffc-a505-fbe9e91a6ff3)
+![Screenshot_20240729-100730_YouTube](https://github.com/user-attachments/assets/0c337788-d84d-41ab-bb46-61ebd5f0a4b1)
+![Screenshot_20240729-100749_YouTube](https://github.com/user-attachments/assets/3f6f5f41-5faa-4b9d-b2df-938d5ca3815f)
+![Screenshot_20240729-100756_YouTube](https://github.com/user-attachments/assets/9060f36e-4dc4-4d36-addd-049f782481cd)
+![Screenshot_20240729-100813_YouTube](https://github.com/user-attachments/assets/7aaf84b2-11c1-4e8d-8511-42150c5d4d0f)
+![Screenshot_20240729-100820_YouTube](https://github.com/user-attachments/assets/cb0a1700-7a47-47c9-ab20-37b6efda7b5c)
+![Screenshot_20240729-100824_YouTube](https://github.com/user-attachments/assets/c3ec3f25-d27a-4d22-be79-a6755166aa9b)
+![Screenshot_20240729-100828_YouTube](https://github.com/user-attachments/assets/f81d8a5b-f341-498d-a4cd-29af1b3b9cd7)
+![Screenshot_20240729-100833_YouTube](https://github.com/user-attachments/assets/742d70a2-6b67-438c-84b2-4195c3fd8118)
+![Screenshot_20240729-100847_YouTube](https://github.com/user-attachments/assets/90c5d8ef-950c-4842-ae44-8a61a68eb708)
+![Screenshot_20240729-100850_YouTube](https://github.com/user-attachments/assets/1a3d3813-490e-4378-8ac6-1c8366d91a2a)
+![Screenshot_20240729-100855_YouTube](https://github.com/user-attachments/assets/5059ce0e-bbd5-4703-92fd-9881b411443e)
+![Screenshot_20240729-100904_YouTube](https://github.com/user-attachments/assets/8d62f257-0184-4f73-afd5-83d6c06c25c8)
+![Screenshot_20240729-100909_YouTube](https://github.com/user-attachments/assets/239f8895-8ad5-4462-bb4b-3a021b924628)
+![Screenshot_20240729-100914_YouTube](https://github.com/user-attachments/assets/39bfda73-9a89-4b11-a0cd-ace290c949a5)
+![Screenshot_20240729-100918_YouTube](https://github.com/user-attachments/assets/d03d9b5a-dfbf-4c26-88cb-c5d0672b5ba4)
+![Screenshot_20240729-100924_YouTube](https://github.com/user-attachments/assets/b27907f0-bf3b-4d7b-bb67-0f3d670be774)
+
 ## Weights and Biases
 - https://www.youtube.com/watch?v=tHAFujRhZLA
 ![Screenshot_20240801-101245_YouTube](https://github.com/user-attachments/assets/cf923837-ed5b-4777-a937-c00229ab13fe)
