@@ -233,7 +233,7 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 ![Screenshot_20240709-074720_YouTube](https://github.com/user-attachments/assets/952bfff5-1084-4e7e-9940-3571a2163a32)
 ![Screenshot_20240709-074753_YouTube](https://github.com/user-attachments/assets/a511bb9d-3834-4214-ba81-7585891bf2fb)
 
-## MLOps in Enterprise (older, cludgy solution)
+## MLOps in Enterprise (excellent guide to MLOps requirements, but older, cludgy solution)
 https://www.youtube.com/watch?v=iENEd59Rrqs
 <img width="1792" alt="Screenshot 2024-06-04 at 10 13 40 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/387b29b7-d7cf-445d-b118-52426d40fd6c">
 <img width="1792" alt="Screenshot 2024-06-04 at 10 33 56 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e17d910b-1489-4736-9a45-7a00a88dd7bc">
