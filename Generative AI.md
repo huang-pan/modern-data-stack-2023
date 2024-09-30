@@ -221,3 +221,10 @@ Generative AI Short Courses
 - Risc-V open source CPU instruction set (like ARM which is closed source), has adaptable vector processing of data of variable lengths https://www.youtube.com/watch?v=Ozj_xU0rSyY
 
 - Advanced Q&A Chatbot Using Ragstack With vector-enabled Astra DB Serverless database And Huggingface https://www.youtube.com/watch?v=8Vq4K1EGq2g
+
+### Graph RAG
+- https://www.youtube.com/watch?v=vX3A96_F3FU
+![Screenshot_20240705-071315_YouTube](https://github.com/user-attachments/assets/155fb21b-8d2b-4f39-bdc6-22194acb462e)
+![Screenshot_20240705-071113_YouTube](https://github.com/user-attachments/assets/8d570154-1db2-4d48-9e51-f1f81e494ddc)
+![Screenshot_20240705-071136_YouTube](https://github.com/user-attachments/assets/bf8883eb-432b-4757-96ba-a5cb9e359178)
+![Screenshot_20240705-071227_YouTube](https://github.com/user-attachments/assets/03b5970f-bb84-4fad-a24f-ca235716b3e0)
