@@ -131,6 +131,9 @@
 ![Screenshot_20240818-172438_YouTube](https://github.com/user-attachments/assets/c959c3b0-c330-47cc-b675-fd77f6c7df6a)
 ![Screenshot_20240818-172513_YouTube](https://github.com/user-attachments/assets/6fff710a-663a-4d7d-9bbe-1b71fd344ac4)
 
+## Misc
+- Karpatkey On chain treasury management  https://www.youtube.com/watch?v=biaINiiaskQ
+
 ## Notes
 - European DiD https://www.youtube.com/watch?v=ynNOCK61Lzw 
 - 
