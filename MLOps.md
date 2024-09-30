@@ -158,6 +158,16 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 ![Screenshot_20240713-171810_YouTube](https://github.com/user-attachments/assets/3a6ee5df-d881-47ee-8165-7e91741665c6)
 ![Screenshot_20240713-171817_YouTube](https://github.com/user-attachments/assets/228d5e46-f870-4bb5-ae61-c48daf222019)
 
+## Kubeflow
+- https://www.youtube.com/watch?v=OpH5wM4WGTY
+![Screenshot_20240713-163504_YouTube](https://github.com/user-attachments/assets/1bb20fb9-8b47-4b1f-b0e3-40180a71ad42)
+![Screenshot_20240713-163627_YouTube](https://github.com/user-attachments/assets/46287d8a-374d-4d75-8b9a-6d46ad771c55)
+![Screenshot_20240713-163633_YouTube](https://github.com/user-attachments/assets/c5935788-4f48-475c-8de6-2f136c587e9c)
+![Screenshot_20240713-163713_YouTube](https://github.com/user-attachments/assets/2c3eeebb-aa7e-4b71-baff-0454c99e351a)
+![Screenshot_20240713-163719_YouTube](https://github.com/user-attachments/assets/70cfa138-b333-414f-b7c4-15160e8ae889)
+![Screenshot_20240713-163732_YouTube](https://github.com/user-attachments/assets/c155a623-6587-4109-babc-e8037362c236)
+![Screenshot_20240713-163739_YouTube](https://github.com/user-attachments/assets/d8b2238b-5998-4c52-91f1-87e530a7f536)
+
 ## Weights and Biases
 - https://www.youtube.com/watch?v=tHAFujRhZLA
 ![Screenshot_20240801-101245_YouTube](https://github.com/user-attachments/assets/cf923837-ed5b-4777-a937-c00229ab13fe)
