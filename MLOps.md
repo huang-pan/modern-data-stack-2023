@@ -154,6 +154,9 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 ![Screenshot_20240729-100914_YouTube](https://github.com/user-attachments/assets/39bfda73-9a89-4b11-a0cd-ace290c949a5)
 ![Screenshot_20240729-100918_YouTube](https://github.com/user-attachments/assets/d03d9b5a-dfbf-4c26-88cb-c5d0672b5ba4)
 ![Screenshot_20240729-100924_YouTube](https://github.com/user-attachments/assets/b27907f0-bf3b-4d7b-bb67-0f3d670be774)
+- https://www.youtube.com/live/sTI3kdytymY MLOps in FinTech
+![Screenshot_20240713-171810_YouTube](https://github.com/user-attachments/assets/3a6ee5df-d881-47ee-8165-7e91741665c6)
+![Screenshot_20240713-171817_YouTube](https://github.com/user-attachments/assets/228d5e46-f870-4bb5-ae61-c48daf222019)
 
 ## Weights and Biases
 - https://www.youtube.com/watch?v=tHAFujRhZLA
