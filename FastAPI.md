@@ -397,6 +397,16 @@
 ![Screenshot_20240701-173748_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/9ae14c18-d964-4b12-b1fe-ab8ddf840613)
 ![Screenshot_20240701-173833_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/54dbf9e4-5f91-4a93-8a21-8f71c435b670)
 
+## 6 API styles
+- https://www.linkedin.com/posts/nelsonamigoscode_systemdesign-coding-interviewtips-activity-7211707276565323778-4hnm/
+	- GRPC: High-performance RPC framework for distributed systems.
+	- SOAP: Protocol for structured web services with strict XML standards.
+	- GraphQL: Query language for APIs to fetch only needed data.
+	- Webhook: Real-time communication via HTTP POST to trigger actions.
+	- REST: Architectural style using HTTP methods to manipulate resources.
+	- WebSocket: Bidirectional, real-time communication for low-latency applications.
+![1719400197980](https://github.com/user-attachments/assets/a11b8ccc-7739-42af-964e-eb355aa520a9)
+
 ## API Testing
 ![apitesting](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/33cbb4f9-64ab-4fea-b154-f0baa84b012a)
 - Smoke Testing: This is done after API development is complete. Simply validate if the APIs are working and nothing breaks.
