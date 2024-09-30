@@ -820,11 +820,14 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- Developing Production Databricks Pipelines
 - https://www.youtube.com/watch?v=HHzvWh9sJuE 
 - truly serverless compute
-
+-
 - LLM dev integration in Databrick dev env
 - LLM search on data: Databricks Genie: https://www.youtube.com/watch?v=uKLscjh__Yc
 - ![Screenshot_20240613-115139_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/75c6ac9b-295d-46a2-80b9-25e823ea9651)
-- Spark 4.0 https://www.databricks.com/dataaisummit/session/whats-next-upcoming-apache-spark-40  
+- Spark 4.0 https://www.databricks.com/dataaisummit/session/whats-next-upcoming-apache-spark-40
+-  
+- Gigasheet for Databricks, like Sigma Computing for Databricks
+	- https://gigasheet.com/databricks
 
 ## Databricks Photon
 - next gen Spark SQL compute engine completely rewritten in C++
