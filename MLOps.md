@@ -173,6 +173,8 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 ![Screenshot_20240713-163240_YouTube](https://github.com/user-attachments/assets/96791475-420b-4c6e-84d0-016c19924626)
 
 ## Weights and Biases
+- https://www.youtube.com/watch?v=YYGRBbf3bWI
+![Screenshot_20240712-064047_YouTube](https://github.com/user-attachments/assets/86fe28fa-5568-46ef-82ce-c601a37db0d9)
 - https://www.youtube.com/watch?v=tHAFujRhZLA
 ![Screenshot_20240801-101245_YouTube](https://github.com/user-attachments/assets/cf923837-ed5b-4777-a937-c00229ab13fe)
 - https://www.youtube.com/watch?v=ZWMRIkAhcRw
