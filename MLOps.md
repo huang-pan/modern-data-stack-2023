@@ -218,6 +218,21 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 ![Screenshot_20240703-065426_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/02e8ce51-d7f7-44be-a60b-5c29c2a2ed29)
 ![Screenshot_20240703-065432_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c4d5cb49-d12d-4b03-aa94-612bed929675)
 
+## ArangoML
+- https://www.youtube.com/watch?v=5xW8u1RF29U
+![Screenshot_20240709-073847_YouTube](https://github.com/user-attachments/assets/beb63373-58d2-4a8f-b5d5-4c6b95efb7b4)
+![Screenshot_20240709-074017_YouTube](https://github.com/user-attachments/assets/11742dac-a586-4e8f-b5ec-45f9e41c90d2)
+![Screenshot_20240709-074040_YouTube](https://github.com/user-attachments/assets/5911f69b-de98-4a56-b7f6-ddf9a7d16c63)
+![Screenshot_20240709-074342_YouTube](https://github.com/user-attachments/assets/76cc21ca-5c83-418b-89e9-d6841d79d775)
+![Screenshot_20240709-074355_YouTube](https://github.com/user-attachments/assets/3c84160c-c360-45ea-9295-e5920f8167e2)
+![Screenshot_20240709-074413_YouTube](https://github.com/user-attachments/assets/5f6e1fa3-11e9-4f70-b2b8-305db02fe5ad)
+![Screenshot_20240709-074559_YouTube](https://github.com/user-attachments/assets/eb9394be-8e17-490e-bfc9-c6c74291a5b4)
+![Screenshot_20240709-074635_YouTube](https://github.com/user-attachments/assets/2ca097f8-b1f6-4c1d-aa96-c691a2fb2241)
+![Screenshot_20240709-074648_YouTube](https://github.com/user-attachments/assets/225f43ac-ae2e-4dac-9baa-8885d1bd9614)
+![Screenshot_20240709-074705_YouTube](https://github.com/user-attachments/assets/7fb1824d-a06c-4f3c-b773-43e3c7d6bb3f)
+![Screenshot_20240709-074720_YouTube](https://github.com/user-attachments/assets/952bfff5-1084-4e7e-9940-3571a2163a32)
+![Screenshot_20240709-074753_YouTube](https://github.com/user-attachments/assets/a511bb9d-3834-4214-ba81-7585891bf2fb)
+
 ## MLOps in Enterprise (older, cludgy solution)
 https://www.youtube.com/watch?v=iENEd59Rrqs
 <img width="1792" alt="Screenshot 2024-06-04 at 10 13 40 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/387b29b7-d7cf-445d-b118-52426d40fd6c">
