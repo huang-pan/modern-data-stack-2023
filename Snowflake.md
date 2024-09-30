@@ -142,6 +142,12 @@
 ## Snowflake Hybrid Tables
 - https://medium.com/snowflake/introducing-unistore-snowflakes-new-workload-for-transactional-and-analytical-data-daea01e49c61
 - like having postgres within Snowflake for low latency OLTP applications https://www.youtube.com/watch?v=GH7ZdiR9QG0
+<img width="1920" alt="Screenshot 2024-09-30 at 12 18 10 PM (3)" src="https://github.com/user-attachments/assets/fbc3c49d-0993-4235-8a2b-e39038153f56">
+<img width="1920" alt="Screenshot 2024-09-30 at 12 17 39 PM (3)" src="https://github.com/user-attachments/assets/52bd7c51-afd8-4b21-bd55-fa9818fae5ea">
+<img width="1920" alt="Screenshot 2024-09-30 at 12 17 33 PM (3)" src="https://github.com/user-attachments/assets/530638b0-9bdb-4c91-bb53-0dd8710cdce6">
+<img width="1920" alt="Screenshot 2024-09-30 at 12 15 48 PM (3)" src="https://github.com/user-attachments/assets/3f55d9a8-f27f-4938-8b35-510f395fb2a5">
+<img width="1920" alt="Screenshot 2024-09-30 at 12 13 45 PM (3)" src="https://github.com/user-attachments/assets/932c6a99-0d5b-4774-9e5a-2440f57c1ae4">
+<img width="1920" alt="Screenshot 2024-09-30 at 12 12 28 PM (3)" src="https://github.com/user-attachments/assets/3c6f055b-a672-4117-8e8d-b972e9bac176">
 - Snowflake Hybrid Tables under the hood https://www.youtube.com/watch?v=tQsf-Nnx-RM
 ![Screenshot_20240701-112619_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/07aa10fd-3c98-4464-862c-cad776762144)
 ![Screenshot_20240701-112645_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/551e0dbe-6373-497a-bc60-a70a6e38000d)
