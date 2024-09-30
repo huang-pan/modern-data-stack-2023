@@ -274,6 +274,15 @@ https://www.youtube.com/watch?v=AdY7xyj7a28
 ![Screenshot_20240711-185537_YouTube](https://github.com/user-attachments/assets/be04e928-08e5-481f-87c2-6559fa3566ad)
 ![Screenshot_20240711-185544_YouTube](https://github.com/user-attachments/assets/08f05ad9-b2e7-4fc6-ac4a-c8a697ec3b30)
 
+## MLOps CICD
+- https://www.youtube.com/live/jZOOvtX_T5Q
+![Screenshot_20240713-165850_YouTube](https://github.com/user-attachments/assets/a528453a-dcf8-44c4-8c11-f5626f946797)
+![Screenshot_20240713-170010_YouTube](https://github.com/user-attachments/assets/0f85f43e-0492-460e-abe6-e06143be08d4)
+![Screenshot_20240713-170117_YouTube](https://github.com/user-attachments/assets/924e88d4-e1aa-43a4-b072-d52c2c0fffd3)
+![Screenshot_20240713-170216_YouTube](https://github.com/user-attachments/assets/8e03b2ef-6268-4970-b4fe-3c4ddd2e5e0f)
+![Screenshot_20240713-170230_YouTube](https://github.com/user-attachments/assets/ad19c52d-37b1-4b51-923c-b3ead7750141)
+![Screenshot_20240713-170245_YouTube](https://github.com/user-attachments/assets/4bc3d66d-2be2-4c24-a086-ab05510e4f82)
+
 ## MLOps testing, monitoring
 - https://www.youtube.com/watch?v=j4wZmywPs1E
 ![Screenshot_20240713-180849_YouTube](https://github.com/user-attachments/assets/9a63cc5e-5fbb-4390-87a8-d654a665595f)
