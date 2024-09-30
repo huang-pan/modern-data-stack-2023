@@ -258,6 +258,7 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 <img width="1920" alt="Screenshot 2024-09-27 at 2 55 49 PM (2)" src="https://github.com/user-attachments/assets/d3ac864a-473a-49d5-a3b6-fcd7e5fa66b7">
 - https://www.youtube.com/live/vrOuukTqzzQ
   - redis has <5ms feature retrieval
+
 ![Screenshot_20240713-171243_YouTube](https://github.com/user-attachments/assets/1b5a11ad-e490-4b27-abbc-c659f92dd026)
 ![Screenshot_20240713-171255_YouTube](https://github.com/user-attachments/assets/22b42a60-5f43-48dc-9e84-9b715bbc6a25)
 ![Screenshot_20240713-171300_YouTube](https://github.com/user-attachments/assets/33292839-5585-40a0-b177-f179a5a4afec)
