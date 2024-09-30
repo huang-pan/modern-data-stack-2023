@@ -160,6 +160,7 @@ Generative AI Short Courses
             - question to LLM: returns all similar embeddings
                 - e.g. question: has 'email'; embedding returned has 'email': semantic similarity search
         - chroma vector store: lightweight, in memory
+        - Milvus: A Purpose-Built Vector Data Management System https://www.youtube.com/watch?v=kIj-KKnC-PA
     - Retrieval
         - semantic similarity search
         - maximal marginal relevance
