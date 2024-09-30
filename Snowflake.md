@@ -141,6 +141,8 @@
 
 ## Snowflake Hybrid Tables
 - https://medium.com/snowflake/introducing-unistore-snowflakes-new-workload-for-transactional-and-analytical-data-daea01e49c61
+- https://medium.com/snowflake/snowflake-hybrid-tables-all-you-need-to-know-58fd73426698
+	- As of the Public Preview, you can expect an average of around ***20ms*** for both saves and reads from a HYBRID Table, resulting in a double-digit millisecond latency.
 - like having postgres within Snowflake for low latency OLTP applications https://www.youtube.com/watch?v=GH7ZdiR9QG0
 <img width="1920" alt="Screenshot 2024-09-30 at 12 12 28 PM (3)" src="https://github.com/user-attachments/assets/3c6f055b-a672-4117-8e8d-b972e9bac176">
 <img width="1920" alt="Screenshot 2024-09-30 at 12 13 45 PM (3)" src="https://github.com/user-attachments/assets/932c6a99-0d5b-4774-9e5a-2440f57c1ae4">
