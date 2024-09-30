@@ -2,6 +2,7 @@
 
 ## RocksDB / Rockset
 - Rockset is dead 2024, bought buy OpenAI, not supporting services anymore
+	- https://www.linkedin.com/posts/rdmeyersf_druid-pinot-activity-7214310215423275009-BquL/
 - Rockset replicates AWS DynamoDB tables https://www.youtube.com/watch?v=JGIzdFHZVXs
 	- Rockset search and analytics DB https://www.youtube.com/watch?v=xGaUJTHuehQ
  	- Essentially makes a low latency copy of data source using 
