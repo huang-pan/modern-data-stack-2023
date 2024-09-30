@@ -30,6 +30,7 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
         - CI / CD / CT
 	- https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
 		- ****Snowflake ML has a model registry and feature store****
+		- see https://github.com/huang-pan/modern-data-stack-2023/blob/main/Snowflake.md#mlops-in-snowflake
     - [https://wandb.ai/site](https://wandb.ai/site)
         - [https://www.linkedin.com/company/wandb/people/](https://www.linkedin.com/company/wandb/people/) 250 people
         - a collaborative notebook model development environment
