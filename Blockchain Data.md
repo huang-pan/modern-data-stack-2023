@@ -140,6 +140,9 @@
 
 ## Misc
 - Karpatkey On chain treasury management  https://www.youtube.com/watch?v=biaINiiaskQ
+- The Future of Layer 2 Blockchains https://www.youtube.com/watch?v=1w3qk4ZGjeA
+	- Xvm program in multiple languages instead of evm
+ 	- IVC inter vm communication protocol 
 
 ## Notes
 - European DiD https://www.youtube.com/watch?v=ynNOCK61Lzw 
