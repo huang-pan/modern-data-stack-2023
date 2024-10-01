@@ -82,6 +82,7 @@
 ### Blockchain and AI
 - JPMorgan thought leadership https://www.youtube.com/watch?v=F5GzAkn_nJc
 - https://github.com/huang-pan/modern-data-stack-2023/blob/main/Federated%20Learning.md#a-verifiable-federated-learning-scheme-based-on-zksnarks-and-blockchain
+- Explore zkML with Nethermind https://www.youtube.com/watch?v=Ofxy2oSioCg
 - Dfinity https://www.youtube.com/watch?v=MzvsST3rzjc
 ![Screenshot_20240824-205635_YouTube](https://github.com/user-attachments/assets/446c2338-0975-4f39-9a24-52f3667e7c49)
 ![Screenshot_20240824-205647_YouTube](https://github.com/user-attachments/assets/40bc59ca-dbe7-4fb3-ab50-f62b4837bba6)
