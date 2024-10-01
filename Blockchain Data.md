@@ -144,7 +144,9 @@
 	- Xvm program in multiple languages instead of evm
  	- IVC inter vm communication protocol 
 - Architecture of Scalable Blockchain Applications https://www.youtube.com/watch?v=eqLrTjuBs2g
-	- BSV, 1m Transaction per second 
+	- BSV, 1m Transaction per second
+- Glider: A new generation of blockchain tooling https://www.youtube.com/watch?v=pstplea5UYA
+![Screenshot_20240729-093010_YouTube](https://github.com/user-attachments/assets/0b73b0e6-db2d-498e-acce-bc961b974cd0)
 
 ## Notes
 - European DiD https://www.youtube.com/watch?v=ynNOCK61Lzw 
