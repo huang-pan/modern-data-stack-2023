@@ -199,3 +199,7 @@
 ![Screenshot_20240701-164948_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/78deac82-c20f-43ad-a537-b6559e8982bb)
 ![Screenshot_20240701-164951_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/18d1dbef-719c-4aa6-a349-7b8157e0fd82)
 ![Screenshot_20240701-165001_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/23d4a2bb-d4eb-4bbd-9024-5091c742d3a5)
+
+## Iceberg Catalogs
+- Deep Dive into Apache Iceberg Catalogs (Nessie, Hive, REST Catalog, Hadoop) https://www.youtube.com/watch?v=IENHQpIA5l4
+	- Great youtube channel for open lakehouse info
