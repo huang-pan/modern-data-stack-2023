@@ -131,15 +131,15 @@
 ![Screenshot_20240818-172438_YouTube](https://github.com/user-attachments/assets/c959c3b0-c330-47cc-b675-fd77f6c7df6a)
 ![Screenshot_20240818-172513_YouTube](https://github.com/user-attachments/assets/6fff710a-663a-4d7d-9bbe-1b71fd344ac4)
 
-## Misc
-- Karpatkey On chain treasury management  https://www.youtube.com/watch?v=biaINiiaskQ
-
 ### Analyzing Costs of ZK Rollups
 - https://www.youtube.com/watch?v=hETChbrP_BU
 ![Screenshot_20240729-100050_YouTube](https://github.com/user-attachments/assets/0c98f57e-11a0-4269-a42e-fa884b76b141)
 ![Screenshot_20240729-100109_YouTube](https://github.com/user-attachments/assets/4650fb42-6c73-4f39-b3de-4d8878d56f49)
 ![Screenshot_20240729-100126_YouTube](https://github.com/user-attachments/assets/0196d5a3-ef6e-4cd2-9927-1fc84e9f5c55)
 ![Screenshot_20240729-100211_YouTube](https://github.com/user-attachments/assets/aa2bab24-eb08-458b-bf6a-ee3ea8a55042)
+
+## Misc
+- Karpatkey On chain treasury management  https://www.youtube.com/watch?v=biaINiiaskQ
 
 ## Notes
 - European DiD https://www.youtube.com/watch?v=ynNOCK61Lzw 
