@@ -10,7 +10,8 @@
 ![Screenshot_20240729-101629_YouTube](https://github.com/user-attachments/assets/de7b8939-bb4c-41c4-8798-3b8579422cdd)
 ![Screenshot_20240729-101506_YouTube](https://github.com/user-attachments/assets/eae6e182-1e94-4f73-8402-2eecbe4c4cd6)
 
-- OneTable by Onehouse https://www.youtube.com/watch?v=-H76U3x9Sho
+- OneTable by Onehouse.ai The Universal Data LakeHouse https://www.youtube.com/watch?v=-H76U3x9Sho
+- https://www.onehouse.ai/blog/apache-hudi-vs-delta-lake-vs-apache-iceberg-lakehouse-feature-comparison
 ![Screenshot_20240711-063246_YouTube](https://github.com/user-attachments/assets/88b26b47-bcc1-4068-89e9-8e8d408a77c8)
 ![Screenshot_20240711-063318_YouTube](https://github.com/user-attachments/assets/6a70fbb6-a7bb-4bd4-b8e9-2d013af94e76)
 
