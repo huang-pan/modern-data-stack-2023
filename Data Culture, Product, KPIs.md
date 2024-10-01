@@ -119,3 +119,10 @@
  	- https://www.interviewquery.com/questions/marketing-channel-metrics
   	- 
 ![kpi](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/b150e889-1832-41c3-a07b-05b40fbb0dc4)
+
+## Partnerships
+- https://www.youtube.com/watch?v=CZBP0_hg1aI
+![Screenshot_20240729-101954_YouTube](https://github.com/user-attachments/assets/9cff7870-e00b-48f1-836f-29945a97248b)
+![Screenshot_20240729-102033_YouTube](https://github.com/user-attachments/assets/8d7b4e6e-e914-46c2-8345-4246871d7ef6)
+![Screenshot_20240729-102056_YouTube](https://github.com/user-attachments/assets/73b268a2-ccd9-43e0-af2b-9a261d740a8e)
+![Screenshot_20240729-102117_YouTube](https://github.com/user-attachments/assets/d874404b-f324-4df6-a550-373b7ef3b5f1)
