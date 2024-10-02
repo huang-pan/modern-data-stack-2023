@@ -11,6 +11,7 @@
 ![Screenshot_20240729-101506_YouTube](https://github.com/user-attachments/assets/eae6e182-1e94-4f73-8402-2eecbe4c4cd6)
 
 - OneTable by Onehouse.ai The Universal Data LakeHouse https://www.youtube.com/watch?v=-H76U3x9Sho
+[Hudi_Delta_Iceberg-DeepDive.pdf](https://github.com/user-attachments/files/17232335/Hudi_Delta_Iceberg-DeepDive.pdf)
 - Data Lakehouse Deep Dive: Hudi, Iceberg, and Delta Lake https://www.youtube.com/watch?v=kqkmcZoPXao
 ![Screenshot_20240628-161345_YouTube](https://github.com/user-attachments/assets/9450831d-3a55-4163-9023-03bad8a4c355)
 ![Screenshot_20240628-161402_YouTube](https://github.com/user-attachments/assets/cdd31e68-0c4e-4336-abf2-79887a3dcca1)
