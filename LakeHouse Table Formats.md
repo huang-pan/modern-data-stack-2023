@@ -11,6 +11,16 @@
 ![Screenshot_20240729-101506_YouTube](https://github.com/user-attachments/assets/eae6e182-1e94-4f73-8402-2eecbe4c4cd6)
 
 - OneTable by Onehouse.ai The Universal Data LakeHouse https://www.youtube.com/watch?v=-H76U3x9Sho
+- Data Lakehouse Deep Dive: Hudi, Iceberg, and Delta Lake https://www.youtube.com/watch?v=kqkmcZoPXao
+![Screenshot_20240628-161345_YouTube](https://github.com/user-attachments/assets/9450831d-3a55-4163-9023-03bad8a4c355)
+![Screenshot_20240628-161402_YouTube](https://github.com/user-attachments/assets/cdd31e68-0c4e-4336-abf2-79887a3dcca1)
+![Screenshot_20240628-161538_YouTube](https://github.com/user-attachments/assets/5211ec1a-f03c-4bd1-8f34-bf7c6b470c57)
+![Screenshot_20240628-162240_YouTube](https://github.com/user-attachments/assets/a80edbf1-8006-4313-a4e5-103db2caec10)
+![Screenshot_20240628-162358_YouTube](https://github.com/user-attachments/assets/6be82caf-3bc3-4004-b572-22ce318a8fda)
+![Screenshot_20240628-163124_YouTube](https://github.com/user-attachments/assets/914ecd10-93cb-40d3-835c-a8389f89794b)
+![Screenshot_20240628-163645_YouTube](https://github.com/user-attachments/assets/fdaa3459-0efd-42af-840b-98fc188c69c5)
+![Screenshot_20240628-163912_YouTube](https://github.com/user-attachments/assets/676257d5-42cc-43e7-94b5-25e13a81464b)
+![Screenshot_20240628-164028_YouTube](https://github.com/user-attachments/assets/34dca864-ef2e-4abe-93c8-da8bc7416460)
 - https://www.onehouse.ai/blog/apache-hudi-vs-delta-lake-vs-apache-iceberg-lakehouse-feature-comparison
 ![Screenshot_20240711-063246_YouTube](https://github.com/user-attachments/assets/88b26b47-bcc1-4068-89e9-8e8d408a77c8)
 ![Screenshot_20240711-063318_YouTube](https://github.com/user-attachments/assets/6a70fbb6-a7bb-4bd4-b8e9-2d013af94e76)
