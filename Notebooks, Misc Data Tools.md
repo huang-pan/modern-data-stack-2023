@@ -30,6 +30,13 @@ Now let’s look at the alternatives suggested to me:
     - If you are spending too much on Fivetran or frustrated with Airbyte, I believe Flow by Estuary offers best-in-class stability and simplicity while providing two advantages over the competition:
         1️⃣ Real time ingestion
         2️⃣ Lower cost of ownership
+- https://www.linkedin.com/posts/rdmeyersf_bigquery-apacheiceberg-streamingetl-activity-7212123192855781376-lxPe/
+    - Real-time analytics with Iceberg is here! Estuary now supports sub-second streaming at serious scale to Iceberg. Let the Iceberg benchmarks begin!
+    - By real-time analytics I mean sub-second query and loading for Iceberg.
+    - We’ve seen benchmarks showing that with DuckDB/Motherduck or Starburst that you can query a Terabyte in Iceberg with second-level performance (more info in the comments.)
+    - With Estuary, you can now also load Iceberg with sub-second latency at massive scale!
+    - Flow streams with <100ms latency to Iceberg and scales out horizontally with Iceberg to stream at any scale you need.
+    - We’re not talking your typical ELT scale. One Estuary data pipeline already streams 7+ GB/sec peak in production with sub-second latency. That adds up to a Terabyte in a little over 2 minutes and 200+ Petabytes a year.
 
 ## Dataset marketplace
 
