@@ -181,6 +181,12 @@
 ![Screenshot_20240701-112129_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/6942fb59-8172-48dc-93e0-24863e6819da)
 ![Screenshot_20240701-112155_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e1b5c315-86b9-40ad-8fc3-8e129c80a461)
 
+## Snowflake Notebooks
+- https://www.youtube.com/watch?v=1zdciOSf8mA
+	- Deploy snowflake notebook using snowflake task
+	- GitHub actions CI CD
+![Screenshot_20240701-113254_YouTube](https://github.com/user-attachments/assets/93c7ebcb-5fbb-4818-a5c5-5a2a6a5f0648)
+
 ## MLOps in Snowflake
 - https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
 	- ****Snowflake ML has a model registry and feature store****
