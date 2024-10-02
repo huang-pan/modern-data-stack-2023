@@ -211,3 +211,13 @@
 - CI/CD on the Data Lakehouse with Project Nessie https://www.youtube.com/live/xqF8sgIBiDA
 ![Screenshot_20240701-163311_YouTube](https://github.com/user-attachments/assets/00cb51b8-426e-4d0e-822e-7b0af93b7eb2)
 ![Screenshot_20240701-163423_YouTube](https://github.com/user-attachments/assets/b755bdac-b036-4326-99e4-7b4f3d093487)
+- The Ins & Outs of Data Lakehouse Versioning at the File, Table, and Catalog Level https://www.youtube.com/live/q4e6zIltqmE
+![Screenshot_20240701-152044_YouTube](https://github.com/user-attachments/assets/ef4d00fa-e77f-4537-8bda-3f55a346c0af)
+![Screenshot_20240701-152154_YouTube](https://github.com/user-attachments/assets/f952525f-e453-43fd-b944-b3402e7a2cb7)
+![Screenshot_20240701-152313_YouTube](https://github.com/user-attachments/assets/77530974-398d-4a19-bfea-4c60f779dc72)
+![Screenshot_20240701-152324_YouTube](https://github.com/user-attachments/assets/b92205bc-82a6-4c3f-ac77-e5f120ec76ad)
+![Screenshot_20240701-152354_YouTube](https://github.com/user-attachments/assets/e4890671-4bb4-4480-93b3-a5069a45754b)
+![Screenshot_20240701-152411_YouTube](https://github.com/user-attachments/assets/bf76a291-fa67-42bf-b57c-7490fa326b37)
+![Screenshot_20240701-152456_YouTube](https://github.com/user-attachments/assets/c7c2b738-affa-4234-a445-39f98f8ce068)
+![Screenshot_20240701-152509_YouTube](https://github.com/user-attachments/assets/349e5864-9db1-4e6e-b67f-59f3a598efe2)
+![Screenshot_20240701-152537_YouTube](https://github.com/user-attachments/assets/7ed31a34-af07-4597-bc1b-003c05a324cc)
