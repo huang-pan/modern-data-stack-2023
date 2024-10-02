@@ -113,6 +113,41 @@
 ![Screenshot_20240628-153456_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ee0aef13-9d44-4235-a8a9-ff8eb2548f93)
 ![Screenshot_20240628-152722_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ce985d37-3374-4aaf-a998-7547c9d14a6a)
 
+### Flink + Iceberg
+- Streaming from Apache Iceberg - Building Low-Latency and Cost-Effective Data Pipelines https://www.youtube.com/watch?v=x6WX_JE96bU
+![Screenshot_20240629-174914_YouTube](https://github.com/user-attachments/assets/adb3b730-c3b6-441b-a200-c98405d97103)
+![Screenshot_20240629-174943_YouTube](https://github.com/user-attachments/assets/9d538f66-ea81-4dc8-8c0c-e211adc9b2eb)
+![Screenshot_20240629-175019_YouTube](https://github.com/user-attachments/assets/5d58af69-ed0c-4112-8a33-bcf571adafda)
+![Screenshot_20240629-175209_YouTube](https://github.com/user-attachments/assets/1163f26a-996a-4b06-a641-d9f7d9564969)
+![Screenshot_20240629-175347_YouTube](https://github.com/user-attachments/assets/f1300c18-b028-4280-b016-016bb8ec7370)
+![Screenshot_20240629-175317_YouTube](https://github.com/user-attachments/assets/c46d44ba-20a0-4196-b4f6-80bc4e0698a6)
+![Screenshot_20240629-175536_YouTube](https://github.com/user-attachments/assets/33ff70e0-4734-45af-8fea-8369004e1ae4)
+![Screenshot_20240629-175627_YouTube](https://github.com/user-attachments/assets/2346ca7f-6527-47e2-99ae-18fedbac76d0)
+![Screenshot_20240629-175708_YouTube](https://github.com/user-attachments/assets/9a0563fc-06f9-4a7f-b594-ed64fa856cfe)
+![Screenshot_20240629-175722_YouTube](https://github.com/user-attachments/assets/cfe74148-d2d8-45c2-99f0-9ff408eafb42)
+![Screenshot_20240629-175809_YouTube](https://github.com/user-attachments/assets/7c6abcfb-4cc6-4c52-a25f-d3679d632e84)
+![Screenshot_20240629-175826_YouTube](https://github.com/user-attachments/assets/b9d1926d-e453-458a-b726-3c07d04d75ca)
+![Screenshot_20240629-175837_YouTube](https://github.com/user-attachments/assets/acdb322d-23bd-423f-9da0-870bf14b1c2b)
+![Screenshot_20240629-175941_YouTube](https://github.com/user-attachments/assets/33d9e550-3e6f-45f3-9623-a9bfab42b366)
+![Screenshot_20240629-175954_YouTube](https://github.com/user-attachments/assets/0482dd14-9065-4da5-8946-d2b94e3a2362)
+![Screenshot_20240629-180035_YouTube](https://github.com/user-attachments/assets/10e02505-845a-4d65-a4b3-6bd96f578bee)
+![Screenshot_20240629-180048_YouTube](https://github.com/user-attachments/assets/7a56e81e-ea8f-4c6d-abf3-d4b5e0ac5c7e)
+![Screenshot_20240629-180119_YouTube](https://github.com/user-attachments/assets/56db085a-0719-4b6b-b19e-44c4a5b7a144)
+![Screenshot_20240629-180159_YouTube](https://github.com/user-attachments/assets/165bb4af-bede-44c5-b752-3a96874f01ad)
+![Screenshot_20240629-180151_YouTube](https://github.com/user-attachments/assets/5e0ac82d-4dd9-4b6c-bc10-85858e0e3e3b)
+![Screenshot_20240629-180216_YouTube](https://github.com/user-attachments/assets/3986e147-3f42-47b9-9d46-9ee508f7dbf5)
+![Screenshot_20240629-180223_YouTube](https://github.com/user-attachments/assets/f0c8c4ed-cdc9-47a3-8f6f-29e6091d13d1)
+![Screenshot_20240629-180231_YouTube](https://github.com/user-attachments/assets/077cb0be-771c-4011-95ca-9106a8a1d103)
+![Screenshot_20240629-180235_YouTube](https://github.com/user-attachments/assets/2553f426-4d38-477a-82eb-efc7762612b7)
+![Screenshot_20240629-180240_YouTube](https://github.com/user-attachments/assets/30ccc9ca-3340-4650-b09e-8eb83f624a68)
+![Screenshot_20240629-180301_YouTube](https://github.com/user-attachments/assets/5362b3a4-f39d-4927-b13d-123d3dacdb74)
+![Screenshot_20240629-180321_YouTube](https://github.com/user-attachments/assets/8cefade1-e011-4b3e-a5e3-751cffb84045)
+![Screenshot_20240629-180335_YouTube](https://github.com/user-attachments/assets/e7a68763-a5d0-416d-af75-590fb036810a)
+![Screenshot_20240629-180419_YouTube](https://github.com/user-attachments/assets/4ed1f158-ff2c-40c6-ac08-5b5db9f90f78)
+![Screenshot_20240629-180431_YouTube](https://github.com/user-attachments/assets/9973bddd-3d7d-4e7a-92c7-9c547b990d22)
+![Screenshot_20240629-180439_YouTube](https://github.com/user-attachments/assets/e701f24f-330c-4d4f-887e-361c99d0e74f)
+![Screenshot_20240629-180502_YouTube](https://github.com/user-attachments/assets/61e03e88-e9bb-4eab-aba7-87937a1947f6)
+
 ## Bytewax
 - Apache Beam
 	- https://engineering.linkedin.com/blog/2023/revolutionizing-real-time-streaming-processing--4-trillion-event
