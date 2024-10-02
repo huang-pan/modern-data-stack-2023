@@ -101,6 +101,7 @@
    		- https://www.linkedin.com/posts/ian-whitestone_i-was-just-asking-our-snowflake-sales-engineer-activity-7220172262249746435-_hDq/
 	- SurveyMonkey Increases Snowflake Workloads By 475% With Only A 27% Increase In Credit Use https://www.youtube.com/watch?v=4aCj0wk33kg
  ![Screenshot_20240729-192527_YouTube](https://github.com/user-attachments/assets/46382304-2ee7-49be-af3c-c534e3bd66a0)
+	- Snowflake serverless costs .9x virtual warehouse https://www.linkedin.com/posts/ian-whitestone_snowflake-activity-7231385161735544834-Ks1V/
 
 	- ***Sundeck*** Snowflake warehouse usage cost optimization https://www.youtube.com/watch?v=jlCEeHHE_G8
 - Data Lineage
