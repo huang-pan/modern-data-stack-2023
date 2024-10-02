@@ -250,6 +250,7 @@
 ![Screenshot_20240701-151136_YouTube](https://github.com/user-attachments/assets/7c55f738-83c3-47b1-9c04-b4c38c243de9)
 
 ### Nessie
+- Nessie Catalog: A Git Like Experience for Data Lakes https://www.youtube.com/watch?v=ABJ4M4JGGjI
 - Project Nessie and Lakehouse Catalog Versioning https://www.youtube.com/live/ketJPQQPkwU
 ![Screenshot_20240701-151538_YouTube](https://github.com/user-attachments/assets/4d6793eb-115c-44e1-9fa0-d2e0f259c7ed)
 ![Screenshot_20240701-151547_YouTube](https://github.com/user-attachments/assets/061f29ac-e232-4427-b744-73714dc68772)
