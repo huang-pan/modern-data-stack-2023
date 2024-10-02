@@ -208,6 +208,14 @@
 ## Iceberg Catalogs
 - Deep Dive into Apache Iceberg Catalogs (Nessie, Hive, REST Catalog, Hadoop) https://www.youtube.com/watch?v=IENHQpIA5l4
 	- Great youtube channel for open lakehouse info
+- Project Nessie and Lakehouse Catalog Versioning https://www.youtube.com/live/ketJPQQPkwU
+![Screenshot_20240701-151538_YouTube](https://github.com/user-attachments/assets/4d6793eb-115c-44e1-9fa0-d2e0f259c7ed)
+![Screenshot_20240701-151547_YouTube](https://github.com/user-attachments/assets/061f29ac-e232-4427-b744-73714dc68772)
+![Screenshot_20240701-151643_YouTube](https://github.com/user-attachments/assets/d56ea852-feb8-4a6a-b094-050884dbcbad)
+![Screenshot_20240701-151655_YouTube](https://github.com/user-attachments/assets/1cb1583f-84b2-41a0-942f-c9081971a9ca)
+![Screenshot_20240701-151701_YouTube](https://github.com/user-attachments/assets/0f38ba7f-4f8d-4de3-9ea0-12f51d58aec9)
+![Screenshot_20240701-151706_YouTube](https://github.com/user-attachments/assets/a22d7798-3666-411f-96dd-cc37e1b45b83)
+![Screenshot_20240701-151709_YouTube](https://github.com/user-attachments/assets/b21e365f-16f4-4cfa-81e3-7383248d08f3)
 - CI/CD on the Data Lakehouse with Project Nessie https://www.youtube.com/live/xqF8sgIBiDA
 ![Screenshot_20240701-163311_YouTube](https://github.com/user-attachments/assets/00cb51b8-426e-4d0e-822e-7b0af93b7eb2)
 ![Screenshot_20240701-163423_YouTube](https://github.com/user-attachments/assets/b755bdac-b036-4326-99e4-7b4f3d093487)
