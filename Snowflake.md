@@ -226,3 +226,13 @@
 ![Screenshot_20240701-171410_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c9a7bf5b-d556-45e1-a3b2-d9c7d0ade7e2)
 ![Screenshot_20240701-171418_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0b37e551-951f-4e9d-8f7d-eb951c41631d)
 ![Screenshot_20240701-171434_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/dc98c9bb-2262-472e-88c5-ab27c3912173)
+
+## Snowflake Native Apps
+- Aimpoint Digital's Anxiety-Free Guide To Deploying Snowflake Native Apps https://www.youtube.com/watch?v=O2RJrdzYB70
+![Screenshot_20240701-131526_YouTube](https://github.com/user-attachments/assets/bc3438d9-5023-4752-88d2-9ebb02072bdc)
+![Screenshot_20240701-131640_YouTube](https://github.com/user-attachments/assets/b54b2c0c-d36e-4c18-a20a-19a63615ecdd)
+![Screenshot_20240701-131654_YouTube](https://github.com/user-attachments/assets/84b16ede-c7e3-4162-811f-a1b72b67ce5c)
+![Screenshot_20240701-131719_YouTube](https://github.com/user-attachments/assets/6f9b31d1-0d7e-4045-b150-1e4ce7df9e70)
+![Screenshot_20240701-131756_YouTube](https://github.com/user-attachments/assets/d3874e1f-a03d-4dd0-9773-da466d44777a)
+![Screenshot_20240701-131821_YouTube](https://github.com/user-attachments/assets/77e1a137-6b45-4510-abcc-369edc3d8b26)
+![Screenshot_20240701-131929_YouTube](https://github.com/user-attachments/assets/349c288d-a917-4d13-90fe-a9bd91ceea3e)
