@@ -118,6 +118,10 @@
  	- pyspark to snowpark
 		- https://youtube.com/watch?v=M7uAWoPKMsg&si=-wqneWvcng5MY4Cn
 		- snowpark not as advanced as spark (which is open source and Databricks bread and butter) https://www.youtube.com/watch?v=5dwYg2kuZ0A
+	- https://www.youtube.com/watch?v=WinsWvLyEO0
+![Screenshot_20240701-104713_YouTube](https://github.com/user-attachments/assets/32c2cd4a-426d-416a-b596-21387d69e9cf)
+![Screenshot_20240701-104730_YouTube](https://github.com/user-attachments/assets/eb370645-5f14-4c4e-bdc8-69ff62a2a9d2)
+
 - Building a Comprehensive Data Science Platform on Snowflake at Regions Bank
 	- https://youtube.com/watch?v=z2zdIzfuNQo&si=Bnq4gAlJw-YqgRmb
 - Fast, Easy, And Secure AI/ML Development And Deployment In Snowflake
