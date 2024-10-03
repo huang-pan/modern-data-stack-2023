@@ -243,6 +243,33 @@
 ![Screenshot_20240627-155756_YouTube](https://github.com/user-attachments/assets/e9ab1dec-7127-47a2-9b0d-470fe96a6e5b)
 
 ### Iceberg best practices and optimizations
+- 7 Best Practices for Implementing Apache Iceberg https://www.youtube.com/watch?v=JX8S3zfdUto
+	- Dremio nessie catalog, tabular
+	- Upsolver to iceberg 
+	- Etl spark
+	- Ad hoc trino, celerdata
+	- Viz druid, rising wave 
+	- Streaming flink, beam, rising wave, beam like flink
+![Screenshot_20240627-153756_YouTube](https://github.com/user-attachments/assets/43703c04-d015-404c-a486-9ce8d9e61e2c)
+![Screenshot_20240627-153820_YouTube](https://github.com/user-attachments/assets/697d91b8-65cd-4b87-9a66-5b912167bf84)
+![Screenshot_20240627-153823_YouTube](https://github.com/user-attachments/assets/05965f77-d95e-4927-bb36-98e5a81f1f0b)
+![Screenshot_20240627-153830_YouTube](https://github.com/user-attachments/assets/dc9ac383-4903-412d-a816-de214d0896d3)
+![Screenshot_20240627-153842_YouTube](https://github.com/user-attachments/assets/ea9c7f77-c775-48e3-aa16-f9c57c7d71c8)
+![Screenshot_20240627-153849_YouTube](https://github.com/user-attachments/assets/8aa71f4c-b6b7-4aee-80cc-1ba82575d4d4)
+![Screenshot_20240627-153907_YouTube](https://github.com/user-attachments/assets/eb3b064e-5ad8-4fa6-8c5a-690fe1353918)
+![Screenshot_20240627-153914_YouTube](https://github.com/user-attachments/assets/0e676732-7d41-4cbb-b4cd-d8d061d58c83)
+![Screenshot_20240627-153924_YouTube](https://github.com/user-attachments/assets/b7cf79fc-8ff2-409b-ad9c-6ef322d73c32)
+![Screenshot_20240627-153935_YouTube](https://github.com/user-attachments/assets/8e6ac5e1-c145-4c6e-bbc9-7d08562dd1b2)
+![Screenshot_20240627-153943_YouTube](https://github.com/user-attachments/assets/9bdc46eb-72e8-4acc-b7b3-7c64c7c2715b)
+![Screenshot_20240627-154011_YouTube](https://github.com/user-attachments/assets/e165301e-2d70-4162-a972-f8ecd9c91ef3)
+![Screenshot_20240627-154034_YouTube](https://github.com/user-attachments/assets/4d89321a-3397-4369-b03e-8b086fa05e31)
+![Screenshot_20240627-154038_YouTube](https://github.com/user-attachments/assets/b99eb680-ff0c-43e3-a2c8-79d8760bf532)
+![Screenshot_20240627-154043_YouTube](https://github.com/user-attachments/assets/84ec30c2-0e95-4d94-8266-eaacbc018b01)
+![Screenshot_20240627-154058_YouTube](https://github.com/user-attachments/assets/4f4145de-bb0e-43f1-ad99-67517113c633)
+![Screenshot_20240627-154102_YouTube](https://github.com/user-attachments/assets/a8f00c43-2285-40c7-9006-bd8024e82bb6)
+![Screenshot_20240627-154119_YouTube](https://github.com/user-attachments/assets/7ac15be9-25ea-4040-aa43-66fd5951f27c)
+![Screenshot_20240627-154127_YouTube](https://github.com/user-attachments/assets/310f76eb-3afa-40b8-bc3c-bb115a18e046)
+![Screenshot_20240627-154135_YouTube](https://github.com/user-attachments/assets/fefa1523-5c50-4128-95cd-8221d6d1ae30)
 - How Tabular implements Iceberg best practices https://www.youtube.com/watch?v=ZjVFtMlJyzA
 ![Screenshot_20240627-154818_YouTube](https://github.com/user-attachments/assets/d6bf5b85-a4ed-423c-b216-13f372fcc6e7)
 ![Screenshot_20240627-154848_YouTube](https://github.com/user-attachments/assets/3a9388c3-c97b-4bfc-bd1c-09407a245746)
