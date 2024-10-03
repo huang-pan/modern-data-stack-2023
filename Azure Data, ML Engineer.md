@@ -15,6 +15,8 @@
 - Unity Catalog
 - **How to optimize Spark workloads**: https://www.databricks.com/discover/pages/optimize-data-workloads-guide
 	- Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251 
+- Azure Compute Services for Lakehouse https://www.youtube.com/watch?v=IY7vterrLBA
+![Screenshot_20240618-162324_YouTube](https://github.com/user-attachments/assets/472096d8-c7f5-47ca-8346-87b0451aa2ad)
 
 ## Azure Databricks and Spark SQL
 
