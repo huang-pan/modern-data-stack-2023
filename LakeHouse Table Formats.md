@@ -327,6 +327,10 @@
 - CI/CD on the Data Lakehouse with Project Nessie https://www.youtube.com/live/xqF8sgIBiDA
 ![Screenshot_20240701-163311_YouTube](https://github.com/user-attachments/assets/00cb51b8-426e-4d0e-822e-7b0af93b7eb2)
 ![Screenshot_20240701-163423_YouTube](https://github.com/user-attachments/assets/b755bdac-b036-4326-99e4-7b4f3d093487)
+- CI/CD (Write-Audit-Publish) Safety Net for Databricks ETLs with lakeFS https://www.youtube.com/watch?v=W0Z9Lapzw5Y
+![Screenshot_20240627-150646_YouTube](https://github.com/user-attachments/assets/dbabfaa5-ea53-4828-a75f-fe8eca9a718d)
+![Screenshot_20240627-150714_YouTube](https://github.com/user-attachments/assets/034e9ca0-4092-4f7e-9f75-690a3b0efb8f)
+![Screenshot_20240627-150735_YouTube](https://github.com/user-attachments/assets/1e832316-c0f9-4ae2-9e29-5eb79ab508f6)
 - The Ins & Outs of Data Lakehouse Versioning at the File, Table, and Catalog Level https://www.youtube.com/live/q4e6zIltqmE
 ![Screenshot_20240701-152044_YouTube](https://github.com/user-attachments/assets/ef4d00fa-e77f-4537-8bda-3f55a346c0af)
 ![Screenshot_20240701-152154_YouTube](https://github.com/user-attachments/assets/f952525f-e453-43fd-b944-b3402e7a2cb7)
