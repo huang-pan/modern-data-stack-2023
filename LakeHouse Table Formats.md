@@ -222,6 +222,25 @@
 ![Screenshot_20240628-154430_YouTube](https://github.com/user-attachments/assets/49a813f9-a2fb-4b58-9c62-6e7d56a43e71)
 ![Screenshot_20240628-154511_YouTube](https://github.com/user-attachments/assets/66476dac-94a2-40a7-816b-309da2038bfe)
 ![Screenshot_20240628-154623_YouTube](https://github.com/user-attachments/assets/54663f02-f702-43df-93b3-0c69303b2046)
+- Building an ingestion architecture for Apache Iceberg https://www.youtube.com/watch?v=fOzHbrET7FQ
+![Screenshot_20240627-155446_YouTube](https://github.com/user-attachments/assets/790b7655-2b7e-4724-806c-7defa9f4a02e)
+![Screenshot_20240627-155512_YouTube](https://github.com/user-attachments/assets/9337951d-d58b-4018-9c7f-909394b30d26)
+![Screenshot_20240627-155523_YouTube](https://github.com/user-attachments/assets/561cac38-3b40-4285-a862-2a6c6ce9d325)
+![Screenshot_20240627-155528_YouTube](https://github.com/user-attachments/assets/76de8c32-848c-4858-a985-62b502c24571)
+![Screenshot_20240627-155533_YouTube](https://github.com/user-attachments/assets/4c946ae7-793a-4121-8da2-bba4a1c7aed1)
+![Screenshot_20240627-155539_YouTube](https://github.com/user-attachments/assets/501854e0-0ccf-4903-a8d3-2d0acb8658ee)
+![Screenshot_20240627-155621_YouTube](https://github.com/user-attachments/assets/fcc5dc3f-05cb-4c2e-b1a4-c3697210d66e)
+![Screenshot_20240627-155636_YouTube](https://github.com/user-attachments/assets/9469609d-7d8f-49cd-bb06-9c9293444cc1)
+![Screenshot_20240627-155641_YouTube](https://github.com/user-attachments/assets/9cc6931b-b55c-4549-bf33-e0f90f04f200)
+![Screenshot_20240627-155651_YouTube](https://github.com/user-attachments/assets/6db2c686-9b87-4cb8-ad77-1b24050b85db)
+![Screenshot_20240627-155700_YouTube](https://github.com/user-attachments/assets/e42f650f-cb7e-4285-871b-ca2740ba0d3b)
+![Screenshot_20240627-155709_YouTube](https://github.com/user-attachments/assets/c6578dc2-6cab-4a76-9135-b4424f4e67be)
+![Screenshot_20240627-155720_YouTube](https://github.com/user-attachments/assets/20fa5957-0562-4648-97e4-f42a5a73a79d)
+![Screenshot_20240627-155729_YouTube](https://github.com/user-attachments/assets/125d4237-0629-4b1c-bc56-cb4c320b70b3)
+![Screenshot_20240627-155734_YouTube](https://github.com/user-attachments/assets/f4255603-605e-4def-af47-630ab4a57c4f)
+![Screenshot_20240627-155740_YouTube](https://github.com/user-attachments/assets/7eac3022-dbe0-40fa-b20d-8cf0659636ec)
+![Screenshot_20240627-155745_YouTube](https://github.com/user-attachments/assets/3606d111-6354-412a-85a7-d64e3f1c032d)
+![Screenshot_20240627-155756_YouTube](https://github.com/user-attachments/assets/e9ab1dec-7127-47a2-9b0d-470fe96a6e5b)
 
 ### Iceberg table optimizations
 - https://www.youtube.com/live/rLs4bjtXSrg
