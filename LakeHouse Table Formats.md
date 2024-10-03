@@ -304,6 +304,7 @@
 ## Iceberg Catalogs
 - Deep Dive into Apache Iceberg Catalogs (Nessie, Hive, REST Catalog, Hadoop) https://www.youtube.com/watch?v=IENHQpIA5l4
 	- Great youtube channel for open lakehouse info
+- https://materializedview.io/p/data-lakehouse-catalog-reality-check
 - Strategies for Migration to Apache Iceberg https://www.youtube.com/live/T7Z3y00wUg8
 ![Screenshot_20240701-150437_YouTube](https://github.com/user-attachments/assets/a0038d8e-a906-4cf8-b492-d33264d7c315)
 ![Screenshot_20240701-150623_YouTube](https://github.com/user-attachments/assets/1ba6930f-cca3-4105-9035-eaea1b0e0350)
