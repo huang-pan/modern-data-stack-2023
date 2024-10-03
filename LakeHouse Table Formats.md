@@ -327,10 +327,6 @@
 - CI/CD on the Data Lakehouse with Project Nessie https://www.youtube.com/live/xqF8sgIBiDA
 ![Screenshot_20240701-163311_YouTube](https://github.com/user-attachments/assets/00cb51b8-426e-4d0e-822e-7b0af93b7eb2)
 ![Screenshot_20240701-163423_YouTube](https://github.com/user-attachments/assets/b755bdac-b036-4326-99e4-7b4f3d093487)
-- CI/CD (Write-Audit-Publish) Safety Net for Databricks ETLs with lakeFS https://www.youtube.com/watch?v=W0Z9Lapzw5Y
-![Screenshot_20240627-150646_YouTube](https://github.com/user-attachments/assets/dbabfaa5-ea53-4828-a75f-fe8eca9a718d)
-![Screenshot_20240627-150714_YouTube](https://github.com/user-attachments/assets/034e9ca0-4092-4f7e-9f75-690a3b0efb8f)
-![Screenshot_20240627-150735_YouTube](https://github.com/user-attachments/assets/1e832316-c0f9-4ae2-9e29-5eb79ab508f6)
 - The Ins & Outs of Data Lakehouse Versioning at the File, Table, and Catalog Level https://www.youtube.com/live/q4e6zIltqmE
 ![Screenshot_20240701-152044_YouTube](https://github.com/user-attachments/assets/ef4d00fa-e77f-4537-8bda-3f55a346c0af)
 ![Screenshot_20240701-152154_YouTube](https://github.com/user-attachments/assets/f952525f-e453-43fd-b944-b3402e7a2cb7)
@@ -341,3 +337,15 @@
 ![Screenshot_20240701-152456_YouTube](https://github.com/user-attachments/assets/c7c2b738-affa-4234-a445-39f98f8ce068)
 ![Screenshot_20240701-152509_YouTube](https://github.com/user-attachments/assets/349e5864-9db1-4e6e-b67f-59f3a598efe2)
 ![Screenshot_20240701-152537_YouTube](https://github.com/user-attachments/assets/7ed31a34-af07-4597-bc1b-003c05a324cc)
+
+### lakeFS Lakehouse data versioning
+- CI/CD (Write-Audit-Publish) Safety Net for Databricks ETLs with lakeFS https://www.youtube.com/watch?v=W0Z9Lapzw5Y
+![Screenshot_20240627-150646_YouTube](https://github.com/user-attachments/assets/dbabfaa5-ea53-4828-a75f-fe8eca9a718d)
+![Screenshot_20240627-150714_YouTube](https://github.com/user-attachments/assets/034e9ca0-4092-4f7e-9f75-690a3b0efb8f)
+![Screenshot_20240627-150735_YouTube](https://github.com/user-attachments/assets/1e832316-c0f9-4ae2-9e29-5eb79ab508f6)
+- Develop Spark ETL pipelines with no risk against production data https://www.youtube.com/watch?v=VtGNw2YPFEU
+![Screenshot_20240627-145947_YouTube](https://github.com/user-attachments/assets/9d3bd7ec-c1bd-416d-b174-d734550852ee)
+![Screenshot_20240627-150011_YouTube](https://github.com/user-attachments/assets/817f213a-5e33-4fbe-ab1d-e6b865f3b89a)
+![Screenshot_20240627-150023_YouTube](https://github.com/user-attachments/assets/0f76761b-d849-43cd-a838-6c33aac067b6)
+![Screenshot_20240627-150040_YouTube](https://github.com/user-attachments/assets/58fa3df9-3bec-4d84-aad6-02b3385fb5cb)
+![Screenshot_20240627-150152_YouTube](https://github.com/user-attachments/assets/c8dc867e-1a65-4381-8d8c-5c06be40b6a7)
