@@ -830,8 +830,14 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- https://gigasheet.com/databricks
 
 ## Databricks Photon
-- next gen Spark SQL compute engine completely rewritten in C++
-- https://www.youtube.com/watch?v=PwnUf6_0H0k
+- next gen Spark engines https://www.linkedin.com/posts/jorritsandbrink_dataengineering-softwareengineering-activity-7211134200320565249-vxZO/
+	- Open source:
+		- Apache DataFusion Comet ➜ Rust (language) + Arrow (data format)
+		- Apache Gluten (Incubating) + Velox ➜ C++ (language) + Arrow (data format)
+	- Proprietary:
+		- Databricks Photon ➜ C++ (language) + proprietary Arrow-like (data format)
+		- Microsoft Fabric ➜ uses Gluten + Velox
+- Photon next gen Spark SQL compute engine completely rewritten in C++ https://www.youtube.com/watch?v=PwnUf6_0H0k
 ![Screenshot_20240703-183012_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7e1aa915-0830-46fb-8d81-f584af7d67b9)
 ![Screenshot_20240703-183022_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/a36fd9de-274d-487a-9bdd-6f8730d7a411)
 ![Screenshot_20240703-183039_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cbe37f27-9ec8-458b-bb9f-4835077fd55d)
