@@ -665,6 +665,10 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 		- You reference all data in Unity Catalog using a three-level namespace: catalog.schema.table. 
 		- data lineage in all workspaces
 			- federated data from AWS, etc.
+	- Evolving Data Governance With Unity Catalog https://www.youtube.com/watch?v=lZbmBAxa3O4
+![Screenshot_20240619-163642_YouTube](https://github.com/user-attachments/assets/7866b798-eccf-4b5a-98ec-7d39ee43bc3d)
+![Screenshot_20240619-163827_YouTube](https://github.com/user-attachments/assets/2d472f4d-57ea-4763-b4b0-86c3c36d5f2b)
+![Screenshot_20240619-163936_YouTube](https://github.com/user-attachments/assets/d4b438ca-bf48-41ae-957f-60498b803e5a)
 
 ## Spark + high Velocity of data
 - 3V's: Volume, Variety, Velocity
