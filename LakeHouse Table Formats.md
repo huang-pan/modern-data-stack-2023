@@ -242,8 +242,24 @@
 ![Screenshot_20240627-155745_YouTube](https://github.com/user-attachments/assets/3606d111-6354-412a-85a7-d64e3f1c032d)
 ![Screenshot_20240627-155756_YouTube](https://github.com/user-attachments/assets/e9ab1dec-7127-47a2-9b0d-470fe96a6e5b)
 
-### Iceberg table optimizations
-- https://www.youtube.com/live/rLs4bjtXSrg
+### Iceberg best practices and optimizations
+- How Tabular implements Iceberg best practices https://www.youtube.com/watch?v=ZjVFtMlJyzA
+![Screenshot_20240627-154818_YouTube](https://github.com/user-attachments/assets/d6bf5b85-a4ed-423c-b216-13f372fcc6e7)
+![Screenshot_20240627-154848_YouTube](https://github.com/user-attachments/assets/3a9388c3-c97b-4bfc-bd1c-09407a245746)
+![Screenshot_20240627-154852_YouTube](https://github.com/user-attachments/assets/64a61b07-060c-40a9-bbac-a6df50fe3638)
+![Screenshot_20240627-154857_YouTube](https://github.com/user-attachments/assets/58f3c039-c3c8-4a8b-bf5f-84fceab2b5e9)
+![Screenshot_20240627-154908_YouTube](https://github.com/user-attachments/assets/bb4eebc4-fa88-4c18-852d-9237ae59a7e9)
+![Screenshot_20240627-154914_YouTube](https://github.com/user-attachments/assets/36ce9fd7-9a4e-432a-a955-3200736f9ef2)
+![Screenshot_20240627-154920_YouTube](https://github.com/user-attachments/assets/e36bd660-1f7c-4355-a23c-8f9c97308b40)
+![Screenshot_20240627-154939_YouTube](https://github.com/user-attachments/assets/66a597e5-1d86-43f0-8e2d-0ff1d29608b6)
+![Screenshot_20240627-154942_YouTube](https://github.com/user-attachments/assets/3ae8119b-9bc8-4937-8f6f-b0783fa60e62)
+![Screenshot_20240627-154954_YouTube](https://github.com/user-attachments/assets/55553259-ee7f-4305-904c-983ec5c8390d)
+![Screenshot_20240627-154958_YouTube](https://github.com/user-attachments/assets/ecef2917-778a-4600-b53a-8a476d8d2eef)
+![Screenshot_20240627-155004_YouTube](https://github.com/user-attachments/assets/ced0543d-1d37-4e75-9085-122236acef76)
+![Screenshot_20240627-155018_YouTube](https://github.com/user-attachments/assets/5a09c6ed-fd71-4c9a-be80-dae54d42b35f)
+![Screenshot_20240627-155022_YouTube](https://github.com/user-attachments/assets/a59d3d17-c188-47d3-9521-c4a4e163bb23)
+![Screenshot_20240627-154058_YouTube](https://github.com/user-attachments/assets/84302863-ee7e-4b74-85ba-ba16d9be357c)
+- Iceberg table optimizations https://www.youtube.com/live/rLs4bjtXSrg
 ![Screenshot_20240701-164726_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/0d223a7d-d15b-40db-a7d6-116cc28090f1)
 ![Screenshot_20240701-164729_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/93796673-08da-4607-9d07-e1f640487a43)
 ![Screenshot_20240701-164750_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c37aaafd-b9bd-4b1e-88b6-cf1300a8e673)
