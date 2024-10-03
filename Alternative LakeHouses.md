@@ -1,5 +1,7 @@
 # Alternative LakeHouses
 
+- https://www.linkedin.com/pulse/lakehouse-make-big-data-great-again-alex-campos-w6mgf/
+
 ## Dremio
 - Open source, unified data lakehouse solution https://www.youtube.com/watch?v=cc6CCQpg1FA
 	- 1 to 5 minute latency from data sources
