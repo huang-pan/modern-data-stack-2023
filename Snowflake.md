@@ -191,6 +191,9 @@
 	- Deploy snowflake notebook using snowflake task
 	- GitHub actions CI CD
 ![Screenshot_20240701-113254_YouTube](https://github.com/user-attachments/assets/93c7ebcb-5fbb-4818-a5c5-5a2a6a5f0648)
+- https://www.youtube.com/live/-fU7qet9CFc
+![Screenshot_20240619-110355_YouTube](https://github.com/user-attachments/assets/0e227032-7d5f-426f-b1c7-9480cdaa7874)
+![Screenshot_20240619-110659_YouTube](https://github.com/user-attachments/assets/b117d78c-598c-469b-9a26-ccfdc374c991)
 
 ## MLOps in Snowflake
 - https://www.snowflake.com/blog/ml-enhances-mlops-streaming-feature-model-management/
