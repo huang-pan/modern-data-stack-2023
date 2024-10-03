@@ -1,5 +1,13 @@
 # Blockchain Data
 
+## Coinbase Lakehouse Architecture
+- https://www.youtube.com/watch?v=3Z9jSCaHnYg
+	- Coinbase open lakehouse arch: S3, iceberg
+ 	- https://www.youtube.com/watch?v=3Z9jSCaHnYg&t=869s
+	- starrocks / celerdata RT OLAP, duckdb
+	- puppygraph: graphDB on iceberg
+![Screenshot_20240618-160542_YouTube](https://github.com/user-attachments/assets/0f3510e5-cdf0-4718-aa8f-bcaea6715695)
+
 ## Real Time blockchain data
 - https://www.meetup.com/streaming-stories/events/297191788
 - Crypto Fintech meets Real Time data https://www.youtube.com/watch?v=LftHdHUVk6s 
