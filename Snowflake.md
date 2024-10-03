@@ -217,6 +217,20 @@
 ![Screenshot_20240701-172717_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/91b4ec12-f95a-4d28-92a7-a6d3533c543e)
 
 ## LLMs in Snowflake
+- Coda And Snowflake: Engineering the Ultimate RAG Platform https://www.youtube.com/watch?v=0Tdz9_llJTA
+![Screenshot_20240619-113207_YouTube](https://github.com/user-attachments/assets/6e9507c6-3bec-449b-bb4a-db2e4a0dedbb)
+![Screenshot_20240619-113336_YouTube](https://github.com/user-attachments/assets/c434de9f-1255-44c2-bf3e-3fe3c4f60f2c)
+![Screenshot_20240619-113345_YouTube](https://github.com/user-attachments/assets/b07c9f47-e73e-4d54-ab63-1f61777a8ef2)
+![Screenshot_20240619-113508_YouTube](https://github.com/user-attachments/assets/fe21fc14-d1a7-4ee6-9cee-641cfce479d8)
+![Screenshot_20240619-113555_YouTube](https://github.com/user-attachments/assets/a8253c7c-674b-41e5-835d-418ee2c2e6f4)
+![Screenshot_20240619-113619_YouTube](https://github.com/user-attachments/assets/608d8009-bcb7-46ee-b0ff-dfc14bdae4f1)
+![Screenshot_20240619-113710_YouTube](https://github.com/user-attachments/assets/9dbb646f-5b11-44cb-933c-d0ff9dcf8db3)
+![Screenshot_20240619-113927_YouTube](https://github.com/user-attachments/assets/da7d49d4-3c13-4db9-930b-a05f9d9c6373)
+![Screenshot_20240619-114118_YouTube](https://github.com/user-attachments/assets/308f5ca3-a44b-40ec-9b69-b8a3b93d096a)
+![Screenshot_20240619-114147_YouTube](https://github.com/user-attachments/assets/bf447630-7c9b-43b9-ba10-9aec80d6b8db)
+![Screenshot_20240619-114244_YouTube](https://github.com/user-attachments/assets/0b60f335-3698-4cf2-a157-b3f184cc686f)
+![Screenshot_20240619-114351_YouTube](https://github.com/user-attachments/assets/666d13a8-daa6-446d-81d7-69e8c508baa2)
+![Screenshot_20240619-114414_YouTube](https://github.com/user-attachments/assets/ea5fa084-4226-47ce-95a3-274518dbf652)
 - Snowflake Arctic LLM Foundational Model https://www.youtube.com/watch?v=kelxJkXE3bo
 ![Screenshot_20240701-171922_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/80424f75-600c-4d16-8c5e-50cb6eda2d35)
 ![Screenshot_20240701-171929_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/c45a1076-6d35-4218-b634-572de778f114)
