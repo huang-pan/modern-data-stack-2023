@@ -192,6 +192,8 @@
 ![Screenshot_20240729-094400_YouTube](https://github.com/user-attachments/assets/21993795-e889-4d43-b03c-b0db5425fa42)
 
 ## Firebolt
+- https://www.firebolt.io/resources/data-warehouse-comparison-guide
+	- Firebolt vs Snowflake vs Athena vs Redshift vs Druid https://www.youtube.com/watch?v=njXKSlVZGAY
 - Firebolt is a modified ClickHouse https://www.youtube.com/watch?v=9rW9uEJ15tU
 ![Screenshot_20240703-180051_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ee42df08-8ecf-4568-9b84-3cb29c9be67a)
 ![Screenshot_20240703-180109_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/cd511669-cec3-499b-b128-116ad0708ff3)
