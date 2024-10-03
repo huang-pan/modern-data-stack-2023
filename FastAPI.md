@@ -449,3 +449,5 @@
 	- 𝗦𝘁𝗼𝗿𝗮𝗴𝗲 & 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲: S3, Amazon Aurora
   ![1719373639077](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/86bdcd32-7f95-4985-8501-7463ecb7bb3a)
 ![86fdda13-d57b-4d9c-b868-ac35d3c52569_1600x1582](https://github.com/user-attachments/assets/7a2d5505-02a0-405f-8080-45211999ebb5)
+- API gateway
+![apigateway](https://github.com/user-attachments/assets/be90c2e0-ecdb-4806-83bf-a55cef5396a9)
