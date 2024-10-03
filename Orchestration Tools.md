@@ -250,6 +250,10 @@
         - spark submit shell \(wrapper\): custom Spark jobs at run time
     - Airflow S3 File sensor: https://medium.com/@satadru1998/mastering-data-workflow-precision-and-control-with-airflows-s3-file-sensor-6869d60f099d
 - Jenkins: get up and running on localhost:9090
+- Troubleshoot AND Reproduce Data with Apache Airflow https://www.youtube.com/watch?v=HuQQUvmVjhU
+![Screenshot_20240627-150313_YouTube](https://github.com/user-attachments/assets/fd2521b7-6c91-4396-95de-68e813411dd7)
+![Screenshot_20240627-150334_YouTube](https://github.com/user-attachments/assets/aec902c7-ea5b-4c4b-a841-0d5b9d657596)
+![Screenshot_20240627-150350_YouTube](https://github.com/user-attachments/assets/ab826540-3574-4d7a-af30-03260db175e9)
 
 ### Managed Airflow option
 - https://www.youtube.com/live/AI7o_2aBWZs
