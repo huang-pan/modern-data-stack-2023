@@ -238,4 +238,6 @@
 ![Screenshot_20240703-061148_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f30cdbdd-dbc6-4715-8978-2a35accb4f2e)
 
 ## Tiny Bird + Snowflake
-- Tiny Bird is a serverless ClickHouse
+- Tiny Bird is a serverless ClickHouse https://www.youtube.com/watch?v=TcQolL2Xlic
+	- Source connectors: kafka, snowflake,  etc.
+	- Data pipelines separate stages
