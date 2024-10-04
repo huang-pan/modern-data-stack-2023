@@ -10,6 +10,7 @@
     - [https://www.linkedin.com/company/noteable\-io/people/](https://www.linkedin.com/company/noteable-io/people/) 27 people
 
 ## ETL / reverse ETL tools
+- Airbyte 101 https://www.youtube.com/live/2A50P2TqtUk
 - https://www.linkedin.com/posts/oleg-agapov_lets-discuss-the-pricing-of-cloud-data-activity-7212918396848414720-wZJ5/
 Let’s start with obvious and super popular choices:
 ☑️ Airbyte Cloud – $100 per 10GB synced, consumption-based.
