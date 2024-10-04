@@ -518,6 +518,9 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 		- Prompt engineering for data cleaning and entity resolution 
 		- RAG: Retrieval Augmented Generation
 			- input your own data into the LLM
+		- Create a RAG based Chatbot with Databricks https://www.youtube.com/watch?v=p4qpIgj5Zjg
+![Screenshot_20240619-160019_YouTube](https://github.com/user-attachments/assets/18eea031-7ba4-4082-83d4-bf06d5325823)
+
 	- Use LLMs to generate natural language interfaces / chatbots, etc. add to medium article
 		- deploy internal LLMs so no public data exposure
 - LLMOps: MLFlow 2.5 https://www.databricks.com/dataaisummit/session/llmops-everything-you-need-know-manage-llms/
