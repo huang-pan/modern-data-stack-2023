@@ -38,6 +38,8 @@ Now let’s look at the alternatives suggested to me:
     - With Estuary, you can now also load Iceberg with sub-second latency at massive scale!
     - Flow streams with <100ms latency to Iceberg and scales out horizontally with Iceberg to stream at any scale you need.
     - We’re not talking your typical ELT scale. One Estuary data pipeline already streams 7+ GB/sec peak in production with sub-second latency. That adds up to a Terabyte in a little over 2 minutes and 200+ Petabytes a year.
+- APIfy website crawler: scrapes website, outputs csv
+![Screenshot_20240619-161759_YouTube](https://github.com/user-attachments/assets/f319b7f5-99c3-40bd-9b53-b82f3a519a5a)
 
 ## Dataset marketplace
 
