@@ -77,6 +77,38 @@
 - https://learn.glassflow.dev/blog/articles/choosing-between-a-streaming-database-and-a-stream-processing-framework-in-python
 - Moirai: A Time Series Foundation Model for Universal Forecasting https://blog.salesforceairesearch.com/moirai/
 - Apache Spark Vs. Apache Flink Vs. Apache Kafka Vs. Apache Storm! https://www.youtube.com/watch?v=V3Q3EkbEc_k
+- Efficient Kappa architecture with Trino, Spark vs Flink https://www.youtube.com/watch?v=qUT-uaEE-Fk
+![Screenshot_20240628-155540_YouTube](https://github.com/user-attachments/assets/bb1d6143-a0fb-43ec-9b49-1714bca2d916)
+![Screenshot_20240628-155619_YouTube](https://github.com/user-attachments/assets/b8c11972-bdfd-4435-8a7c-4fe197ffb3e8)
+![Screenshot_20240628-155723_YouTube](https://github.com/user-attachments/assets/35aed497-1a2a-40f6-a77c-b86e26620084)
+![Screenshot_20240628-155733_YouTube](https://github.com/user-attachments/assets/533d74f2-f148-4d72-a042-3b8f4eea0eb1)
+![Screenshot_20240628-155739_YouTube](https://github.com/user-attachments/assets/06e87540-1eaa-48e2-a4eb-83f775c81998)
+![Screenshot_20240628-155807_YouTube](https://github.com/user-attachments/assets/069d5f91-ea15-4bfb-87ee-112faa6f2472)
+![Screenshot_20240628-155823_YouTube](https://github.com/user-attachments/assets/d867b47d-0617-4540-82fe-31e180ccb961)
+![Screenshot_20240628-155833_YouTube](https://github.com/user-attachments/assets/a8100cba-f528-4202-9f73-c0706ef70a44)
+![Screenshot_20240628-155840_YouTube](https://github.com/user-attachments/assets/c222435f-98c0-4a9e-8780-f4db0f5ae178)
+![Screenshot_20240628-155912_YouTube](https://github.com/user-attachments/assets/ec58ac98-b44c-4613-b874-e3207e3cbcac)
+![Screenshot_20240628-155946_YouTube](https://github.com/user-attachments/assets/1d51e198-0cdb-47c2-833c-25ebced4703e)
+![Screenshot_20240628-160001_YouTube](https://github.com/user-attachments/assets/47904402-04c4-4ef7-8392-eac0adf87f67)
+![Screenshot_20240628-160020_YouTube](https://github.com/user-attachments/assets/aac31461-b9cf-4d20-9564-fc78e36b2327)
+![Screenshot_20240628-160031_YouTube](https://github.com/user-attachments/assets/a80aed03-e567-47d8-a258-c0e98bc3644c)
+![Screenshot_20240628-160049_YouTube](https://github.com/user-attachments/assets/06e9a659-1410-4f9d-a2f0-b78de50aa71f)
+![Screenshot_20240628-160057_YouTube](https://github.com/user-attachments/assets/63849326-e649-4653-aedc-d7a4aef5b78b)
+![Screenshot_20240628-160108_YouTube](https://github.com/user-attachments/assets/b534f61e-9cc4-438d-a343-9f4316ab8d83)
+![Screenshot_20240628-160120_YouTube](https://github.com/user-attachments/assets/cb96470c-7973-4a0a-9ff2-b02df23ce869)
+![Screenshot_20240628-160124_YouTube](https://github.com/user-attachments/assets/14ced9c1-59d6-4b34-9204-67e12a68d300)
+![Screenshot_20240628-160137_YouTube](https://github.com/user-attachments/assets/3d883b5a-7087-432f-af7d-124f6f5d1261)
+![Screenshot_20240628-160141_YouTube](https://github.com/user-attachments/assets/c6ece6d3-9007-457c-99b1-a255131c65d6)
+![Screenshot_20240628-160144_YouTube](https://github.com/user-attachments/assets/48d1a344-5447-473d-8a61-aa8c9f716f98)
+![Screenshot_20240628-160152_YouTube](https://github.com/user-attachments/assets/7c05e3a5-86d4-4e8b-927e-3fe63237e81f)
+![Screenshot_20240628-160156_YouTube](https://github.com/user-attachments/assets/cb8ce726-eb48-44aa-b595-bf6d5c1542c0)
+![Screenshot_20240628-160204_YouTube](https://github.com/user-attachments/assets/c677ff5c-45b0-484b-88e5-ae544a206c6e)
+![Screenshot_20240628-160211_YouTube](https://github.com/user-attachments/assets/b87dc8ef-889a-4ed8-a821-8acaf654bd47)
+![Screenshot_20240628-160217_YouTube](https://github.com/user-attachments/assets/dba08ec8-45d6-4965-a918-a724a4cc4a64)
+![Screenshot_20240628-160225_YouTube](https://github.com/user-attachments/assets/e6bc234c-83f6-4302-974f-8a15a2960ddf)
+![Screenshot_20240628-160231_YouTube](https://github.com/user-attachments/assets/9cd053f9-ba40-4228-a762-4dfa566df028)
+![Screenshot_20240628-160238_YouTube](https://github.com/user-attachments/assets/4e254ebc-11dc-4841-9e86-6b905b067d9a)
+![Screenshot_20240628-160311_YouTube](https://github.com/user-attachments/assets/41648720-35f6-4ea6-99d7-5833bd186749)
 
 ## Apache Flink
 - https://rmoff.net/2023/09/29/learning-apache-flink-s01e01-where-do-i-start/
