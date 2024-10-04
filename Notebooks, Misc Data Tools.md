@@ -49,6 +49,8 @@ Now let’s look at the alternatives suggested to me:
 - Cool channel doing demos of the latest data tools: [https://www.youtube.com/@demohub/videos](https://www.youtube.com/@demohub/videos)
 - Jupyter AI https://www.marktechpost.com/2023/08/06/meet-jupyter-ai-a-new-open-source-project-that-brings-generative-artificial-intelligence-to-jupyter-notebooks-with-magic-commands-and-a-chat-interface/
 - ***Data Tooling cost analysis***, etc.: https://medium.com/@hugolu87
+- Top Trends in Modern Data Architecture for 2024 https://www.youtube.com/watch?v=xlOMTnRqC_E
+    - Asante security for MDS
 
 ## Netflix Data Engineering
 - Netflix Data Engineering tech stack https://www.youtube.com/watch?v=QxaOlmv79ls
