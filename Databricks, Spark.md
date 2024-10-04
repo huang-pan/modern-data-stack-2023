@@ -862,6 +862,13 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 ![Screenshot_20240619-154425_YouTube](https://github.com/user-attachments/assets/8d1e82b4-540b-4c6b-8fb9-5bffc4dbc262)
 ![Screenshot_20240619-154554_YouTube](https://github.com/user-attachments/assets/8cf3e547-e7ec-42bc-8727-1a36c835fdb0)
 ![Screenshot_20240619-154724_YouTube](https://github.com/user-attachments/assets/23c28ade-08e1-47d6-96de-5b369b0f423c)
+
+- Announcing Delta Lake 4.0 with Liquid Clustering https://www.youtube.com/watch?v=joy4jdYJg3c
+![Screenshot_20240617-121204_YouTube](https://github.com/user-attachments/assets/cf02ac87-39ba-44c7-8b5c-dcaef7caa85a)
+![Screenshot_20240617-121317_YouTube](https://github.com/user-attachments/assets/a8350e76-1da9-49f3-a992-fb586fdfeade)
+![Screenshot_20240617-121457_YouTube](https://github.com/user-attachments/assets/d0c046ac-25e5-4665-a241-35f902fffcc6)
+![Screenshot_20240617-121542_YouTube](https://github.com/user-attachments/assets/443d6c0a-a2a8-4d79-9632-d742c2bbb8d2)
+
 - Databricks LakeFlow: A Unified, Intelligent Solution for Data Engineering https://www.youtube.com/watch?v=6rzQ6xjkYko
 	- LakeFlow Connect: auto ETL ingest tool to Databricks https://www.databricks.com/product/data-ingestion
 ![Screenshot_20240619-151659_YouTube](https://github.com/user-attachments/assets/d95caefc-8cf1-4568-814d-b36593a7f104)
@@ -875,6 +882,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 ![Screenshot_20240619-152816_YouTube](https://github.com/user-attachments/assets/9fc846d9-c378-4884-b787-0f57d28b85a3)
 ![Screenshot_20240619-152846_YouTube](https://github.com/user-attachments/assets/9b7b886d-29ea-4953-929b-a654826ca210)
 ![Screenshot_20240619-152855_YouTube](https://github.com/user-attachments/assets/3e6157d3-13c5-4252-9c0f-2d628f8fe3f8)
+
 - DBRX Databricks LLM https://www.youtube.com/watch?v=Sf7r2XcLNEk
 ![Screenshot_20240619-115124_YouTube](https://github.com/user-attachments/assets/a0c72fde-3a55-4396-82b5-1c9e4f3dc368)
 ![Screenshot_20240619-115138_YouTube](https://github.com/user-attachments/assets/6868e679-810b-4147-b01e-6cdaedf482e3)
