@@ -30,7 +30,7 @@
         - [https://sparkbyexamples.com/pyspark\-tutorial/](https://sparkbyexamples.com/pyspark-tutorial/) 
         - [https://intellipaat.com/blog/tutorial/spark\-tutorial/spark\-and\-rdd\-cheat\-sheet/?US](https://intellipaat.com/blog/tutorial/spark-tutorial/spark-and-rdd-cheat-sheet/?US)
     - ***How to optimize Spark workloads***
-	- https://www.linkedin.com/posts/arslanali434343_bigdata-apachespark-dataengineering-activity-7209195256255242243-UHJW/ 
+		- https://www.linkedin.com/posts/arslanali434343_bigdata-apachespark-dataengineering-activity-7209195256255242243-UHJW/ 
 		- https://www.databricks.com/discover/pages/optimize-data-workloads-guide 
 			- Z-order on high cardinality columns (e.g. uuid) - physically sorts or co-locates data
 			- partition on low cardinality columns (e.g. year, month) - 
