@@ -4,6 +4,8 @@
 - ****Guide for developing on Databricks****: https://blog.det.life/a-practitioners-guide-to-developing-data-engineering-solutions-with-databricks-1db5134ad831
 - For Databricks on Azure: https://github.com/huang-pan/modern-data-stack-2023/blob/main/Azure%20Data%2C%20ML%20Engineer.md
 - Also see MLOps on Azure Databricks section: https://github.com/huang-pan/modern-data-stack-2023/blob/main/MLOps.md
+- Similarities and differences of Spark, Dask, and Ray https://www.youtube.com/watch?v=YpFACw3g0AY
+![Screenshot_20240802-152116_YouTube](https://github.com/user-attachments/assets/115a9a69-7bda-467a-afed-b20eaf63e791)
 
 ## Udemy Spark
 - [https://www.udemy.com/course/taming\-big\-data\-with\-apache\-spark\-hands\-on/](https://www.udemy.com/course/taming-big-data-with-apache-spark-hands-on/)
