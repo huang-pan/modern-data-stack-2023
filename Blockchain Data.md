@@ -85,6 +85,12 @@
 ![Screenshot_20240627-130709_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f7c2adfd-520c-4d6e-939c-3256a3a29088)
 ![Screenshot_20240627-130720_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/849a39a6-1fe9-41c0-9f10-be959b3adabb)
 
+### Turning smart contracts into indexers with cross-compilation
+- Aurora on Near https://www.youtube.com/watch?v=2keh5BniAes
+![Screenshot_20240801-095347_YouTube](https://github.com/user-attachments/assets/f44ec400-dbd1-4b44-9086-47809e5640d4)
+![Screenshot_20240801-095510_YouTube](https://github.com/user-attachments/assets/6a45497c-291f-4428-84e6-508462f8ebfb)
+![Screenshot_20240801-095640_YouTube](https://github.com/user-attachments/assets/f302fe49-ff42-4779-af84-e6ef5ecc1cd1)
+
 ## Blockchain AI
 
 ### Blockchain and AI
