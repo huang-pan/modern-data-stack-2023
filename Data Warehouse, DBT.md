@@ -528,3 +528,12 @@ Also see:
 	- Y42 implicitly has data-diff in their git PR processes: https://www.linkedin.com/posts/hung-dang-y42_datafold-recently-announced-that-they-will-ugcPost-7199017036537069568-a6NC/
 - https://seattledataguy.substack.com/p/data-modeling-where-theory-meets
 	- ****datelist**** tables https://ctskennerton.github.io/2022/09/29/datelist-tables-at-roblox-data-engineering-meetup/
+
+### dbt + Spark
+- https://www.youtube.com/live/dwZlYG6RCSY
+![Screenshot_20240701-134844_YouTube](https://github.com/user-attachments/assets/27e40147-1d82-4300-ae2f-da75f52dd77a)
+![Screenshot_20240701-134848_YouTube](https://github.com/user-attachments/assets/9edbf118-83f0-49af-9114-ced7312140ef)
+![Screenshot_20240701-134851_YouTube](https://github.com/user-attachments/assets/1e5d8210-7bcb-4c6f-a410-ed030c703161)
+![Screenshot_20240701-134858_YouTube](https://github.com/user-attachments/assets/f53e8934-136e-4a48-918c-67b66fe96dad)
+![Screenshot_20240701-134904_YouTube](https://github.com/user-attachments/assets/2fad8a05-f833-49c5-b0ca-9ca14a616b69)
+![Screenshot_20240701-134907_YouTube](https://github.com/user-attachments/assets/b7b99738-ec8f-44b4-9f26-5aacde50257e)
