@@ -839,6 +839,17 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 
 - Gigasheet for Databricks, like Sigma Computing for Databricks
 	- https://gigasheet.com/databricks
+- Summit recap https://www.youtube.com/watch?v=63BRE2vry44
+![Screenshot_20240618-163642_YouTube](https://github.com/user-attachments/assets/b5ff16be-37de-4413-85c1-7eafc85e8c13)
+![Screenshot_20240618-163716_YouTube](https://github.com/user-attachments/assets/4e439543-6fb2-4dba-825b-b2244bbe6c6d)
+![Screenshot_20240618-163822_YouTube](https://github.com/user-attachments/assets/b56b4659-a6fa-439f-9060-cf72388f4f10)
+![Screenshot_20240618-164059_YouTube](https://github.com/user-attachments/assets/31865300-b360-42d8-87c3-10620367cbae)
+![Screenshot_20240618-164107_YouTube](https://github.com/user-attachments/assets/29627f16-6858-4184-b081-b726dbba82af)
+![Screenshot_20240618-164112_YouTube](https://github.com/user-attachments/assets/5f72791b-a388-4530-93fa-a5c00af46b33)
+![Screenshot_20240618-164516_YouTube](https://github.com/user-attachments/assets/3a1dd100-91c2-4f19-8e9f-6cfe1d80fe3d)
+![Screenshot_20240618-164734_YouTube](https://github.com/user-attachments/assets/ffba9268-1968-43c5-9005-406b46ffb068)
+![Screenshot_20240618-164855_YouTube](https://github.com/user-attachments/assets/37ee4218-0787-4d5f-bff1-072414f07f7f)
+
 - The Best Data Warehouse is a Lakehouse https://www.youtube.com/watch?v=UcdFPRT_sG8
 ![Screenshot_20240619-153917_YouTube](https://github.com/user-attachments/assets/b0b81d9b-68a3-419f-b351-1c06d376bc04)
 ![Screenshot_20240619-153945_YouTube](https://github.com/user-attachments/assets/bf4758da-1b6c-4d9e-a786-6bacb9ecbdb1)
