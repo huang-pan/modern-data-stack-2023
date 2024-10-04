@@ -836,7 +836,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - LLM search on data: Databricks Genie: https://www.youtube.com/watch?v=uKLscjh__Yc
 - ![Screenshot_20240613-115139_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/75c6ac9b-295d-46a2-80b9-25e823ea9651)
 - Spark 4.0 https://www.databricks.com/dataaisummit/session/whats-next-upcoming-apache-spark-40
--  
+
 - Gigasheet for Databricks, like Sigma Computing for Databricks
 	- https://gigasheet.com/databricks
 - The Best Data Warehouse is a Lakehouse https://www.youtube.com/watch?v=UcdFPRT_sG8
@@ -851,6 +851,18 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 ![Screenshot_20240619-154425_YouTube](https://github.com/user-attachments/assets/8d1e82b4-540b-4c6b-8fb9-5bffc4dbc262)
 ![Screenshot_20240619-154554_YouTube](https://github.com/user-attachments/assets/8cf3e547-e7ec-42bc-8727-1a36c835fdb0)
 ![Screenshot_20240619-154724_YouTube](https://github.com/user-attachments/assets/23c28ade-08e1-47d6-96de-5b369b0f423c)
+- Databricks LakeFlow: A Unified, Intelligent Solution for Data Engineering https://www.youtube.com/watch?v=6rzQ6xjkYko
+![Screenshot_20240619-151659_YouTube](https://github.com/user-attachments/assets/d95caefc-8cf1-4568-814d-b36593a7f104)
+![Screenshot_20240619-152031_YouTube](https://github.com/user-attachments/assets/008e9864-a496-4caa-ab3c-84efc849d265)
+![Screenshot_20240619-152242_YouTube](https://github.com/user-attachments/assets/bff9ecc5-f2c5-476f-80ac-47759052de7d)
+![Screenshot_20240619-152409_YouTube](https://github.com/user-attachments/assets/c3b0c291-ff02-44f5-be97-8344e0694eb2)
+![Screenshot_20240619-152429_YouTube](https://github.com/user-attachments/assets/048489cd-e47e-464b-b67c-23f2e4021d32)
+![Screenshot_20240619-152533_YouTube](https://github.com/user-attachments/assets/b1be7a0b-5e3a-4626-b9b6-fc93ec70ef2d)
+![Screenshot_20240619-152651_YouTube](https://github.com/user-attachments/assets/5f906f99-e96a-4f4e-adc8-3520da6a4f3f)
+![Screenshot_20240619-152731_YouTube](https://github.com/user-attachments/assets/ef7356d1-4d2f-4c06-85db-9cdb8f8b495d)
+![Screenshot_20240619-152816_YouTube](https://github.com/user-attachments/assets/9fc846d9-c378-4884-b787-0f57d28b85a3)
+![Screenshot_20240619-152846_YouTube](https://github.com/user-attachments/assets/9b7b886d-29ea-4953-929b-a654826ca210)
+![Screenshot_20240619-152855_YouTube](https://github.com/user-attachments/assets/3e6157d3-13c5-4252-9c0f-2d628f8fe3f8)
 
 ## Databricks Photon
 - next gen Spark engines https://www.linkedin.com/posts/jorritsandbrink_dataengineering-softwareengineering-activity-7211134200320565249-vxZO/
