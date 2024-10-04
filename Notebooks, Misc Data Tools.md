@@ -49,3 +49,8 @@ Now let’s look at the alternatives suggested to me:
 - Cool channel doing demos of the latest data tools: [https://www.youtube.com/@demohub/videos](https://www.youtube.com/@demohub/videos)
 - Jupyter AI https://www.marktechpost.com/2023/08/06/meet-jupyter-ai-a-new-open-source-project-that-brings-generative-artificial-intelligence-to-jupyter-notebooks-with-magic-commands-and-a-chat-interface/
 - ***Data Tooling cost analysis***, etc.: https://medium.com/@hugolu87
+
+## Netflix Data Engineering
+- Netflix Data Engineering tech stack https://www.youtube.com/watch?v=QxaOlmv79ls
+- data processing patterns https://www.youtube.com/watch?v=vuyjK2TFZNk
+![Screenshot_20240620-185544_YouTube](https://github.com/user-attachments/assets/693c9694-cbc5-4bec-b7ab-9ed63640a090)
