@@ -863,6 +863,11 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 ![Screenshot_20240619-152816_YouTube](https://github.com/user-attachments/assets/9fc846d9-c378-4884-b787-0f57d28b85a3)
 ![Screenshot_20240619-152846_YouTube](https://github.com/user-attachments/assets/9b7b886d-29ea-4953-929b-a654826ca210)
 ![Screenshot_20240619-152855_YouTube](https://github.com/user-attachments/assets/3e6157d3-13c5-4252-9c0f-2d628f8fe3f8)
+- DBRX Databricks LLM https://www.youtube.com/watch?v=Sf7r2XcLNEk
+![Screenshot_20240619-115124_YouTube](https://github.com/user-attachments/assets/a0c72fde-3a55-4396-82b5-1c9e4f3dc368)
+![Screenshot_20240619-115138_YouTube](https://github.com/user-attachments/assets/6868e679-810b-4147-b01e-6cdaedf482e3)
+![Screenshot_20240619-115206_YouTube](https://github.com/user-attachments/assets/db125ba7-642f-4650-8fb3-bc5bffd94f34)
+![Screenshot_20240619-115253_YouTube](https://github.com/user-attachments/assets/018b3d9b-6215-4352-9abc-cce4edb3cfd2)
 
 ## Databricks Photon
 - next gen Spark engines https://www.linkedin.com/posts/jorritsandbrink_dataengineering-softwareengineering-activity-7211134200320565249-vxZO/
