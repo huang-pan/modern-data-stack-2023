@@ -803,6 +803,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - https://blog.dataengineer.io/p/how-to-save-millions-by-optimizing  **no shuffles** group by join bucketing
 
 ## Medallion architecture best practices
+- see: https://github.com/huang-pan/modern-data-stack-2023/blob/main/Data%20Warehouse%2C%20DBT.md#dbt--spark
 - https://youtube.com/live/QimxOUwHdgo?si=r00ucK2VSTE93QMC 
 	- Scd type 2 merges not optimal in delta lake; data vault append / insert only architecture better for delta lake 
 	- DLT insert only incremental tables best for iot
