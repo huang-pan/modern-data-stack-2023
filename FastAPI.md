@@ -420,6 +420,9 @@
 - Fuzz Testing: This injects invalid or unexpected input data into the API and tries to crash the API. In this way, it identifies the API vulnerabilities.
 
 ## Top 7 Ways to 10x Your API Performance
+- Rest API - Performance - Best Practices https://www.youtube.com/watch?v=CI0ZxSQ8sWQ
+<img width="1920" alt="Screenshot 2024-10-09 at 9 39 09 AM (3)" src="https://github.com/user-attachments/assets/43c48933-4863-4e96-a7a0-a98a42cfb080">
+
 - https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7144366633526988800-4cGQ/
 	- Result Pagination: This method is used to optimize large result sets by streaming them back to the client, enhancing service responsiveness and user experience.
  	- Asynchronous Logging: This approach involves sending logs to a lock-free buffer and returning immediately, rather than dealing with the disk on every call. Logs are periodically flushed to the disk, significantly reducing I/O overhead.
