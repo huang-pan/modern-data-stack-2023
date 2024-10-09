@@ -440,6 +440,7 @@
 	- 3. Not hopping between multiple microservices for a single user request. (While a single user request can hit multiple services but those services should not in turn hit another set of services and so on).
 	- 4. Authorization data should be always cached.
 	- 5. As much as possible, do the most computation on the database layer. There's a huge difference between doing the computation at application layer vs doing it at database layer.
+![ATS](https://github.com/user-attachments/assets/c865e487-6a9c-4278-82c1-d957e69247ce)
 
 ## Scalable AWS API
 - https://www.linkedin.com/posts/semaan_great-visualization-of-resilient-3-tier-architecture-activity-7211712558402060289-VNOi/
