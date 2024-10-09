@@ -115,9 +115,9 @@ See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob
 ![Screenshot_20240618-170842_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/5e2b375c-4a4e-4aa5-8e64-d40bd4240f62)
 ![Screenshot_20240618-170905_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/013bb6dd-ecee-47ae-92fe-d6274d73b3c9)
 - 4 years of building ML platforms - lessons from trial and error https://www.accelevents.com/e/data-engineering-and-machine-learning-summit-2024/portal/schedule/343075
-<img width="1920" alt="Screenshot 2024-10-09 at 8 27 33 AM (2)" src="https://github.com/user-attachments/assets/154b8c27-4273-4e86-aa17-52d7fe0c7acf">
-<img width="1920" alt="Screenshot 2024-10-09 at 8 32 09 AM (2)" src="https://github.com/user-attachments/assets/57a56697-9882-4e86-b26a-d65f130f43dc">
-<img width="1920" alt="Screenshot 2024-10-09 at 8 32 25 AM (2)" src="https://github.com/user-attachments/assets/cd4493db-b822-4eb8-8308-572afd88fdc2">
+![Screenshot 2024-10-09 at 8 27 33 AM (2)](https://github.com/user-attachments/assets/cfac47e0-8ccd-47f4-bc16-b602fb32d1b8)
+![Screenshot 2024-10-09 at 8 32 09 AM (2)](https://github.com/user-attachments/assets/47ace230-a2de-4e2a-bd2c-394700be3b04)
+![Screenshot 2024-10-09 at 8 32 25 AM (2)](https://github.com/user-attachments/assets/c91d594c-946f-45f1-af3a-ae523e2ac0fb)
 
 ## MLOps for different company stages
 - https://www.youtube.com/watch?v=YvjqScBwjPs
