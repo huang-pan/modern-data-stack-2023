@@ -455,3 +455,4 @@
 ![86fdda13-d57b-4d9c-b868-ac35d3c52569_1600x1582](https://github.com/user-attachments/assets/7a2d5505-02a0-405f-8080-45211999ebb5)
 - API gateway
 ![apigateway](https://github.com/user-attachments/assets/be90c2e0-ecdb-4806-83bf-a55cef5396a9)
+![acid](https://github.com/user-attachments/assets/b5699a2d-dafe-40c8-9224-55f9d4b60698)
