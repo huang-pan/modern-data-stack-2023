@@ -302,6 +302,11 @@
 - How to Accelerate Apache Iceberg Queries https://www.youtube.com/watch?v=w7oPcJbviWg
 ![Screenshot_20240627-152323_YouTube](https://github.com/user-attachments/assets/3ed1ec4d-7ebc-42d2-99ff-aa8c4b53b05e)
 ![Screenshot_20240627-152340_YouTube](https://github.com/user-attachments/assets/5d593c57-31be-4e59-b6e9-98c4d2b4f871)
+- How to Solve Data Upserts Challenges in OLAP Databases https://www.youtube.com/watch?v=hNJ4jVzjv-k
+![Screenshot_20240629-203910_YouTube](https://github.com/user-attachments/assets/5c9b9320-8743-4a0e-8a2a-bf05942d5957)
+![Screenshot_20240629-203919_YouTube](https://github.com/user-attachments/assets/e46f6b1f-663f-4149-b064-4453c23e3c80)
+![Screenshot_20240629-203943_YouTube](https://github.com/user-attachments/assets/e6595f87-c4fc-4f57-8619-8e7c11c3299f)
+![Screenshot_20240629-203952_YouTube](https://github.com/user-attachments/assets/4ad7b4d1-81e3-4878-ab76-521326b90276)
 
 ## Iceberg Catalogs
 - Deep Dive into Apache Iceberg Catalogs (Nessie, Hive, REST Catalog, Hadoop) https://www.youtube.com/watch?v=IENHQpIA5l4
