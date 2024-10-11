@@ -1,5 +1,13 @@
 # Udemy Data Warehouse / dbt
 
+## Logical vs Physical Architecture
+- https://www.youtube.com/watch?v=0QOi3DiFlSg
+![Screenshot_20240630-173000_YouTube](https://github.com/user-attachments/assets/2e67921d-b82e-4b70-93eb-c77de5222aa1)
+![Screenshot_20240630-173114_YouTube](https://github.com/user-attachments/assets/ad0f14dd-3331-40d9-9476-a29816d10b66)
+![Screenshot_20240630-173024_YouTube](https://github.com/user-attachments/assets/b804e1aa-89f8-4198-a36a-b7a4bcfeda82)
+![Screenshot_20240630-173226_YouTube](https://github.com/user-attachments/assets/0c61067a-cd97-4571-b2ae-6f367b35fd1f)
+![Screenshot_20240630-173258_YouTube](https://github.com/user-attachments/assets/8cd7991d-8b02-46f8-892d-e5b71eae7e11)
+
 ## [https://www.udemy.com/course/data\-warehouse\-fundamentals\-for\-beginners/](https://www.udemy.com/course/data-warehouse-fundamentals-for-beginners/)
 
 - Course completion certificate: [https://www.udemy.com/certificate/UC\-9875515d\-9606\-4bfc\-8ddc\-e408d9d65aae/](https://www.udemy.com/certificate/UC-9875515d-9606-4bfc-8ddc-e408d9d65aae/) 
