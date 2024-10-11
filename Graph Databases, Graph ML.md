@@ -27,6 +27,10 @@
 - https://neo4j.com/developer/graph-data-science/graph-algorithms/
 - https://neo4j.com/blog/graph-algorithms-neo4j-15-different-graph-algorithms-and-what-they-do/
 - https://neo4j.com/docs/graph-data-science/current/
+- Neo4j: Mastering Retrieval Queries with Vector + Graph https://www.youtube.com/live/cbPII1Pam_M
+  - Neo4j custom doc chunks graph format
+  - Open api llm foundational model, needs key
+  - Langchain framework, Streamlit app
 
 ## Quine
 - Streaming graph DB https://www.youtube.com/watch?v=JzN_p3SMRH8
