@@ -446,6 +446,9 @@
 ![ATS](https://github.com/user-attachments/assets/c865e487-6a9c-4278-82c1-d957e69247ce)
 
 ## Scalable AWS API
+- System Design: 0 Scaling From Zero to Billions of Requests https://www.youtube.com/watch?v=69UjMatrOa4
+![Screenshot_20240701-102521_YouTube](https://github.com/user-attachments/assets/3906118f-5a40-45d9-b6df-81067ce6e33f)
+
 - https://www.linkedin.com/posts/semaan_great-visualization-of-resilient-3-tier-architecture-activity-7211712558402060289-VNOi/
 	- 𝗡𝗲𝘁𝘄𝗼𝗿𝗸: VPC, Subnets, Route tables
 	- 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆: Security groups, NACLs
