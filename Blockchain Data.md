@@ -62,6 +62,10 @@
 	- microbatching
 	- mostly SQL based
 
+## DiD
+- The Future of Digital Identity - All You Need to Know About ID Wallets & How to Build Them https://www.youtube.com/watch?v=exCpHbkqLzY
+- Decentralized Identity Landscape: Communities, Projects, Technologies, and Tools https://www.youtube.com/watch?v=QbFHLao-fC8
+
 ## Blockchain Indexers
 
 ### SubQuery
