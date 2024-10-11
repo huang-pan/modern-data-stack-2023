@@ -241,3 +241,6 @@
 - Tiny Bird is a serverless ClickHouse https://www.youtube.com/watch?v=TcQolL2Xlic
 	- Source connectors: kafka, snowflake,  etc.
 	- Data pipelines separate stages
+
+## TigerBeetle
+- TigerBeetle: World’s Fastest Financial Transactions Database https://www.youtube.com/watch?v=nTbQD30rk14
