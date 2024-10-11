@@ -392,4 +392,7 @@
   	- https://medium.com/@amitv2706/how-did-we-choose-between-aws-msk-and-kinesis-d796f4f29cb3
   	- https://www.kai-waehner.de/blog/2022/08/30/when-not-to-choose-amazon-msk-serverless-for-apache-kafka/
   	- https://medium.com/flo-health/kinesis-vs-kafka-6709c968813
-
+- Best practices to manage AWS streaming data pipeline at scale https://www.youtube.com/watch?v=2SkwBnChnhA
+![Screenshot_20240802-171002_YouTube](https://github.com/user-attachments/assets/666b0f15-60d0-4f6c-aa05-7f7c13797ee8)
+![Screenshot_20240802-171318_YouTube](https://github.com/user-attachments/assets/9383c998-4ded-46b9-9f2b-3bd463834fe0)
+![Screenshot_20240802-171403_YouTube](https://github.com/user-attachments/assets/bc4aeba7-e7f5-4a66-9d67-dd50fbee5bf0)
