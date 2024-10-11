@@ -229,3 +229,19 @@ Generative AI Short Courses
 ![Screenshot_20240705-071113_YouTube](https://github.com/user-attachments/assets/8d570154-1db2-4d48-9e51-f1f81e494ddc)
 ![Screenshot_20240705-071136_YouTube](https://github.com/user-attachments/assets/bf8883eb-432b-4757-96ba-a5cb9e359178)
 ![Screenshot_20240705-071227_YouTube](https://github.com/user-attachments/assets/03b5970f-bb84-4fad-a24f-ca235716b3e0)
+
+## VectorDB
+
+### Weviate 
+- Powering Vector Search with Real-Time Data: Weviate + Quix https://www.youtube.com/live/9pG1pspgELU
+![Screenshot_20240629-185511_YouTube](https://github.com/user-attachments/assets/2917b6aa-e2c6-4581-ba8a-c67d1d74986d)
+![Screenshot_20240629-185628_YouTube](https://github.com/user-attachments/assets/022737be-6276-45ce-998a-4968e0125901)
+![Screenshot_20240629-185744_YouTube](https://github.com/user-attachments/assets/bccdc09c-6fd5-4fe1-9cb3-e1c211b07562)
+![Screenshot_20240629-185750_YouTube](https://github.com/user-attachments/assets/b23a1faf-b822-4ff4-8f2e-86ea344ca38d)
+![Screenshot_20240629-185828_YouTube](https://github.com/user-attachments/assets/adce2998-4806-46b5-b30d-0f74d9ff8c8a)
+![Screenshot_20240629-185924_YouTube](https://github.com/user-attachments/assets/c6eea530-5585-4ed5-8b7b-f1d05dcec440)
+![Screenshot_20240629-190143_YouTube](https://github.com/user-attachments/assets/6748de26-0fae-4021-8c5c-6b04c4b3f9f5)
+![Screenshot_20240629-190112_YouTube](https://github.com/user-attachments/assets/16ccd691-be2e-40a2-a899-3c7ca02c5363)
+![Screenshot_20240629-190153_YouTube](https://github.com/user-attachments/assets/f81cab9f-f8c7-460a-90b5-bb76d3d6f711)
+![Screenshot_20240629-190402_YouTube](https://github.com/user-attachments/assets/750846e9-931f-45e8-80b0-e64e777189c8)
+![Screenshot_20240629-190516_YouTube](https://github.com/user-attachments/assets/698e6c04-aff4-4ff0-8e6c-2618539bf434)
