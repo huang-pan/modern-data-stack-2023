@@ -1,5 +1,8 @@
 # Stream Processing
 
+- Streaming 101: Designing streaming data pipelines: Best Practices https://www.youtube.com/watch?v=-OeCrQNpaYI
+![Screenshot_20240802-170034_YouTube](https://github.com/user-attachments/assets/00a4fe29-3792-465b-8199-552428120ec7)
+
 - The Shift Left Architecture: do ETL in streaming https://www.youtube.com/watch?v=0-4VZk-4o8c
 ![Screenshot_20240617-113740_YouTube](https://github.com/user-attachments/assets/1a4b0dfd-bd7b-4fd6-9eda-86e4553dcfa3)
 ![Screenshot_20240617-111611_YouTube](https://github.com/user-attachments/assets/f2cb4e8d-1588-4c05-9b3a-68eb3741230d)
