@@ -242,5 +242,6 @@
 	- Source connectors: kafka, snowflake,  etc.
 	- Data pipelines separate stages
 
-## TigerBeetle
+## Other databases
 - TigerBeetle: World’s Fastest Financial Transactions Database https://www.youtube.com/watch?v=nTbQD30rk14
+- QuestDB has been at the forefront of handling time series data with a focus on speed and efficiency https://www.youtube.com/watch?v=xneSPWsAuyI
