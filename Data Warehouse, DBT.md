@@ -529,6 +529,23 @@ Also see:
 - https://seattledataguy.substack.com/p/data-modeling-where-theory-meets
 	- ****datelist**** tables https://ctskennerton.github.io/2022/09/29/datelist-tables-at-roblox-data-engineering-meetup/
 
+### Cumulative table design 
+- Turning 100 TB data lake into 5 TBs at Airbnb with One Big Table Data Modeling https://www.youtube.com/watch?v=7JbCVXmJ1bs
+![Screenshot_20240629-203119_YouTube](https://github.com/user-attachments/assets/c0ee6a0b-c049-4e88-b30d-a224a875697a)
+![Screenshot_20240629-203226_YouTube](https://github.com/user-attachments/assets/b4fed636-2b0b-4c07-9f5d-763b498097a0)
+![Screenshot_20240629-203249_YouTube](https://github.com/user-attachments/assets/55adfd09-0a4e-4a1c-a90b-0689533200c2)
+![Screenshot_20240629-203304_YouTube](https://github.com/user-attachments/assets/a386071b-d693-4653-9de3-ac577f6a222a)
+![Screenshot_20240629-203318_YouTube](https://github.com/user-attachments/assets/6e8a7cd9-e941-4e67-a425-edaff3f3a187)
+![Screenshot_20240629-203335_YouTube](https://github.com/user-attachments/assets/cc7f003d-b2fd-4767-a751-00339629f50a)
+![Screenshot_20240629-203351_YouTube](https://github.com/user-attachments/assets/2c4e884d-f346-4a9d-8d5e-bee17b42c54d)
+![Screenshot_20240629-203446_YouTube](https://github.com/user-attachments/assets/83f51caa-6877-4d95-b6d9-95826a408c92)
+![Screenshot_20240629-203457_YouTube](https://github.com/user-attachments/assets/47e20abe-1b31-44a4-b0d9-46cf7e613a0e)
+![Screenshot_20240629-203507_YouTube](https://github.com/user-attachments/assets/2268fe2c-4707-4e7a-b32f-b9728e77bab6)
+![Screenshot_20240629-203550_YouTube](https://github.com/user-attachments/assets/a44d77bc-4e05-430a-b404-e12fbbb61793)
+![Screenshot_20240629-203557_YouTube](https://github.com/user-attachments/assets/ab56ccd9-51e6-4f6d-8f9f-2151e5efda0d)
+![Screenshot_20240629-203603_YouTube](https://github.com/user-attachments/assets/da97ac7f-92cc-44f4-ac0c-5c44c08c3488)
+![Screenshot_20240629-203635_YouTube](https://github.com/user-attachments/assets/5c6a73ee-e72b-4926-bcbb-661102a24a6f)
+
 ### dbt + Spark
 - https://www.youtube.com/live/dwZlYG6RCSY
 ![Screenshot_20240701-134844_YouTube](https://github.com/user-attachments/assets/27e40147-1d82-4300-ae2f-da75f52dd77a)
