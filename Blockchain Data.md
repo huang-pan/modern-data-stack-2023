@@ -8,6 +8,9 @@
 	- puppygraph: graphDB on iceberg
 ![Screenshot_20240618-160542_YouTube](https://github.com/user-attachments/assets/0f3510e5-cdf0-4718-aa8f-bcaea6715695)
 
+## General
+- Assembly & Formal Verification EVM https://www.youtube.com/watch?v=Y3WMkl0AFJk
+
 ## Real Time blockchain data
 - https://www.meetup.com/streaming-stories/events/297191788
 - Crypto Fintech meets Real Time data https://www.youtube.com/watch?v=LftHdHUVk6s 
