@@ -1,5 +1,8 @@
 # Graph Databases, Graph ML
 
+## General
+- https://blog.dataengineer.io/p/how-i-built-a-huge-graph-database
+
 ## Kuzu DB
 - Intro to Kuzu DB https://www.youtube.com/watch?v=E1UXELFOiSA
   - Kuzu db column store, single node, embedded graphdb like duckdb embedded olap data warehouse, read optimized 
