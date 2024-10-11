@@ -59,6 +59,7 @@
 	- column based: Parquet, ORC, Delta Live Tables, Iceberg
 - https://blog.det.life/choosing-the-right-big-data-file-format-avro-vs-parquet-vs-orc-c868ffbe5a4e
 - https://streamingdata.substack.com/p/data-platforms-in-2030
+- Volt Active Data: Low Latency Stream processing, Transactional oltp https://www.youtube.com/watch?v=M291dFnGd1I
 
 ### Spark vs Flink
 ![Screenshot_20230830-203252_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/7ccebc36-fd78-4159-8de5-f8bc2f76890e)
