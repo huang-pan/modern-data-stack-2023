@@ -16,6 +16,7 @@
 
 ![medallion](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1f7a9164-bd06-4401-bbbf-dec23133abcd)
 
+- https://lakshmanok.medium.com/what-goes-into-bronze-silver-and-gold-layers-of-a-medallion-data-architecture-4b6fdfb405fc
 
 - warehouse / data lake
     - **Possible ways to structure a data warehouse like Snowflake**
