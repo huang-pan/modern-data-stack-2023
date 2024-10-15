@@ -7,6 +7,8 @@
 ![Screenshot_20240617-113740_YouTube](https://github.com/user-attachments/assets/1a4b0dfd-bd7b-4fd6-9eda-86e4553dcfa3)
 ![Screenshot_20240617-111611_YouTube](https://github.com/user-attachments/assets/f2cb4e8d-1588-4c05-9b3a-68eb3741230d)
 
+- https://blog.bytebytego.com/p/how-uber-manages-petabytes-of-real
+
 ## Message Bus vs Real Time Stream Processing vs RT OLAP
 - https://blog.dataengineer.io/p/how-to-choose-between-batch-micro
 	- 10% data engineers know RT
