@@ -53,6 +53,7 @@ Now let’s look at the alternatives suggested to me:
 - ***Data Tooling cost analysis***, etc.: https://medium.com/@hugolu87
 - Top Trends in Modern Data Architecture for 2024 https://www.youtube.com/watch?v=xlOMTnRqC_E
     - Asante security for MDS
+- JAX https://yash-sri.xyz/blogs
 
 ## Netflix Data Engineering
 - Netflix Data Engineering tech stack https://www.youtube.com/watch?v=QxaOlmv79ls
