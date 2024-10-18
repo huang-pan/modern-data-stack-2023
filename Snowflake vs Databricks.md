@@ -1,5 +1,7 @@
 # Snowflake vs Databricks
 
+![snowflake](https://github.com/user-attachments/assets/98d95dd8-78af-4029-9805-f174d1e29a56)
+
 ## Snowflake vs Databricks conferences
 - 2024 https://www.youtube.com/watch?v=F1UJ6rS7GHU
 - https://www.linkedin.com/posts/ethanaaron_after-a-month-of-conversations-about-databricks-activity-7205932220249690114-1e_J/
