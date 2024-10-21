@@ -451,6 +451,7 @@
 
 - https://www.linkedin.com/posts/semaan_great-visualization-of-resilient-3-tier-architecture-activity-7211712558402060289-VNOi/
 	- 𝗡𝗲𝘁𝘄𝗼𝗿𝗸: VPC, Subnets, Route tables
+ 		- CIDR review: https://www.youtube.com/watch?v=KiWXRL-2TnY
 	- 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆: Security groups, NACLs
 	- 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀: EC2/Fargate, Auto Scaling
 	- 𝗦𝘁𝗼𝗿𝗮𝗴𝗲 & 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲: S3, Amazon Aurora
