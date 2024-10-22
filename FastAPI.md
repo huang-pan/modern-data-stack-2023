@@ -444,10 +444,14 @@
 	- 4. Authorization data should be always cached.
 	- 5. As much as possible, do the most computation on the database layer. There's a huge difference between doing the computation at application layer vs doing it at database layer.
 ![ATS](https://github.com/user-attachments/assets/c865e487-6a9c-4278-82c1-d957e69247ce)
+![paging_segmentation](https://github.com/user-attachments/assets/0457724f-d1c9-4154-8c13-a24bbf812a86)
 
 ## Scalable AWS API
 - System Design: 0 Scaling From Zero to Billions of Requests https://www.youtube.com/watch?v=69UjMatrOa4
 ![Screenshot_20240701-102521_YouTube](https://github.com/user-attachments/assets/3906118f-5a40-45d9-b6df-81067ce6e33f)
+![scalability](https://github.com/user-attachments/assets/77b84cb7-5a9a-48a4-93e6-76827f283ab9)
+![microservices_tech_stack](https://github.com/user-attachments/assets/dc8af329-34f8-4bb2-a720-5566b9cf4da4)
+![microservices_data_sharing](https://github.com/user-attachments/assets/04055adc-0502-437d-86de-bd045b143b1b)
 
 - https://www.linkedin.com/posts/semaan_great-visualization-of-resilient-3-tier-architecture-activity-7211712558402060289-VNOi/
 	- 𝗡𝗲𝘁𝘄𝗼𝗿𝗸: VPC, Subnets, Route tables
