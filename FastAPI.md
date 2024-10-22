@@ -453,6 +453,7 @@
 	- 𝗡𝗲𝘁𝘄𝗼𝗿𝗸: VPC, Subnets, Route tables
  		- NAT / PAT review: https://www.youtube.com/watch?v=057e8J-48nY
  		- CIDR review: https://www.youtube.com/watch?v=KiWXRL-2TnY
+		- CNAME review: https://www.youtube.com/watch?v=ZXCQwdVgDno&list=PL_vyuxE-AO-DD94NKcCqd4iqwy5ah_pwq&index=1
 	- 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆: Security groups, NACLs
 	- 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀: EC2/Fargate, Auto Scaling
 	- 𝗦𝘁𝗼𝗿𝗮𝗴𝗲 & 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲: S3, Amazon Aurora
