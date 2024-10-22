@@ -1,6 +1,7 @@
 # Alternative LakeHouses
 
 - LakeHouse landscape 2024 https://www.linkedin.com/pulse/lakehouse-make-big-data-great-again-alex-campos-w6mgf/
+- https://www.cloudchef-labs.com
 - Headless Data Architecture: separate compute from storage, Lakehouse architecture https://www.youtube.com/watch?v=dahs6jpCYQs
 ![Screenshot_20240619-105412_YouTube](https://github.com/user-attachments/assets/27edab5e-10c1-465b-8f32-f4e237d273cd)
 
