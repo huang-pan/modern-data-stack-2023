@@ -374,9 +374,10 @@
 		- ****Y42**** implicitly has data-diff in their git PR processes: https://www.linkedin.com/posts/hung-dang-y42_datafold-recently-announced-that-they-will-ugcPost-7199017036537069568-a6NC/
 - Data Quality
 	- https://blog.det.life/mastering-data-quality-10-essential-checks-with-real-world-examples-and-7-best-practices-fa303f2ae42b
-    - https://ssmertin.com/articles/strategies-for-data-quality-with-apache-spark/
-    	- test for: completeness (check for missing data), consistency (data within range), uniqueness, timeliness, relevance, accuracy, validity
+    	- https://ssmertin.com/articles/strategies-for-data-quality-with-apache-spark/
+    		- test for: completeness (check for missing data), consistency (data within range), uniqueness, timeliness, relevance, accuracy, validity
      	- https://seattledataguy.substack.com/p/how-and-why-we-need-to-implement
+	- https://www.linkedin.com/posts/josephmachado1991_data-dataengineering-dataquality-activity-7254825978760175616-LklH/ 
 - macros
     - dbt has many built in macros
     - **macros/\*.sql** files
