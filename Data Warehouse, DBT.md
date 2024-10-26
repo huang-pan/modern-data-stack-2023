@@ -577,3 +577,66 @@ Also see:
 ![Screenshot_20240628-150646_YouTube](https://github.com/user-attachments/assets/f78beb76-4a1d-4f6b-b9fc-e9c365554702)
 ![Screenshot_20240628-152143_YouTube](https://github.com/user-attachments/assets/3010dae5-b55e-46c5-9c99-f10cca1b17cc)
 ![Screenshot_20240628-150535_YouTube](https://github.com/user-attachments/assets/50cefde6-83c7-480d-a271-f400cb7062bd)
+
+### Good article about data quality checks: https://www.linkedin.com/posts/josephmachado1991_data-dataengineering-dataquality-activity-7254825978760175616-LklH/
+1. Check table constraints
+The goal is to ensure your table's structure is what you expect:
+* Uniqueness
+* Not null
+* Enum check
+* Referential integrity
+Ensuring the table's constraints is an excellent way to cover your data quality base.
+2. Check business criteria
+Work with the subject matter expert to understand what data users check for:
+* Min/Max permitted value
+* Order of events check
+* Data format check, e.g., check for the presence of the '$' symbol
+Business criteria catch data quality issues specific to your data/business.
+3. Table schema checks
+Schema checks are to ensure that no inadvertent schema changes happened
+* Using incorrect transformation function leading to different data type
+* Upstream schema changes
+4. Anomaly detection
+Metrics change over time; ensure it's not due to a bug.
+* Check percentage change of metrics over time
+* Use simple percentage change across runs
+* Use standard deviation checks to ensure values are within the "normal" range
+Detecting value deviations over time is critical for business metrics (revenue, etc.)
+5. Data distribution checks
+Ensure your data size remains similar over time.
+* Ensure the row counts remain similar across days
+* Ensure critical segments of data remain similar in size over time
+Distribution checks ensure you get all the correct dates due to faulty joins/filters.
+6. Reconciliation checks
+Check that your output has the same number of entities as your input.
+* Check that your output didn't lose data due to buggy code
+7. Audit logs
+Log the number of rows input and output for each "transformation step" in your pipeline.
+* Having a log of the number of rows going in & coming out is crucial for debugging
+* Audit logs can also help you answer business questions
+Debugging data questions? Look at the audit log to see where data duplication/dropping happens.
+DQ warning levels: Make sure that your data quality checks are tagged with appropriate warning levels (e.g., INFO, DEBUG, WARN, ERROR, etc.). Based on the criticality of the check, you can block the pipeline.
+Get started with the business and constraint checks, adding more only as needed. Before you know it, your data quality will skyrocket!
+
+### dbt models should always be incremental
+https://www.linkedin.com/posts/hugo-lu-confirmed_dbt-merge-dbt-activity-7254772352696074241-vNKh/
+For log-type / eventtype / anything with a proper updated on field or ID there is no excuse for not writing an incremental model
+merge is powerful but expensive. I almost always use insert_overwrite !
+:rocket: Unlocking the Power of Incremental Models in dbt! :rocket:
+When working with large datasets, full refreshes can be expensive and time-consuming. That's where incremental models in dbt come in! They allow you to process only the changes, making your ETL pipelines more efficient. But not all incremental strategies are created equal. Let’s break down a few of them:
+Append :inbox_tray:
+Simply adds new rows without touching existing data.
+Best for: Logs and time-series data where records are immutable.
+Merge :arrows_counterclockwise:
+Combines new and existing records, updating or inserting as needed.
+Best for: Fact tables where data can change, like sales or inventory.
+Delete + Insert :scissors::heavy_plus_sign:
+Deletes existing rows and then inserts new data.
+Best for: Cases where you want to ensure only unique records stay in the table.
+Insert Overwrite :package::arrows_counterclockwise:
+Overwrites existing partitions with new data, great for managing data in chunks.
+Best for: Partitioned data where you want to keep things tidy, like monthly reports.
+Microbatch :stopwatch::arrows_counterclockwise:
+Continuously processes small batches of new data.
+Best for: Real-time analytics, streaming data, or minimizing data processing windows.
+Each of these strategies has its own use cases, so understanding when to use them can be a game-changer for your data pipelines. :bulb:
