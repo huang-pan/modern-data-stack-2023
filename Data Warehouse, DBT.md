@@ -621,9 +621,9 @@ Get started with the business and constraint checks, adding more only as needed.
 
 ### dbt models should always be incremental
 - https://www.linkedin.com/posts/hugo-lu-confirmed_dbt-merge-dbt-activity-7254772352696074241-vNKh/
-- For log-type / eventtype / anything with a proper updated on field or ID there is no excuse for not writing an incremental model
--  merge is powerful but expensive. I almost always use insert_overwrite !
-- When working with large datasets, full refreshes can be expensive and time-consuming. That's where incremental models in dbt come in! They allow you to process only the changes, making your ETL pipelines more efficient. But not all incremental strategies are created equal. Let’s break down a few of them:
+	- For log-type / eventtype / anything with a proper updated on field or ID there is no excuse for not writing an incremental model
+	- merge is powerful but expensive. I almost always use insert_overwrite !
+	- When working with large datasets, full refreshes can be expensive and time-consuming. That's where incremental models in dbt come in! They allow you to process only the changes, making your ETL pipelines more efficient. But not all incremental strategies are created equal. Let’s break down a few of them:
 - Append :inbox_tray:
 	- Simply adds new rows without touching existing data.
 	- Best for: Logs and time-series data where records are immutable.
