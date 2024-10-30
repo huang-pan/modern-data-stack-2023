@@ -407,6 +407,8 @@
 	- WebSocket: Bidirectional, real-time communication for low-latency applications.
 ![1719400197980](https://github.com/user-attachments/assets/a11b8ccc-7739-42af-964e-eb355aa520a9)
 ![mail](https://github.com/user-attachments/assets/fdf907f2-f6a1-479d-b321-5ccb8ed9b6ee)
+- https://www.linkedin.com/posts/sahnlam_restful-api-design-tips-domain-model-activity-7257247111384059907-At_3/
+![rest](https://github.com/user-attachments/assets/ecb71dfa-9c31-464c-8cda-31d091e294a1)
 
 ## API Testing
 ![apitesting](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/33cbb4f9-64ab-4fea-b154-f0baa84b012a)
