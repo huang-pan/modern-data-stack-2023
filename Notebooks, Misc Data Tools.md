@@ -59,3 +59,6 @@ Now let’s look at the alternatives suggested to me:
 - Netflix Data Engineering tech stack https://www.youtube.com/watch?v=QxaOlmv79ls
 - data processing patterns https://www.youtube.com/watch?v=vuyjK2TFZNk
 ![Screenshot_20240620-185544_YouTube](https://github.com/user-attachments/assets/693c9694-cbc5-4bec-b7ab-9ed63640a090)
+
+![mail-3](https://github.com/user-attachments/assets/6d3b5722-0474-4863-99bd-293b98ae593b)
+
