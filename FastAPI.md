@@ -1,4 +1,5 @@
 # FastAPI
+- Everything You NEED to KNOW About Web Applications https://www.youtube.com/watch?v=_higfXfhjdo
 
 ## Udemy FastAPI course
 [https://www.udemy.com/course/completefastapi/](https://www.udemy.com/course/completefastapi/)
