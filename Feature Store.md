@@ -263,3 +263,5 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240713-171243_YouTube](https://github.com/user-attachments/assets/1b5a11ad-e490-4b27-abbc-c659f92dd026)
 ![Screenshot_20240713-171255_YouTube](https://github.com/user-attachments/assets/22b42a60-5f43-48dc-9e84-9b715bbc6a25)
 ![Screenshot_20240713-171300_YouTube](https://github.com/user-attachments/assets/33292839-5585-40a0-b177-f179a5a4afec)
+
+![mail-2](https://github.com/user-attachments/assets/202a4e4f-8a57-49e5-8040-9c7ad1c7069b)
