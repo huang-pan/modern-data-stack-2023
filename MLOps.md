@@ -3,6 +3,7 @@
 See Feature Store notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/Feature%20Store.md
 
 ## General Notes
+- https://medium.com/thumbtack-engineering/what-we-learned-building-an-ml-infrastructure-team-at-thumbtack-0a5687cf3364
 - Building ML Platform [https://neptune.ai/blog/ml\-platform\-guide](https://neptune.ai/blog/ml-platform-guide) 
     - [https://neptune.ai/blog/mlops\-architecture\-guide](https://neptune.ai/blog/mlops-architecture-guide) 
         - event based training architecture \(push based\)
