@@ -1,5 +1,4 @@
 # Terraform
-- The Ultimate DevOps Developer Roadmap
 ![mail](https://github.com/user-attachments/assets/0dec92e5-876f-4a34-a75f-6b300c96e7c8)
 
 ## Terraform
