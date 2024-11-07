@@ -86,34 +86,6 @@
 	- Row Access Policies https://docs.snowflake.com/en/user-guide/security-row-intro 
 	- Dynamic Data Masking down to column level https://docs.snowflake.com/en/user-guide/security-column-ddm-intro
  	- ***Permifrost*** https://medium.com/yousign-engineering-product/snowflake-rbac-implementation-with-permifrost-3d30652825ad
-- Warehouse load monitoring, cost controls
-	- https://docs.snowflake.com/en/user-guide/warehouses-load-monitoring
-	- https://docs.snowflake.com/en/guides-overview-cost 
-		- https://docs.snowflake.com/en/user-guide/cost-controlling 
-	- Sigma has Snowflake Cost Monitoring Dashboard
-		- https://www.sigmacomputing.com/interactive-demos/snowflake-cost-monitoring-template
-	- https://sonra.io/snowflake/7-guardrails-against-common-mistakes-that-inflate-snowflake-credit-usage/
-   	- Understand, Control, And Optimize Spend In Snowflake More Effectively
-		- https://youtube.com/watch?v=Dwf11NxNqbw&si=9QTlHnx6ZEkAE-Wr
-   	- Reduce Costs With Snowpipe Streaming And Dynamic Tables
-		- https://youtube.com/watch?v=y67bH9ss07Y&si=RYzbsnPGqtWt2mAU
-   	- Snowflake AI cost usage
-   		- https://www.linkedin.com/posts/ian-whitestone_i-was-just-asking-our-snowflake-sales-engineer-activity-7220172262249746435-_hDq/
-	- SurveyMonkey Increases Snowflake Workloads By 475% With Only A 27% Increase In Credit Use https://www.youtube.com/watch?v=4aCj0wk33kg
-	- ***Snowflake correct warehouse sizing for cost optimization***
- 		- For each warehouse query: Have enough load to sustain 1 min of processing
-			- After the first minute, each warehouse is charged by the second after the first minute
-		- Warehouse sizes between XSMALL and LARGE have the same cost!!!
-			- feel free to play around with warehouse sizes between XSMALL and LARGE
-			- larger warehouse next size up will half your query time but be the same cost (scales linearly between XSMALL and LARGE)
-		- be careful with warehouse sizes XLARGE and above!! Can be quite costly!
- ![snowflake warehouse cost performance](https://github.com/user-attachments/assets/e3e5a3f7-ab2b-40a9-be56-59d6ad0fde94)
-
-  
- ![Screenshot_20240729-192527_YouTube](https://github.com/user-attachments/assets/46382304-2ee7-49be-af3c-c534e3bd66a0)
-	- Snowflake serverless costs .9x virtual warehouse https://www.linkedin.com/posts/ian-whitestone_snowflake-activity-7231385161735544834-Ks1V/
-
-	- ***Sundeck*** Snowflake warehouse usage cost optimization https://www.youtube.com/watch?v=jlCEeHHE_G8
 - Data Lineage
 	- https://www.phdata.io/blog/ultimate-guide-to-data-lineage-directly-in-snowflake/
  	- https://www.metaplane.dev/blog/the-definitive-guide-to-snowflake-data-lineage
@@ -274,3 +246,30 @@
 ![Screenshot_20240701-131756_YouTube](https://github.com/user-attachments/assets/d3874e1f-a03d-4dd0-9773-da466d44777a)
 ![Screenshot_20240701-131821_YouTube](https://github.com/user-attachments/assets/77e1a137-6b45-4510-abcc-369edc3d8b26)
 ![Screenshot_20240701-131929_YouTube](https://github.com/user-attachments/assets/349c288d-a917-4d13-90fe-a9bd91ceea3e)
+
+## Warehouse load monitoring, cost controls
+- https://docs.snowflake.com/en/user-guide/warehouses-load-monitoring
+- https://docs.snowflake.com/en/guides-overview-cost 
+	- https://docs.snowflake.com/en/user-guide/cost-controlling 
+- Sigma has Snowflake Cost Monitoring Dashboard
+	- https://www.sigmacomputing.com/interactive-demos/snowflake-cost-monitoring-template
+- https://sonra.io/snowflake/7-guardrails-against-common-mistakes-that-inflate-snowflake-credit-usage/
+- Understand, Control, And Optimize Spend In Snowflake More Effectively
+	- https://youtube.com/watch?v=Dwf11NxNqbw&si=9QTlHnx6ZEkAE-Wr
+- Reduce Costs With Snowpipe Streaming And Dynamic Tables
+	- https://youtube.com/watch?v=y67bH9ss07Y&si=RYzbsnPGqtWt2mAU
+- Snowflake AI cost usage
+	- https://www.linkedin.com/posts/ian-whitestone_i-was-just-asking-our-snowflake-sales-engineer-activity-7220172262249746435-_hDq/
+- SurveyMonkey Increases Snowflake Workloads By 475% With Only A 27% Increase In Credit Use https://www.youtube.com/watch?v=4aCj0wk33kg
+- ***Snowflake correct warehouse sizing for cost optimization***
+	- For each warehouse query: Have enough load to sustain 1 min of processing
+		- After the first minute, each warehouse is charged by the second after the first minute
+	- Warehouse sizes between XSMALL and LARGE have the same cost!!!
+		- feel free to play around with warehouse sizes between XSMALL and LARGE
+		- larger warehouse next size up will half your query time but be the same cost (scales linearly between XSMALL and LARGE)
+	- be careful with warehouse sizes XLARGE and above!! Can be quite costly!
+ ![snowflake warehouse cost performance](https://github.com/user-attachments/assets/e3e5a3f7-ab2b-40a9-be56-59d6ad0fde94)
+  
+ ![Screenshot_20240729-192527_YouTube](https://github.com/user-attachments/assets/46382304-2ee7-49be-af3c-c534e3bd66a0)
+	- Snowflake serverless costs .9x virtual warehouse https://www.linkedin.com/posts/ian-whitestone_snowflake-activity-7231385161735544834-Ks1V/
+	- ***Sundeck*** Snowflake warehouse usage cost optimization https://www.youtube.com/watch?v=jlCEeHHE_G8
