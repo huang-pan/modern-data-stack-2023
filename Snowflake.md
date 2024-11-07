@@ -269,7 +269,8 @@
 		- larger warehouse next size up will half your query time but be the same cost (scales linearly between XSMALL and LARGE)
 	- be careful with warehouse sizes XLARGE and above!! Can be quite costly!
  ![snowflake warehouse cost performance](https://github.com/user-attachments/assets/e3e5a3f7-ab2b-40a9-be56-59d6ad0fde94)
-  
- ![Screenshot_20240729-192527_YouTube](https://github.com/user-attachments/assets/46382304-2ee7-49be-af3c-c534e3bd66a0)
-	- Snowflake serverless costs .9x virtual warehouse https://www.linkedin.com/posts/ian-whitestone_snowflake-activity-7231385161735544834-Ks1V/
-	- ***Sundeck*** Snowflake warehouse usage cost optimization https://www.youtube.com/watch?v=jlCEeHHE_G8
+- ***Sundeck*** Snowflake warehouse usage cost optimization
+	- https://www.youtube.com/watch?v=jlCEeHHE_G8
+- Snowflake serverless costs .9x virtual warehouse
+	- https://www.linkedin.com/posts/ian-whitestone_snowflake-activity-7231385161735544834-Ks1V/
+![Screenshot_20240729-192527_YouTube](https://github.com/user-attachments/assets/46382304-2ee7-49be-af3c-c534e3bd66a0)
