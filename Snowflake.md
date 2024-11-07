@@ -100,6 +100,16 @@
    	- Snowflake AI cost usage
    		- https://www.linkedin.com/posts/ian-whitestone_i-was-just-asking-our-snowflake-sales-engineer-activity-7220172262249746435-_hDq/
 	- SurveyMonkey Increases Snowflake Workloads By 475% With Only A 27% Increase In Credit Use https://www.youtube.com/watch?v=4aCj0wk33kg
+	- ***Snowflake correct warehouse sizing for cost optimization***
+ 		- For each warehouse query: Have enough load to sustain 1 min of processing
+			- After the first minute, each warehouse is charged by the second after the first minute
+		- Warehouse sizes between XSMALL and LARGE have the same cost!!!
+			- feel free to play around with warehouse sizes between XSMALL and LARGE
+			- larger warehouse next size up will half your query time but be the same cost (scales linearly between XSMALL and LARGE)
+		- be careful with warehouse sizes XLARGE and above!! Can be quite costly!
+ ![snowflake warehouse cost performance](https://github.com/user-attachments/assets/e3e5a3f7-ab2b-40a9-be56-59d6ad0fde94)
+
+  
  ![Screenshot_20240729-192527_YouTube](https://github.com/user-attachments/assets/46382304-2ee7-49be-af3c-c534e3bd66a0)
 	- Snowflake serverless costs .9x virtual warehouse https://www.linkedin.com/posts/ian-whitestone_snowflake-activity-7231385161735544834-Ks1V/
 
