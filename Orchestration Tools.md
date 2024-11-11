@@ -151,6 +151,7 @@
 - Airflow
     - Task\-based workflow definition
     - Dynamic task generation
+	    - https://medium.astrafy.io/dynamic-data-pipelines-with-airflow-datasets-and-pub-sub-d91c81d75f51
     - Built\-in operators for common tasks \(e.g., PythonOperator, BashOperator, etc.\)
     - Web\-based user interface for monitoring and managing workflows
     - Large community and ecosystem of plugins and integrations
