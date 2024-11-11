@@ -620,6 +620,7 @@ DQ warning levels: Make sure that your data quality checks are tagged with appro
 Get started with the business and constraint checks, adding more only as needed. Before you know it, your data quality will skyrocket!
 
 ### dbt models should always be incremental
+- https://medium.com/@AtheonAnalytics/supercharging-dbt-vol-2-how-we-modified-dbts-incremental-materialisation-to-more-than-halve-f5def3ecbe3f
 - https://www.linkedin.com/posts/hugo-lu-confirmed_dbt-merge-dbt-activity-7254772352696074241-vNKh/
 	- For log-type / eventtype / anything with a proper updated on field or ID there is no excuse for not writing an incremental model
 	- merge is powerful but expensive. I almost always use insert_overwrite !
