@@ -197,6 +197,7 @@
         - operations that benefit from partitioning: join\(\), cogroup\(\), groupwith\(\), join\(\), leftouterjoin\(\), rightouterjoin\(\), groupbykey\(\), reducebykey\(\), combinebykey\(\), lookup\(\)
     - now we start getting into Spark cluster configuration
         - default executor memory budget: 1 GB
+        - https://www.linkedin.com/blog/engineering/infrastructure/right-sizing-spark-executor-memory
         - upload pyspark\_[script.py](http://script.py) to AWS S3 bucket
         - SSH into Spark cluster master node and 
             - spark\-submit \-\-executor\-memory 1g pyspark\_[script.py](http://script.py)
