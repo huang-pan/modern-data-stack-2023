@@ -475,3 +475,5 @@
 ![dep](https://github.com/user-attachments/assets/3f0ca813-d82e-4271-a1bb-bb93b38b13f6)
 ![cqrs](https://github.com/user-attachments/assets/20f14dfd-c706-4c41-a8b5-d4d027d17226)
 
+![proxy](https://github.com/user-attachments/assets/f01a6890-7514-4f73-981b-671835f108bc)
+![web app](https://github.com/user-attachments/assets/c9a09b4a-7776-4636-a872-eba9d7bfc0ab)
