@@ -60,5 +60,6 @@ Now let’s look at the alternatives suggested to me:
 - data processing patterns https://www.youtube.com/watch?v=vuyjK2TFZNk
 ![Screenshot_20240620-185544_YouTube](https://github.com/user-attachments/assets/693c9694-cbc5-4bec-b7ab-9ed63640a090)
 
+## Miscellaneous
 ![mail-3](https://github.com/user-attachments/assets/6d3b5722-0474-4863-99bd-293b98ae593b)
-
+![OSS](https://github.com/user-attachments/assets/52c101e5-f0aa-4fe7-a11c-5a3a9f54136f)
