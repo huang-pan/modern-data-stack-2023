@@ -92,6 +92,7 @@
   	- https://community.snowflake.com/s/question/0D53r0000BZbxJgCQJ/how-do-you-address-data-lineage
   		- coalesce, dbt, atlan, databand.ai, etc.
 	- https://www.linkedin.com/posts/ian-whitestone_snowflake-activity-7259698813328588801-ePwW/
+ 
 		Enterprise Snowflake customers* can now see end to end data lineage (including column level lineage!) in the Snowsight UI.
 		Lineage is massively helpful for multiple use cases. A few big ones:
 		1. Understand what datasets a given table / view relies on
