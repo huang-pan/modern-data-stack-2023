@@ -138,6 +138,11 @@ See MLOps notes https://github.com/huang-pan/modern-data-stack-2023/blob/main/ML
 ![Screenshot_20240801-100314_YouTube](https://github.com/user-attachments/assets/483d5a4f-a0f1-4bee-a117-4e5eae0e1832)
 ![Screenshot_20240801-100317_YouTube](https://github.com/user-attachments/assets/c0f9c925-08ff-454b-be59-d4104024bf10)
 
+### Hopsworks open source
+- curl -O https://raw.githubusercontent.com/logicalclocks/hopsworks-k8s-installer/master/install-hopsworks.py python3 install-hopsworks.py
+- You will need to have access to your cloud infrastructure, and adequate rights to deploy a cluster. You will also need to have the main libraries and CLI tools that your cloud provider requires to run.
+- You can check for more details about the script's operation here; https://github.com/logicalclocks/hopsworks-k8s-installer
+
 ## FeatureForm
 - https://www.featureform.com/post/feature-stores-explained-the-three-common-architectures
 - https://www.youtube.com/watch?v=ZsWa6XiBc-U
