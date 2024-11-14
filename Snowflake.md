@@ -91,6 +91,14 @@
  	- https://www.metaplane.dev/blog/the-definitive-guide-to-snowflake-data-lineage
   	- https://community.snowflake.com/s/question/0D53r0000BZbxJgCQJ/how-do-you-address-data-lineage
   		- coalesce, dbt, atlan, databand.ai, etc.
+	- https://www.linkedin.com/posts/ian-whitestone_snowflake-activity-7259698813328588801-ePwW/
+		Enterprise Snowflake customers* can now see end to end data lineage (including column level lineage!) in the Snowsight UI.
+		Lineage is massively helpful for multiple use cases. A few big ones:
+		1. Understand what datasets a given table / view relies on
+		2. Understand what downstream tables/views/ML models will be impacted if you make a change to a table
+		3. Troubleshoot data quality issues by checking upstream dependencies
+		SNOWFLAKE.CORE.GET_LINEAGE.
+
 - Dynamic Data pipelines with SQL Macros (like dbt macros)
 	- https://youtu.be/4O2_I25izIs?si=Mt_dBHBr6kM9puL2
 ![dynamicpipeline](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/ce7db7eb-d24e-47a1-aaef-daf2c5f881e7)
