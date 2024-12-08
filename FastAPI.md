@@ -481,3 +481,4 @@
 - System design
 ![system design](https://github.com/user-attachments/assets/cfcfc8f4-2985-424f-9e4a-8d4add4c8a57)
 ![system design2](https://github.com/user-attachments/assets/0b3d8e24-904a-4ab3-9e4f-cd5358361f90)
+![casting](https://github.com/user-attachments/assets/a290f3ce-3e9f-422b-aff8-ee01dd41cb07)
