@@ -480,3 +480,4 @@
 
 - System design
 ![system design](https://github.com/user-attachments/assets/cfcfc8f4-2985-424f-9e4a-8d4add4c8a57)
+![system design2](https://github.com/user-attachments/assets/0b3d8e24-904a-4ab3-9e4f-cd5358361f90)
