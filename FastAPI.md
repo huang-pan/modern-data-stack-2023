@@ -477,3 +477,6 @@
 
 ![proxy](https://github.com/user-attachments/assets/f01a6890-7514-4f73-981b-671835f108bc)
 ![web app](https://github.com/user-attachments/assets/c9a09b4a-7776-4636-a872-eba9d7bfc0ab)
+
+- System design
+![system design](https://github.com/user-attachments/assets/cfcfc8f4-2985-424f-9e4a-8d4add4c8a57)
