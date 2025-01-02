@@ -14,7 +14,9 @@
 	- https://bluexp.netapp.com/blog/cvo-blg-kubernetes-persistent-volume-claims-explained
 - stateful set
 	- https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
- 	- Like a Deployment, a StatefulSet manages Pods that are based on an identical container spec. Unlike a Deployment, a StatefulSet maintains a sticky identity for each of its Pods. These pods are created from the same spec, but are not interchangeable: each has a persistent identifier that it maintains across any rescheduling. 
+ 	- Like a Deployment, a StatefulSet manages Pods that are based on an identical container spec. Unlike a Deployment, a StatefulSet maintains a sticky identity for each of its Pods. These pods are created from the same spec, but are not interchangeable: each has a persistent identifier that it maintains across any rescheduling.
+![k8s](https://github.com/user-attachments/assets/d52956f5-8b7a-4f4c-bbd2-4e4a0744f46c)
+
 ![k8s](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/f932b21f-e33f-45d3-811a-0df5e3d610bb)
 ![k8s design patterns](https://github.com/user-attachments/assets/c5683ab0-7eba-41d0-b409-1527898b9805)
 ![sidecar](https://github.com/user-attachments/assets/5d50f8b0-3aa2-423e-b48b-cf59e362cdc0)
