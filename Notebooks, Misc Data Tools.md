@@ -10,6 +10,17 @@
     - Fastest way to Convert Jupyter Notebooks into Analytics Reports! (using Quarto) https://www.youtube.com/watch?v=TS0w-tSH3Jc
 - Noteable: shut down 2024
     - [https://www.linkedin.com/company/noteable\-io/people/](https://www.linkedin.com/company/noteable-io/people/) 27 people
+ 
+## ERD tools
+- https://dbdiagram.io/home
+- https://drawsql.app/
+- https://www.quickdatabasediagrams.com/
+- https://erdlab.io/#home
+- https://chartdb.io/
+- https://easyrd.dev/
+- https://databasediagram.com/
+- https://dbschema.com/
+- https://diagramplus.com/
 
 ## ETL / reverse ETL tools
 - Airbyte 101 https://www.youtube.com/live/2A50P2TqtUk
