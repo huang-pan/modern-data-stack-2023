@@ -14,7 +14,6 @@
 ## ERD tools
 - https://dbdiagram.io/home
 - https://drawsql.app/
-- https://www.quickdatabasediagrams.com/
 - https://erdlab.io/#home
 - https://chartdb.io/
 - https://easyrd.dev/
