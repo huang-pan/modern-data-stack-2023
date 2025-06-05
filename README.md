@@ -24,6 +24,8 @@ The courses above are all up to date for 2023. I took the courses above just to 
 For future research on the latest data tooling:
 - see CMU Advanced Database Systems https://www.youtube.com/@CMUDatabaseGroup/playlists
 - https://github.com/andresvourakis/data-scientist-handbook
+- [Data 2025Q1.pdf](https://github.com/user-attachments/files/20613787/Data.2025Q1.pdf)
+
 
 ## DBT / Data Warehousing
 #### Courses taken
