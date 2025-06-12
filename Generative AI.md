@@ -245,3 +245,6 @@ Generative AI Short Courses
 ![Screenshot_20240629-190153_YouTube](https://github.com/user-attachments/assets/f81cab9f-f8c7-460a-90b5-bb76d3d6f711)
 ![Screenshot_20240629-190402_YouTube](https://github.com/user-attachments/assets/750846e9-931f-45e8-80b0-e64e777189c8)
 ![Screenshot_20240629-190516_YouTube](https://github.com/user-attachments/assets/698e6c04-aff4-4ff0-8e6c-2618539bf434)
+
+### AI Agents
+- 5 types of AI agents https://www.youtube.com/watch?v=fXizBc03D7E
