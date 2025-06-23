@@ -57,3 +57,5 @@
 - Terraform Variables Tutorial: Mastering Input and Output Variables https://www.youtube.com/watch?v=5COJ40HE_q8
 ![Screenshot_20240630-170811_YouTube](https://github.com/user-attachments/assets/81821291-b613-4233-9bd1-9a40352d7826)
 ![Screenshot_20240630-170932_YouTube](https://github.com/user-attachments/assets/35467453-d979-4fb6-87b2-aa978c46c0e0)
+- https://www.linkedin.com/posts/govardhana-miriyala-kannaiah_many-devops-engineers-dont-fully-understand-activity-7319193025266556930-u8Zt/
+![1744948443804](https://github.com/user-attachments/assets/c2295e42-af42-473e-85ad-bcad5147c7af)
