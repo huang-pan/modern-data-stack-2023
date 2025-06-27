@@ -920,3 +920,8 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - Great video on cost savings in Databricks https://www.youtube.com/watch?v=Qp7QOrI8T5A
 - Ray is more efficient than Spark for large amounts of data
 	- https://aws.amazon.com/blogs/opensource/amazons-exabyte-scale-migration-from-apache-spark-to-ray-on-amazon-ec2/
+
+## Databricks Summit 2025
+- Lakeflow Designer auto-ETL pipeline creator
+	- https://www.linkedin.com/posts/daniel-klein-72703731_this-product-demo-at-our-data-and-ai-summit-activity-7344009121190342660-8NNE/
+	- https://www.youtube.com/watch?v=0pys27kA67U&t=4472s
