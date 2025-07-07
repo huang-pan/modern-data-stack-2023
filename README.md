@@ -25,6 +25,7 @@ For future research on the latest data tooling:
 - see CMU Advanced Database Systems https://www.youtube.com/@CMUDatabaseGroup/playlists
 - https://github.com/andresvourakis/data-scientist-handbook
 - [Data 2025Q1.pdf](https://github.com/user-attachments/files/20613787/Data.2025Q1.pdf)
+- https://github.com/DataExpert-io/data-engineer-handbook
 
 
 ## DBT / Data Warehousing
