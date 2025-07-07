@@ -641,3 +641,5 @@ Get started with the business and constraint checks, adding more only as needed.
 	- Continuously processes small batches of new data.
 	- Best for: Real-time analytics, streaming data, or minimizing data processing windows.
 - Each of these strategies has its own use cases, so understanding when to use them can be a game-changer for your data pipelines. :bulb:
+
+- https://github.com/OpenLineage/OpenLineage/tree/main/integration/dbt
