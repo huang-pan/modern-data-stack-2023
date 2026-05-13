@@ -71,6 +71,7 @@
 - **Played around with Dagster Cloud**
     - [https://github.com/huang\-pan/dagster\_starter](https://github.com/huang-pan/dagster_starter) 
         - uses pytest
+- https://compass.dagster.io/product/overview
 
 ## Airflow vs. Dagster vs. Prefect
 - https://dataengineeringcentral.substack.com/p/the-truth-about-prefect-mage-and
