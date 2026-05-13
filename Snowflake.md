@@ -283,3 +283,6 @@
 - Snowflake serverless costs .9x virtual warehouse
 	- https://www.linkedin.com/posts/ian-whitestone_snowflake-activity-7231385161735544834-Ks1V/
 ![Screenshot_20240729-192527_YouTube](https://github.com/user-attachments/assets/46382304-2ee7-49be-af3c-c534e3bd66a0)
+
+
+https://singleorigin.tech - works in conjunction with Snowflake semantic models / view
