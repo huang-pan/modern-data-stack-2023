@@ -614,3 +614,13 @@ GCP Data Engineer Learning Path
 GCP BigLake
 - GCP's version of AWS Athena
 - https://cloud.google.com/biglake?hl=en
+
+GCP Bigquery & AI
+- https://www.linkedin.com/posts/constantin-lungu-668b8756_bigquery-sql-share-7460993307670900736-LjaJ
+	- GCP & Bigquery excels at multi-modal data
+    - an object table gives you one row per file — pointing at data stored in Cloud Storage: images, PDFs, audio, video, or JSON.
+    - That last part is especially important. You can feed that data straight into ML.GENERATE_TEXT or AI.GENERATE_EMBEDDING — meaning you can run inference on unstructured data directly with BigQuery #SQL. BigQuery is no longer just querying tables. It’s increasingly becoming an execution layer over files and AI models too.
+- https://www.linkedin.com/posts/eczachly_bigquery-is-crushing-snowflake-on-a-few-fronts-share-7461088781018886144-Wcne/
+	- BigQuery is crushing Snowflake on a few fronts:
+	- BigQuery is more optimized for wide tables and one big table data modeling. Snowflake pushes for more of a standard star schema approach. During my time in big tech, I found one big table to scale better for a lot of machine learning use cases. 
+	- you pay for bytes scanned in BigQuery instead of compute consumed like you do in Snowflake. This makes data modeling have an even bigger ROI
