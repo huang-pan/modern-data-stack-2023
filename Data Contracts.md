@@ -52,3 +52,8 @@ In order of prevalence…
 8. Problematic dependencies
 9. Incomplete migrations or upgrades
 10. Out-of-date release process
+
+## Floe data contracts
+
+- https://github.com/malon64/floe
+- Floe is a single-node, YAML-driven data ingestion framework written in Rust. You describe your data contract in a config file; Floe reads raw files, enforces your schema and quality rules, and writes clean rows to your sink — routing invalid rows to a separate rejected output.
