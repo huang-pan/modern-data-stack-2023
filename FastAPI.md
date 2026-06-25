@@ -484,3 +484,7 @@
 ![system design](https://github.com/user-attachments/assets/cfcfc8f4-2985-424f-9e4a-8d4add4c8a57)
 ![system design2](https://github.com/user-attachments/assets/0b3d8e24-904a-4ab3-9e4f-cd5358361f90)
 ![casting](https://github.com/user-attachments/assets/a290f3ce-3e9f-422b-aff8-ee01dd41cb07)
+<img width="1456" height="1798" alt="5e15c3c2-bc34-4a4a-a698-0372c5c9f238_2484x3068" src="https://github.com/user-attachments/assets/a6445db4-7357-4015-b0fc-2b37cfcc903b" />
+<img width="1456" height="1698" alt="d486fdf8-79de-429b-b453-67a3af15caed_2250x2624" src="https://github.com/user-attachments/assets/df191e0d-c647-4e00-a7de-92d7427148a8" />
+<img width="1456" height="1698" alt="76f47049-9f51-40f2-a453-794a63b7d322_2250x2624" src="https://github.com/user-attachments/assets/f01345db-8afd-4d95-9c17-77525cf2c3c3" />
+
