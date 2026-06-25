@@ -1,5 +1,10 @@
 # Snowflake vs Databricks
 
+https://www.linkedin.com/pulse/snowflake-vs-databricks-summit-2026-who-really-building-alan-ma-slgzc/
+- Snowflake is better suited when the main enterprise problem is: “How do we help business users make trusted decisions faster?”
+- Databricks is better suited when the main enterprise problem is: “How do we build, govern, and operate AI systems on top of all our data?”
+
+
 ![snowflake](https://github.com/user-attachments/assets/98d95dd8-78af-4029-9805-f174d1e29a56)
 - Snowflake vs Databricks (Spark)
 - [article 1](https://www.linkedin.com/posts/james-dinkel-3a46647_%F0%9D%90%92%F0%9D%90%A7%F0%9D%90%A8%F0%9D%90%B0%F0%9D%90%9F%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%A4%F0%9D%90%9E-%F0%9D%90%8F%F0%9D%90%A8%F0%9D%90%B0%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%94%F0%9D%90%A9-%F0%9D%90%82%F0%9D%90%A8-activity-7338948833441193984-gyGP/)
