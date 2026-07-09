@@ -931,4 +931,16 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- debug Spark SQL queries using LLMs
 - https://stripe.dev/blog/microservice-testing-with-apache-spark
 	- https://stripe.dev/blog/microservice-testing-with-apache-spark-part-2
-- 
+- https://www.linkedin.com/posts/abhisheksingh60_dataengineering-databricks-apachekafka-share-7480305410802089984-nBdw/ 
+	- streaming ingestion, medallion lakehouse, RAG with Vector Search, a governed AI Agent, and CI/CD to production.
+	- 𝗧𝗵𝗲 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲 (swipe through the screenshots 📸):
+	- 🔹 𝗥𝗲𝗮𝗹-𝗧𝗶𝗺𝗲 𝗜𝗻𝗴𝗲𝘀𝘁𝗶𝗼𝗻 — Banking portal events flow through Apache Kafka (custom topic partitioning strategy) into Spark Structured Streaming, landing as Delta tables in the ADLS Bronze layer with exactly-once guarantees via checkpointing.
+	- 🔹 𝗕𝗮𝘁𝗰𝗵/𝗨𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲𝗱 𝗜𝗻𝗴𝗲𝘀𝘁𝗶𝗼𝗻 — Structured files + PDFs from NAS drives ingested via Azure Data Factory Copy Activity into the same Bronze zone. One landing layer, two ingestion patterns — streaming + batch unified.
+	- 🔹 𝗠𝗲𝗱𝗮𝗹𝗹𝗶𝗼𝗻 𝗟𝗮𝗸𝗲𝗵𝗼𝘂𝘀𝗲 — Bronze → Silver → Gold Delta pipelines orchestrated with Databricks Workflows. Gold serves both Power BI dashboards
+	- 🔹 𝗥𝗔𝗚 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲 — PDF extraction → chunking → embeddings (databricks-qwen3-embedding) → Mosaic AI Vector Search. The index auto-syncs from the Delta source table — no manual re-indexing.
+	- 🔹 𝗔𝗴𝗲𝗻𝘁𝗶𝗰 𝗔𝗜 𝗟𝗮𝘆𝗲𝗿 — Built with Claude Opus 4.8 on Databricks. Unity Catalog Functions act as governed tools that the agent can call, combined with vector retrieval. Deployed via Mosaic AI Model Serving with full MLflow tracing — every call logged with token usage, latency, and retrieval spans.
+	- 🔹 𝗢𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗶𝗹𝗶𝘁𝘆 — MLflow traces show the complete request lifecycle: 8.3K input tokens, 2.3K output tokens.
+	- 🔹 𝗖𝗜/𝗖𝗗 — GitHub Actions with branch strategy → UAT → staging → production deployment pipelines. Infrastructure and code are promoted the same way real platforms ship.
+	- 🔹 𝗦𝗲𝗿𝘃𝗶𝗻𝗴 — The AI chatbot runs as a Databricks App on AWS, answering domain questions grounded in the indexed documents — end users never touch a notebook.
+	- ⚡ 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲 𝗧𝘂𝗻𝗶𝗻𝗴 — the details that matter in production:
+	- ▪️ Kafka topic partitioning aligned with Spark shuffle partitions → parallel consumption without skew ▪️ Structured Streaming with checkpointing + watermarking → exactly-once into Bronze, controlled state size ▪️ Triggered Vector Search Delta Sync → freshness on demand, zero idle compute cost ▪️ Serverless everywhere (pipelines + serving) → full refresh in 5m 45s, agent responses in ~8s ▪️ ~78/22 input/output token ratio per call → tight RAG context injection, no prompt bloat
