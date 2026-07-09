@@ -932,6 +932,10 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
  	- how z-order works: apply z-ordering to high cardinality columns
 	- bloom filter: hash rows in high cardinality columns for efficient search on high cardinality columns
  	- liquid clustering: Hilbert curve, improved clustering techique over z-order, improves data skipping over z-order, default clustering algo recommended by Databricks, max cluster 4 columns, can change clustering algo later
+- MLflow 3 is a major step up from MLflow 2, especially for GenAI and agent workloads. The biggest change is that MLflow 3 shifts from a run-centric model toward a more model-centric and trace-centric workflow, while MLflow 2 is mainly about experiment tracking, model packaging, and the classic ML lifecycle.
+	- MLflow 3 introduces LoggedModel, which makes models and agents first-class objects instead of treating everything as just a run artifact. It also improves lineage by linking models, traces, prompts, and evaluation metrics together, which is important for LLM apps where the prompt and intermediate steps matter as much as the final output. A big addition is more complete observability for GenAI, including auto-tracing, token tracking, and support for newer frameworks.
+	- What stays familiar: MLflow 3 still supports the classic ML workflow you’d expect from MLflow 2: experiment tracking, model registry, deployment, and evaluation. So if you are only doing traditional regression/classification models, MLflow 3 is more of an expansion than a replacement. The upgrade is more about breadth and better GenAI support than breaking the classic ML use case.
+
 - https://medium.com/expedia-group-tech/using-llms-to-analyze-spark-sql-plans-a-practical-approach-to-debugging-long-running-jobs-35eace7eeec4
 	- debug Spark SQL queries using LLMs
 - https://stripe.dev/blog/microservice-testing-with-apache-spark
