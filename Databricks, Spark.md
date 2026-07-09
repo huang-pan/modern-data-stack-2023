@@ -931,6 +931,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- Delta Lake tutorial
  	- how z-order works: apply z-ordering to high cardinality columns
 	- bloom filter: hash rows in high cardinality columns for efficient search on high cardinality columns
+ 	- liquid clustering: Hilbert curve, improved clustering techique over z-order, improves data skipping over z-order
 - https://medium.com/expedia-group-tech/using-llms-to-analyze-spark-sql-plans-a-practical-approach-to-debugging-long-running-jobs-35eace7eeec4
 	- debug Spark SQL queries using LLMs
 - https://stripe.dev/blog/microservice-testing-with-apache-spark
