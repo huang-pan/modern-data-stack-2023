@@ -927,7 +927,9 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- https://www.youtube.com/watch?v=0pys27kA67U&t=4472s
 
 ## AI and Databricks / Spark
-- https://www.youtube.com/watch?v=fkWxiesfrgk  Delta Lake tutorial
+- https://www.youtube.com/watch?v=fkWxiesfrgk
+	- Delta Lake tutorial
+ 	- how z-order works
 - https://medium.com/expedia-group-tech/using-llms-to-analyze-spark-sql-plans-a-practical-approach-to-debugging-long-running-jobs-35eace7eeec4
 	- debug Spark SQL queries using LLMs
 - https://stripe.dev/blog/microservice-testing-with-apache-spark
