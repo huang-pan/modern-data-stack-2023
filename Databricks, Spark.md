@@ -953,3 +953,9 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 	- 🔹 𝗦𝗲𝗿𝘃𝗶𝗻𝗴 — The AI chatbot runs as a Databricks App on AWS, answering domain questions grounded in the indexed documents — end users never touch a notebook.
 	- ⚡ 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲 𝗧𝘂𝗻𝗶𝗻𝗴 — the details that matter in production:
 	- ▪️ Kafka topic partitioning aligned with Spark shuffle partitions → parallel consumption without skew ▪️ Structured Streaming with checkpointing + watermarking → exactly-once into Bronze, controlled state size ▪️ Triggered Vector Search Delta Sync → freshness on demand, zero idle compute cost ▪️ Serverless everywhere (pipelines + serving) → full refresh in 5m 45s, agent responses in ~8s ▪️ ~78/22 input/output token ratio per call → tight RAG context injection, no prompt bloat
+- https://www.databricks.com/blog/introducing-apache-spark-42
+	- Spark 4.2 can be understood through four benefits:
+	- Define truth once: Metric views put governed business metrics in Spark so SQL, BI tools, applications, and AI systems can use the same definitions.
+	- Reach Spark from everywhere: Spark Connect, PySpark, Arrow, and Python Data Source improvements make Spark easier to call from services and Python ecosystems.
+	- Run AI-native analytics in SQL: Vector functions, NEAREST BY, sketches, ranking, and geospatial types bring more analytical building blocks directly into Spark SQL.
+	- Move changing data safely: Auto CDC, the CHANGES surface, Data Source V2, and Real-Time Streaming make continuously changing data easier to process correctly.
