@@ -2,6 +2,10 @@
 
 #### Update 2026: AI Engineering (LLM fine tuning, inference, etc.) and Agentic Systems (LangGraph, LangChain, CrewAI, etc.)
 - https://github.com/huang-pan/modern-data-stack-2023/blob/main/AI%20Engineering.md
+- Udemy AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents
+  - [Course completion certificate June 18, 2026](https://www.udemy.com/certificate/UC-45b350c9-3c3c-4ea9-b963-43aac811fb34/)
+- Udemy AI Engineer Agentic Track: The Complete Agent & MCP Course
+  - [Course completion certificate June 20, 2026](https://www.udemy.com/certificate/UC-667df04c-39e3-442a-9173-a23b00aa57c2/)
 
 
 #### Huang Pan's data architecture and engineering learning path for 2023.
