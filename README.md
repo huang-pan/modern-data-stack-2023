@@ -1,10 +1,10 @@
 # Modern Data & AI Stack
 
-### Update 2026: AI Engineering (LLM fine tuning, inference, etc.) and Agentic Systems (LangGraph, LangChain, CrewAI, etc.)
+#### Update 2026: AI Engineering (LLM fine tuning, inference, etc.) and Agentic Systems (LangGraph, LangChain, CrewAI, etc.)
 - https://github.com/huang-pan/modern-data-stack-2023/blob/main/AI%20Engineering.md
 
 
-### Huang Pan's data architecture and engineering learning path for 2023.
+#### Huang Pan's data architecture and engineering learning path for 2023.
 
 I updated / refreshed my data engineering skill set in 2023. This consisted of two parts:
 
