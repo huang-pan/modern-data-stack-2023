@@ -938,6 +938,8 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 
 - https://medium.com/expedia-group-tech/using-llms-to-analyze-spark-sql-plans-a-practical-approach-to-debugging-long-running-jobs-35eace7eeec4
 	- debug Spark SQL queries using LLMs
+- https://engineering.depop.com/how-we-cut-our-largest-spark-pipelines-cost-by-52-014faa81d179
+	- more Spark pipeline optimizations - silver layer
 - https://stripe.dev/blog/microservice-testing-with-apache-spark
 	- https://stripe.dev/blog/microservice-testing-with-apache-spark-part-2
 - https://www.linkedin.com/posts/abhisheksingh60_dataengineering-databricks-apachekafka-share-7480305410802089984-nBdw/ 
