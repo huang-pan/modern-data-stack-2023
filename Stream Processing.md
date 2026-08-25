@@ -135,6 +135,8 @@
 - https://streamfusion.tech/blogs/streaming-for-the-ai-age/
 	- StreamFusion: Streaming for the AI age: Columnar execution has already reshaped batch engines, and streaming is beginning to follow the same path. This article shows how Flink’s planning, checkpointing, and SQL model can remain in place while native Arrow and DataFusion operators process supported plans. Row-oriented Kafka pipelines stay important, while columnar sources and sinks create a clear opportunity for this execution model.
 
+- https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b
+
 ### Flink + Hudi
 - https://www.youtube.com/watch?v=88Gwp_d4GB4
 ![Screenshot_20240628-152600_YouTube](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/d7c225ea-a73e-44c9-a88d-08891879aa7b)
