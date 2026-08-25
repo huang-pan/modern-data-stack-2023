@@ -131,6 +131,8 @@
 	- Flink join postgres and kafka topic too complicated, requires pairs programming analyst and data engineer
 <img width="1792" alt="Screenshot 2024-06-05 at 8 26 14 AM" src="https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/532bb0b1-6d56-4f98-8887-143e2cae951c">
 - Flink used a lot more in China https://www.youtube.com/watch?v=ZsWa6XiBc-U&t=3840s
+- https://streamfusion.tech/blogs/streaming-for-the-ai-age/
+	- StreamFusion: Streaming for the AI age: Columnar execution has already reshaped batch engines, and streaming is beginning to follow the same path. This article shows how Flink’s planning, checkpointing, and SQL model can remain in place while native Arrow and DataFusion operators process supported plans. Row-oriented Kafka pipelines stay important, while columnar sources and sinks create a clear opportunity for this execution model.
 
 ### Flink + Hudi
 - https://www.youtube.com/watch?v=88Gwp_d4GB4
