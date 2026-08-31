@@ -3,6 +3,8 @@
 ## General knowledge
 - What Is Single Instruction Multiple Data and the Role of SIMD in Boosting OLAP Database Efficiency https://www.youtube.com/watch?v=kZ3rgRYj_-Y
 - https://nvmexpress.org/specification/nvme-over-pcie-transport-specification/
+- https://www.jepeake.com/ai-chip-architectures
+
 
 <img width="1250" height="1250" alt="unnamed (6)" src="https://github.com/user-attachments/assets/9caebd4a-e775-4616-952d-14027aaae3fe" />
 <img width="1280" height="1643" alt="f822afe9-5c16-4d2d-8fa1-f32d03b9743e_1280x1643" src="https://github.com/user-attachments/assets/fbceb94f-0a5d-4b85-8814-d6ba4bb15dc0" />
