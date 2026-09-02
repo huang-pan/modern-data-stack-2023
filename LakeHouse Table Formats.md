@@ -2,6 +2,7 @@
 
 ## Delta Lake Uniform: Iceberg, Delta Lake, Hudi
 - Apache XTable: Interoperability with Hudi, Iceberg, and Delta Tables https://www.youtube.com/watch?v=8IukpmyGDB8
+	- https://www.trmlabs.com/trm-tech-blog/from-bigquery-to-lakehouse-how-we-built-a-petabyte-scale-data-analytics-platform-part-1 
 	- works with Spark, AWS glue catalog
 	- X-Table convert from Hudi to Iceberg, Delta and ingest to Unity Catalog https://www.youtube.com/watch?v=1SKQRrenBj4
 	- Apache XTable™ is a standalone github project that provides a neutral space for all the lakehouse table formats to constructively collaborate together.
