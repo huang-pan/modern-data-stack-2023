@@ -31,7 +31,8 @@
         - [https://intellipaat.com/blog/tutorial/spark\-tutorial/spark\-and\-rdd\-cheat\-sheet/?US](https://intellipaat.com/blog/tutorial/spark-tutorial/spark-and-rdd-cheat-sheet/?US)
     - ***How to optimize Spark workloads***
 		- https://www.linkedin.com/posts/arslanali434343_bigdata-apachespark-dataengineering-activity-7209195256255242243-UHJW/ 
-		- https://www.databricks.com/discover/pages/optimize-data-workloads-guide 
+		- https://www.databricks.com/discover/pages/optimize-data-workloads-guide
+    		- In data systems, cardinality means the number of distinct values in a column, usually considered relative to the number of rows. A column with many repeated values has low cardinality; one where most values are distinct has high cardinality.
 			- Z-order on high cardinality columns (e.g. uuid) - physically sorts or co-locates data
 			- partition on low cardinality columns (e.g. year, month) - 
 			- above common techniques for index clustering, e.g. like w/Azure SQL DB at Roofstock
