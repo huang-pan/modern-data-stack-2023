@@ -190,6 +190,8 @@
 	- transactions: input / output addresses
 		- event based blockchain --> like event source microservices --> create state from events
 		- transaction fees
+	- Transactions (transactions): Represent top-level actions or state-changing operations initiated on a blockchain (like sending native gas, calling a smart contract, or executing a swap).
+	- Transfers (transfers): Track the movement of specific assets (native coins or tokens like ERC-20s, NFTs) between addresses. They can occur within transactions or smart contract interactions.
 	- mempool with UTXOs unspent transactions
 	- miners pay themselves from coinbase
 		- difficulty scaling periods
