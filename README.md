@@ -1,5 +1,8 @@
 # Modern Data & AI Stack
 
+NOTE: the [author](https://www.linkedin.com/in/huangpan/) tries his best to keep up with the latest advances in data & AI. This GitHub repo contains a summary of his efforts and attempts to be a comprehensive overview of all the available technologies in data infrastructure & engineering and AI (as it related to data).
+
+
 #### Update 2026: AI Engineering (LLM fine tuning, inference, etc.) and Agentic Systems (LangGraph, LangChain, CrewAI, etc.)
 - https://github.com/huang-pan/modern-data-stack-2023/blob/main/AI%20Engineering.md
 - Udemy AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents
