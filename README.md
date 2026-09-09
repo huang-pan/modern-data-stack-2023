@@ -1,6 +1,6 @@
 # Modern Data & AI Stack
 
-**NOTE**: the [author](https://www.linkedin.com/in/huangpan/) tries his best to keep up with the latest advances in data & AI. This GitHub repo contains a summary of his efforts and attempts to be a comprehensive overview of all the available technologies in data infrastructure & engineering and AI (as it related to data). The below lists all the related certifications the author has accrued in these technologies.
+**NOTE**: the [author](https://www.linkedin.com/in/huangpan/) tries his best to keep up with the latest advances in data & AI. This GitHub repo contains a summary of his efforts and attempts to be a comprehensive overview of all the available technologies in data infrastructure & engineering and AI (as it related to data - context engineering, agent harnesses, etc.). The below lists all the related certifications the author has accrued in these technologies.
 
 
 #### Update 2026: AI Engineering (LLM fine tuning, inference, etc.) and Agentic Systems (LangGraph, LangChain, CrewAI, etc.)
