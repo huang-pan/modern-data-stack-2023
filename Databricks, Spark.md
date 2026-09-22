@@ -939,6 +939,8 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 
 - https://medium.com/expedia-group-tech/using-llms-to-analyze-spark-sql-plans-a-practical-approach-to-debugging-long-running-jobs-35eace7eeec4
 	- debug Spark SQL queries using LLMs
+- https://netflixtechblog.medium.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8 
+	- Netflix writes about its adoption of persistent tmux sessions to run parallel experiments to debug the Spark memory problems. Netflix streamlined this process with an AI agent that automated deployment, polling, and structured logging to enforce strict single-variable testing. The underlying memory bottlenecks within collect_list were ultimately fixed by unboxing primitives, stripping bloated string attributes, capping sessions before Window operations, and lowering AQE runtime broadcast thresholds.
 - https://engineering.depop.com/how-we-cut-our-largest-spark-pipelines-cost-by-52-014faa81d179
 	- more Spark pipeline optimizations - silver layer
 - https://stripe.dev/blog/microservice-testing-with-apache-spark
