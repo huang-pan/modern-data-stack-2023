@@ -8,6 +8,6 @@
   - [Course completion certificate June 20, 2026](https://www.udemy.com/certificate/UC-667df04c-39e3-442a-9173-a23b00aa57c2/)
 
 # Misc Notes
-- [AI Education.pdf](https://github.com/user-attachments/files/31523538/AI.Education.pdf)
+- [AI Education.pdf](https://github.com/user-attachments/files/32545289/AI.Education.pdf)
 - [Practical MDS AI.pdf](https://github.com/user-attachments/files/31523545/Practical.MDS.AI.pdf)
 - [Data & AI platforms.pdf](https://github.com/user-attachments/files/31523560/Data.AI.platforms.pdf)
