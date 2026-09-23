@@ -9,5 +9,5 @@
 
 # Misc Notes
 - [AI Education.pdf](https://github.com/user-attachments/files/32545289/AI.Education.pdf)
-- [Practical MDS AI.pdf](https://github.com/user-attachments/files/31523545/Practical.MDS.AI.pdf)
+- [Practical MDS AI.pdf](https://github.com/user-attachments/files/32545314/Practical.MDS.AI.pdf)
 - [Data & AI platforms.pdf](https://github.com/user-attachments/files/31523560/Data.AI.platforms.pdf)
