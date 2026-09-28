@@ -63,6 +63,7 @@
 - optimization
 	- https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions
 		- tables are closed source column store format, micro-partitioned
+			- Snowflake has no indexes. It stores every table as a pile of micro-partitions, small chunks of rows, and keeps the min and max of every column in each one. When you filter, it checks your predicate against that metadata and skips (“prunes”) any partition that can’t match. Prune well and the query touches a few dozen partitions. Prune badly and it reads all of them as there is no index to fall back on. Pruning only works if the filter column falls in a narrow range within each partition.
 	- set table clustering keys (expensive compute to recluster)
 		- https://docs.snowflake.com/en/user-guide/tables-clustering-keys
 		- https://docs.snowflake.com/en/user-guide/tables-auto-reclustering
