@@ -76,7 +76,8 @@
 ![dynamicallocation](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/e43e25b6-6c08-4aab-9651-ab8b9b29ad62)
 ![serialize](https://github.com/huang-pan/modern-data-stack-2023/assets/10567714/1721a154-193c-42bc-9169-1f05e737c1ae)
 
-	- Delta Lake 3.0: Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251   
+	- Delta Lake 3.0: Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251
+ 		- https://www.linkedin.com/posts/jrlasak_how-liquid-clustering-works-on-databricks-ugcPost-7509187261184380929-4EFO/    
     	- https://www.linkedin.com/posts/bigdatabysumit_bigdata-career-dataengineering-activity-7093867870463397888-Et4V/
      	- https://youtube.com/watch?v=5EkYtX9CuC4&feature=share
       		- start with general sizing, then monitor RAM, CPU, I/O usage
@@ -635,6 +636,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - databricks optimizations
 	- https://www.databricks.com/discover/pages/optimize-data-workloads-guide
 	- Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251
+ 		- https://www.linkedin.com/posts/jrlasak_how-liquid-clustering-works-on-databricks-ugcPost-7509187261184380929-4EFO/ 
 - Databricks workflows for orchestration over entire lakehouse
 	- https://www.databricks.com/blog/2022/05/10/introducing-databricks-workflows.html
 		- orchestrate databricks notebooks, Delta Live Table pipeline, dbt, spark submit jobs
@@ -933,6 +935,7 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
  	- how z-order works: apply z-ordering to high cardinality columns
 	- bloom filter: hash rows in high cardinality columns for efficient search on high cardinality columns
  	- liquid clustering: Hilbert curve, improved clustering techique over z-order, improves data skipping over z-order, default clustering algo recommended by Databricks, max cluster 4 columns, can change clustering algo later
+		- https://www.linkedin.com/posts/jrlasak_how-liquid-clustering-works-on-databricks-ugcPost-7509187261184380929-4EFO/ 
 - MLflow 3 is a major step up from MLflow 2, especially for GenAI and agent workloads. The biggest change is that MLflow 3 shifts from a run-centric model toward a more model-centric and trace-centric workflow, while MLflow 2 is mainly about experiment tracking, model packaging, and the classic ML lifecycle.
 	- MLflow 3 introduces LoggedModel, which makes models and agents first-class objects instead of treating everything as just a run artifact. It also improves lineage by linking models, traces, prompts, and evaluation metrics together, which is important for LLM apps where the prompt and intermediate steps matter as much as the final output. A big addition is more complete observability for GenAI, including auto-tracing, token tracking, and support for newer frameworks.
 	- What stays familiar: MLflow 3 still supports the classic ML workflow you’d expect from MLflow 2: experiment tracking, model registry, deployment, and evaluation. So if you are only doing traditional regression/classification models, MLflow 3 is more of an expansion than a replacement. The upgrade is more about breadth and better GenAI support than breaking the classic ML use case.
