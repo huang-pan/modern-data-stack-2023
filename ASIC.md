@@ -6,6 +6,7 @@
   - **NOTE**: the [author](https://www.linkedin.com/in/huangpan) helped design the first generation of GPUs and also helped tape out the first working PCIe WLAN chip in the world
 - https://theaiengineer.substack.com/p/hardware-and-inference
   - Hardware and inference 101
+- https://theaiengineer.substack.com/p/what-is-a-gpu-kernel
 - https://blog.dailydoseofds.com/p/build-a-real-time-hotel-booking-voice
   - ​Where does all the VRAM go during LLM inference?
 - https://theaiengineer.substack.com/p/what-is-cuda
