@@ -38,6 +38,7 @@ Now let’s look at the alternatives suggested to me:
 ☑️ Streamkap – $6K per year ($500/month) for 100M rows. Commit.
 ☑️ CDATA - $9K per year ($750 per month), 100M rows/month. Commit.
 ☑️ Matilion - $2K/month for 20M batch rows, $5.4K/month for 14M CDC rows. Commit with additional consumption-based credits.
+https://www.polytomic.com/ 
 
 - https://www.linkedin.com/posts/jeff-skoldberg-141812111_this-story-is-becoming-more-and-more-common-activity-7211422236086337536-J9Q7/
     - If you are spending too much on Fivetran or frustrated with Airbyte, I believe Flow by Estuary offers best-in-class stability and simplicity while providing two advantages over the competition:
