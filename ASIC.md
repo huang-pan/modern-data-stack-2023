@@ -7,6 +7,8 @@
 - https://theaiengineer.substack.com/p/hardware-and-inference
   - Hardware and inference 101
 - https://blog.dailydoseofds.com/p/how-work-is-organized-inside-a-gpu
+- https://blog.dailydoseofds.com/p/a-model-decision-is-only-as-safe
+  - How LLM inference uses GPU memory
 - https://theaiengineer.substack.com/p/what-is-a-gpu-kernel
 - https://blog.dailydoseofds.com/p/build-a-real-time-hotel-booking-voice
   - ​Where does all the VRAM go during LLM inference?
