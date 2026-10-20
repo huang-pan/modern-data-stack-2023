@@ -636,7 +636,9 @@ Besides ZOrder, you can also use data skipping to efficiently filter out files t
 - databricks optimizations
 	- https://www.databricks.com/discover/pages/optimize-data-workloads-guide
 	- Liquid clustering better than static partitioning and zorder https://medium.com/closer-consulting/liquid-clustering-first-impressions-113e2517b251
- 		- https://www.linkedin.com/posts/jrlasak_how-liquid-clustering-works-on-databricks-ugcPost-7509187261184380929-4EFO/ 
+ 		- https://www.linkedin.com/posts/jrlasak_how-liquid-clustering-works-on-databricks-ugcPost-7509187261184380929-4EFO/
+   - 📄 Liquid Clustering vs. ZOrder vs. partitioning, benchmarked on 50 million rows in Delta Lake. Two surprises: when date is a secondary or tertiary ZOrder key, time-range queries ran 78% slower than a simple date-partitioned table, and on precise multicolumn filters, Liquid Clustering was nearly five times slower while scanning ten times more data. The one question to ask first: do your top queries consistently filter on the same two or three columns? If yes, ZOrder them. Otherwise, choose Liquid Clustering.
+   		- https://www.infoq.com/articles/liquid-clustering-lakehouse-layout/
 - Databricks workflows for orchestration over entire lakehouse
 	- https://www.databricks.com/blog/2022/05/10/introducing-databricks-workflows.html
 		- orchestrate databricks notebooks, Delta Live Table pipeline, dbt, spark submit jobs
