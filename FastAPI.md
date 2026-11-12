@@ -1,4 +1,5 @@
 # FastAPI
+- https://jamwithai.substack.com/p/system-design-for-engineers-all-concepts  
 - Everything You NEED to KNOW About Web Applications https://www.youtube.com/watch?v=_higfXfhjdo
 
 ## Udemy FastAPI course
