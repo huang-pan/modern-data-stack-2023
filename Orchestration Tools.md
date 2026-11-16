@@ -281,3 +281,4 @@
 	- 3. Astronomer, AWS MWAA, Google Cloud Composer, and Azure Data Factory all run Airflow under the hood, but their pricing models are structurally different. Astronomer charges per infrastructure unit. MWAA charges hourly per environment. Composer bills per vCPU-hour. Same tool, wildly different cost curves at scale.
 	- 4. Most teams adopt Airflow by inertia, not by evaluation. The real question isn't "should we use Airflow" but "at what scale does our deployment model stop making financial sense?"
 	- 5. The full breakdown covers all 5 vendors, pricing at 3 team sizes, and the 3.0 migration decision matrix:
+- [ai-orchestration-with-apache-airflow.pdf](https://github.com/user-attachments/files/34926666/ai-orchestration-with-apache-airflow.pdf)
