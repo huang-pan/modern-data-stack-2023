@@ -12,6 +12,8 @@
 - https://blog.dailydoseofds.com/p/6-parallelism-strategies-for-llm
   - multi-GPU inference, how GPU memory is used across the different GPUs
 - https://theaiengineer.substack.com/p/what-is-a-gpu-kernel
+- https://blog.dailydoseofds.com/p/the-next-ai-inference-architecture
+  - Everything you need to understand why LLM decode waits on memory, and how a dataflow chip removes that wait. It covers the memory-bandwidth ceiling, kernel boundaries, the limits of kernel fusion, spatial mapping, memory tiers, disaggregated prefill and decode, and a hands-on speed test of GLM-5.3, a Mixture-of-Experts model on SambaNova Cloud.
 - https://blog.dailydoseofds.com/p/build-a-real-time-hotel-booking-voice
   - ​Where does all the VRAM go during LLM inference?
 - https://theaiengineer.substack.com/p/what-is-cuda
